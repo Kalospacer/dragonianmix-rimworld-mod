@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Dragonian_BS.title>龙娘</Dragonian_BS.title>
+  <Dragonian_BS.titleShort>龙娘</Dragonian_BS.titleShort>
+  <Dragonian_BS.baseDesc>[PAWN_nameDef]是一只龙娘.这是一种拥有人类和龙的特征的美丽生物。它主要生活在野外。它们的银色毛皮又硬又软，使它们在黑市上非常昂贵，经常成为猎人的目标。</Dragonian_BS.baseDesc>
+  
+  <Dragonian_BS_B.title>龙娘</Dragonian_BS_B.title>
+  <Dragonian_BS_B.titleShort>龙娘</Dragonian_BS_B.titleShort>
+  <Dragonian_BS_B.baseDesc>[PAWN_nameDef]是一只龙娘.这是一种拥有人类和龙的特征的美丽生物。它主要生活在野外。它们的银色毛皮又硬又软，使它们在黑市上非常昂贵，经常成为猎人的目标。</Dragonian_BS_B.baseDesc>
+
+  <Dragonian_Princess.title>龙娘公主</Dragonian_Princess.title>
+  <Dragonian_Princess.titleShort>龙娘公主</Dragonian_Princess.titleShort>
+  <Dragonian_Princess.baseDesc>[PAWN_nameDef]是一位美丽的龙娘公主.她在一个富裕的家庭长大，对外面的世界所知甚少。</Dragonian_Princess.baseDesc>
+</LanguageData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <dr2hair_pony1.label>单马尾</dr2hair_pony1.label>
+  <dr2hair_shot1.label>短发1</dr2hair_shot1.label>
+  <dr2hair_shot2.label>短发2</dr2hair_shot2.label>
+  <dr2hair_twin1.label>双马尾1</dr2hair_twin1.label>
+  <dr2hair_twin2.label>双马尾2</dr2hair_twin2.label>
+  <dr2hair_twin3.label>双马尾3</dr2hair_twin3.label>
+  <dr2hair_twin4.label>双马尾4</dr2hair_twin4.label>
+
+  <DR_Male_Hair.label>短发</DR_Male_Hair.label>
+  <DR_TwinDownBindFront.label>低双马尾（前）</DR_TwinDownBindFront.label>
+  <DR_TwinDownBindBoth.label>低四马尾</DR_TwinDownBindBoth.label>
+  <DR_TwinDownBindBack.label>低双马尾（后）</DR_TwinDownBindBack.label>
+  <DR_Twintail.label>双马尾</DR_Twintail.label>
+  <DR_TwinDownBind.label>低双马尾</DR_TwinDownBind.label>
+  <DR_Long.label>超长发</DR_Long.label>
+  <DR_Japan.label>盘发</DR_Japan.label>
+  <DR_Wavelongop.label>波浪卷（鬓角外翻）</DR_Wavelongop.label>
+  <DR_Twinlongop.label>尾扎双马尾（鬓角外翻）</DR_Twinlongop.label>
+  <DR_Twinlong.label>尾扎双马尾</DR_Twinlong.label>
+  <DR_Wavelong.label>波浪卷</DR_Wavelong.label>
+  <DR_Middlecut.label>中长发</DR_Middlecut.label>
+  <DR_Short.label>短发</DR_Short.label>

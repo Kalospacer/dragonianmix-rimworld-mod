@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HairDef>
+		<defName>DR_TwinDownBindFront</defName>
+		<label>twin down bind(front)</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_TwinDownBindFront</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DR_TwinDownBindBoth</defName>
+		<label>twin down bind</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_TwinDownBindBoth</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DR_TwinDownBindBack</defName>
+		<label>twin down bind(back)</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_TwinDownBindBack</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DR_Twintail</defName>
+		<label>twin tail</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Twintail</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DR_TwinDownBind</defName>
+		<label>twin down bind</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_TwinDownBind</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DR_Long</defName>
+		<label>long</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Long</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DR_Japan</defName>
+		<label>roll up hair</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Japan</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DR_Wavelongop</defName>
+		<label>wavelong op</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Wavelongop</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DR_Twinlongop</defName>
+		<label>twinlong op</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Twinlongop</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DR_Twinlong</defName>
+		<label>twinlong</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Twinlong</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DR_Wavelong</defName>
+		<label>wavelong</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Wavelong</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DR_Middlecut</defName>
+		<label>middlecut</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Middlecut</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DR_Short</defName>
+		<label>shortcut</label>
+		<hairGender>Female</hairGender>
+		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Short</texPath>
+		<category>DRhair</category>
+		<styleTags>
+			<li>DRhair</li>
+		</styleTags>
+	</HairDef>
+	
+</Defs>

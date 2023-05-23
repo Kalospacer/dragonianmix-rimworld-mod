@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Dragonian Mix</name>
+  <author>Gloomylynx Roo</author><!-- 자신의 스팀 닉네임 -->
+  <supportedVersions>
+	<li>1.4</li>
+  </supportedVersions>
+  <packageId>kalospacer.DragonianMix</packageId><!-- 모드 ID(자신의 스팀 닉네임.모드이름) -->
+  <description>
+Playable Dragonian
+- Appeared only slave and wildman
+- Good at melee combat
+- Strong Body (resilience, resistance)
+- Low working speed, high yield
+- Can milking, shearing
+  </description>
+  <modDependencies><!-- 선행모 드 -->
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>HumanoidAlienRaces</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>RooAndGloomy.DragonianRaceMod</packageId>
+      <displayName>Gloomy Dragonian race</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2960593459</steamWorkshopUrl>
+    </li>
+	<!-- <li>
+      <packageId>goudaquiche.MoharFramework</packageId>
+      <displayName>MoHARframework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2057001924</steamWorkshopUrl>
+    </li> -->
+  </modDependencies>
+  <loadAfter>
+  <li>erdelf.HumanoidAlienRaces</li>
+	<li>goudaquiche.MoharFramework</li>
+  <li>RooAndGloomy.DragonianRaceMod</li>
+  </loadAfter>
+  <forceLoadAfter>
+	<li>erdelf.HumanoidAlienRaces</li>
+	<li>goudaquiche.MoharFramework</li>
+  <li>RooAndGloomy.DragonianRaceMod</li>
+  </forceLoadAfter>
+  <incompatibleWith>
+	<li>GhostRolly.Rim73</li>
+	<li>velc.HatsDisplaySelection</li>
+  </incompatibleWith>
+</ModMetaData>

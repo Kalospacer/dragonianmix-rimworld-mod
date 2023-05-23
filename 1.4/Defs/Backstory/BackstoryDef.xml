@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Princess</defName>
+		<title>Dragonian Princess</title>
+		<titleShort>Dragonian Princess</titleShort>
+		<baseDesc>[PAWN_nameDef]is a beautiful Dragonian Princess.\nShe grow up in a rich family and don't know much about the outside world.</baseDesc>
+		<slot>Childhood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_spawnCategoriesA</li>
+		</spawnCategories>
+
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>6</value>
+			</li>			
+			<li>
+				<key>Artistic</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-2</value>
+			</li>			
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>						
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

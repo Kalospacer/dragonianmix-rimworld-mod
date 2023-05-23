@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+				<value>
+					<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/AlienRace.AlienBackstoryDef[defName="Dragonian_BS"]/workDisables</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.AlienBackstoryDef[defName="Dragonian_BS"]/workDisables</xpath>
+				<value>
+					<workDisables></workDisables>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!-- I have no idea why I have to modify this..please believe me.ah -->
+	<!--<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/XenotypeDef[defName="DragonianXenotype"]/genes</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/XenotypeDef[defName="DragonianXenotype"]/genes</xpath>
+				<value>
+					<genes>
+						<li>MinTemp_SmallDecrease</li>
+						<li>MaxTemp_SmallIncrease</li>
+						<li>Robust</li>
+						<li>Libido_High</li>
+						<li>AptitudePoor_Shooting</li>
+						<li>AptitudeTerrible_Intellectual</li>
+					</genes>
+				</value>
+			</li>
+		</operations>
+	</Operation>-->
+
+</Patch>

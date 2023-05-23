@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Dragonian_AutoRecovery.label>自我再生</Dragonian_AutoRecovery.label>
+  <Dragonian_AutoRecovery.description>快速治愈伤痕</Dragonian_AutoRecovery.description>
+  <Dragonian_AutoRecovery.stages.0.label>永久</Dragonian_AutoRecovery.stages.0.label>
+
+  <DR_Heal_A.label>自我再生(龙娘)</Dragonian_AutoRecovery.label>
+  <DR_Heal_A.description>以15-30天的周期快速治愈伤痕</Dragonian_AutoRecovery.description>
+  <DR_Heal_A.stages.0.label>永久</Dragonian_AutoRecovery.stages.0.label>
+
+  <DR_Heal_B.label>自我再生(龙娘)</Dragonian_AutoRecovery.label>
+  <DR_Heal_B.description>快速治愈伤痕</Dragonian_AutoRecovery.description>
+
+  <DR_Heal_C.label>自我再生(龙娘)</Dragonian_AutoRecovery.label>
+  <DR_Heal_C.description>快速治愈伤痕</Dragonian_AutoRecovery.description>
+
+</LanguageData>
