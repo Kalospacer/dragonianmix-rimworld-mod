@@ -190,10 +190,6 @@
 			</li>
 		</backstoryFiltersOverride>
 
-    <apparelTags>
-      <li>DR_Apparel</li>
-    </apparelTags>
-
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>600~1500</techHediffsMoney>
     <techHediffsTags>
