@@ -9,6 +9,27 @@
     <invNutrition>2</invNutrition>
     <initialWillRange>0.5~1</initialWillRange>
 		<initialResistanceRange>10~26</initialResistanceRange>
+
+    <maxGenerationAge>30</maxGenerationAge>
+
+    <xenotypeSet>
+			<xenotypeChances>
+				<DragonianXenotype MayRequire="Ludeon.RimWorld.Biotech">1</DragonianXenotype>
+			
+				<Baseliner MayRequire="Ludeon.RimWorld.Biotech">0</Baseliner>
+				
+				<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+				<Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+				<Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+				<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0</Sanguophage>
+				<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+				<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+				<Impid MayRequire="Ludeon.RimWorld.Biotech">0</Impid>
+				<Waster MayRequire="Ludeon.RimWorld.Biotech">0</Waster>
+				<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+				<Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+			</xenotypeChances>
+		</xenotypeSet>
   </PawnKindDef>
 
   <PawnKindDef ParentName="DRMDragonianBasePawnKind">
