@@ -42,7 +42,7 @@ Playable Dragonian
   <li>RooAndGloomy.DragonianRaceMod</li>
   </forceLoadAfter>
   <incompatibleWith>
-	<li>GhostRolly.Rim73</li>
-	<li>velc.HatsDisplaySelection</li>
+	<!-- <li>GhostRolly.Rim73</li>
+	<li>velc.HatsDisplaySelection</li> -->
   </incompatibleWith>
 </ModMetaData>
