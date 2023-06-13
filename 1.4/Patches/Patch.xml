@@ -28,26 +28,68 @@
 			</li>
 		</operations>
 	</Operation>
-	<!-- I have no idea why I have to modify this..please believe me.ah -->
-	<!--<Operation Class="PatchOperationSequence">
+
+	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>Defs/XenotypeDef[defName="DragonianXenotype"]/genes</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryMechanoidEfficiency</xpath>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/XenotypeDef[defName="DragonianXenotype"]/genes</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryMechanoidEfficiency</xpath>
 				<value>
-					<genes>
-						<li>MinTemp_SmallDecrease</li>
-						<li>MaxTemp_SmallIncrease</li>
-						<li>Robust</li>
-						<li>Libido_High</li>
-						<li>AptitudePoor_Shooting</li>
-						<li>AptitudeTerrible_Intellectual</li>
-					</genes>
+					<ButcheryMechanoidEfficiency>1</ButcheryMechanoidEfficiency>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryMechanoidSpeed</xpath>
+				<value>
+					<ButcheryMechanoidSpeed>1</ButcheryMechanoidSpeed>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/SmeltingSpeed</xpath>
+				<value>
+					<SmeltingSpeed>1</SmeltingSpeed>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/GeneralLaborSpeed</xpath>
+				<value>
+					<GeneralLaborSpeed>1</GeneralLaborSpeed>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryFleshEfficiency</xpath>
+				<value>
+					<ButcheryFleshEfficiency>1</ButcheryFleshEfficiency>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryFleshSpeed</xpath>
+				<value>
+					<ButcheryFleshSpeed>1</ButcheryFleshSpeed>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/CookSpeed</xpath>
+				<value>
+					<CookSpeed>1</CookSpeed>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ResearchSpeed</xpath>
+				<value>
+					<ResearchSpeed>1</ResearchSpeed>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/GeneralLaborSpeed</xpath>
+				<value>
+					<DrugSynthesisSpeed>1</DrugSynthesisSpeed>
 				</value>
 			</li>
 		</operations>
-	</Operation>-->
+	</Operation>
 
 </Patch>
