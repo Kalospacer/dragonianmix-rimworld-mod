@@ -32,6 +32,20 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationTest">
+				<xpath>Defs/AlienRace.AlienBackstoryDef[defName="Dragonian_BS_B"]/workDisables</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.AlienBackstoryDef[defName="Dragonian_BS_B"]/workDisables</xpath>
+				<value>
+					<workDisables></workDisables>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationTest">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryMechanoidEfficiency</xpath>
 			</li>
 			<li Class="PatchOperationReplace">
