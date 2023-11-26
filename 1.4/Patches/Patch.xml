@@ -98,7 +98,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/GeneralLaborSpeed</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/DrugSynthesisSpeed</xpath>
 				<value>
 					<DrugSynthesisSpeed>1</DrugSynthesisSpeed>
 				</value>
