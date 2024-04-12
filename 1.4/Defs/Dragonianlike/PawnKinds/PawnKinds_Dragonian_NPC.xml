@@ -16,10 +16,6 @@
 	  <gearHealthRange>0.7~1.0</gearHealthRange>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 
-    <backstoryCategories>
-      <li>Dragonian_spawnCategoriesA</li>
-    </backstoryCategories>
-
     <xenotypeSet>
 			<xenotypeChances>
 				<DragonianXenotype MayRequire="Ludeon.RimWorld.Biotech">1</DragonianXenotype>
@@ -61,14 +57,9 @@
     </weaponTags>
     <weaponMoney>65~250</weaponMoney>
 
-    <backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Dragonian_BS</li>
-					<li>Dragonian_BS_B</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
+    <backstoryCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </backstoryCategories>
     
     <techHediffsChance>0.06</techHediffsChance>
     <techHediffsMoney>50~600</techHediffsMoney>
@@ -111,14 +102,9 @@
     </weaponTags>
     <weaponMoney>250~2000</weaponMoney>
 
-    <backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Dragonian_BS</li>
-					<li>Dragonian_BS_B</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
+    <backstoryCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </backstoryCategories>
 
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
@@ -161,14 +147,9 @@
     </weaponTags>
     <weaponMoney>250~2000</weaponMoney>
 
-    <backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Dragonian_BS</li>
-					<li>Dragonian_BS_B</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
+    <backstoryCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </backstoryCategories>
 
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
@@ -211,14 +192,9 @@
     </weaponTags>
     <weaponMoney>200~5000</weaponMoney>
 
-    <backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Dragonian_BS</li>
-					<li>Dragonian_BS_B</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
+    <backstoryCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </backstoryCategories>
 
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>600~1500</techHediffsMoney>
@@ -263,14 +239,9 @@
     </weaponTags>
     <weaponMoney>2500~7500</weaponMoney>
 
-    <backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Dragonian_Princess</li>
-					<li>Dragonian_BS_B</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
+    <backstoryCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </backstoryCategories>
 
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>600~1500</techHediffsMoney>
