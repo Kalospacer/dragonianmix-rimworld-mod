@@ -10,7 +10,11 @@
     <initialWillRange>0.5~1</initialWillRange>
 		<initialResistanceRange>10~26</initialResistanceRange>
 
-    <maxGenerationAge>30</maxGenerationAge>
+    <minGenerationAge>15</minGenerationAge>
+    <maxGenerationAge>40</maxGenerationAge>
+
+	  <gearHealthRange>0.7~1.0</gearHealthRange>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 
     <xenotypeSet>
 			<xenotypeChances>
@@ -30,7 +34,9 @@
 				<Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
 			</xenotypeChances>
 		</xenotypeSet>
+    <useFactionXenotypes>false</useFactionXenotypes>
   </PawnKindDef>
+
 
   <PawnKindDef ParentName="DRMDragonianBasePawnKind">
     <defName>Dragonian_Villager</defName>
