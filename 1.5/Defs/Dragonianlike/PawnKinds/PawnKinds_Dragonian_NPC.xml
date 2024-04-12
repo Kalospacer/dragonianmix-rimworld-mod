@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="DRMDragonianBasePawnKind" Abstract="True">
+    <race>Dragonian_Race</race>
+    <defaultFactionType>Dragonian_NPC</defaultFactionType>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <invNutrition>2</invNutrition>
+    <initialWillRange>0.5~1</initialWillRange>
+		<initialResistanceRange>10~26</initialResistanceRange>
+
+    <minGenerationAge>15</minGenerationAge>
+    <maxGenerationAge>40</maxGenerationAge>
+
+	  <gearHealthRange>0.7~1.0</gearHealthRange>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+
+    <xenotypeSet>
+			<xenotypeChances>
+				<DragonianXenotype MayRequire="Ludeon.RimWorld.Biotech">1</DragonianXenotype>
+			
+				<Baseliner MayRequire="Ludeon.RimWorld.Biotech">0</Baseliner>
+				
+				<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+				<Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+				<Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+				<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0</Sanguophage>
+				<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+				<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+				<Impid MayRequire="Ludeon.RimWorld.Biotech">0</Impid>
+				<Waster MayRequire="Ludeon.RimWorld.Biotech">0</Waster>
+				<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+				<Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+			</xenotypeChances>
+		</xenotypeSet>
+    <useFactionXenotypes>false</useFactionXenotypes>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="DRMDragonianBasePawnKind">
+    <defName>Dragonian_Villager</defName>
+    <label>Dragonian villager</label>
+    <combatPower>80</combatPower>
+    <isFighter>false</isFighter>
+    <itemQuality>Poor</itemQuality>
+    
+    <apparelTags>
+      <li>DR_Apparel</li>
+      <li>DR_Basic</li>
+    </apparelTags>
+    <gearHealthRange>0.2~2.0</gearHealthRange>
+    <apparelMoney>200~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+
+    <weaponTags>
+      <li>Melee</li>
+    </weaponTags>
+    <weaponMoney>65~250</weaponMoney>
+
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Dragonian_BS</li>
+					<li>Dragonian_BS_B</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    
+    <techHediffsChance>0.06</techHediffsChance>
+    <techHediffsMoney>50~600</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+
+    <inventoryOptions>
+      <skipChance>0.70</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>30~100</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="DRMDragonianBasePawnKind">
+    <defName>Dragonian_Clan_Guard</defName>
+    <label>Dragonian clan guard</label>
+    <combatPower>90</combatPower>
+    <isFighter>true</isFighter>
+    <itemQuality>Normal</itemQuality>
+   
+
+    <apparelTags>
+      <li>DR_Apparel</li>
+      <li>RoyalCombatGear</li>
+    </apparelTags>
+    <gearHealthRange>0.6~2</gearHealthRange>
+    <apparelMoney>200~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+
+    <weaponTags>
+      <li>Melee</li>
+    </weaponTags>
+    <weaponMoney>250~2000</weaponMoney>
+
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Dragonian_BS</li>
+					<li>Dragonian_BS_B</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    
+    <inventoryOptions>
+      <skipChance>0.70</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>30~100</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="DRMDragonianBasePawnKind">
+    <defName>Dragonian_Clan_Hunter</defName>
+    <label>Dragonian clan hunter</label>
+    <combatPower>90</combatPower>
+    <isFighter>true</isFighter>
+    <itemQuality>Normal</itemQuality>
+   
+
+    <apparelTags>
+      <li>DR_Apparel</li>
+      <li>RoyalCombatGear</li>
+    </apparelTags>
+    <gearHealthRange>0.6~2</gearHealthRange>
+    <apparelMoney>200~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <weaponMoney>250~2000</weaponMoney>
+
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Dragonian_BS</li>
+					<li>Dragonian_BS_B</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    
+    <inventoryOptions>
+      <skipChance>0.70</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>30~100</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="DRMDragonianBasePawnKind">
+    <defName>Dragonian_Clan_Trader</defName>
+    <label>Dragonian clan trader</label>
+    <trader>true</trader>
+    <combatPower>40</combatPower>
+    <isFighter>false</isFighter>
+    <itemQuality>Normal</itemQuality>
+
+    <apparelTags>
+      <li>DR_Apparel</li>
+      <li>DR_Basic</li>
+    </apparelTags>
+    <gearHealthRange>1~1</gearHealthRange>
+    <apparelMoney>400~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    
+    <weaponTags>
+      <li>Melee</li>
+    </weaponTags>
+    <weaponMoney>200~5000</weaponMoney>
+
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Dragonian_BS</li>
+					<li>Dragonian_BS_B</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+
+    <techHediffsChance>0.15</techHediffsChance>
+    <techHediffsMoney>600~1500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>Advanced</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+
+    <inventoryOptions>
+      <skipChance>0.70</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>30~100</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="DRMDragonianBasePawnKind">
+    <defName>Dragonian_Clan_Councilman</defName>
+    <label>Dragonian clan councilman</label>
+    <labelPlural>Dragonian clan councilmen</labelPlural>
+    <combatPower>100</combatPower>
+    <factionLeader>true</factionLeader>
+    <isFighter>false</isFighter>
+    <itemQuality>Good</itemQuality>
+
+    <apparelTags>
+      <li>DR_Apparel</li>
+      <li>RoyalCombatGear</li>
+    </apparelTags>
+    <gearHealthRange>1~1</gearHealthRange>
+    <apparelMoney>700~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+
+    <weaponTags>
+      <li>Melee</li>
+    </weaponTags>
+    <weaponMoney>2500~7500</weaponMoney>
+
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Dragonian_Princess</li>
+					<li>Dragonian_BS_B</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+
+    <techHediffsChance>0.15</techHediffsChance>
+    <techHediffsMoney>600~1500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+      <li>Advanced</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+
+    <inventoryOptions>
+      <skipChance>0.70</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>30~100</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+</Defs>

@@ -4,6 +4,7 @@
   <author>Gloomylynx Roo</author><!-- 자신의 스팀 닉네임 -->
   <supportedVersions>
 	<li>1.4</li>
+  <li>1.5</li>
   </supportedVersions>
   <packageId>kalospacer.DragonianMix</packageId><!-- 모드 ID(자신의 스팀 닉네임.모드이름) -->
   <description>

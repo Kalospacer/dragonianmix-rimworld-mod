@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ScenarioDef>
+		<defName>New Dragonian Beginning</defName>
+		<label>Dragonian</label>
+		<description>Three Dragonians come out of the ground,will they have a happy life?</description>
+		<scenario>
+			<summary>A small group of Wild Dragonian start a new home.I know you want to know why they must be come out from the ground.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>Dragonian_PlayerFaction</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>10</pawnChoiceCount>
+					<pawnCount>3</pawnCount>
+				</li>
+				<li Class="ScenPart_PawnFilter_Age">
+					<def>PawnFilter_Age</def>
+					<allowedAgeRange>18~58</allowedAgeRange>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>DR_BattleMace</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>WildManWandersIn</incident>
+					<intervalDays>10</intervalDays>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>DragonianOrb</thingDef>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Cloth</thingDef>
+					<count>100</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>WoodLog</thingDef>
+					<count>400</count>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>
