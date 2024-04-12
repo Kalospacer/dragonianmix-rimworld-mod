@@ -16,6 +16,10 @@
 	  <gearHealthRange>0.7~1.0</gearHealthRange>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 
+    <backstoryCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </backstoryCategories>
+
     <xenotypeSet>
 			<xenotypeChances>
 				<DragonianXenotype MayRequire="Ludeon.RimWorld.Biotech">1</DragonianXenotype>
@@ -36,7 +40,6 @@
 		</xenotypeSet>
     <useFactionXenotypes>false</useFactionXenotypes>
   </PawnKindDef>
-
 
   <PawnKindDef ParentName="DRMDragonianBasePawnKind">
     <defName>Dragonian_Villager</defName>
@@ -244,7 +247,6 @@
     <labelPlural>Dragonian clan councilmen</labelPlural>
     <combatPower>100</combatPower>
     <factionLeader>true</factionLeader>
-    <minGenerationAge>30</minGenerationAge>
     <isFighter>false</isFighter>
     <itemQuality>Good</itemQuality>
 

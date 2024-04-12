@@ -16,6 +16,10 @@
 	  <gearHealthRange>0.7~1.0</gearHealthRange>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 
+    <backstoryCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </backstoryCategories>
+
     <xenotypeSet>
 			<xenotypeChances>
 				<DragonianXenotype MayRequire="Ludeon.RimWorld.Biotech">1</DragonianXenotype>
