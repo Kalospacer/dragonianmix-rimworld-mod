@@ -5,7 +5,7 @@
 		<title>Dragonian Princess</title>
 		<titleShort>Dragonian Princess</titleShort>
 		<baseDesc>[PAWN_nameDef]is a beautiful Dragonian Princess.\nShe grow up in a rich family and don't know much about the outside world.</baseDesc>
-		<slot>Childhood</slot>
+		<slot>Adulthood</slot>
 		
 		<spawnCategories>
 			<li>Dragonian_spawnCategoriesA</li>
