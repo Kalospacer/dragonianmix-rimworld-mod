@@ -97,7 +97,7 @@
 			<li>
 				<!-- 村民团 -->
 				<kindDef>Combat</kindDef>
-				<commonality>100</commonality>
+				<commonality>10</commonality>
 				<options>
 					<Dragonian_Villager>50</Dragonian_Villager>
 					<Dragonian_Clan_Guard>30</Dragonian_Clan_Guard>
@@ -109,7 +109,7 @@
 			<li>
 				<!--=骠骑兵=-->
 				<kindDef>Combat</kindDef>
-				<commonality>70</commonality>
+				<commonality>10</commonality>
 				<options>
 				  <Dragonian_Clan_Guard>40</Dragonian_Clan_Guard>
 				  <Dragonian_Clan_Hunter>30</Dragonian_Clan_Hunter>
@@ -121,7 +121,7 @@
 			<li>
 				<!--=游骑兵=-->
 				<kindDef>Combat</kindDef>
-				<commonality>70</commonality>
+				<commonality>10</commonality>
 				<options>
 				  <Dragonian_Clan_Guard>20</Dragonian_Clan_Guard>
 				  <Dragonian_Clan_Hunter>60</Dragonian_Clan_Hunter>
@@ -133,7 +133,7 @@
 			<li>
 				<!--=皇家巡卫=-->
 				<kindDef>Combat</kindDef>
-				<commonality>40</commonality>
+				<commonality>10</commonality>
 				<options>
 				  <Dragonian_Clan_Guard>30</Dragonian_Clan_Guard>
 				  <Dragonian_Clan_Hunter>20</Dragonian_Clan_Hunter>
@@ -147,7 +147,7 @@
 			<li>
 				<!--=皇家骠骑=-->
 				<kindDef>Combat</kindDef>
-				<commonality>20</commonality>
+				<commonality>10</commonality>
 				<options>
 				  <Dragonian_Royal_Guard>40</Dragonian_Royal_Guard>
 				  <Dragonian_Royal_Hunter>40</Dragonian_Royal_Hunter>
@@ -158,7 +158,7 @@
 			<li>
 				<!--=皇家游骑=-->
 				<kindDef>Combat</kindDef>
-				<commonality>20</commonality>
+				<commonality>10</commonality>
 				<options>
 				  <Dragonian_Royal_Guard>20</Dragonian_Royal_Guard>
 				  <Dragonian_Royal_Hunter>60</Dragonian_Royal_Hunter>
@@ -187,7 +187,7 @@
 
 			<li>
 				<kindDef>Peaceful</kindDef>
-				<commonality>100</commonality>
+				<commonality>99</commonality>
 				<options>
 					<Dragonian_Villager>30</Dragonian_Villager>
 					<Dragonian_Clan_Guard>20</Dragonian_Clan_Guard>
