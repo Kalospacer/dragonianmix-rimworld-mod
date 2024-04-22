@@ -3,7 +3,7 @@
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>DR_BionicTail</defName>
 		<label>bionic tail</label>
-		<description>It is a fake tail made of leather.</description>
+		<description>An advanced artificial tail. It also has a small AI that automatically balances the user's missing.</description>
 		<labelNoun>a bionic tail</labelNoun>
 		<spawnThingOnRemoved>DR_BionicTail</spawnThingOnRemoved>
 		<addedPartProps>
@@ -15,7 +15,7 @@
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>DR_FakeTail</defName>
 		<label>fake tail</label>
-		<description>An advanced artificial tail. It also has a small AI that automatically balances the user's missing.</description>
+		<description>It is a fake tail made of leather.</description>
 		<labelNoun>a fake tail</labelNoun>
 		<spawnThingOnRemoved>DR_FakeTail</spawnThingOnRemoved>
 		<addedPartProps>

@@ -27,15 +27,11 @@
 
 		<forcedTraitsChance>
 			<li>
-				<defName>sanguine</defName>
+				<defName>NaturalMood</defName>
 				<chance>100</chance>
 			</li>
 			<li>
-				<defName>beautiful</defName>
-				<chance>50</chance>
-			</li>
-			<li>
-				<defName>pretty</defName>
+				<defName>Beauty</defName>
 				<chance>50</chance>
 			</li>
         </forcedTraitsChance>
@@ -195,7 +191,7 @@
 
 		<forcedTraitsChance>
 			<li>
-				<defName>tough</defName>
+				<defName>Nerves</defName>
 				<chance>100</chance>
 			</li>
         </forcedTraitsChance>
@@ -224,11 +220,7 @@
 
 		<forcedTraitsChance>
 			<li>
-				<defName>beautiful</defName>
-				<chance>50</chance>
-			</li>
-			<li>
-				<defName>pretty</defName>
+				<defName>Beauty</defName>
 				<chance>50</chance>
 			</li>
         </forcedTraitsChance>
@@ -254,7 +246,7 @@
 
 		<forcedTraitsChance>
 			<li>
-				<defName>tough</defName>
+				<defName>Nerves</defName>
 				<chance>100</chance>
 			</li>
         </forcedTraitsChance>

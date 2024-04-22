@@ -31,6 +31,9 @@
 				<Crafting>10</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<weaponTags>
+			<li>DR_BattleHammer</li>
+		</weaponTags>
 		<tools>
 			<li>
 				<label>handle</label>

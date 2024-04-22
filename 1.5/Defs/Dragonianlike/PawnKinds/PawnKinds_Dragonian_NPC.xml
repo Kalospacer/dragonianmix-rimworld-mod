@@ -78,14 +78,14 @@
 
     <apparelTags>
       <li>DR_Apparel</li>
-      <li>RoyalCombatGear</li>
+      <li>DR_BattleDress</li>
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
     <apparelMoney>200~10000</apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 
     <weaponTags>
-      <li>Melee</li>
+      <li>DR_BattleMace</li>
     </weaponTags>
     <weaponMoney>250~2000</weaponMoney>
 
@@ -123,7 +123,7 @@
 
     <apparelTags>
       <li>DR_Apparel</li>
-      <li>RoyalCombatGear</li>
+      <li>DR_BattleDress</li>
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
     <apparelMoney>200~10000</apparelMoney>
@@ -222,7 +222,7 @@
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 
     <weaponTags>
-      <li>Melee</li>
+      <li>DR_BattleStaff</li>
     </weaponTags>
     <weaponMoney>2500~7500</weaponMoney>
 

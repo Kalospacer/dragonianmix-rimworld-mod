@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <DR_BionicTail.label>龙娘 仿生尾</DR_BionicTail.label>
+  <DR_BionicTail.description>一条龙娘专用的仿生尾巴。它还包含一个小型AI帮助使用者自动保持平衡。</DR_BionicTail.description>
+  <DR_BionicTail.labelNoun>仿生尾</DR_BionicTail.labelNoun>
+  
+  <DR_FakeTail.label>龙娘 假尾巴</DR_FakeTail.label>
+  <DR_FakeTail.description>一条龙娘专用的假尾巴。它只是用一根皮革带子作为替代。总比没有强一点。</DR_FakeTail.description>
+  <DR_FakeTail.labelNoun>假尾巴</DR_FakeTail.labelNoun>
+  
+</LanguageData>
