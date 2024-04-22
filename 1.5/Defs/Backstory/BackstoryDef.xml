@@ -12,13 +12,33 @@
 		</spawnCategories>
 
 		<skillGains>
-			<Construction>2</Construction>
-			<Cooking>2</Cooking>
-			<Crafting>2</Crafting>
-			<Artistic>2</Artistic>
+			<Melee>2</Melee>
+			<Shooting>2</Shooting>
+			<Construction>4</Construction>
+			<Cooking>4</Cooking>
+			<Crafting>4</Crafting>
+			<Artistic>4</Artistic>
 			<Social>2</Social>
-			<Intellectual>2</Intellectual>
+			<Mining>-6</Mining>
+			<Plants>-6</Plants>
+			<Medicine>4</Medicine>
+			<Intellectual>4</Intellectual>
 		</skillGains>
+
+		<forcedTraitsChance>
+			<li>
+				<defName>sanguine</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>beautiful</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>pretty</defName>
+				<chance>50</chance>
+			</li>
+        </forcedTraitsChance>
 
 	</AlienRace.AlienBackstoryDef>
 
@@ -133,6 +153,85 @@
 			<Crafting>6</Crafting>
 			<Construction>6</Construction>
 		</skillGains>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Doctor</defName>
+		<title>Dragonian Doctor</title>
+		<titleShort>Dragonian Doctor</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Doctor.\nIt's hard to be smart in such a place.but she did it.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_spawnCategoriesA</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>-4</Melee>
+			<Shooting>-4</Shooting>
+			<Medicine>6</Medicine>
+			<Intellectual>8</Intellectual>
+		</skillGains>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Royal_Guard</defName>
+		<title>Dragonian Royal Guard</title>
+		<titleShort>Dragonian Royal Guard</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Royal Guard.\nShe protect royal members in the most severe condiction.Never losses.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_spawnCategoriesA</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>12</Melee>
+			<Shooting>4</Shooting>
+			<Medicine>4</Medicine>
+		</skillGains>
+
+		<forcedTraitsChance>
+			<li>
+				<defName>tough</defName>
+				<chance>100</chance>
+			</li>
+        </forcedTraitsChance>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Royal_Maid</defName>
+		<title>Dragonian Royal Maid</title>
+		<titleShort>Dragonian Royal Maid</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Royal Maid.\nShe is the true master of housing work.the true elegant.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_spawnCategoriesA</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Plants>4</Plants>
+			<Cooking>8</Cooking>
+			<Medicine>4</Medicine>
+			<Social>6</Social>
+			<Melee>-6</Melee>
+			<Shooting>-6</Shooting>
+		</skillGains>
+
+		<forcedTraitsChance>
+			<li>
+				<defName>beautiful</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>pretty</defName>
+				<chance>50</chance>
+			</li>
+        </forcedTraitsChance>
 
 	</AlienRace.AlienBackstoryDef>
 </Defs>

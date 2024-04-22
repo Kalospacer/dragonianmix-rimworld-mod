@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Dragonian_Princess.title>龙娘 公主</Dragonian_Princess.title>
+    <Dragonian_Princess.titleShort>公主</Dragonian_Princess.titleShort>
+    <Dragonian_Princess.description>[PAWN_nameDef]是龙娘公主。\n她对外面的世界发生的事情一无所知。</Dragonian_Princess.description>
+
+    <Dragonian_Pet.title>龙娘 宠物</Dragonian_Pet.title>
+    <Dragonian_Pet.titleShort>宠物</Dragonian_Pet.titleShort>
+    <Dragonian_Pet.description>[PAWN_nameDef]是龙娘宠物。\n她的工作就是乖乖趴在地上卖萌。</Dragonian_Pet.description>
+
+    <Dragonian_Warrier.title>龙娘 战士</Dragonian_Warrier.title>
+    <Dragonian_Warrier.titleShort>战士</Dragonian_Warrier.titleShort>
+    <Dragonian_Warrier.description>[PAWN_nameDef]是龙娘战士。\n她必须保护聚落不受敌人侵犯。</Dragonian_Warrier.description>
+
+    <Dragonian_Trader.title>龙娘 商人</Dragonian_Trader.title>
+    <Dragonian_Trader.titleShort>商人</Dragonian_Trader.titleShort>
+    <Dragonian_Trader.description>[PAWN_nameDef]是龙娘商人。\n她被村民们赶了出来，直到她赚够足够的白银带回去。</Dragonian_Trader.description>
+
+    <Dragonian_Villager.title>龙娘 村民</Dragonian_Villager.title>
+    <Dragonian_Villager.titleShort>村民</Dragonian_Villager.titleShort>
+    <Dragonian_Villager.description>[PAWN_nameDef]是龙娘村民。\n普普通通，没什么特别的。</Dragonian_Villager.description>
+
+    <Dragonian_Worker.title>龙娘 工人</Dragonian_Worker.title>
+    <Dragonian_Worker.titleShort>工人</Dragonian_Worker.titleShort>
+    <Dragonian_Worker.description>[PAWN_nameDef]是龙娘工人。\n她负责包揽村里所有的重活。</Dragonian_Worker.description>
+
+    <Dragonian_Engenieer.title>龙娘 工程师</Dragonian_Engenieer.title>
+    <Dragonian_Engenieer.titleShort>工程师</Dragonian_Engenieer.titleShort>
+    <Dragonian_Engenieer.description>[PAWN_nameDef]是龙娘工程师。\n她负责造漂亮房子和制作可爱的东西。</Dragonian_Engenieer.description>
+    
+</LanguageData>
