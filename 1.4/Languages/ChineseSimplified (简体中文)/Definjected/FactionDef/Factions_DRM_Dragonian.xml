@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Dragonian_PlayerFaction.label>龙娘小窝</Dragonian_PlayerFaction.label>
+  <Dragonian_PlayerFaction.description>一处新的龙娘定居点。她们会过得开心吗？</Dragonian_PlayerFaction.description>
+  <Dragonian_PlayerFaction.pawnsPlural>龙娘村民</Dragonian_PlayerFaction.pawnsPlural>
+
+  <Dragonian_NPC.label>龙娘</Dragonian_NPC.label>
+  <Dragonian_NPC.description>龙娘的定居地。</Dragonian_NPC.description>
+  <Dragonian_NPC.fixedName>龙之谷</Dragonian_NPC.fixedName>
+  <Dragonian_NPC.pawnsPlural>龙娘</Dragonian_NPC.pawnsPlural>
+  <Dragonian_NPC.leaderTitle>龙娘公主</Dragonian_NPC.leaderTitle>
+
+  <Unfrindly_Dragonian.label>恶龙</Unfrindly_Dragonian.label>
+  <Unfrindly_Dragonian.description>不受欢迎的龙娘的定居地。</Unfrindly_Dragonian.description>
+  <Unfrindly_Dragonian.fixedName>恶龙咆哮</Unfrindly_Dragonian.fixedName>
+  <Unfrindly_Dragonian.pawnsPlural>龙娘</Unfrindly_Dragonian.pawnsPlural>
+  <Unfrindly_Dragonian.leaderTitle>龙娘异教</Unfrindly_Dragonian.leaderTitle>
+
+</LanguageData>

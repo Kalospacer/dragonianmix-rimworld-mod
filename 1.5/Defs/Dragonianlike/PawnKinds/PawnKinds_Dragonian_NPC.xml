@@ -306,7 +306,6 @@
     <label>Dragonian clan councilman</label>
     <labelPlural>Dragonian clan councilmen</labelPlural>
     <combatPower>100</combatPower>
-    <factionLeader>true</factionLeader>
     <isFighter>false</isFighter>
     <itemQuality>Good</itemQuality>
 

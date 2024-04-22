@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ScenarioDef>
-		<defName>New Dragonian Beginning</defName>
-		<label>Dragonian</label>
+		<defName>New_Dragonian_Beginning</defName>
+		<label>New Dragonian Beginning</label>
 		<description>Three Dragonians come out of the ground,will they have a happy life?</description>
 		<scenario>
 			<summary>A small group of Wild Dragonian start a new home.I know you want to know why they must be come out from the ground.</summary>
