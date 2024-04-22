@@ -138,10 +138,10 @@
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
-		<defName>Dragonian_Engenieer</defName>
-		<title>Dragonian Engenieer</title>
-		<titleShort>Dragonian Engenieer</titleShort>
-		<baseDesc>[PAWN_nameDef] is Dragonian Engenieer.\nShe build house and craft cute things.</baseDesc>
+		<defName>Dragonian_Engineer</defName>
+		<title>Dragonian Engineer</title>
+		<titleShort>Dragonian Engineer</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Engineer.\nShe build house and craft cute things.</baseDesc>
 		<slot>Adulthood</slot>
 		
 		<spawnCategories>
@@ -234,4 +234,31 @@
         </forcedTraitsChance>
 
 	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Temperd</defName>
+		<title>Dragonian Tempered</title>
+		<titleShort>Dragonian Tempered</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Tempered.\nShe get hunted again and again.Now she hunt the hunter.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_spawnCategoriesA</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>16</Melee>
+			<Shooting>12</Shooting>
+			<Medicine>8</Medicine>
+		</skillGains>
+
+		<forcedTraitsChance>
+			<li>
+				<defName>tough</defName>
+				<chance>100</chance>
+			</li>
+        </forcedTraitsChance>
+
+	</AlienRace.AlienBackstoryDef>
+
 </Defs>
