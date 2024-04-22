@@ -95,24 +95,115 @@
 
 		<pawnGroupMakers>
 			<li>
-				<!-- Normal fights, standard mix -->
+				<!-- 村民团 -->
 				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
 				<options>
-					<Dragonian_Villager>5</Dragonian_Villager>
-					<Dragonian_Clan_Guard>45</Dragonian_Clan_Guard>
-					<Dragonian_Clan_Hunter>49</Dragonian_Clan_Hunter>
+					<Dragonian_Villager>50</Dragonian_Villager>
+					<Dragonian_Clan_Guard>30</Dragonian_Clan_Guard>
+					<Dragonian_Clan_Hunter>24</Dragonian_Clan_Hunter>
 					<Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>
 				</options>
 			</li>
 
 			<li>
+				<!--=骠骑兵=-->
+				<kindDef>Combat</kindDef>
+				<commonality>70</commonality>
+				<options>
+				  <Dragonian_Clan_Guard>40</Dragonian_Clan_Guard>
+				  <Dragonian_Clan_Hunter>30</Dragonian_Clan_Hunter>
+				  <Dragonian_Clan_Warrier>29</Dragonian_Clan_Warrier>
+				  <Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>
+				</options>
+			</li>
+
+			<li>
+				<!--=游骑兵=-->
+				<kindDef>Combat</kindDef>
+				<commonality>70</commonality>
+				<options>
+				  <Dragonian_Clan_Guard>20</Dragonian_Clan_Guard>
+				  <Dragonian_Clan_Hunter>60</Dragonian_Clan_Hunter>
+				  <Dragonian_Clan_Warrier>19</Dragonian_Clan_Warrier>
+				  <Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>
+				</options>
+			</li>
+
+			<li>
+				<!--=皇家巡卫=-->
+				<kindDef>Combat</kindDef>
+				<commonality>40</commonality>
+				<options>
+				  <Dragonian_Clan_Guard>30</Dragonian_Clan_Guard>
+				  <Dragonian_Clan_Hunter>20</Dragonian_Clan_Hunter>
+				  <Dragonian_Clan_Warrier>19</Dragonian_Clan_Warrier>
+				  <Dragonian_Royal_Guard>20</Dragonian_Royal_Guard>
+				  <Dragonian_Royal_Hunter>19</Dragonian_Royal_Hunter>
+				  <Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>
+				</options>
+			</li>
+
+			<li>
+				<!--=皇家骠骑=-->
+				<kindDef>Combat</kindDef>
+				<commonality>20</commonality>
+				<options>
+				  <Dragonian_Royal_Guard>40</Dragonian_Royal_Guard>
+				  <Dragonian_Royal_Hunter>40</Dragonian_Royal_Hunter>
+				  <Dragonian_Royal_Warrier>20</Dragonian_Royal_Warrier>
+				</options>
+			</li>
+
+			<li>
+				<!--=皇家游骑=-->
+				<kindDef>Combat</kindDef>
+				<commonality>20</commonality>
+				<options>
+				  <Dragonian_Royal_Guard>20</Dragonian_Royal_Guard>
+				  <Dragonian_Royal_Hunter>60</Dragonian_Royal_Hunter>
+				  <Dragonian_Royal_Warrier>20</Dragonian_Royal_Warrier>
+				</options>
+			</li>
+
+			<li>
+				<!--=禁卫军=-->
+				<kindDef>Combat</kindDef>
+				<commonality>10</commonality>
+				<options>
+				  <Dragonian_Royal_Hunter>40</Dragonian_Royal_Hunter>
+				  <Dragonian_Royal_Warrier>60</Dragonian_Royal_Warrier>
+				</options>
+			</li>
+
+			<li>
+				<!--=死灵教团=-->
+				<kindDef>Combat</kindDef>
+				<commonality>10</commonality>
+				<options>
+				  <Dragonian_Necro_Warrier>100</Dragonian_Necro_Warrier>
+				</options>
+			</li>
+
+			<li>
 				<kindDef>Peaceful</kindDef>
+				<commonality>100</commonality>
 				<options>
 					<Dragonian_Villager>30</Dragonian_Villager>
 					<Dragonian_Clan_Guard>20</Dragonian_Clan_Guard>
 					<Dragonian_Clan_Trader>20</Dragonian_Clan_Trader>
 					<Dragonian_Clan_Hunter>29</Dragonian_Clan_Hunter>
 					<Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>
+				</options>
+			</li>
+
+			<li>
+				<!--=公主出巡=-->
+				<kindDef>Peaceful</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Dragonian_Royal_Warrier>99</Dragonian_Royal_Warrier>
+					<Dragonian_Princess>1</Dragonian_Princess>
 				</options>
 			</li>
 

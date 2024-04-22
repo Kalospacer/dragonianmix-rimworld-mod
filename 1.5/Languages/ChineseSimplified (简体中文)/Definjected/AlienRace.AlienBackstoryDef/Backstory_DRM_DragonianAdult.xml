@@ -13,6 +13,10 @@
     <Dragonian_Warrier.titleShort>战士</Dragonian_Warrier.titleShort>
     <Dragonian_Warrier.description>[PAWN_nameDef]是龙娘战士。\n她必须保护聚落不受敌人侵犯。</Dragonian_Warrier.description>
 
+    <Dragonian_Clan_Guard.title>龙娘 村庄守卫</Dragonian_Clan_Guard.title>
+    <Dragonian_Clan_Guard.titleShort>村庄守卫</Dragonian_Clan_Guard.titleShort>
+    <Dragonian_Clan_Guard.description>[PAWN_nameDef]是龙娘村庄守卫。\n她只是负责驱赶野生动物而已。</Dragonian_Clan_Guard.description>
+
     <Dragonian_Trader.title>龙娘 商人</Dragonian_Trader.title>
     <Dragonian_Trader.titleShort>商人</Dragonian_Trader.titleShort>
     <Dragonian_Trader.description>[PAWN_nameDef]是龙娘商人。\n她被村民们赶了出来，直到她赚够足够的白银带回去。</Dragonian_Trader.description>
@@ -44,5 +48,9 @@
     <Dragonian_Temperd.title>龙娘 历战王</Dragonian_Temperd.title>
     <Dragonian_Temperd.titleShort>历战王</Dragonian_Temperd.titleShort>
     <Dragonian_Temperd.description>[PAWN_nameDef]是龙娘历战王。\n她一次次的被猎人猎杀。但她活了下来，并成为真正的猎人。</Dragonian_Temperd.description>
+
+    <Dragonian_Necromancer.title>龙娘 死灵女巫</Dragonian_Necromancer.title>
+    <Dragonian_Necromancer.titleShort>死灵女巫</Dragonian_Necromancer.titleShort>
+    <Dragonian_Necromancer.description>[PAWN_nameDef]是龙娘死灵女巫。\n尚未被归类。她是如此神秘，没人知道她究竟是活着还是已经死了。</Dragonian_Necromancer.description>
     
 </LanguageData>

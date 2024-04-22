@@ -57,6 +57,25 @@
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Clan_Guard</defName>
+		<title>Dragonian clan guard</title>
+		<titleShort>Dragonian clan guard</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian clan guard.\nShe fight against wild animals.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_spawnCategoriesA</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>4</Melee>
+			<Shooting>2</Shooting>
+			<Medicine>2</Medicine>
+		</skillGains>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
 		<defName>Dragonian_Warrier</defName>
 		<title>Dragonian Warrier</title>
 		<titleShort>Dragonian Warrier</titleShort>
@@ -69,11 +88,11 @@
 
 		<skillGains>
 			<Melee>6</Melee>
-			<Shooting>6</Shooting>
-			<Medicine>6</Medicine>
+			<Shooting>4</Shooting>
+			<Medicine>2</Medicine>
 			<Social>-2</Social>
-			<Plants>2</Plants>
-			<Intellectual>-2</Intellectual>
+			<Plants>-2</Plants>
+			<Cooking>-2</Cooking>
 		</skillGains>
 
 	</AlienRace.AlienBackstoryDef>
@@ -185,8 +204,11 @@
 
 		<skillGains>
 			<Melee>12</Melee>
-			<Shooting>4</Shooting>
+			<Shooting>8</Shooting>
 			<Medicine>4</Medicine>
+			<Social>-4</Social>
+			<Plants>-4</Plants>
+			<Cooking>-4</Cooking>
 		</skillGains>
 
 		<forcedTraitsChance>
@@ -247,6 +269,33 @@
 		<forcedTraitsChance>
 			<li>
 				<defName>Nerves</defName>
+				<chance>100</chance>
+			</li>
+        </forcedTraitsChance>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Necromancer</defName>
+		<title>Dragonian Necromancer</title>
+		<titleShort>Dragonian Necromancer</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Necromancer.\nNot been identified,she is so mysterious that nobody knows she is live or dead.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_spawnCategoriesA</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>8</Melee>
+			<Medicine>8</Medicine>
+			<Intellectual>8</Intellectual>
+			<Social>-16</Social>
+		</skillGains>
+
+		<forcedTraitsChance>
+			<li>
+				<defName>Occultist</defName>
 				<chance>100</chance>
 			</li>
         </forcedTraitsChance>

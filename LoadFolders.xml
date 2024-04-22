@@ -8,5 +8,6 @@
     <v1.5>
       <li>1.5</li>
 		  <li>cont</li>
+      <li IfModActive="Ludeon.RimWorld.Anomaly">Ano1.5</li>
     </v1.5>
 </loadFolders>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 游击队 -->
+
+  <Dragonian_Villager.label>龙娘村民</Dragonian_Villager.label>
+  <Dragonian_Villager.labelPlural>龙娘村民</Dragonian_Villager.labelPlural>
+  <Dragonian_Villager.labelMale>龙娘村民</Dragonian_Villager.labelMale>
+  <Dragonian_Villager.labelMalePlural>龙娘村民</Dragonian_Villager.labelMalePlural>
+  <Dragonian_Villager.labelFemale>龙娘村民</Dragonian_Villager.labelFemale>
+  <Dragonian_Villager.labelFemalePlural>龙娘村民</Dragonian_Villager.labelFemalePlural>
+
+  <Dragonian_Clan_Guard.label>龙娘村庄守卫</Dragonian_Clan_Guard.label>
+  <Dragonian_Clan_Guard.labelPlural>龙娘村庄守卫</Dragonian_Clan_Guard.labelPlural>
+  <Dragonian_Clan_Guard.labelMale>龙娘村庄守卫</Dragonian_Clan_Guard.labelMale>
+  <Dragonian_Clan_Guard.labelMalePlural>龙娘村庄守卫</Dragonian_Clan_Guard.labelMalePlural>
+  <Dragonian_Clan_Guard.labelFemale>龙娘村庄守卫</Dragonian_Clan_Guard.labelFemale>
+  <Dragonian_Clan_Guard.labelFemalePlural>龙娘村庄守卫</Dragonian_Clan_Guard.labelFemalePlural>
+
+  <Dragonian_Clan_Hunter.label>龙娘村庄游骑</Dragonian_Clan_Hunter.label>
+  <Dragonian_Clan_Hunter.labelPlural>龙娘村庄游骑</Dragonian_Clan_Hunter.labelPlural>
+  <Dragonian_Clan_Hunter.labelMale>龙娘村庄游骑</Dragonian_Clan_Hunter.labelMale>
+  <Dragonian_Clan_Hunter.labelMalePlural>龙娘村庄游骑</Dragonian_Clan_Hunter.labelMalePlural>
+  <Dragonian_Clan_Hunter.labelFemale>龙娘村庄游骑</Dragonian_Clan_Hunter.labelFemale>
+  <Dragonian_Clan_Hunter.labelFemalePlural>龙娘村庄游骑</Dragonian_Clan_Hunter.labelFemalePlural>
+
+  <Dragonian_Clan_Warrier.label>龙娘村庄骠骑</Dragonian_Clan_Warrier.label>
+  <Dragonian_Clan_Warrier.labelPlural>龙娘村庄骠骑</Dragonian_Clan_Warrier.labelPlural>
+  <Dragonian_Clan_Warrier.labelMale>龙娘村庄骠骑</Dragonian_Clan_Warrier.labelMale>
+  <Dragonian_Clan_Warrier.labelMalePlural>龙娘村庄骠骑</Dragonian_Clan_Warrier.labelMalePlural>
+  <Dragonian_Clan_Warrier.labelFemale>龙娘村庄骠骑</Dragonian_Clan_Warrier.labelFemale>
+  <Dragonian_Clan_Warrier.labelFemalePlural>龙娘村庄骠骑</Dragonian_Clan_Warrier.labelFemalePlural>
+
+  <Dragonian_Clan_Trader.label>龙娘村庄商人</Dragonian_Clan_Trader.label>
+  <Dragonian_Clan_Trader.labelPlural>龙娘村庄商人</Dragonian_Clan_Trader.labelPlural>
+  <Dragonian_Clan_Trader.labelMale>龙娘村庄商人</Dragonian_Clan_Trader.labelMale>
+  <Dragonian_Clan_Trader.labelMalePlural>龙娘村庄商人</Dragonian_Clan_Trader.labelMalePlural>
+  <Dragonian_Clan_Trader.labelFemale>龙娘村庄商人</Dragonian_Clan_Trader.labelFemale>
+  <Dragonian_Clan_Trader.labelFemalePlural>龙娘村庄商人</Dragonian_Clan_Trader.labelFemalePlural>
+
+  <Dragonian_Clan_Councilman.label>龙娘村庄村长</Dragonian_Clan_Councilman.label>
+  <Dragonian_Clan_Councilman.labelPlural>龙娘村庄村长</Dragonian_Clan_Councilman.labelPlural>
+  <Dragonian_Clan_Councilman.labelMale>龙娘村庄村长</Dragonian_Clan_Councilman.labelMale>
+  <Dragonian_Clan_Councilman.labelMalePlural>龙娘村庄村长</Dragonian_Clan_Councilman.labelMalePlural>
+  <Dragonian_Clan_Councilman.labelFemale>龙娘村庄村长</Dragonian_Clan_Councilman.labelFemale>
+  <Dragonian_Clan_Councilman.labelFemalePlural>龙娘村庄村长</Dragonian_Clan_Councilman.labelFemalePlural>
+
+  <Dragonian_Royal_Guard.label>龙娘皇家卫士</Dragonian_Royal_Guard.label>
+  <Dragonian_Royal_Guard.labelPlural>龙娘皇家卫士</Dragonian_Royal_Guard.labelPlural>
+  <Dragonian_Royal_Guard.labelMale>龙娘皇家卫士</Dragonian_Royal_Guard.labelMale>
+  <Dragonian_Royal_Guard.labelMalePlural>龙娘皇家卫士</Dragonian_Royal_Guard.labelMalePlural>
+  <Dragonian_Royal_Guard.labelFemale>龙娘皇家卫士</Dragonian_Royal_Guard.labelFemale>
+  <Dragonian_Royal_Guard.labelFemalePlural>龙娘皇家卫士</Dragonian_Royal_Guard.labelFemalePlural>
+
+  <Dragonian_Royal_Hunter.label>龙娘皇家游骑</Dragonian_Royal_Hunter.label>
+  <Dragonian_Royal_Hunter.labelPlural>龙娘皇家游骑</Dragonian_Royal_Hunter.labelPlural>
+  <Dragonian_Royal_Hunter.labelMale>龙娘皇家游骑</Dragonian_Royal_Hunter.labelMale>
+  <Dragonian_Royal_Hunter.labelMalePlural>龙娘皇家游骑</Dragonian_Royal_Hunter.labelMalePlural>
+  <Dragonian_Royal_Hunter.labelFemale>龙娘皇家游骑</Dragonian_Royal_Hunter.labelFemale>
+  <Dragonian_Royal_Hunter.labelFemalePlural>龙娘皇家游骑</Dragonian_Royal_Hunter.labelFemalePlural>
+
+  <Dragonian_Royal_Warrier.label>龙娘皇家禁卫</Dragonian_Royal_Warrier.label>
+  <Dragonian_Royal_Warrier.labelPlural>龙娘皇家禁卫</Dragonian_Royal_Warrier.labelPlural>
+  <Dragonian_Royal_Warrier.labelMale>龙娘皇家禁卫</Dragonian_Royal_Warrier.labelMale>
+  <Dragonian_Royal_Warrier.labelMalePlural>龙娘皇家禁卫</Dragonian_Royal_Warrier.labelMalePlural>
+  <Dragonian_Royal_Warrier.labelFemale>龙娘皇家禁卫</Dragonian_Royal_Warrier.labelFemale>
+  <Dragonian_Royal_Warrier.labelFemalePlural>龙娘皇家禁卫</Dragonian_Royal_Warrier.labelFemalePlural>
+
+  <Dragonian_Princess.label>龙娘公主</Dragonian_Princess.label>
+  <Dragonian_Princess.labelPlural>龙娘公主</Dragonian_Princess.labelPlural>
+  <Dragonian_Princess.labelMale>龙娘公主</Dragonian_Princess.labelMale>
+  <Dragonian_Princess.labelMalePlural>龙娘公主</Dragonian_Princess.labelMalePlural>
+  <Dragonian_Princess.labelFemale>龙娘公主</Dragonian_Princess.labelFemale>
+  <Dragonian_Princess.labelFemalePlural>龙娘公主</Dragonian_Princess.labelFemalePlural>
+
+  <Dragonian_Necro_Warrier.label>龙娘尸姬</Dragonian_Necro_Warrier.label>
+  <Dragonian_Necro_Warrier.labelPlural>龙娘尸姬</Dragonian_Necro_Warrier.labelPlural>
+  <Dragonian_Necro_Warrier.labelMale>龙娘尸姬</Dragonian_Necro_Warrier.labelMale>
+  <Dragonian_Necro_Warrier.labelMalePlural>龙娘尸姬</Dragonian_Necro_Warrier.labelMalePlural>
+  <Dragonian_Necro_Warrier.labelFemale>龙娘尸姬</Dragonian_Necro_Warrier.labelFemale>
+  <Dragonian_Necro_Warrier.labelFemalePlural>龙娘尸姬</Dragonian_Necro_Warrier.labelFemalePlural>
+
+</LanguageData>
