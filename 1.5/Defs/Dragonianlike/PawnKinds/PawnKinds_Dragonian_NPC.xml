@@ -36,13 +36,19 @@
       <li>DR_Basic</li>
     </apparelTags>
     <gearHealthRange>0.2~2.0</gearHealthRange>
-    <apparelMoney>250~1500</apparelMoney>
+    <apparelMoney>
+      <min>250</min>
+      <max>1500</max>
+    </apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 
     <weaponTags>
       <li>Melee</li>
     </weaponTags>
-    <weaponMoney>250~1500</weaponMoney>
+    <weaponMoney>
+      <min>250</min>
+      <max>1500</max>
+    </weaponMoney>
 
     <backstoryCategories>
       <li>Dragonian_spawnCategoriesA</li>
@@ -82,7 +88,10 @@
       <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
-    <apparelMoney>850~2500</apparelMoney>
+    <apparelMoney>
+      <min>850</min>
+      <max>1500</max>
+    </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -99,7 +108,10 @@
     <weaponTags>
       <li>DR_BattleMace</li>
     </weaponTags>
-    <weaponMoney>850~2500</weaponMoney>
+    <weaponMoney>
+      <min>850</min>
+      <max>1500</max>
+    </weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
@@ -146,7 +158,10 @@
       <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
-    <apparelMoney>850~2500</apparelMoney>
+    <apparelMoney>
+      <min>850</min>
+      <max>1500</max>
+    </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -164,7 +179,10 @@
       <li>Gun</li>
       <li>LongShots</li>
     </weaponTags>
-    <weaponMoney>250~2500</weaponMoney>
+    <weaponMoney>
+      <min>250</min>
+      <max>1500</max>
+    </weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
@@ -212,7 +230,10 @@
       <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
-    <apparelMoney>850~2500</apparelMoney>
+    <apparelMoney>
+      <min>850</min>
+      <max>1500</max>
+    </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -229,7 +250,10 @@
     <weaponTags>
       <li>DR_Battlesword</li>
     </weaponTags>
-    <weaponMoney>850~3500</weaponMoney>
+    <weaponMoney>
+      <min>850</min>
+      <max>1500</max>
+    </weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
@@ -275,13 +299,19 @@
       <li>DR_Basic</li>
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
-    <apparelMoney>250~1500</apparelMoney>
+    <apparelMoney>
+      <min>250</min>
+      <max>1500</max>
+    </apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     
     <weaponTags>
       <li>Melee</li>
     </weaponTags>
-    <weaponMoney>250~1500</weaponMoney>
+    <weaponMoney>
+      <min>850</min>
+      <max>1500</max>
+    </weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
@@ -333,13 +363,19 @@
     </apparelTags>
 
     <gearHealthRange>1~1</gearHealthRange>
-    <apparelMoney>1500~10000</apparelMoney>
+    <apparelMoney>
+      <min>850</min>
+      <max>5000</max>
+    </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <weaponTags>
       <li>DR_BattleStaff</li>
     </weaponTags>
-    <weaponMoney>1500~10000</weaponMoney>
+    <weaponMoney>
+      <min>850</min>
+      <max>5000</max>
+    </weaponMoney>
     
     <backstoryCategories>
       <li>Dragonian_spawnCategoriesA</li>
@@ -379,7 +415,10 @@
       <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
-    <apparelMoney>1500~5000</apparelMoney>
+    <apparelMoney>
+      <min>850</min>
+      <max>2500</max>
+    </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -405,7 +444,10 @@
     <weaponTags>
       <li>DR_BattleHammer</li>
     </weaponTags>
-    <weaponMoney>1500~5000</weaponMoney>
+    <weaponMoney>
+      <min>850</min>
+      <max>2500</max>
+    </weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
@@ -451,7 +493,10 @@
       <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
-    <apparelMoney>1500~5000</apparelMoney>
+    <apparelMoney>
+      <min>850</min>
+      <max>2500</max>
+    </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -469,7 +514,10 @@
       <li>Gun</li>
       <li>LongShots</li>
     </weaponTags>
-    <weaponMoney>1500~5000</weaponMoney>
+    <weaponMoney>
+      <min>250</min>
+      <max>2500</max>
+    </weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
@@ -516,7 +564,10 @@
       <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
-    <apparelMoney>1500~5000</apparelMoney>
+    <apparelMoney>
+      <min>850</min>
+      <max>2500</max>
+    </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -542,7 +593,10 @@
     <weaponTags>
       <li>DR_Battlesword</li>
     </weaponTags>
-    <weaponMoney>1500~5000</weaponMoney>
+    <weaponMoney>
+      <min>850</min>
+      <max>2500</max>
+    </weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
@@ -591,7 +645,10 @@
     </apparelTags>
 
     <gearHealthRange>1~1</gearHealthRange>
-    <apparelMoney>2500~20000</apparelMoney>
+    <apparelMoney>
+      <min>850</min>
+      <max>25000</max>
+    </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -621,8 +678,10 @@
     <weaponTags>
       <li>DR_Battlesword</li>
     </weaponTags>
-    <weaponMoney>2500~20000</weaponMoney>
-
+    <weaponMoney>
+      <min>850</min>
+      <max>25000</max>
+    </weaponMoney>
     <backstoryFiltersOverride>
       <li>
         <categoriesChildhood>
@@ -672,7 +731,10 @@
       <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
-    <apparelMoney>250~1500</apparelMoney>
+    <apparelMoney>
+      <min>850</min>
+      <max>1500</max>
+    </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -698,7 +760,10 @@
     <weaponTags>
       <li>DR_Battlesword</li>
     </weaponTags>
-    <weaponMoney>850~1500</weaponMoney>
+    <weaponMoney>
+      <min>850</min>
+      <max>1500</max>
+    </weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
