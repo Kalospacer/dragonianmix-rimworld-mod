@@ -89,8 +89,8 @@
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
     <apparelMoney>
-      <min>850</min>
-      <max>1500</max>
+      <min>1500</min>
+      <max>2500</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
@@ -104,6 +104,11 @@
         <requiredTag>DR_BattleHelm</requiredTag>
       </li>
     </specificApparelRequirements>
+
+    <apparelRequired>
+      <li>DR_BattleDress</li>
+      <li>DR_BattleHelmA</li>
+    </apparelRequired>
 
     <weaponTags>
       <li>DR_BattleMace</li>
@@ -159,8 +164,8 @@
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
     <apparelMoney>
-      <min>850</min>
-      <max>1500</max>
+      <min>1500</min>
+      <max>2500</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
@@ -174,6 +179,11 @@
         <requiredTag>DR_BattleHelm</requiredTag>
       </li>
     </specificApparelRequirements>
+
+    <apparelRequired>
+      <li>DR_BattleDress</li>
+      <li>DR_BattleHelmB</li>
+    </apparelRequired>
 
     <weaponTags>
       <li>Gun</li>
@@ -231,8 +241,8 @@
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
     <apparelMoney>
-      <min>850</min>
-      <max>1500</max>
+      <min>1500</min>
+      <max>2500</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
@@ -246,6 +256,11 @@
         <requiredTag>DR_BattleHelm</requiredTag>
       </li>
     </specificApparelRequirements>
+
+    <apparelRequired>
+      <li>DR_BattleDress</li>
+      <li>DR_BattleHelmA</li>
+    </apparelRequired>
 
     <weaponTags>
       <li>DR_Battlesword</li>
@@ -364,7 +379,7 @@
 
     <gearHealthRange>1~1</gearHealthRange>
     <apparelMoney>
-      <min>850</min>
+      <min>1500</min>
       <max>5000</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
@@ -416,8 +431,8 @@
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
     <apparelMoney>
-      <min>850</min>
-      <max>2500</max>
+      <min>1500</min>
+      <max>3500</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
@@ -440,6 +455,11 @@
         </alternateTagChoices>
       </li>
     </specificApparelRequirements>
+
+    <apparelRequired>
+      <li>DR_PsychicDress</li>
+      <li>DR_PsychicHelm</li>
+    </apparelRequired>
 
     <weaponTags>
       <li>DR_BattleHammer</li>
@@ -494,8 +514,8 @@
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
     <apparelMoney>
-      <min>850</min>
-      <max>2500</max>
+      <min>1500</min>
+      <max>3500</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
@@ -510,12 +530,17 @@
       </li>
     </specificApparelRequirements>
 
+    <apparelRequired>
+      <li>DR_PsychicDress</li>
+      <li>DR_PsychicHelm</li>
+    </apparelRequired>
+
     <weaponTags>
       <li>Gun</li>
       <li>LongShots</li>
     </weaponTags>
     <weaponMoney>
-      <min>250</min>
+      <min>850</min>
       <max>2500</max>
     </weaponMoney>
 
@@ -565,8 +590,8 @@
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
     <apparelMoney>
-      <min>850</min>
-      <max>2500</max>
+      <min>1500</min>
+      <max>3500</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
@@ -589,6 +614,11 @@
         </alternateTagChoices>
       </li>
     </specificApparelRequirements>
+
+    <apparelRequired>
+      <li>DR_PsychicDress</li>
+      <li>DR_PsychicHelm</li>
+    </apparelRequired>
 
     <weaponTags>
       <li>DR_Battlesword</li>
@@ -646,7 +676,7 @@
 
     <gearHealthRange>1~1</gearHealthRange>
     <apparelMoney>
-      <min>850</min>
+      <min>1500</min>
       <max>25000</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
@@ -674,6 +704,11 @@
         </alternateTagChoices>
       </li>
     </specificApparelRequirements>
+
+    <apparelRequired>
+      <li>DR_PsychicDress</li>
+      <li>DR_PsychicHelm</li>
+    </apparelRequired>
 
     <weaponTags>
       <li>DR_Battlesword</li>
@@ -732,8 +767,8 @@
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
     <apparelMoney>
-      <min>850</min>
-      <max>1500</max>
+      <min>1500</min>
+      <max>2500</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
@@ -756,6 +791,11 @@
         </alternateTagChoices>
       </li>
     </specificApparelRequirements>
+
+    <apparelRequired>
+      <li>DR_BattleDress</li>
+      <li>DR_BattleHelmA</li>
+    </apparelRequired>
 
     <weaponTags>
       <li>DR_Battlesword</li>
