@@ -15,7 +15,7 @@
 
 	  <gearHealthRange>0.7~1.0</gearHealthRange>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-
+    
     <xenotypeSet>
 			<xenotypeChances>
 				<DragonianXenotype MayRequire="Ludeon.RimWorld.Biotech">1</DragonianXenotype>
@@ -36,21 +36,17 @@
       <li>DR_Basic</li>
     </apparelTags>
     <gearHealthRange>0.2~2.0</gearHealthRange>
-    <apparelMoney>250~800</apparelMoney>
+    <apparelMoney>250~1500</apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 
     <weaponTags>
       <li>Melee</li>
     </weaponTags>
-    <weaponMoney>65~250</weaponMoney>
+    <weaponMoney>250~1500</weaponMoney>
 
-    <backstoryFiltersOverride>
-      <li>
-        <categories>
-          <li>Dragonian_Villager</li>
-        </categories>
-      </li>
-    </backstoryFiltersOverride>
+    <backstoryCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </backstoryCategories>
     
     <techHediffsChance>0.06</techHediffsChance>
     <techHediffsMoney>50~600</techHediffsMoney>
@@ -82,9 +78,11 @@
     <apparelTags>
       <li>DR_Apparel</li>
       <li>DR_BattleDress</li>
+      <li>DR_BattleHelm</li>
+      <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
-    <apparelMoney>250~2500</apparelMoney>
+    <apparelMoney>850~2500</apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -94,7 +92,7 @@
       </li>
       <li>
         <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_BattleDress</requiredTag>
+        <requiredTag>DR_BattleHelm</requiredTag>
       </li>
     </specificApparelRequirements>
 
@@ -105,9 +103,12 @@
 
     <backstoryFiltersOverride>
       <li>
-        <categories>
+        <categoriesChildhood>
+          <li>Dragonian_spawnCategoriesA</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
           <li>Dragonian_Clan_Guard</li>
-        </categories>
+        </categoriesAdulthood>
       </li>
     </backstoryFiltersOverride>
 
@@ -141,9 +142,11 @@
     <apparelTags>
       <li>DR_Apparel</li>
       <li>DR_BattleDress</li>
+      <li>DR_BattleHelm</li>
+      <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
-    <apparelMoney>250~2500</apparelMoney>
+    <apparelMoney>850~2500</apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -153,7 +156,7 @@
       </li>
       <li>
         <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_BattleDress</requiredTag>
+        <requiredTag>DR_BattleHelm</requiredTag>
       </li>
     </specificApparelRequirements>
 
@@ -165,9 +168,12 @@
 
     <backstoryFiltersOverride>
       <li>
-        <categories>
+        <categoriesChildhood>
+          <li>Dragonian_spawnCategoriesA</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
           <li>Dragonian_Clan_Guard</li>
-        </categories>
+        </categoriesAdulthood>
       </li>
     </backstoryFiltersOverride>
 
@@ -202,9 +208,11 @@
     <apparelTags>
       <li>DR_Apparel</li>
       <li>DR_BattleDress</li>
+      <li>DR_BattleHelm</li>
+      <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
-    <apparelMoney>250~2500</apparelMoney>
+    <apparelMoney>850~2500</apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -214,7 +222,7 @@
       </li>
       <li>
         <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_BattleDress</requiredTag>
+        <requiredTag>DR_BattleHelm</requiredTag>
       </li>
     </specificApparelRequirements>
 
@@ -225,9 +233,12 @@
 
     <backstoryFiltersOverride>
       <li>
-        <categories>
+        <categoriesChildhood>
+          <li>Dragonian_spawnCategoriesA</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
           <li>Dragonian_Warrier</li>
-        </categories>
+        </categoriesAdulthood>
       </li>
     </backstoryFiltersOverride>
 
@@ -264,19 +275,22 @@
       <li>DR_Basic</li>
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
-    <apparelMoney>250~1250</apparelMoney>
+    <apparelMoney>250~1500</apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     
     <weaponTags>
       <li>Melee</li>
     </weaponTags>
-    <weaponMoney>250~1250</weaponMoney>
+    <weaponMoney>250~1500</weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
-        <categories>
+        <categoriesChildhood>
+          <li>Dragonian_spawnCategoriesA</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
           <li>Dragonian_Trader</li>
-        </categories>
+        </categoriesAdulthood>
       </li>
     </backstoryFiltersOverride>
 
@@ -312,25 +326,24 @@
 
     <apparelTags>
       <li>DR_Apparel</li>
+      <li>DR_PsychicDress</li>
+      <li>DR_PsychicHelm</li>
+      <li>RoyalCombatGear</li>
       <li>DR_ProtectionOrb</li>
     </apparelTags>
 
     <gearHealthRange>1~1</gearHealthRange>
-    <apparelMoney>250~10000</apparelMoney>
+    <apparelMoney>1500~10000</apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <weaponTags>
       <li>DR_BattleStaff</li>
     </weaponTags>
-    <weaponMoney>850~3500</weaponMoney>
+    <weaponMoney>1500~10000</weaponMoney>
     
-    <backstoryFiltersOverride>
-      <li>
-        <categories>
-          <li>Dragonian_Royal_Maid</li>
-        </categories>
-      </li>
-    </backstoryFiltersOverride>
+    <backstoryCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </backstoryCategories>
 
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>600~1500</techHediffsMoney>
@@ -362,9 +375,11 @@
     <apparelTags>
       <li>DR_Apparel</li>
       <li>DR_PsychicDress</li>
+      <li>DR_PsychicHelm</li>
+      <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
-    <apparelMoney>250~5000</apparelMoney>
+    <apparelMoney>1500~5000</apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -374,7 +389,7 @@
       </li>
       <li>
         <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_PsychicDress</requiredTag>
+        <requiredTag>DR_PsychicHelm</requiredTag>
       </li>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
@@ -390,13 +405,16 @@
     <weaponTags>
       <li>DR_BattleHammer</li>
     </weaponTags>
-    <weaponMoney>850~5000</weaponMoney>
+    <weaponMoney>1500~5000</weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
-        <categories>
+        <categoriesChildhood>
+          <li>Dragonian_spawnCategoriesA</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
           <li>Dragonian_Royal_Guard</li>
-        </categories>
+        </categoriesAdulthood>
       </li>
     </backstoryFiltersOverride>
 
@@ -429,9 +447,11 @@
     <apparelTags>
       <li>DR_Apparel</li>
       <li>DR_PsychicDress</li>
+      <li>DR_PsychicHelm</li>
+      <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
-    <apparelMoney>250~5000</apparelMoney>
+    <apparelMoney>1500~5000</apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -441,7 +461,7 @@
       </li>
       <li>
         <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_PsychicDress</requiredTag>
+        <requiredTag>DR_PsychicHelm</requiredTag>
       </li>
     </specificApparelRequirements>
 
@@ -449,13 +469,16 @@
       <li>Gun</li>
       <li>LongShots</li>
     </weaponTags>
-    <weaponMoney>500~5000</weaponMoney>
+    <weaponMoney>1500~5000</weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
-        <categories>
+        <categoriesChildhood>
+          <li>Dragonian_spawnCategoriesA</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
           <li>Dragonian_Royal_Guard</li>
-        </categories>
+        </categoriesAdulthood>
       </li>
     </backstoryFiltersOverride>
 
@@ -489,9 +512,11 @@
     <apparelTags>
       <li>DR_Apparel</li>
       <li>DR_PsychicDress</li>
+      <li>DR_PsychicHelm</li>
+      <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
-    <apparelMoney>250~5000</apparelMoney>
+    <apparelMoney>1500~5000</apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -501,7 +526,7 @@
       </li>
       <li>
         <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_PsychicDress</requiredTag>
+        <requiredTag>DR_PsychicHelm</requiredTag>
       </li>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
@@ -517,13 +542,16 @@
     <weaponTags>
       <li>DR_Battlesword</li>
     </weaponTags>
-    <weaponMoney>850~5000</weaponMoney>
+    <weaponMoney>1500~5000</weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
-        <categories>
+        <categoriesChildhood>
+          <li>Dragonian_spawnCategoriesA</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
           <li>Dragonian_Temperd</li>
-        </categories>
+        </categoriesAdulthood>
       </li>
     </backstoryFiltersOverride>
 
@@ -558,11 +586,12 @@
     <apparelTags>
       <li>Royal</li>
       <li>DR_Apparel</li>
+      <li>DR_PsychicDress</li>
       <li>DR_ProtectionOrb</li>
     </apparelTags>
 
     <gearHealthRange>1~1</gearHealthRange>
-    <apparelMoney>250~20000</apparelMoney>
+    <apparelMoney>2500~20000</apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <specificApparelRequirements>
@@ -592,13 +621,16 @@
     <weaponTags>
       <li>DR_Battlesword</li>
     </weaponTags>
-    <weaponMoney>850~20000</weaponMoney>
+    <weaponMoney>2500~20000</weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
-        <categories>
+        <categoriesChildhood>
+          <li>Dragonian_spawnCategoriesA</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
           <li>Dragonian_Princess</li>
-        </categories>
+        </categoriesAdulthood>
       </li>
     </backstoryFiltersOverride>
 
@@ -625,13 +657,19 @@
     <defName>Dragonian_Necro_Warrier</defName>
     <label>Dragonian necro Warrier</label>
     <labelPlural>Dragonian necro Warrier</labelPlural>
-    <combatPower>20</combatPower>
+    <combatPower>40</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Normal</itemQuality>
+
+    <abilities>
+      <li>ReleaseDeadlifeDust</li>
+    </abilities>
 
     <apparelTags>
       <li>DR_Apparel</li>
       <li>DR_BattleDress</li>
+      <li>DR_BattleHelm</li>
+      <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
     <apparelMoney>250~1500</apparelMoney>
@@ -644,7 +682,7 @@
       </li>
       <li>
         <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_BattleDress</requiredTag>
+        <requiredTag>DR_BattleHelm</requiredTag>
       </li>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
@@ -660,13 +698,16 @@
     <weaponTags>
       <li>DR_Battlesword</li>
     </weaponTags>
-    <weaponMoney>850~800</weaponMoney>
+    <weaponMoney>850~1500</weaponMoney>
 
     <backstoryFiltersOverride>
       <li>
-        <categories>
-          <li>Dragonian_Warrier</li>
-        </categories>
+        <categoriesChildhood>
+          <li>Dragonian_spawnCategoriesA</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
+          <li>Dragonian_Necromancer</li>
+        </categoriesAdulthood>
       </li>
     </backstoryFiltersOverride>
 

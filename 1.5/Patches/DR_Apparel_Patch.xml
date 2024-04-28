@@ -4,58 +4,38 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_BattleDress"]/apparel/tags</xpath>
 				<value>
-					<tags>
-						<li>DR_Apparel</li>
-						<li>DR_BattleDress</li>
-						<li>RoyalCombatGear</li>
-					</tags>
+					<li>DR_BattleDress</li>
 				</value>
 			</li>
 
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_BattleHelmA"]/apparel/tags</xpath>
 				<value>
-					<tags>
-						<li>DR_Apparel</li>
-						<li>DR_BattleDress</li>
-						<li>RoyalCombatGear</li>
-					</tags>
+					<li>DR_BattleHelm</li>
 				</value>
 			</li>
 			
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_ProtectionOrb"]/apparel/tags</xpath>
 				<value>
-					<tags>
-						<li>DR_Apparel</li>
-						<li>DR_ProtectionOrb</li>
-						<li>RoyalCombatGear</li>
-					</tags>
+					<li>DR_ProtectionOrb</li>
 				</value>
 			</li>
 
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_PsychicDress"]/apparel/tags</xpath>
 				<value>
-					<tags>
-						<li>DR_Apparel</li>
-						<li>DR_PsychicDress</li>
-						<li>RoyalCombatGear</li>
-					</tags>
+					<li>DR_PsychicDress</li>
 				</value>
 			</li>
 
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_PsychicHelm"]/apparel/tags</xpath>
 				<value>
-					<tags>
-						<li>DR_Apparel</li>
-						<li>DR_PsychicDress</li>
-						<li>RoyalCombatGear</li>
-					</tags>
+					<li>DR_PsychicHelm</li>
 				</value>
 			</li>
 

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Princess</defName>
+		<title>Dragonian Princess</title>
+		<titleShort>Dragonian Princess</titleShort>
+		<baseDesc>[PAWN_nameDef]is Dragonian Princess.\nShe doesn't know much about the outside world.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_Princess</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>2</Melee>
+			<Shooting>2</Shooting>
+			<Construction>4</Construction>
+			<Cooking>4</Cooking>
+			<Crafting>4</Crafting>
+			<Artistic>4</Artistic>
+			<Social>2</Social>
+			<Mining>-6</Mining>
+			<Plants>-6</Plants>
+			<Medicine>4</Medicine>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="1">NaturalMood</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Beauty</defName>
+				<chance>50</chance>
+			</li>
+        </forcedTraitsChance>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Clan_Guard</defName>
+		<title>Dragonian clan guard</title>
+		<titleShort>Dragonian clan guard</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian clan guard.\nShe fight against wild animals.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_Clan_Guard</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>4</Melee>
+			<Shooting>2</Shooting>
+			<Medicine>2</Medicine>
+		</skillGains>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Warrier</defName>
+		<title>Dragonian Warrier</title>
+		<titleShort>Dragonian Warrier</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Warrier.\nShe must defend the town against its enemies.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_Warrier</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>6</Melee>
+			<Shooting>4</Shooting>
+			<Medicine>2</Medicine>
+			<Social>-2</Social>
+			<Plants>-2</Plants>
+			<Cooking>-2</Cooking>
+		</skillGains>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Trader</defName>
+		<title>Dragonian Trader</title>
+		<titleShort>Dragonian Trader</titleShort>
+		<baseDesc>[PAWN_nameDef] likes talking with others and embarrassing them.\nNow she has been kicked out until she get enouth sliver back.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_Trader</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>-2</Melee>
+			<Social>6</Social>
+		</skillGains>
+
+	</AlienRace.AlienBackstoryDef>
+
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Royal_Guard</defName>
+		<title>Dragonian Royal Guard</title>
+		<titleShort>Dragonian Royal Guard</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Royal Guard.\nShe protect royal members in the most severe condiction.Never losses.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_Royal_Guard</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>12</Melee>
+			<Shooting>8</Shooting>
+			<Medicine>4</Medicine>
+			<Social>-4</Social>
+			<Plants>-4</Plants>
+			<Cooking>-4</Cooking>
+		</skillGains>
+
+		<forcedTraitsChance>
+			<li>
+				<defName>Nerves</defName>
+				<chance>100</chance>
+			</li>
+        </forcedTraitsChance>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Royal_Maid</defName>
+		<title>Dragonian Royal Maid</title>
+		<titleShort>Dragonian Royal Maid</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Royal Maid.\nShe is the true master of housing work.the true elegant.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_Royal_Maid</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Plants>4</Plants>
+			<Cooking>8</Cooking>
+			<Medicine>4</Medicine>
+			<Social>6</Social>
+			<Melee>-6</Melee>
+			<Shooting>-6</Shooting>
+		</skillGains>
+
+		<forcedTraitsChance>
+			<li>
+				<defName>Beauty</defName>
+				<chance>50</chance>
+			</li>
+        </forcedTraitsChance>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Temperd</defName>
+		<title>Dragonian Tempered</title>
+		<titleShort>Dragonian Tempered</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Tempered.\nShe get hunted again and again.Now she hunt the hunter.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_Temperd</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>16</Melee>
+			<Shooting>12</Shooting>
+			<Medicine>8</Medicine>
+		</skillGains>
+
+		<forcedTraitsChance>
+			<li>
+				<defName>Nerves</defName>
+				<chance>100</chance>
+			</li>
+        </forcedTraitsChance>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Necromancer</defName>
+		<title>Dragonian Necromancer</title>
+		<titleShort>Dragonian Necromancer</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Necromancer.\nNot been identified,she is so mysterious that nobody knows she is live or dead.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_Necromancer</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>8</Melee>
+			<Medicine>8</Medicine>
+			<Intellectual>8</Intellectual>
+			<Social>-16</Social>
+		</skillGains>
+
+		<forcedTraitsChance>
+			<li>
+				<defName>Occultist</defName>
+				<chance>100</chance>
+			</li>
+        </forcedTraitsChance>
+
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>
