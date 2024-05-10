@@ -24,4 +24,34 @@
 			<betterThanNatural>false</betterThanNatural>
 		</addedPartProps>
 	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+		<defName>InstallDragonianOrb</defName>
+		<label>install DragonianOrb</label>
+		<description>Install a dragonian orb.</description>
+		<descriptionHyperlinks><ThingDef>DragonianOrb</ThingDef></descriptionHyperlinks>
+		<jobString>Installing DragonianOrb.</jobString>
+		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+		<skillRequirements>
+		  <Medicine>8</Medicine>
+		</skillRequirements>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>DragonianOrb</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>DragonianOrb</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+		  <li>DragonianOrb</li>
+		</appliedOnFixedBodyParts>
+	  </RecipeDef>
 </Defs>

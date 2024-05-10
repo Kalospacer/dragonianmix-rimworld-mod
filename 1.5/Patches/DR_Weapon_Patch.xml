@@ -2,8 +2,12 @@
 <Patch>
 
 	<Operation Class="PatchOperationSequence">
+		
 		<operations>
-
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_BattleMace"]</xpath>
+				
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_BattleMace"]</xpath>
 				<value>
@@ -12,7 +16,16 @@
 					</weaponTags>
 				</value>
 			</li>
+		</operations>
+	</Operation>
 
+	<Operation Class="PatchOperationSequence">
+		
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_Battlesword"]</xpath>
+				
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_Battlesword"]</xpath>
 				<value>
@@ -22,6 +35,16 @@
 				</value>
 			</li>
 
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_BattleStaff"]</xpath>
+				
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_BattleStaff"]</xpath>
 				<value>

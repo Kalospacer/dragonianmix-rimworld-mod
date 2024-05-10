@@ -3,9 +3,6 @@
 
 	<Operation Class="PatchOperationSequence">
 		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
-			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
 				<value>
@@ -17,9 +14,6 @@
 
 	<Operation Class="PatchOperationSequence">
 		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>Defs/AlienRace.AlienBackstoryDef[defName="Dragonian_BS"]/workDisables</xpath>
-			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/AlienRace.AlienBackstoryDef[defName="Dragonian_BS"]/workDisables</xpath>
 				<value>
@@ -31,9 +25,6 @@
 
 	<Operation Class="PatchOperationSequence">
 		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>Defs/AlienRace.AlienBackstoryDef[defName="Dragonian_BS_B"]/workDisables</xpath>
-			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/AlienRace.AlienBackstoryDef[defName="Dragonian_BS_B"]/workDisables</xpath>
 				<value>
@@ -45,9 +36,6 @@
 
 	<Operation Class="PatchOperationSequence">
 		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryMechanoidEfficiency</xpath>
-			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryMechanoidEfficiency</xpath>
 				<value>
@@ -78,7 +66,6 @@
 					<ButcheryFleshEfficiency>1</ButcheryFleshEfficiency>
 				</value>
 			</li>
-
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryFleshSpeed</xpath>
 				<value>
@@ -104,6 +91,29 @@
 				</value>
 			</li>
 		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName="Dragonian_Body"]/corePart/parts</xpath>
+				<value>
+					<li>
+						<def>DragonianOrb</def>
+						<coverage>0.010</coverage>
+						<customLabel>Dragonian Orb</customLabel>
+						<depth>Inside</depth>
+						<groups>
+						  <li>Torso</li>
+						</groups>
+					  </li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[@Name="Dragonian_PawnBase"]/butcherProducts/DragonianOrb</xpath>
 	</Operation>
 
 </Patch>

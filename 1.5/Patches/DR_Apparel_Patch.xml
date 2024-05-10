@@ -2,43 +2,84 @@
 <Patch>
 
 	<Operation Class="PatchOperationSequence">
+		
 		<operations>
-
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_BattleDress"]/apparel/tags</xpath>
+				
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_BattleDress"]/apparel/tags</xpath>
 				<value>
 					<li>DR_BattleDress</li>
 				</value>
 			</li>
+		</operations>
+	</Operation>
 
+	<Operation Class="PatchOperationSequence">
+		
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_BattleHelmA"]/apparel/tags</xpath>
+				
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_BattleHelmA"]/apparel/tags</xpath>
 				<value>
 					<li>DR_BattleHelm</li>
 				</value>
 			</li>
-			
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_ProtectionOrb"]/apparel/tags</xpath>
+				
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_ProtectionOrb"]/apparel/tags</xpath>
 				<value>
 					<li>DR_ProtectionOrb</li>
 				</value>
 			</li>
+		
+		</operations>
+	</Operation>
 
+	<Operation Class="PatchOperationSequence">
+		
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_PsychicDress"]/apparel/tags</xpath>
+				
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_PsychicDress"]/apparel/tags</xpath>
 				<value>
 					<li>DR_PsychicDress</li>
 				</value>
 			</li>
+		
+		</operations>
+	</Operation>
 
+	<Operation Class="PatchOperationSequence">
+		
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_PsychicHelm"]/apparel/tags</xpath>
+				
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_PsychicHelm"]/apparel/tags</xpath>
 				<value>
 					<li>DR_PsychicHelm</li>
 				</value>
 			</li>
-
 		</operations>
 	</Operation>
 
