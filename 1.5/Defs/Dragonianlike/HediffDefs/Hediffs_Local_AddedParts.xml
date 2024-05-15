@@ -54,4 +54,30 @@
 		  <li>DragonianOrb</li>
 		</appliedOnFixedBodyParts>
 	  </RecipeDef>
+
+	  <HediffDef ParentName="AddedBodyPartBase">
+		<defName>FakeDragonianOrb</defName>
+		<label>Fake DragonianOrb</label>
+		<labelNoun>a Fake DragonianOrb</labelNoun>
+		<description>An installed Fake DragonianOrb. Just for replace your missing one.</description>
+		<priceImpact>false</priceImpact>
+		<addedPartProps>
+		  <solid>true</solid>
+		  <partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<spawnThingOnRemoved>Plasteel</spawnThingOnRemoved>
+	  </HediffDef>
+
+	  <RecipeDef ParentName="SurgeryInstallWoodenPartBase">
+		<defName>InstallFakeDragonianOrb</defName>
+		<label>install fake DragonianOrb</label>
+		<description>Install a fake DragonianOrb.</description>
+		<descriptionHyperlinks><ThingDef>Plasteel</ThingDef></descriptionHyperlinks>
+		<jobString>Installing fake DragonianOrb.</jobString>
+		<appliedOnFixedBodyParts>
+		  <li>DragonianOrb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>PegLeg</addsHediff>
+		<uiIconThing>Plasteel</uiIconThing>
+	  </RecipeDef>
 </Defs>

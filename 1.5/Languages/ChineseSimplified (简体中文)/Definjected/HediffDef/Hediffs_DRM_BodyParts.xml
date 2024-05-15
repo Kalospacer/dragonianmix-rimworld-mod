@@ -8,5 +8,13 @@
   <DR_FakeTail.label>龙娘 假尾巴</DR_FakeTail.label>
   <DR_FakeTail.description>一条龙娘专用的假尾巴。它只是用一根皮革带子作为替代。总比没有强一点。</DR_FakeTail.description>
   <DR_FakeTail.labelNoun>假尾巴</DR_FakeTail.labelNoun>
+
+  <FakeDragonianOrb.label>龙娘 玻璃龙珠</FakeDragonianOrb.label>
+  <FakeDragonianOrb.description>一个大玻璃球。用来替代龙娘缺失的那颗。</FakeDragonianOrb.description>
+  <FakeDragonianOrb.labelNoun>玻璃龙珠</FakeDragonianOrb.labelNoun>
+
+  <InstallFakeDragonianOrb.label>安装玻璃龙珠</InstallFakeDragonianOrb.label>
+  <InstallFakeDragonianOrb.description>安装玻璃龙珠。</InstallFakeDragonianOrb.description>
+  <InstallFakeDragonianOrb.jobString>正在安装玻璃龙珠。</InstallFakeDragonianOrb.jobString>
   
 </LanguageData>
