@@ -16,5 +16,9 @@
   <InstallFakeDragonianOrb.label>安装玻璃龙珠</InstallFakeDragonianOrb.label>
   <InstallFakeDragonianOrb.description>安装玻璃龙珠。</InstallFakeDragonianOrb.description>
   <InstallFakeDragonianOrb.jobString>正在安装玻璃龙珠。</InstallFakeDragonianOrb.jobString>
+
+  <InstallDragonianOrb.label>安装龙珠</InstallDragonianOrb.label>
+  <InstallDragonianOrb.description>安装龙珠。</InstallDragonianOrb.description>
+  <InstallDragonianOrb.jobString>正在安装龙珠。</InstallDragonianOrb.jobString>
   
 </LanguageData>
