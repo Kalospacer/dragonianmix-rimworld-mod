@@ -836,4 +836,89 @@
     </inventoryOptions>
   </PawnKindDef>
 
+  <PawnKindDef ParentName="DRMDragonianBasePawnKind">
+    <defName>Dragonian_Necro_Warrier</defName>
+    <label>Dragonian necro Warrier</label>
+    <labelPlural>Dragonian necro Warrier</labelPlural>
+    <combatPower>40</combatPower>
+    <isFighter>true</isFighter>
+    <itemQuality>Normal</itemQuality>
+
+    <apparelTags>
+      <li>DR_Apparel</li>
+      <li>DR_BattleDress</li>
+      <li>DR_BattleHelm</li>
+      <li>RoyalCombatGear</li>
+    </apparelTags>
+    <gearHealthRange>1~1</gearHealthRange>
+    <apparelMoney>
+      <min>1500</min>
+      <max>2500</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+
+    <specificApparelRequirements>
+      <li>
+        <bodyPartGroup>Torso</bodyPartGroup>
+        <requiredTag>DR_BattleDress</requiredTag>
+      </li>
+      <li>
+        <bodyPartGroup>UpperHead</bodyPartGroup>
+        <requiredTag>DR_BattleHelm</requiredTag>
+      </li>
+      <li>
+        <bodyPartGroup>Torso</bodyPartGroup>
+        <alternateTagChoices>
+          <li>
+            <tag>BeltDefenseNecro</tag>
+            <chance>1</chance>
+          </li>
+        </alternateTagChoices>
+      </li>
+    </specificApparelRequirements>
+
+    <apparelRequired>
+      <li>DR_BattleDress</li>
+      <li>DR_BattleHelmA</li>
+    </apparelRequired>
+
+    <weaponTags>
+      <li>DR_Battlesword</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>850</min>
+      <max>1500</max>
+    </weaponMoney>
+
+    <backstoryFiltersOverride>
+      <li>
+        <categoriesChildhood>
+          <li>Dragonian_spawnCategoriesA</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
+          <li>Dragonian_Necromancer</li>
+        </categoriesAdulthood>
+      </li>
+    </backstoryFiltersOverride>
+
+    <techHediffsMoney>600~5500</techHediffsMoney>
+	  <techHediffsTags>
+      <li>DragonianOrbAdvanced</li>
+    </techHediffsTags>
+    <techHediffsRequired>
+      <li>NecroDragonianOrb</li>
+    </techHediffsRequired>
+
+    <inventoryOptions>
+      <skipChance>0.70</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>30~100</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
 </Defs>
