@@ -7,8 +7,7 @@
         <description>Emit a burst of burning fuel in all directions to form puddles of ignited liquid on the ground.</description>
         <jobDef>CastAbilityOnThingWithoutWeapon</jobDef>
         <iconPath>UI/Abilities/FireBurst</iconPath>
-        <cooldownTicksRange>60000</cooldownTicksRange>
-        <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+        <cooldownTicksRange>2700</cooldownTicksRange>
         <aiCanUse>true</aiCanUse>
         <ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
         <targetRequired>false</targetRequired>
