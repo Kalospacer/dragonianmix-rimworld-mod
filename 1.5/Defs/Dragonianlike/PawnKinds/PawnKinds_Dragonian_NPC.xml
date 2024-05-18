@@ -422,12 +422,8 @@
     <itemQuality>Excellent</itemQuality>
    
     <apparelTags>
-      <li>DR_Apparel</li>
-      <li>DR_PsychicDress</li>
-      <li>DR_PsychicHelm</li>
-      <li>RoyalCombatGear</li>
+      <li>DR_Armor</li>
     </apparelTags>
-    <gearHealthRange>0.6~2</gearHealthRange>
     <apparelMoney>
       <min>1500</min>
       <max>3500</max>
@@ -437,11 +433,11 @@
     <specificApparelRequirements>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
-        <requiredTag>DR_PsychicDress</requiredTag>
+        <requiredTag>DRM_BattleDressC</requiredTag>
       </li>
       <li>
-        <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_PsychicHelm</requiredTag>
+        <bodyPartGroup>FullHead</bodyPartGroup>
+        <requiredTag>DRM_BattleHelmC</requiredTag>
       </li>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
@@ -455,8 +451,8 @@
     </specificApparelRequirements>
 
     <apparelRequired>
-      <li>DR_PsychicDress</li>
-      <li>DR_PsychicHelm</li>
+      <li>DRM_BattleDressC</li>
+      <li>DRM_BattleHelmC</li>
     </apparelRequired>
 
     <weaponTags>
@@ -506,12 +502,8 @@
     <itemQuality>Excellent</itemQuality>
    
     <apparelTags>
-      <li>DR_Apparel</li>
-      <li>DR_PsychicDress</li>
-      <li>DR_PsychicHelm</li>
-      <li>RoyalCombatGear</li>
+      <li>DR_Armor</li>
     </apparelTags>
-    <gearHealthRange>0.6~2</gearHealthRange>
     <apparelMoney>
       <min>1500</min>
       <max>3500</max>
@@ -521,17 +513,26 @@
     <specificApparelRequirements>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
-        <requiredTag>DR_PsychicDress</requiredTag>
+        <requiredTag>DRM_BattleDressC</requiredTag>
       </li>
       <li>
-        <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_PsychicHelm</requiredTag>
+        <bodyPartGroup>FullHead</bodyPartGroup>
+        <requiredTag>DRM_BattleHelmD</requiredTag>
+      </li>
+      <li>
+        <bodyPartGroup>Torso</bodyPartGroup>
+        <alternateTagChoices>
+          <li>
+            <tag>Apparel_ShieldBelt</tag>
+            <chance>0.5</chance>
+          </li>
+        </alternateTagChoices>
       </li>
     </specificApparelRequirements>
 
     <apparelRequired>
-      <li>DR_PsychicDress</li>
-      <li>DR_PsychicHelm</li>
+      <li>DRM_BattleDressC</li>
+      <li>DRM_BattleHelmD</li>
     </apparelRequired>
 
     <weaponTags>
@@ -583,12 +584,8 @@
     <itemQuality>Masterwork</itemQuality>
 
     <apparelTags>
-      <li>DR_Apparel</li>
-      <li>DR_PsychicDress</li>
-      <li>DR_PsychicHelm</li>
-      <li>RoyalCombatGear</li>
+      <li>DR_Armor</li>
     </apparelTags>
-    <gearHealthRange>1~1</gearHealthRange>
     <apparelMoney>
       <min>1500</min>
       <max>3500</max>
@@ -598,11 +595,11 @@
     <specificApparelRequirements>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
-        <requiredTag>DR_PsychicDress</requiredTag>
+        <requiredTag>DRM_BattleDressC</requiredTag>
       </li>
       <li>
-        <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_PsychicHelm</requiredTag>
+        <bodyPartGroup>FullHead</bodyPartGroup>
+        <requiredTag>DRM_BattleHelmC</requiredTag>
       </li>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
@@ -616,8 +613,8 @@
     </specificApparelRequirements>
 
     <apparelRequired>
-      <li>DR_PsychicDress</li>
-      <li>DR_PsychicHelm</li>
+      <li>DRM_BattleDressC</li>
+      <li>DRM_BattleHelmC</li>
     </apparelRequired>
 
     <weaponTags>

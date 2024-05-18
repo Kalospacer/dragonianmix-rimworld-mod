@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+    <DRM_BattleDressC.label>龙娘 制式战衣</DRM_BattleDressC.label>
+    <DRM_BattleDressC.description>轻型盔甲，添加玻璃钢增强防护。</DRM_BattleDressC.description>
+    <DRM_BattleHelmC.label>龙娘 制式战盔C型</DRM_BattleHelmC.label>
+    <DRM_BattleHelmC.description>一款设计复杂的轻型战斗头盔。设计保护整个头部。</DRM_BattleHelmC.description>
+    <DRM_BattleHelmD.label>龙娘 制式战盔D型</DRM_BattleHelmD.label>
+    <DRM_BattleHelmD.description>一款设计复杂的轻型战斗头盔。设计保护整个头部。</DRM_BattleHelmD.description>
+
     <FlareDragonianOrb.label>龙娘 火炎龙珠</FlareDragonianOrb.label>
     <FlareDragonianOrb.description>一颗龙珠。能够释放一团火球。</FlareDragonianOrb.description>
 
