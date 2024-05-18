@@ -53,7 +53,7 @@
 		<appliedOnFixedBodyParts>
 		  <li>DragonianOrb</li>
 		</appliedOnFixedBodyParts>
-	  </RecipeDef>
+	</RecipeDef>
 
 	  <RecipeDef Name="DR_SurgeryInstallPlasteelPartBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
 		<workAmount>1500</workAmount>
@@ -85,7 +85,6 @@
 		<priceImpact>false</priceImpact>
 		<addedPartProps>
 		  <solid>true</solid>
-		  <partEfficiency>1</partEfficiency>
 		</addedPartProps>
 		<spawnThingOnRemoved>Plasteel</spawnThingOnRemoved>
 	  </HediffDef>
@@ -102,4 +101,229 @@
 		<addsHediff>FakeDragonianOrb</addsHediff>
 		<uiIconThing>DragonianOrb</uiIconThing>
 	  </RecipeDef>
+
+	<ThingDef Name="BodyPartDROrbsBase" ParentName="BodyPartBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+			<color>(190,190,190)</color>
+		</graphicData>
+		<thingCategories>
+			<li>BodyPartsNatural</li>
+		  </thingCategories>
+		<statBases>
+		  <DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FlareDragonianOrb</defName>
+		<label>Flare DragonianOrb</label>
+		<labelNoun>a Flare DragonianOrb.</labelNoun>
+		<description>An installed Flare DragonianOrb. Allow owner to burst a fireball.</description>
+		<priceImpact>false</priceImpact>
+		<abilities>
+			<li>DR_FireBurst</li>
+		</abilities>
+		<addedPartProps>
+		  <solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>FlareDragonianOrb</spawnThingOnRemoved>
+	  </HediffDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+	  <defName>FlareDragonianOrb</defName>
+	  <label>Flare DragonianOrb</label>
+	  <description>An Flare DragonianOrb. Allow owner to burst a fireball.</description>
+	  <graphicData>
+		<texPath>Dragonian/Things/Item/Resource/Dorb_flare</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	  </graphicData>
+	  <techHediffsTags>
+		<li>FlareDragonianOrb</li>
+		<li>DragonianOrbAdvanced</li>
+	  </techHediffsTags>
+	  <statBases>
+		<MarketValue>1000</MarketValue>
+		<Mass>0.3</Mass>
+	  </statBases>
+	  <thingSetMakerTags>
+		<li>RewardStandardCore</li>
+	  </thingSetMakerTags>
+	</ThingDef>	
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+	  <defName>InstallFlareDragonianOrb</defName>
+	  <label>install Flare DragonianOrb</label>
+	  <description>Install Flare DragonianOrb.</description>
+	  <descriptionHyperlinks>
+	    <ThingDef>FlareDragonianOrb</ThingDef>
+	    <HediffDef>FlareDragonianOrb</HediffDef>
+	  </descriptionHyperlinks>
+	  <jobString>Installing Flare DragonianOrb.</jobString>
+	  <surgeryOutcomeEffect IsNull="True" /> <!-- Always succeeds -->
+	  <ingredients>
+	    <li>
+	      <filter>
+	        <thingDefs>
+	          <li>FlareDragonianOrb</li>
+	        </thingDefs>
+	      </filter>
+	      <count>1</count>
+	    </li>
+	  </ingredients>
+	  <fixedIngredientFilter>
+	    <thingDefs>
+	      <li>FlareDragonianOrb</li>
+	    </thingDefs>
+	  </fixedIngredientFilter>
+	  <appliedOnFixedBodyParts>
+	    <li>DragonianOrb</li>
+	  </appliedOnFixedBodyParts>
+	  <addsHediff>FlareDragonianOrb</addsHediff>
+	</RecipeDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>NecroDragonianOrb</defName>
+		<label>Necro DragonianOrb</label>
+		<labelNoun>a Necro DragonianOrb.</labelNoun>
+		<description>An installed Flare DragonianOrb. Allow owner to spray deadlifedust.</description>
+		<priceImpact>false</priceImpact>
+		<abilities>
+			<li>ReleaseDeadlifeDust</li>
+		</abilities>
+		<addedPartProps>
+		  <solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>NecroDragonianOrb</spawnThingOnRemoved>
+	  </HediffDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+	  <defName>NecroDragonianOrb</defName>
+	  <label>Necro DragonianOrb</label>
+	  <description>An Necro DragonianOrb. Allow owner to spray deadlifedust.</description>
+	  <graphicData>
+		<texPath>Dragonian/Things/Item/Resource/Dorb_AP</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	  </graphicData>
+	  <techHediffsTags>
+		<li>NecroDragonianOrb</li>
+		<li>DragonianOrbAdvanced</li>
+	  </techHediffsTags>
+	  <statBases>
+		<MarketValue>1000</MarketValue>
+		<Mass>0.3</Mass>
+	  </statBases>
+	  <thingSetMakerTags>
+		<li>RewardStandardCore</li>
+	  </thingSetMakerTags>
+	</ThingDef>	
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+	  <defName>InstallNecroDragonianOrb</defName>
+	  <label>install Necro DragonianOrb</label>
+	  <description>Install Necro DragonianOrb.</description>
+	  <descriptionHyperlinks>
+	    <ThingDef>NecroDragonianOrb</ThingDef>
+	    <HediffDef>NecroDragonianOrb</HediffDef>
+	  </descriptionHyperlinks>
+	  <jobString>Installing Necro DragonianOrb.</jobString>
+	  <surgeryOutcomeEffect IsNull="True" /> <!-- Always succeeds -->
+	  <ingredients>
+	    <li>
+	      <filter>
+	        <thingDefs>
+	          <li>NecroDragonianOrb</li>
+	        </thingDefs>
+	      </filter>
+	      <count>1</count>
+	    </li>
+	  </ingredients>
+	  <fixedIngredientFilter>
+	    <thingDefs>
+	      <li>NecroDragonianOrb</li>
+	    </thingDefs>
+	  </fixedIngredientFilter>
+	  <appliedOnFixedBodyParts>
+	    <li>DragonianOrb</li>
+	  </appliedOnFixedBodyParts>
+	  <addsHediff>NecroDragonianOrb</addsHediff>
+	</RecipeDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>HyperhealDragonianOrb</defName>
+		<label>Hyperheal DragonianOrb</label>
+		<labelNoun>a Hyperheal DragonianOrb.</labelNoun>
+		<description>An installed Hyperheal DragonianOrb.</description>
+		<priceImpact>false</priceImpact>
+		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+		<stages>
+		  <li>
+			<minSeverity>0</minSeverity>
+			<regeneration>300</regeneration>
+			<showRegenerationStat>false</showRegenerationStat>
+			<statOffsets>
+			  <PainShockThreshold>10</PainShockThreshold>
+			</statOffsets>
+		  </li>
+		</stages>
+		<addedPartProps>
+		  <solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>HyperhealDragonianOrb</spawnThingOnRemoved>
+	  </HediffDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+	  <defName>HyperhealDragonianOrb</defName>
+	  <label>Hyperheal DragonianOrb</label>
+	  <description>An Hyperheal DragonianOrb.</description>
+	  <graphicData>
+		<texPath>Dragonian/Things/Item/Resource/Dorb_heal</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	  </graphicData>
+	  <techHediffsTags>
+		<li>HyperhealDragonianOrb</li>
+		<li>DragonianOrbAdvanced</li>
+	  </techHediffsTags>
+	  <statBases>
+		<MarketValue>1000</MarketValue>
+		<Mass>0.3</Mass>
+	  </statBases>
+	  <thingSetMakerTags>
+		<li>RewardStandardCore</li>
+	  </thingSetMakerTags>
+	</ThingDef>	
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+	  <defName>InstallHyperhealDragonianOrb</defName>
+	  <label>install Hyperheal DragonianOrb</label>
+	  <description>Install Hyperheal DragonianOrb.</description>
+	  <descriptionHyperlinks>
+	    <ThingDef>HyperhealDragonianOrb</ThingDef>
+	    <HediffDef>HyperhealDragonianOrb</HediffDef>
+	  </descriptionHyperlinks>
+	  <jobString>Installing Hyperheal DragonianOrb.</jobString>
+	  <surgeryOutcomeEffect IsNull="True" /> <!-- Always succeeds -->
+	  <ingredients>
+	    <li>
+	      <filter>
+	        <thingDefs>
+	          <li>HyperhealDragonianOrb</li>
+	        </thingDefs>
+	      </filter>
+	      <count>1</count>
+	    </li>
+	  </ingredients>
+	  <fixedIngredientFilter>
+	    <thingDefs>
+	      <li>HyperhealDragonianOrb</li>
+	    </thingDefs>
+	  </fixedIngredientFilter>
+	  <appliedOnFixedBodyParts>
+	    <li>DragonianOrb</li>
+	  </appliedOnFixedBodyParts>
+	  <addsHediff>HyperhealDragonianOrb</addsHediff>
+	</RecipeDef>
+
 </Defs>

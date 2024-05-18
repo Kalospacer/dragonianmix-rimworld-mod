@@ -639,12 +639,13 @@
       </li>
     </backstoryFiltersOverride>
 
-    <techHediffsChance>0.55</techHediffsChance>
     <techHediffsMoney>600~5500</techHediffsMoney>
-    <techHediffsTags>
-      <li>Advanced</li>
-      <li>ImplantEmpireCommon</li>
+	  <techHediffsTags>
+      <li>DragonianOrbAdvanced</li>
     </techHediffsTags>
+    <techHediffsRequired>
+      <li>FlareDragonianOrb</li>
+    </techHediffsRequired>
 
     <inventoryOptions>
       <skipChance>0.70</skipChance>
@@ -728,12 +729,13 @@
       </li>
     </backstoryFiltersOverride>
 
-    <techHediffsChance>1</techHediffsChance>
-    <techHediffsMoney>600~15000</techHediffsMoney>
-    <techHediffsTags>
-      <li>Advanced</li>
-      <li>ImplantEmpireCommon</li>
+    <techHediffsMoney>600~5500</techHediffsMoney>
+	  <techHediffsTags>
+      <li>DragonianOrbAdvanced</li>
     </techHediffsTags>
+    <techHediffsRequired>
+      <li>HyperhealDragonianOrb</li>
+    </techHediffsRequired>
 
     <inventoryOptions>
       <skipChance>0.70</skipChance>
@@ -754,10 +756,6 @@
     <combatPower>40</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Normal</itemQuality>
-
-    <abilities>
-      <li>ReleaseDeadlifeDust</li>
-    </abilities>
 
     <apparelTags>
       <li>DR_Apparel</li>
@@ -816,13 +814,13 @@
       </li>
     </backstoryFiltersOverride>
 
-    <techHediffsChance>0.55</techHediffsChance>
-    <techHediffsMoney>600~2500</techHediffsMoney>
-    <techHediffsTags>
-      <li>Simple</li>
-      <li>Advanced</li>
-      <li>ImplantEmpireCommon</li>
+    <techHediffsMoney>600~5500</techHediffsMoney>
+	  <techHediffsTags>
+      <li>DragonianOrbAdvanced</li>
     </techHediffsTags>
+    <techHediffsRequired>
+      <li>NecroDragonianOrb</li>
+    </techHediffsRequired>
 
     <inventoryOptions>
       <skipChance>0.70</skipChance>

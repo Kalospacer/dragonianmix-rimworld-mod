@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <FlareDragonianOrb.label>龙娘 火炎龙珠</FlareDragonianOrb.label>
+    <FlareDragonianOrb.description>一颗龙珠。能够释放一团火球。</FlareDragonianOrb.description>
+
+    <NecroDragonianOrb.label>龙娘 死灵龙珠</NecroDragonianOrb.label>
+    <NecroDragonianOrb.description>一颗龙珠。能够释放死灵粉尘。</NecroDragonianOrb.description>
+  
+    <HyperhealDragonianOrb.label>龙娘 超再生珠</HyperhealDragonianOrb.label>
+    <HyperhealDragonianOrb.description>一颗龙珠。拥有强大的再生能力。</HyperhealDragonianOrb.description>
+  
+</LanguageData>

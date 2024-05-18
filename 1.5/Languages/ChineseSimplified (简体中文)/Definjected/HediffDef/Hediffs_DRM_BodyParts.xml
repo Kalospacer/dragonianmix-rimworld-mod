@@ -20,5 +20,29 @@
   <InstallDragonianOrb.label>安装龙珠</InstallDragonianOrb.label>
   <InstallDragonianOrb.description>安装龙珠。</InstallDragonianOrb.description>
   <InstallDragonianOrb.jobString>正在安装龙珠。</InstallDragonianOrb.jobString>
+
+  <FlareDragonianOrb.label>龙娘 火炎龙珠</FlareDragonianOrb.label>
+  <FlareDragonianOrb.description>一颗龙珠。能够释放一团火球。</FlareDragonianOrb.description>
+  <FlareDragonianOrb.labelNoun>火炎龙珠</FlareDragonianOrb.labelNoun>
+
+  <InstallFlareDragonianOrb.label>安装火炎龙珠</InstallFlareDragonianOrb.label>
+  <InstallFlareDragonianOrb.description>安装火炎龙珠。</InstallFlareDragonianOrb.description>
+  <InstallFlareDragonianOrb.jobString>正在安装火炎龙珠。</InstallFlareDragonianOrb.jobString>
+
+  <NecroDragonianOrb.label>龙娘 死灵龙珠</NecroDragonianOrb.label>
+  <NecroDragonianOrb.description>一颗龙珠。能够释放死灵粉尘。</NecroDragonianOrb.description>
+  <NecroDragonianOrb.labelNoun>死灵龙珠</NecroDragonianOrb.labelNoun>
+
+  <InstallNecroDragonianOrb.label>安装死灵龙珠</InstallNecroDragonianOrb.label>
+  <InstallNecroDragonianOrb.description>安装死灵龙珠。</InstallNecroDragonianOrb.description>
+  <InstallNecroDragonianOrb.jobString>正在安装死灵龙珠。</InstallNecroDragonianOrb.jobString>
+
+  <HyperhealDragonianOrb.label>龙娘 超再生珠</HyperhealDragonianOrb.label>
+  <HyperhealDragonianOrb.description>一颗龙珠。拥有强大的再生能力。</HyperhealDragonianOrb.description>
+  <HyperhealDragonianOrb.labelNoun>超再生珠</HyperhealDragonianOrb.labelNoun>
+
+  <InstallHyperhealDragonianOrb.label>安装超再生珠</InstallHyperhealDragonianOrb.label>
+  <InstallHyperhealDragonianOrb.description>安装超再生珠。</InstallHyperhealDragonianOrb.description>
+  <InstallHyperhealDragonianOrb.jobString>正在安装超再生珠。</InstallHyperhealDragonianOrb.jobString>
   
 </LanguageData>
