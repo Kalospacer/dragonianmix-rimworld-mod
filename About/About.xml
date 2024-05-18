@@ -7,15 +7,9 @@
   <li>1.5</li>
   </supportedVersions>
   <packageId>kalospacer.DragonianMix</packageId>
-  <modVersion>1.5.25</modVersion><!-- prev 1.5.23 -->
+  <modVersion>1.5.24</modVersion><!-- prev 1.5.23 -->
   <modIconPath IgnoreIfNoMatchingField="True">Dragonian/Icon/viewicon</modIconPath>
   <description>
---1.5.25 Update
-  Added some advanced orbs that can give special abilities or buff hediff as implant.
-  Like spray fireball or deadlifedust,heal broken arm.
-  Can only found on world pawn dragonian or whatever place you found.
-  Only for 1.5 now.
-  
 --1.5.24 Update
   Butcher now will not give dragonian orbs.instead now you can surgery to remove orbs from dragonian's body.
   Don't be worry.It's effect nothing after orb removed.
