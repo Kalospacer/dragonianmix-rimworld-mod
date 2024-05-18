@@ -55,11 +55,9 @@
     </backstoryCategories>
     
     <techHediffsChance>0.06</techHediffsChance>
-    <techHediffsMoney>50~600</techHediffsMoney>
-    <techHediffsTags>
-      <li>Poor</li>
-      <li>Simple</li>
-      <li>ImplantEmpireCommon</li>
+    <techHediffsMoney>600~5500</techHediffsMoney>
+	  <techHediffsTags>
+      <li>DragonianOrbAdvanced</li>
     </techHediffsTags>
 
     <inventoryOptions>
@@ -480,12 +478,13 @@
       </li>
     </backstoryFiltersOverride>
 
-    <techHediffsChance>0.55</techHediffsChance>
-    <techHediffsMoney>600~3500</techHediffsMoney>
-    <techHediffsTags>
-      <li>Advanced</li>
-      <li>ImplantEmpireCommon</li>
+    <techHediffsMoney>600~5500</techHediffsMoney>
+	  <techHediffsTags>
+      <li>DragonianOrbAdvanced</li>
     </techHediffsTags>
+    <techHediffsRequired>
+      <li>HyperhealDragonianOrb</li>
+    </techHediffsRequired>
     
     <inventoryOptions>
       <skipChance>0.70</skipChance>
