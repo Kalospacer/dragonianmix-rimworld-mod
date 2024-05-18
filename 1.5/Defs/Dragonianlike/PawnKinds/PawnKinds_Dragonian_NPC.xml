@@ -732,6 +732,7 @@
 	  <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
     </techHediffsTags>
+<<<<<<< HEAD
     <techHediffsRequired>
       <li>HyperhealDragonianOrb</li>
     </techHediffsRequired>
@@ -817,8 +818,10 @@
 	  <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
     </techHediffsTags>
+=======
+>>>>>>> 7ad7ac28b2efb7a9afd330c984c5eb6851687ce7
     <techHediffsRequired>
-      <li>NecroDragonianOrb</li>
+      <li>HyperhealDragonianOrb</li>
     </techHediffsRequired>
 
     <inventoryOptions>
