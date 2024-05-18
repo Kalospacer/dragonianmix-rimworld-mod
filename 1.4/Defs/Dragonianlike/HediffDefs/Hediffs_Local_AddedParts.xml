@@ -54,4 +54,52 @@
 		  <li>DragonianOrb</li>
 		</appliedOnFixedBodyParts>
 	  </RecipeDef>
+
+	  <RecipeDef Name="DR_SurgeryInstallPlasteelPartBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+		  <Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Plasteel</li>
+			  </thingDefs>
+			</filter>
+			<count>10</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>Plasteel</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+	  </RecipeDef>
+
+	  <HediffDef ParentName="AddedBodyPartBase">
+		<defName>FakeDragonianOrb</defName>
+		<label>Fake DragonianOrb</label>
+		<labelNoun>a Fake DragonianOrb</labelNoun>
+		<description>An installed Fake DragonianOrb. Just for replace your missing one.</description>
+		<priceImpact>false</priceImpact>
+		<addedPartProps>
+		  <solid>true</solid>
+		  <partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<spawnThingOnRemoved>Plasteel</spawnThingOnRemoved>
+	  </HediffDef>
+
+	  <RecipeDef ParentName="DR_SurgeryInstallPlasteelPartBase">
+		<defName>InstallFakeDragonianOrb</defName>
+		<label>install fake DragonianOrb</label>
+		<description>Install a fake DragonianOrb.</description>
+		<descriptionHyperlinks><ThingDef>Plasteel</ThingDef></descriptionHyperlinks>
+		<jobString>Installing fake DragonianOrb.</jobString>
+		<appliedOnFixedBodyParts>
+		  <li>DragonianOrb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FakeDragonianOrb</addsHediff>
+		<uiIconThing>DragonianOrb</uiIconThing>
+	  </RecipeDef>
 </Defs>
