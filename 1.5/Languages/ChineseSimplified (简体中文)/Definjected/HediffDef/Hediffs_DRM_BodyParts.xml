@@ -44,5 +44,13 @@
   <InstallHyperhealDragonianOrb.label>安装超再生珠</InstallHyperhealDragonianOrb.label>
   <InstallHyperhealDragonianOrb.description>安装超再生珠。</InstallHyperhealDragonianOrb.description>
   <InstallHyperhealDragonianOrb.jobString>正在安装超再生珠。</InstallHyperhealDragonianOrb.jobString>
+
+  <HardenDragonianOrb.label>龙娘 硬化龙珠</HardenDragonianOrb.label>
+  <HardenDragonianOrb.description>一颗龙珠。硬起来吧！</HardenDragonianOrb.description>
+  <HardenDragonianOrb.labelNoun>硬化龙珠</HardenDragonianOrb.labelNoun>
+
+  <InstallHardenDragonianOrb.label>安装硬化龙珠</InstallHardenDragonianOrb.label>
+  <InstallHardenDragonianOrb.description>安装硬化龙珠。</InstallHardenDragonianOrb.description>
+  <InstallHardenDragonianOrb.jobString>正在安装硬化龙珠。</InstallHardenDragonianOrb.jobString>
   
 </LanguageData>
