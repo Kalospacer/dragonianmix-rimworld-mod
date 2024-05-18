@@ -112,7 +112,7 @@
       <li>DR_BattleMace</li>
     </weaponTags>
     <weaponMoney>
-      <min>850</min>
+      <min>900</min>
       <max>1500</max>
     </weaponMoney>
 
@@ -264,7 +264,7 @@
       <li>DR_Battlesword</li>
     </weaponTags>
     <weaponMoney>
-      <min>850</min>
+      <min>900</min>
       <max>1500</max>
     </weaponMoney>
 
@@ -322,7 +322,7 @@
       <li>Melee</li>
     </weaponTags>
     <weaponMoney>
-      <min>850</min>
+      <min>900</min>
       <max>1500</max>
     </weaponMoney>
 
@@ -386,7 +386,7 @@
       <li>DR_BattleStaff</li>
     </weaponTags>
     <weaponMoney>
-      <min>850</min>
+      <min>900</min>
       <max>5000</max>
     </weaponMoney>
     
@@ -459,7 +459,7 @@
       <li>DR_BattleHammer</li>
     </weaponTags>
     <weaponMoney>
-      <min>850</min>
+      <min>900</min>
       <max>2500</max>
     </weaponMoney>
 
@@ -540,7 +540,7 @@
       <li>LongShots</li>
     </weaponTags>
     <weaponMoney>
-      <min>850</min>
+      <min>900</min>
       <max>2500</max>
     </weaponMoney>
 
@@ -621,7 +621,7 @@
       <li>DR_Battlesword</li>
     </weaponTags>
     <weaponMoney>
-      <min>850</min>
+      <min>900</min>
       <max>2500</max>
     </weaponMoney>
 
@@ -712,7 +712,7 @@
       <li>DR_Battlesword</li>
     </weaponTags>
     <weaponMoney>
-      <min>850</min>
+      <min>900</min>
       <max>25000</max>
     </weaponMoney>
     <backstoryFiltersOverride>
@@ -793,7 +793,7 @@
       <li>DR_Battlesword</li>
     </weaponTags>
     <weaponMoney>
-      <min>850</min>
+      <min>900</min>
       <max>1500</max>
     </weaponMoney>
 
