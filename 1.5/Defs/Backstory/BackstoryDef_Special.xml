@@ -200,7 +200,7 @@
 			<Social>-16</Social>
 		</skillGains>
 
-		<forcedTraitsChance>
+		<forcedTraitsChance MayRequire="Ludeon.RimWorld.Anomaly">
 			<li>
 				<defName>Occultist</defName>
 				<chance>100</chance>

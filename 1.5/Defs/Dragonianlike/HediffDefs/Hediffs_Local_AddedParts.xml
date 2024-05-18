@@ -190,7 +190,7 @@
 		<labelNoun>a Necro DragonianOrb.</labelNoun>
 		<description>An installed Flare DragonianOrb. Allow owner to spray deadlifedust.</description>
 		<priceImpact>false</priceImpact>
-		<abilities>
+		<abilities MayRequire="Ludeon.RimWorld.Anomaly">
 			<li>ReleaseDeadlifeDust</li>
 		</abilities>
 		<addedPartProps>
