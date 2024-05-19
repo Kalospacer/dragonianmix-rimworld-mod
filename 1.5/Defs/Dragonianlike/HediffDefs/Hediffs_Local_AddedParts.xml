@@ -257,15 +257,15 @@
 		<labelNoun>a Hyperheal DragonianOrb.</labelNoun>
 		<description>An installed Hyperheal DragonianOrb.</description>
 		<priceImpact>false</priceImpact>
+		<abilities>
+			<li>DRM_HealBreakOut</li>
+		</abilities>
 		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
 		<stages>
 		  <li>
 			<minSeverity>0</minSeverity>
 			<regeneration>300</regeneration>
 			<showRegenerationStat>false</showRegenerationStat>
-			<statOffsets>
-			  <PainShockThreshold>10</PainShockThreshold>
-			</statOffsets>
 		  </li>
 		</stages>
 		<addedPartProps>
@@ -273,6 +273,29 @@
 		</addedPartProps>
 		<spawnThingOnRemoved>HyperhealDragonianOrb</spawnThingOnRemoved>
 	  </HediffDef>
+
+  	<HediffDef ParentName="RoleStatBuff">
+  	  <defName>DRM_HealBreakOut</defName>
+  	  <label>Heal BreakOut</label>
+  	  <description>This person is in healbreakout.Heal wound in insane speed.</description>
+  	  <hediffClass>HediffWithComps</hediffClass>
+  	  <stages>
+  	    <li>
+			<minSeverity>0</minSeverity>
+			<regeneration>10000</regeneration>
+			<showRegenerationStat>false</showRegenerationStat>
+  	      <painFactor>0.1</painFactor>
+  	    </li>
+  	  </stages>
+  	  <comps>
+  	    <li Class="HediffCompProperties_Disappears">
+  	      <showRemainingTime>True</showRemainingTime>
+  	      <disappearsAfterTicks>15000</disappearsAfterTicks>
+  	    </li>
+  	    <li Class="HediffCompProperties_DisappearsOnDeath"/>
+  	  </comps>
+  	  <isBad>false</isBad>
+  	</HediffDef>
 
 	<ThingDef ParentName="BodyPartDROrbsBase">
 	  <defName>HyperhealDragonianOrb</defName>

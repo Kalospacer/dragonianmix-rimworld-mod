@@ -29,4 +29,10 @@
   <HardenDragonianOrb.description>一颗龙珠。硬起来吧！</HardenDragonianOrb.description>
   <HardenDragonianOrb.labelNoun>硬化龙珠</HardenDragonianOrb.labelNoun>
   
+  <DRM_KnightForce.label>骑士之力</DRM_KnightForce.label>
+  <DRM_KnightForce.description>这个人已经完全准备就绪。无法被击退。</DRM_KnightForce.description>
+
+  <DRM_HealBreakOut.label>超再生爆发</DRM_HealBreakOut.label>
+  <DRM_HealBreakOut.description>这个人正处于超再生爆发状态。伤势以极度异常的速度愈合。</DRM_HealBreakOut.description>
+  
 </LanguageData>
