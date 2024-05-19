@@ -4,7 +4,7 @@
   <DRM_HealBreakOut.label>超再生爆发</DRM_HealBreakOut.label>
   <DRM_HealBreakOut.description>短时间超载龙珠。提供极度异常的再生速度。</DRM_HealBreakOut.description>
 
-  <DR_FireBurst.label>火焰喷发</DR_FireBurst.label>
-  <DR_FireBurst.description>向附近喷发易燃液体，在地面形成易燃区域。</DR_FireBurst.description>
+  <DR_FireBurst.label>火焰爆发</DR_FireBurst.label>
+  <DR_FireBurst.description>超载龙珠引发爆炸，并在地面形成易燃区域。</DR_FireBurst.description>
 
 </LanguageData>
