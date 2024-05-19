@@ -37,8 +37,8 @@
       <li>ApparelArmor</li>
     </thingCategories>
     <costList>
-      <WoolDragonian>80</WoolDragonian>
       <Plasteel>100</Plasteel>
+      <WoolDragonian>40</WoolDragonian>
     </costList>
     <apparel>
       <bodyPartGroups>
@@ -101,7 +101,7 @@
       <li>ArmorHeadgear</li>
     </thingCategories>
     <costList>
-      <Plasteel>25</Plasteel>
+      <Plasteel>40</Plasteel>
     </costList>
     <apparel>
       <bodyPartGroups>
