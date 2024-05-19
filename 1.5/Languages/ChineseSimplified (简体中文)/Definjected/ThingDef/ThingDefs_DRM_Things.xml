@@ -7,6 +7,12 @@
     <DRM_BattleHelmC.description>一款设计复杂的轻型战斗头盔。设计保护整个头部。</DRM_BattleHelmC.description>
     <DRM_BattleHelmD.label>龙娘 制式战盔D型</DRM_BattleHelmD.label>
     <DRM_BattleHelmD.description>一款设计复杂的轻型战斗头盔。设计保护整个头部。</DRM_BattleHelmD.description>
+	
+	<DR_FakeTail.label>假尾巴</DR_FakeTail.label>
+    <DR_FakeTail.description>这是一条用皮革制成的假尾巴。</DR_FakeTail.description>
+	
+	<DR_BionicTail.label>仿生尾</DR_BionicTail.label>
+    <DR_BionicTail.description>先进的人工尾巴。它还有一个小型人工智能，能自动帮助使用者保持平衡。</DR_BionicTail.description>
 
     <FlareDragonianOrb.label>龙娘 火炎龙珠</FlareDragonianOrb.label>
     <FlareDragonianOrb.description>一颗龙珠。能够释放一团火球。</FlareDragonianOrb.description>
