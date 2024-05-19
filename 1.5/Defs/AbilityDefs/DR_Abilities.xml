@@ -42,7 +42,7 @@
         <warmupMoteSocialSymbol>UI/Abilities/UnnaturalHealing</warmupMoteSocialSymbol>
         <cooldownTicksRange>60000</cooldownTicksRange>
         <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
-        <aiCanUse>true</aiCanUse>
+        <aiCanUse>false</aiCanUse>
         <showCastingProgressBar>true</showCastingProgressBar>
 
         <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
