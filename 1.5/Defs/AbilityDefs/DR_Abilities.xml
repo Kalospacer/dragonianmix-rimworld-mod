@@ -21,7 +21,7 @@
           <warmupEffecter>Fire_Burst_Warmup</warmupEffecter>
           <warmupTime>1.5</warmupTime>
           <requireLineOfSight>false</requireLineOfSight>
-          <range>8</range>
+          <range>12</range>
           <drawAimPie>false</drawAimPie>      
           <targetParams>
             <canTargetSelf>true</canTargetSelf>
@@ -29,7 +29,7 @@
         </verbProperties>
         <comps>
           <li Class="rimworld_drm.CompProperties_AbilityDRM_FireBurst">
-            <radius>8</radius>
+            <radius>12</radius>
           </li>
         </comps>
       </AbilityDef> 
