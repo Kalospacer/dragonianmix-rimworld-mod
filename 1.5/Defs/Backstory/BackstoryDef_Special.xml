@@ -63,10 +63,6 @@
 		<titleShort>Dragonian WildMan</titleShort>
 		<baseDesc>[PAWN_nameDef] is Dragonian WildMan.\nShe come from underground world.</baseDesc>
 		<slot>Adulthood</slot>
-
-		<forcedHediffs IfModActive="LingLuo.PlantHuman">
-			<li>DRM_SummonSickness</li>
-		</forcedHediffs>
 		
 		<spawnCategories>
 			<li>Dragonian_WildMan</li>
@@ -214,10 +210,6 @@
 		<titleShort>Dragonian Necromancer</titleShort>
 		<baseDesc>[PAWN_nameDef] is Dragonian Necromancer.\nNot been identified,she is so mysterious that nobody knows she is live or dead.</baseDesc>
 		<slot>Adulthood</slot>
-
-		<forcedHediffs>
-			<li>DRM_SummonSickness</li>
-		</forcedHediffs>
 		
 		<spawnCategories>
 			<li>Dragonian_Necromancer</li>

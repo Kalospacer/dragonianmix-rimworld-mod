@@ -428,6 +428,7 @@
 		<label>summon sickness</label>
 		<description>This person should't appear there,his body is breaking down.the condition will keep getting worse.this condition can be lethal.</description>
 		<initialSeverity>0.001</initialSeverity>
+		<lethalSeverity>1</lethalSeverity>
 		<maxSeverity>1</maxSeverity>
 		<alwaysShowSeverity>true</alwaysShowSeverity>
 		<duplicationAllowed>false</duplicationAllowed>
@@ -436,22 +437,11 @@
 		  <li Class="HediffCompProperties_SeverityPerDay">
 			<severityPerDay>1</severityPerDay>
 		  </li>
-		  <li Class="HediffCompProperties_MessageAboveSeverity">
-			<severity>0.2</severity>
-			<messageType>NeutralEvent</messageType>
-			<message>{0_nameDef} is now suffering from summon sickness.</message>
-		  </li>
 		  <li Class="HediffCompProperties_SurgeryInspectable">
 			<surgicalDetectionDesc>{PAWN_nameDef} is suffering from summon sickness. His body is breaking down.the condition will keep getting worse.this condition can be lethal.</surgicalDetectionDesc> 
 		  </li>
-		  <li Class="HediffCompProperties_KillAfterDays">
-			<days>1</days>
-		  </li>
 		  <li Class="HediffCompProperties_CauseMentalState">
-			<animalMentalState>ManhunterPermanent</animalMentalState>
-			<animalMentalStateAlias>Manhunter</animalMentalStateAlias>
 			<humanMentalState>Berserk</humanMentalState>
-			<letterDef>ThreatSmall</letterDef>
 			<mtbDaysToCauseMentalState>1</mtbDaysToCauseMentalState>
 		  </li>
 		  <li Class="HediffCompProperties_DisappearsOnDeath" />
@@ -459,7 +449,7 @@
 		<stages>
 		  <li>
 			<label>initial</label> 
-			<becomeVisible>false</becomeVisible>
+			<becomeVisible>True</becomeVisible>
 		  </li>
 		  <li>
 			<minSeverity>0.2</minSeverity>
@@ -490,6 +480,7 @@
 		  <li>
 			<minSeverity>0.8</minSeverity>
 			<label>extreme</label> 
+			<lifeThreatening>true</lifeThreatening>
 			<capMods>
 			  <li>
 				<capacity>Consciousness</capacity>
@@ -503,10 +494,11 @@
 		  <li>
 			<minSeverity>0.95</minSeverity>
 			<label>debilitating</label> 
+			<lifeThreatening>true</lifeThreatening>
 			<capMods>
 			  <li>
 				<capacity>Consciousness</capacity>
-				<setMax>0</setMax>
+				<setMax>0.1</setMax>
 			  </li>
 			</capMods>
 		  </li>
