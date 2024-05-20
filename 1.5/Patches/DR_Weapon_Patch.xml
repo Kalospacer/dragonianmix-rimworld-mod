@@ -49,75 +49,8 @@
 				<xpath>Defs/ThingDef[defName="DR_BattleStaff"]</xpath>
 				<value>
 					<weaponTags>
-						<li>DR_BattleStaff</li>
+						<li>DR_BattleStaff_Melee</li>
 					</weaponTags>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="DR_BattleStaff"]</xpath>
-				<value>
-					<thingCategories>
-						<li>WeaponsRanged</li>
-					  </thingCategories>
-					  <verbs>
-						<li>
-						  <verbClass>Verb_ShootBeam</verbClass>
-						  <hasStandardCommand>true</hasStandardCommand>
-						  <warmupTime>1.0</warmupTime>
-						  <range>24.9</range>
-						  <minRange>3.9</minRange>
-						  <muzzleFlashScale>9</muzzleFlashScale>
-						  <soundCastTail>GunTail_Medium</soundCastTail>
-						  <soundCastBeam>BeamGraser_Shooting</soundCastBeam>
-
-						  <beamStartOffset>0.8</beamStartOffset>
-						  <beamFullWidthRange>3</beamFullWidthRange>
-						  <beamWidth>-3</beamWidth>
-						  <beamMaxDeviation>0.5</beamMaxDeviation>
-						  <burstShotCount>30</burstShotCount>
-						  <showBurstShotStats>false</showBurstShotStats>
-						  
-						  <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-						  <beamDamageDef>Beam</beamDamageDef>
-
-						  <beamGroundFleckDef>Fleck_BeamBurn</beamGroundFleckDef>
-						  <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
-						 
-						  <beamCurvature>0.6</beamCurvature>
-						  <beamMoteDef>Mote_GraserBeamBase</beamMoteDef>
-						  <beamEndEffecterDef>GraserBeam_End</beamEndEffecterDef>
-
-						  <beamLineFleckDef>Fleck_BeamSpark</beamLineFleckDef>
-
-
-						  <beamChanceToStartFire>0.85</beamChanceToStartFire>
-						  <beamChanceToAttachFire>0.85</beamChanceToAttachFire>
-						  <beamFireSizeRange>0.55~0.85</beamFireSizeRange>
-						  <beamLineFleckChanceCurve>
-							<points>
-							  <li>(0, 0)</li>
-							  <li>(0.2, 0.1)</li>
-							  <li>(0.4, 0.2)</li>
-							</points>
-						  </beamLineFleckChanceCurve>
-						</li>
-					  </verbs>
-					<comps Inherit="False">
-						<li Class="CompProperties_EquippableAbilityReloadable">
-						  <abilityDef>DR_BattleStaffBurner</abilityDef>
-						</li>
-						<li Class="CompProperties_Forbiddable"/>
-						<li Class="CompProperties_Styleable"/>
-						<li Class="CompProperties_Biocodable"/>
-						<li>
-						  <compClass>CompQuality</compClass>
-						</li>
-						<li Class="CompProperties_Art">
-						  <nameMaker>NamerArtWeaponGun</nameMaker>
-						  <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-						  <minQualityForArtistic>Excellent</minQualityForArtistic>
-						</li>
-					  </comps>
 				</value>
 			</li>
 
@@ -145,8 +78,8 @@
 					<power>15</power>
 					<extraMeleeDamages>
 						<li>
-							<def>Flame</def>
-							<amount>30</amount>
+							<def>Bomb</def>
+							<amount>40</amount>
 							<chance>1</chance>
 						  </li>
 						<li>
@@ -158,21 +91,6 @@
 					<cooldownTime>5.2</cooldownTime>
 				</li>
 			</tools>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="DR_BattleStaff"]/statBases</xpath>
-		<value>
-			<statBases>
-				<WorkToMake>12000</WorkToMake>
-				<Mass>15</Mass>
-				<AccuracyTouch>0.60</AccuracyTouch>
-				<AccuracyShort>0.70</AccuracyShort>
-				<AccuracyMedium>0.65</AccuracyMedium>
-				<AccuracyLong>0.55</AccuracyLong>
-				<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
-			  </statBases>
 		</value>
 	</Operation>
 

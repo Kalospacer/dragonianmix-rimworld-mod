@@ -69,7 +69,7 @@
         <label>BattleStaff burner</label>
         <description>Use terra magic to create a massive cone of flame.</description>
         <iconPath>UI/Abilities/Burner</iconPath>
-        <cooldownTicksRange>600</cooldownTicksRange>
+        <cooldownTicksRange>900</cooldownTicksRange>
         <aiCanUse>true</aiCanUse>
         <ai_IsIncendiary>true</ai_IsIncendiary>
         <warmupStartSound>FireSpew_Warmup</warmupStartSound>

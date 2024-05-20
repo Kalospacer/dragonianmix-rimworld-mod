@@ -125,6 +125,7 @@
 		<priceImpact>false</priceImpact>
 		<abilities>
 			<li>DR_FireBurst</li>
+			<li>DR_BattleStaffBurner</li>
 		</abilities>
 		<addedPartProps>
 		  <solid>true</solid>

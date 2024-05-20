@@ -37,4 +37,21 @@
   
   <DRM_SummonSickness.label>召唤失调综合征</DRM_SummonSickness.label>
   <DRM_SummonSickness.description>这个人不应该出现在这里。他的身体正在崩解，症状将会持续恶化，最终会导致死亡。</DRM_SummonSickness.description>
+
+  <!-- EN: frostbite -->
+  <DRM_Frostbite.label>冻伤</DRM_Frostbite.label>
+  <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
+  <DRM_Frostbite.description>冻伤是由于寒冷潮湿作用引起的患者局部或全身损伤。冻伤非常痛苦，患者经常会被迫失去冻伤的身体部位。</DRM_Frostbite.description>
+  <!-- EN: tended -->
+  <DRM_Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</DRM_Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <DRM_Frostbite.comps.HediffComp_TendDuration.labelTendedWell>已包扎</DRM_Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <DRM_Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</DRM_Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: frostbite scar -->
+  <DRM_Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>冻伤疤痕</DRM_Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Lost to frostbite -->
+  <DRM_Frostbite.injuryProps.destroyedLabel>因冻伤失去</DRM_Frostbite.injuryProps.destroyedLabel>
+  <!-- EN: {0} in the {1} -->
+  <DRM_Frostbite.labelNounPretty>{1}中的{0}</DRM_Frostbite.labelNounPretty>
 </LanguageData>

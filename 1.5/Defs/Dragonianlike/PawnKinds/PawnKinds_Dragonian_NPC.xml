@@ -32,7 +32,6 @@
     <itemQuality>Poor</itemQuality>
     
     <apparelTags>
-      <li>DR_Apparel</li>
       <li>DR_Basic</li>
     </apparelTags>
     <gearHealthRange>0.2~2.0</gearHealthRange>
@@ -81,9 +80,6 @@
    
     <apparelTags>
       <li>DR_Apparel</li>
-      <li>DR_BattleDress</li>
-      <li>DR_BattleHelm</li>
-      <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
     <apparelMoney>
@@ -91,22 +87,6 @@
       <max>2500</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-
-    <specificApparelRequirements>
-      <li>
-        <bodyPartGroup>Torso</bodyPartGroup>
-        <requiredTag>DR_BattleDress</requiredTag>
-      </li>
-      <li>
-        <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_BattleHelm</requiredTag>
-      </li>
-    </specificApparelRequirements>
-
-    <apparelRequired>
-      <li>DR_BattleDress</li>
-      <li>DR_BattleHelmA</li>
-    </apparelRequired>
 
     <weaponTags>
       <li>DR_BattleMace</li>
@@ -156,9 +136,6 @@
    
     <apparelTags>
       <li>DR_Apparel</li>
-      <li>DR_BattleDress</li>
-      <li>DR_BattleHelm</li>
-      <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>0.6~2</gearHealthRange>
     <apparelMoney>
@@ -166,22 +143,6 @@
       <max>2500</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-
-    <specificApparelRequirements>
-      <li>
-        <bodyPartGroup>Torso</bodyPartGroup>
-        <requiredTag>DR_BattleDress</requiredTag>
-      </li>
-      <li>
-        <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_BattleHelm</requiredTag>
-      </li>
-    </specificApparelRequirements>
-
-    <apparelRequired>
-      <li>DR_BattleDress</li>
-      <li>DR_BattleHelmB</li>
-    </apparelRequired>
 
     <weaponTags>
       <li>Gun</li>
@@ -233,9 +194,6 @@
 
     <apparelTags>
       <li>DR_Apparel</li>
-      <li>DR_BattleDress</li>
-      <li>DR_BattleHelm</li>
-      <li>RoyalCombatGear</li>
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
     <apparelMoney>
@@ -243,22 +201,6 @@
       <max>2500</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-
-    <specificApparelRequirements>
-      <li>
-        <bodyPartGroup>Torso</bodyPartGroup>
-        <requiredTag>DR_BattleDress</requiredTag>
-      </li>
-      <li>
-        <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_BattleHelm</requiredTag>
-      </li>
-    </specificApparelRequirements>
-
-    <apparelRequired>
-      <li>DR_BattleDress</li>
-      <li>DR_BattleHelmA</li>
-    </apparelRequired>
 
     <weaponTags>
       <li>DR_Battlesword</li>
@@ -309,7 +251,6 @@
 
     <apparelTags>
       <li>DR_Apparel</li>
-      <li>DR_Basic</li>
     </apparelTags>
     <gearHealthRange>1~1</gearHealthRange>
     <apparelMoney>
@@ -369,10 +310,6 @@
 
     <apparelTags>
       <li>DR_Apparel</li>
-      <li>DR_PsychicDress</li>
-      <li>DR_PsychicHelm</li>
-      <li>RoyalCombatGear</li>
-      <li>DR_ProtectionOrb</li>
     </apparelTags>
 
     <gearHealthRange>1~1</gearHealthRange>
@@ -635,13 +572,11 @@
       </li>
     </backstoryFiltersOverride>
 
+    <techHediffsChance>1</techHediffsChance>
     <techHediffsMoney>600~5500</techHediffsMoney>
 	  <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
     </techHediffsTags>
-    <techHediffsRequired>
-      <li>HyperhealDragonianOrb</li>
-    </techHediffsRequired>
 
     <inventoryOptions>
       <skipChance>0.70</skipChance>
@@ -725,6 +660,7 @@
       </li>
     </backstoryFiltersOverride>
 
+    <techHediffsChance>1</techHediffsChance>
     <techHediffsMoney>600~5500</techHediffsMoney>
 	  <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
@@ -750,46 +686,8 @@
     <isFighter>true</isFighter>
     <itemQuality>Normal</itemQuality>
 
-    <apparelTags>
-      <li>DR_Apparel</li>
-      <li>DR_BattleDress</li>
-      <li>DR_BattleHelm</li>
-      <li>RoyalCombatGear</li>
-    </apparelTags>
-    <gearHealthRange>1~1</gearHealthRange>
-    <apparelMoney>
-      <min>1500</min>
-      <max>2500</max>
-    </apparelMoney>
-    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-
-    <specificApparelRequirements>
-      <li>
-        <bodyPartGroup>Torso</bodyPartGroup>
-        <requiredTag>DR_BattleDress</requiredTag>
-      </li>
-      <li>
-        <bodyPartGroup>UpperHead</bodyPartGroup>
-        <requiredTag>DR_BattleHelm</requiredTag>
-      </li>
-      <li>
-        <bodyPartGroup>Torso</bodyPartGroup>
-        <alternateTagChoices>
-          <li>
-            <tag>BeltDefenseNecro</tag>
-            <chance>1</chance>
-          </li>
-        </alternateTagChoices>
-      </li>
-    </specificApparelRequirements>
-
-    <apparelRequired>
-      <li>DR_BattleDress</li>
-      <li>DR_BattleHelmA</li>
-    </apparelRequired>
-
     <weaponTags>
-      <li>DR_Battlesword</li>
+      <li>DR_BattleStaff_Melee</li>
     </weaponTags>
     <weaponMoney>
       <min>900</min>
