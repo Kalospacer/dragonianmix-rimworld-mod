@@ -66,31 +66,38 @@
 						  <warmupTime>1.0</warmupTime>
 						  <range>24.9</range>
 						  <minRange>3.9</minRange>
-						  <beamFullWidthRange>6.9</beamFullWidthRange>
-						  <burstShotCount>5</burstShotCount>
-						  <showBurstShotStats>false</showBurstShotStats>
-						  <beamWidth>6</beamWidth>
-						  <ticksBetweenBurstShots>22</ticksBetweenBurstShots>
-						  <beamDamageDef>Beam</beamDamageDef>
-						  <soundCastTail>GunTail_Medium</soundCastTail>
 						  <muzzleFlashScale>9</muzzleFlashScale>
+						  <soundCastTail>GunTail_Medium</soundCastTail>
 						  <soundCastBeam>BeamGraser_Shooting</soundCastBeam>
+
+						  <beamStartOffset>0.8</beamStartOffset>
+						  <beamFullWidthRange>3</beamFullWidthRange>
+						  <beamWidth>-3</beamWidth>
+						  <beamMaxDeviation>0.5</beamMaxDeviation>
+						  <burstShotCount>30</burstShotCount>
+						  <showBurstShotStats>false</showBurstShotStats>
+						  
+						  <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+						  <beamDamageDef>Beam</beamDamageDef>
+
 						  <beamGroundFleckDef>Fleck_BeamBurn</beamGroundFleckDef>
 						  <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
-						  <beamMaxDeviation>1.5</beamMaxDeviation>
+						 
 						  <beamCurvature>0.6</beamCurvature>
 						  <beamMoteDef>Mote_GraserBeamBase</beamMoteDef>
 						  <beamEndEffecterDef>GraserBeam_End</beamEndEffecterDef>
+
+						  <beamLineFleckDef>Fleck_BeamSpark</beamLineFleckDef>
+
+
 						  <beamChanceToStartFire>0.85</beamChanceToStartFire>
 						  <beamChanceToAttachFire>0.85</beamChanceToAttachFire>
 						  <beamFireSizeRange>0.55~0.85</beamFireSizeRange>
-						  <beamLineFleckDef>Fleck_BeamSpark</beamLineFleckDef>
-						  <beamStartOffset>0.8</beamStartOffset>
 						  <beamLineFleckChanceCurve>
 							<points>
 							  <li>(0, 0)</li>
-							  <li>(0.65, 0.4)</li>
-							  <li>(1, 0.75)</li>
+							  <li>(0.2, 0.1)</li>
+							  <li>(0.4, 0.2)</li>
 							</points>
 						  </beamLineFleckChanceCurve>
 						</li>
@@ -166,15 +173,6 @@
 				<AccuracyLong>0.55</AccuracyLong>
 				<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
 			  </statBases>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="DR_BattleStaff"]/weaponClasses</xpath>
-		<value>
-			<weaponClasses>
-				<li>Ranged</li>
-			  </weaponClasses>		
 		</value>
 	</Operation>
 
