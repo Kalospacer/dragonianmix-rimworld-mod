@@ -58,6 +58,32 @@
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_WildMan</defName>
+		<title>Dragonian WildMan</title>
+		<titleShort>Dragonian WildMan</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian WildMan.\nShe come from underground world.</baseDesc>
+		<slot>Adulthood</slot>
+
+		<forcedHediffs IfModActive="LingLuo.PlantHuman">
+			<li>DRM_SummonSickness</li>
+		</forcedHediffs>
+		
+		<spawnCategories>
+			<li>Dragonian_WildMan</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>4</Melee>
+			<Mining>4</Mining>
+			<Shooting>-2</Shooting>
+			<Medicine>2</Medicine>
+			<Social>-2</Social>
+			<Plants>2</Plants>
+		</skillGains>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
 		<defName>Dragonian_Warrier</defName>
 		<title>Dragonian Warrier</title>
 		<titleShort>Dragonian Warrier</titleShort>

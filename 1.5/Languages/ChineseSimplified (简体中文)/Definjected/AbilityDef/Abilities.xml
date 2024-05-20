@@ -7,4 +7,7 @@
   <DR_FireBurst.label>火焰爆发</DR_FireBurst.label>
   <DR_FireBurst.description>超载龙珠引发爆炸，并在地面形成易燃区域。</DR_FireBurst.description>
 
+  <DR_BattleStaffBurner.label>火焰喷射（灵质法杖）</DR_BattleStaffBurner.label>
+  <DR_BattleStaffBurner.description>使用大地魔法的力量，喷射出一片巨大的锥形火焰。</DR_BattleStaffBurner.description>
+    
 </LanguageData>

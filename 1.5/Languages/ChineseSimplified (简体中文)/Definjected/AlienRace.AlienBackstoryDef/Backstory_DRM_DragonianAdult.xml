@@ -13,6 +13,10 @@
     <Dragonian_Warrier.titleShort>战士</Dragonian_Warrier.titleShort>
     <Dragonian_Warrier.description>[PAWN_nameDef]是龙娘战士。\n她必须保护聚落不受敌人侵犯。</Dragonian_Warrier.description>
 
+    <Dragonian_WildMan.title>野生的 龙娘</Dragonian_WildMan.title>
+    <Dragonian_WildMan.titleShort>野生龙娘</Dragonian_WildMan.titleShort>
+    <Dragonian_WildMan.description>[PAWN_nameDef]是野生的龙娘。\n她来自地下的世界。</Dragonian_WildMan.description>
+
     <Dragonian_Clan_Guard.title>龙娘 村庄守卫</Dragonian_Clan_Guard.title>
     <Dragonian_Clan_Guard.titleShort>村庄守卫</Dragonian_Clan_Guard.titleShort>
     <Dragonian_Clan_Guard.description>[PAWN_nameDef]是龙娘村庄守卫。\n她只是负责驱赶野生动物而已。</Dragonian_Clan_Guard.description>

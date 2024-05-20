@@ -536,8 +536,7 @@
     </apparelRequired>
 
     <weaponTags>
-      <li>Gun</li>
-      <li>LongShots</li>
+      <li>DR_BattleStaff</li>
     </weaponTags>
     <weaponMoney>
       <min>900</min>

@@ -433,18 +433,18 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<comps>
 		  <li Class="HediffCompProperties_SeverityPerDay">
-			<severityPerDay>0.1</severityPerDay>
+			<severityPerDay>1</severityPerDay>
 		  </li>
 		  <li Class="HediffCompProperties_MessageAboveSeverity">
 			<severity>0.2</severity>
 			<messageType>NeutralEvent</messageType>
-			<message>{0_nameDef} is now suffering from duplicate sickness.</message>
+			<message>{0_nameDef} is now suffering from summon sickness.</message>
 		  </li>
 		  <li Class="HediffCompProperties_SurgeryInspectable">
-			<surgicalDetectionDesc>{PAWN_nameDef} is suffering from duplicate sickness. Psychic interference between this person and their duplicate is causing slow mental deterioration. As long as multiple copies of this person are alive, the condition will keep getting worse.</surgicalDetectionDesc> 
+			<surgicalDetectionDesc>{PAWN_nameDef} is suffering from summon sickness. His body is breaking down.the condition will keep getting worse.this condition can be lethal.</surgicalDetectionDesc> 
 		  </li>
 		  <li Class="HediffCompProperties_KillAfterDays">
-			<days>5</days>
+			<days>1</days>
 		  </li>
 		  <li Class="HediffCompProperties_CauseMentalState">
 			<animalMentalState>ManhunterPermanent</animalMentalState>

@@ -198,4 +198,71 @@
 			<!-- </li> -->
 		<!-- </stages> -->
 	<!-- </HediffDef> -->
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>DR_BattleStaff_Beam</defName>
+		<label>Dragonian Beam Staff</label>
+		<description>A Staff for Dragonian.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Weapon/staff</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1</uiIconScale>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>15</Mass>
+		</statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>	
+		<costList>
+			<WoolDragonian>40</WoolDragonian>
+			<Steel>40</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>	
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>physical-magic</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Demolish</li>
+				</capacities>
+				<power>45</power>
+				<extraMeleeDamages>
+					<li>
+						<def>EMP</def>
+						<amount>4.5</amount>
+					</li>
+					<li>
+						<def>Stun</def>
+						<amount>1.5</amount>
+						<chance>0.25</chance>
+					</li>
+				</extraMeleeDamages>
+				<cooldownTime>5.2</cooldownTime>
+			</li>
+		</tools>
+		<equippedStatOffsets>
+			<PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
+			<PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>
+		</equippedStatOffsets>
+		<meleeHitSound>DRHammerSound</meleeHitSound>
+	</ThingDef>
 </Defs>
