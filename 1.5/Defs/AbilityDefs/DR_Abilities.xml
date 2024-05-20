@@ -28,7 +28,7 @@
           </targetParams>
         </verbProperties>
         <comps>
-          <li Class="rimworld_drm.CompProperties_AbilityDRM_FireBurst">
+          <li Class="DragonianMix.CompProperties_AbilityDRM_FireBurst">
             <radius>12</radius>
           </li>
         </comps>

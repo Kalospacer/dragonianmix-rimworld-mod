@@ -35,4 +35,6 @@
   <DRM_HealBreakOut.label>超再生爆发</DRM_HealBreakOut.label>
   <DRM_HealBreakOut.description>这个人正处于超再生爆发状态。伤势以极度异常的速度愈合。</DRM_HealBreakOut.description>
   
+  <DRM_SummonSickness.label>召唤失调综合征</DRM_SummonSickness.label>
+  <DRM_SummonSickness.description>这个人不应该出现在这里。他的身体正在崩解，症状将会持续恶化，最终会导致死亡。</DRM_SummonSickness.description>
 </LanguageData>
