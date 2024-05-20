@@ -444,7 +444,6 @@
 			<humanMentalState>Berserk</humanMentalState>
 			<mtbDaysToCauseMentalState>1</mtbDaysToCauseMentalState>
 		  </li>
-		  <li Class="HediffCompProperties_DisappearsOnDeath" />
 		</comps>
 		<stages>
 		  <li>

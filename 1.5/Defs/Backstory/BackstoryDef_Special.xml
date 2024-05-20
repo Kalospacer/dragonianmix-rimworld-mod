@@ -210,6 +210,10 @@
 		<titleShort>Dragonian Necromancer</titleShort>
 		<baseDesc>[PAWN_nameDef] is Dragonian Necromancer.\nNot been identified,she is so mysterious that nobody knows she is live or dead.</baseDesc>
 		<slot>Adulthood</slot>
+
+		<forcedHediffs>
+			<li>DRM_SummonSickness</li>
+		</forcedHediffs>
 		
 		<spawnCategories>
 			<li>Dragonian_Necromancer</li>
