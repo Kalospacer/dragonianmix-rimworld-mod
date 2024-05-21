@@ -36,15 +36,15 @@
     <Dragonian_Engineer.title>龙娘 工程师</Dragonian_Engineer.title>
     <Dragonian_Engineer.titleShort>工程师</Dragonian_Engineer.titleShort>
     <Dragonian_Engineer.description>[PAWN_nameDef]是龙娘工程师。\n她负责造漂亮房子和制作可爱的东西。</Dragonian_Engineer.description>
-    
+
     <Dragonian_Doctor.title>龙娘 博士</Dragonian_Doctor.title>
     <Dragonian_Doctor.titleShort>博士</Dragonian_Doctor.titleShort>
     <Dragonian_Doctor.description>[PAWN_nameDef]是龙娘博士。\n在这种地方保持智慧是一件很难的事情。不过她做到了。</Dragonian_Doctor.description>
-    
+
     <Dragonian_Royal_Guard.title>龙娘 皇家卫士</Dragonian_Royal_Guard.title>
     <Dragonian_Royal_Guard.titleShort>皇家卫士</Dragonian_Royal_Guard.titleShort>
     <Dragonian_Royal_Guard.description>[PAWN_nameDef]是龙娘皇家卫士。\n她负责保护皇室成员。即使在最危急的情况也未尝败绩。</Dragonian_Royal_Guard.description>
-    
+
     <Dragonian_Royal_Maid.title>龙娘 皇家女仆</Dragonian_Royal_Maid.title>
     <Dragonian_Royal_Maid.titleShort>皇家女仆</Dragonian_Royal_Maid.titleShort>
     <Dragonian_Royal_Maid.description>[PAWN_nameDef]是龙娘皇家女仆。\n她是家政工作的真正大师。真正的优雅化身。</Dragonian_Royal_Maid.description>
@@ -56,5 +56,5 @@
     <Dragonian_Necromancer.title>龙娘 死灵女巫</Dragonian_Necromancer.title>
     <Dragonian_Necromancer.titleShort>死灵女巫</Dragonian_Necromancer.titleShort>
     <Dragonian_Necromancer.description>[PAWN_nameDef]是龙娘死灵女巫。\n尚未被归类。她是如此神秘，没人知道她究竟是活着还是已经死了。</Dragonian_Necromancer.description>
-    
+
 </LanguageData>

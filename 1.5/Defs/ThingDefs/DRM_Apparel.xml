@@ -3,21 +3,21 @@
 
   <ThingDef Name="DRM_ApparelArmorBase" ParentName="ApparelBase" Abstract="True">
     <recipeMaker>
-			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Tailor</effectWorking>
-			<soundWorking>Recipe_Tailor</soundWorking>
-			<recipeUsers>
-				<li>ElectricTailoringBench</li>
-				<li>HandTailoringBench</li>
-			</recipeUsers>
-			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-		</recipeMaker>
-		<graphicData>
-			<texPath>Dragonian/Apparel/Gear/drapparelF</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Dragonian/Apparel/Gear/drapparelF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
     <tradeTags>
       <li>Armor</li>
     </tradeTags>
@@ -51,7 +51,7 @@
       <wornGraphicPath>Dragonian/Apparel/Gear/drapparelF</wornGraphicPath>
       <layers>
         <li>Middle</li>
-				<li>OnSkin</li>
+        <li>OnSkin</li>
       </layers>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -67,21 +67,21 @@
 
   <ThingDef Name="DRM_ApparelArmorHelmetBase" ParentName="ApparelBase" Abstract="True">
     <recipeMaker>
-			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Tailor</effectWorking>
-			<soundWorking>Recipe_Tailor</soundWorking>
-			<recipeUsers>
-				<li>ElectricTailoringBench</li>
-				<li>HandTailoringBench</li>
-			</recipeUsers>
-			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-		</recipeMaker>
-		<graphicData>
-			<texPath>Dragonian/Apparel/Gear/drahgA</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Dragonian/Apparel/Gear/drahgA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
     <tradeTags>
       <li>Armor</li>
     </tradeTags>
@@ -129,23 +129,23 @@
     <label>dragonian Battle dress c</label>
     <description>Lightweight armor with plate on the dress.Upgrade with Plasteel.</description>
     <apparel>
-			<tags>
-				<li>DR_Armor</li>
+      <tags>
+        <li>DR_Armor</li>
         <li>DRM_BattleDressC</li>
-			</tags>
+      </tags>
     </apparel>
-		<comps>
-			<li Class="CompProperties_CauseHediff_Apparel">
-				<hediff>DRM_KnightForce</hediff>
-			</li>
-		</comps>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>DRM_KnightForce</hediff>
+      </li>
+    </comps>
   </ThingDef>
 
   <HediffDef>
-		<defName>DRM_KnightForce</defName>
-		<label>KnightForce</label>
-		<description>Can't be knock back.This person is fully prepared.</description>
-		<hediffClass>HediffWithComps</hediffClass>
+    <defName>DRM_KnightForce</defName>
+    <label>KnightForce</label>
+    <description>Can't be knock back.This person is fully prepared.</description>
+    <hediffClass>HediffWithComps</hediffClass>
     <stages>
       <li>
         <statFactors>
@@ -153,38 +153,38 @@
         </statFactors>
       </li>
     </stages>
-		<comps>
-		  <li Class="HediffCompProperties_RemoveIfApparelDropped" />
-		</comps>
-		<isBad>false</isBad>
-	</HediffDef>
+    <comps>
+      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
 
   <ThingDef ParentName="DRM_ApparelArmorHelmetBase">
     <defName>DRM_BattleHelmC</defName>
     <label>dragonian battle helm C</label>
     <description>A lightweight battle helm with a complex design.Can protect Full Head.</description>
     <apparel>
-			<tags>
-				<li>DR_Armor</li>
+      <tags>
+        <li>DR_Armor</li>
         <li>DRM_BattleHelmC</li>
-			</tags>
+      </tags>
     </apparel>
   </ThingDef>
 
   <ThingDef ParentName="DRM_ApparelArmorHelmetBase">
-		<defName>DRM_BattleHelmD</defName>
-		<label>dragonian battle helm D</label>
-		<description>A lightweight battle helm with a complex design.Can protect Full Head.</description>
+    <defName>DRM_BattleHelmD</defName>
+    <label>dragonian battle helm D</label>
+    <description>A lightweight battle helm with a complex design.Can protect Full Head.</description>
     <apparel>
-			<tags>
-				<li>DR_Armor</li>
+      <tags>
+        <li>DR_Armor</li>
         <li>DRM_BattleHelmD</li>
-			</tags>
+      </tags>
       <wornGraphicPath>Dragonian/Apparel/Gear/drahgB</wornGraphicPath>
     </apparel>
-		<graphicData>
-			<texPath>Dragonian/Apparel/Gear/drahgB</texPath>
-		</graphicData> 
-	</ThingDef>
+    <graphicData>
+      <texPath>Dragonian/Apparel/Gear/drahgB</texPath>
+    </graphicData>
+  </ThingDef>
 
 </Defs>

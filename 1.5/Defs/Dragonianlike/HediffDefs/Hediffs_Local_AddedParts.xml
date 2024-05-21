@@ -29,93 +29,82 @@
 		<defName>InstallDragonianOrb</defName>
 		<label>install DragonianOrb</label>
 		<description>Install a dragonian orb.</description>
-		<descriptionHyperlinks><ThingDef>DragonianOrb</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>DragonianOrb</ThingDef>
+		</descriptionHyperlinks>
 		<jobString>Installing DragonianOrb.</jobString>
 		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
 		<skillRequirements>
-		  <Medicine>8</Medicine>
+			<Medicine>8</Medicine>
 		</skillRequirements>
 		<ingredients>
-		  <li>
-			<filter>
-			  <thingDefs>
-				<li>DragonianOrb</li>
-			  </thingDefs>
-			</filter>
-			<count>1</count>
-		  </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DragonianOrb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-		  <thingDefs>
-			<li>DragonianOrb</li>
-		  </thingDefs>
+			<thingDefs>
+				<li>DragonianOrb</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-		  <li>DragonianOrb</li>
+			<li>DragonianOrb</li>
 		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
-	  <RecipeDef Name="DR_SurgeryInstallPlasteelPartBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
+	<RecipeDef Name="DR_SurgeryInstallPlasteelPartBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
 		<workAmount>1500</workAmount>
 		<skillRequirements>
-		  <Medicine>3</Medicine>
+			<Medicine>3</Medicine>
 		</skillRequirements>
 		<ingredients>
-		  <li>
-			<filter>
-			  <thingDefs>
-				<li>Plasteel</li>
-			  </thingDefs>
-			</filter>
-			<count>10</count>
-		  </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-		  <thingDefs>
-			<li>Plasteel</li>
-		  </thingDefs>
+			<thingDefs>
+				<li>Plasteel</li>
+			</thingDefs>
 		</fixedIngredientFilter>
-	  </RecipeDef>
+	</RecipeDef>
 
-	  <HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>FakeDragonianOrb</defName>
 		<label>Fake DragonianOrb</label>
 		<labelNoun>a Fake DragonianOrb</labelNoun>
 		<description>An installed Fake DragonianOrb. Just for replace your missing one.</description>
 		<priceImpact>false</priceImpact>
 		<addedPartProps>
-		  <solid>true</solid>
+			<solid>true</solid>
 		</addedPartProps>
 		<spawnThingOnRemoved>Plasteel</spawnThingOnRemoved>
-	  </HediffDef>
+	</HediffDef>
 
-	  <RecipeDef ParentName="DR_SurgeryInstallPlasteelPartBase">
+	<RecipeDef ParentName="DR_SurgeryInstallPlasteelPartBase">
 		<defName>InstallFakeDragonianOrb</defName>
 		<label>install fake DragonianOrb</label>
 		<description>Install a fake DragonianOrb.</description>
-		<descriptionHyperlinks><ThingDef>Plasteel</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>Plasteel</ThingDef>
+		</descriptionHyperlinks>
 		<jobString>Installing fake DragonianOrb.</jobString>
 		<appliedOnFixedBodyParts>
-		  <li>DragonianOrb</li>
+			<li>DragonianOrb</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>FakeDragonianOrb</addsHediff>
 		<uiIconThing>DragonianOrb</uiIconThing>
-	  </RecipeDef>
-
-	<ThingDef Name="BodyPartDROrbsBase" ParentName="BodyPartBase" Abstract="True">
-		<graphicData>
-			<texPath>Things/Item/Health/HealthItem</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.80</drawSize>
-			<color>(190,190,190)</color>
-		</graphicData>
-		<thingCategories>
-			<li>BodyPartsNatural</li>
-		  </thingCategories>
-		<statBases>
-		  <DeteriorationRate>0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+	</RecipeDef>
 
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>FlareDragonianOrb</defName>
@@ -128,128 +117,41 @@
 			<li>DR_BattleStaffBurner</li>
 		</abilities>
 		<addedPartProps>
-		  <solid>true</solid>
+			<solid>true</solid>
 		</addedPartProps>
 		<spawnThingOnRemoved>FlareDragonianOrb</spawnThingOnRemoved>
-	  </HediffDef>
-
-	<ThingDef ParentName="BodyPartDROrbsBase">
-	  <defName>FlareDragonianOrb</defName>
-	  <label>Flare DragonianOrb</label>
-	  <description>An Flare DragonianOrb. Allow owner to burst a fireball.</description>
-	  <graphicData>
-		<texPath>Dragonian/Things/Item/Resource/Dorb_flare</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-	  </graphicData>
-	  <techHediffsTags>
-		<li>FlareDragonianOrb</li>
-		<li>DragonianOrbAdvanced</li>
-	  </techHediffsTags>
-	  <statBases>
-		<MarketValue>1000</MarketValue>
-		<Mass>0.3</Mass>
-	  </statBases>
-	  <thingSetMakerTags>
-		<li>RewardStandardCore</li>
-	  </thingSetMakerTags>
-	</ThingDef>	
+	</HediffDef>
 
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-	  <defName>InstallFlareDragonianOrb</defName>
-	  <label>install Flare DragonianOrb</label>
-	  <description>Install Flare DragonianOrb.</description>
-	  <descriptionHyperlinks>
-	    <ThingDef>FlareDragonianOrb</ThingDef>
-	    <HediffDef>FlareDragonianOrb</HediffDef>
-	  </descriptionHyperlinks>
-	  <jobString>Installing Flare DragonianOrb.</jobString>
-	  <surgeryOutcomeEffect IsNull="True" /> <!-- Always succeeds -->
-	  <ingredients>
-	    <li>
-	      <filter>
-	        <thingDefs>
-	          <li>FlareDragonianOrb</li>
-	        </thingDefs>
-	      </filter>
-	      <count>1</count>
-	    </li>
-	  </ingredients>
-	  <fixedIngredientFilter>
-	    <thingDefs>
-	      <li>FlareDragonianOrb</li>
-	    </thingDefs>
-	  </fixedIngredientFilter>
-	  <appliedOnFixedBodyParts>
-	    <li>DragonianOrb</li>
-	  </appliedOnFixedBodyParts>
-	  <addsHediff>FlareDragonianOrb</addsHediff>
-	</RecipeDef>
-
-	<HediffDef ParentName="AddedBodyPartBase">
-		<defName>NecroDragonianOrb</defName>
-		<label>Necro DragonianOrb</label>
-		<labelNoun>a Necro DragonianOrb.</labelNoun>
-		<description>An installed Flare DragonianOrb. Allow owner to spray deadlifedust.</description>
-		<priceImpact>false</priceImpact>
-		<abilities MayRequire="Ludeon.RimWorld.Anomaly">
-			<li>ReleaseDeadlifeDust</li>
-		</abilities>
-		<addedPartProps>
-		  <solid>true</solid>
-		</addedPartProps>
-		<spawnThingOnRemoved>NecroDragonianOrb</spawnThingOnRemoved>
-	  </HediffDef>
-
-	<ThingDef ParentName="BodyPartDROrbsBase">
-	  <defName>NecroDragonianOrb</defName>
-	  <label>Necro DragonianOrb</label>
-	  <description>An Necro DragonianOrb. Allow owner to spray deadlifedust.</description>
-	  <graphicData>
-		<texPath>Dragonian/Things/Item/Resource/Dorb_AP</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-	  </graphicData>
-	  <techHediffsTags>
-		<li>NecroDragonianOrb</li>
-		<li>DragonianOrbAdvanced</li>
-	  </techHediffsTags>
-	  <statBases>
-		<MarketValue>1000</MarketValue>
-		<Mass>0.3</Mass>
-	  </statBases>
-	  <thingSetMakerTags>
-		<li>RewardStandardCore</li>
-	  </thingSetMakerTags>
-	</ThingDef>	
-
-	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-	  <defName>InstallNecroDragonianOrb</defName>
-	  <label>install Necro DragonianOrb</label>
-	  <description>Install Necro DragonianOrb.</description>
-	  <descriptionHyperlinks>
-	    <ThingDef>NecroDragonianOrb</ThingDef>
-	    <HediffDef>NecroDragonianOrb</HediffDef>
-	  </descriptionHyperlinks>
-	  <jobString>Installing Necro DragonianOrb.</jobString>
-	  <surgeryOutcomeEffect IsNull="True" /> <!-- Always succeeds -->
-	  <ingredients>
-	    <li>
-	      <filter>
-	        <thingDefs>
-	          <li>NecroDragonianOrb</li>
-	        </thingDefs>
-	      </filter>
-	      <count>1</count>
-	    </li>
-	  </ingredients>
-	  <fixedIngredientFilter>
-	    <thingDefs>
-	      <li>NecroDragonianOrb</li>
-	    </thingDefs>
-	  </fixedIngredientFilter>
-	  <appliedOnFixedBodyParts>
-	    <li>DragonianOrb</li>
-	  </appliedOnFixedBodyParts>
-	  <addsHediff>NecroDragonianOrb</addsHediff>
+		<defName>InstallFlareDragonianOrb</defName>
+		<label>install Flare DragonianOrb</label>
+		<description>Install Flare DragonianOrb.</description>
+		<descriptionHyperlinks>
+			<ThingDef>FlareDragonianOrb</ThingDef>
+			<HediffDef>FlareDragonianOrb</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Flare DragonianOrb.</jobString>
+		<surgeryOutcomeEffect IsNull="True" />
+		<!-- Always succeeds -->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FlareDragonianOrb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FlareDragonianOrb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>DragonianOrb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FlareDragonianOrb</addsHediff>
 	</RecipeDef>
 
 	<HediffDef ParentName="AddedBodyPartBase">
@@ -261,93 +163,72 @@
 		<abilities>
 			<li>DRM_HealBreakOut</li>
 		</abilities>
-		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
 		<stages>
-		  <li>
-			<minSeverity>0</minSeverity>
-			<regeneration>300</regeneration>
-			<showRegenerationStat>false</showRegenerationStat>
-		  </li>
+			<li>
+				<minSeverity>0</minSeverity>
+				<regeneration>300</regeneration>
+				<showRegenerationStat>false</showRegenerationStat>
+			</li>
 		</stages>
 		<addedPartProps>
-		  <solid>true</solid>
+			<solid>true</solid>
 		</addedPartProps>
 		<spawnThingOnRemoved>HyperhealDragonianOrb</spawnThingOnRemoved>
-	  </HediffDef>
+	</HediffDef>
 
-  	<HediffDef ParentName="RoleStatBuff">
-  	  <defName>DRM_HealBreakOut</defName>
-  	  <label>Heal BreakOut</label>
-  	  <description>This person is in healbreakout.Heal wound in insane speed.</description>
-  	  <hediffClass>HediffWithComps</hediffClass>
-  	  <stages>
-  	    <li>
-			<minSeverity>0</minSeverity>
-			<regeneration>10000</regeneration>
-			<showRegenerationStat>false</showRegenerationStat>
-  	      <painFactor>0.1</painFactor>
-  	    </li>
-  	  </stages>
-  	  <comps>
-  	    <li Class="HediffCompProperties_Disappears">
-  	      <showRemainingTime>True</showRemainingTime>
-  	      <disappearsAfterTicks>15000</disappearsAfterTicks>
-  	    </li>
-  	    <li Class="HediffCompProperties_DisappearsOnDeath"/>
-  	  </comps>
-  	  <isBad>false</isBad>
-  	</HediffDef>
-
-	<ThingDef ParentName="BodyPartDROrbsBase">
-	  <defName>HyperhealDragonianOrb</defName>
-	  <label>Hyperheal DragonianOrb</label>
-	  <description>An Hyperheal DragonianOrb.</description>
-	  <graphicData>
-		<texPath>Dragonian/Things/Item/Resource/Dorb_heal</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-	  </graphicData>
-	  <techHediffsTags>
-		<li>HyperhealDragonianOrb</li>
-		<li>DragonianOrbAdvanced</li>
-	  </techHediffsTags>
-	  <statBases>
-		<MarketValue>1000</MarketValue>
-		<Mass>0.3</Mass>
-	  </statBases>
-	  <thingSetMakerTags>
-		<li>RewardStandardCore</li>
-	  </thingSetMakerTags>
-	</ThingDef>	
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>DRM_HealBreakOut</defName>
+		<label>Heal BreakOut</label>
+		<description>This person is in healbreakout.Heal wound in insane speed.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<regeneration>10000</regeneration>
+				<showRegenerationStat>false</showRegenerationStat>
+				<painFactor>0.1</painFactor>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>True</showRemainingTime>
+				<disappearsAfterTicks>15000</disappearsAfterTicks>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<isBad>false</isBad>
+	</HediffDef>
 
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-	  <defName>InstallHyperhealDragonianOrb</defName>
-	  <label>install Hyperheal DragonianOrb</label>
-	  <description>Install Hyperheal DragonianOrb.</description>
-	  <descriptionHyperlinks>
-	    <ThingDef>HyperhealDragonianOrb</ThingDef>
-	    <HediffDef>HyperhealDragonianOrb</HediffDef>
-	  </descriptionHyperlinks>
-	  <jobString>Installing Hyperheal DragonianOrb.</jobString>
-	  <surgeryOutcomeEffect IsNull="True" /> <!-- Always succeeds -->
-	  <ingredients>
-	    <li>
-	      <filter>
-	        <thingDefs>
-	          <li>HyperhealDragonianOrb</li>
-	        </thingDefs>
-	      </filter>
-	      <count>1</count>
-	    </li>
-	  </ingredients>
-	  <fixedIngredientFilter>
-	    <thingDefs>
-	      <li>HyperhealDragonianOrb</li>
-	    </thingDefs>
-	  </fixedIngredientFilter>
-	  <appliedOnFixedBodyParts>
-	    <li>DragonianOrb</li>
-	  </appliedOnFixedBodyParts>
-	  <addsHediff>HyperhealDragonianOrb</addsHediff>
+		<defName>InstallHyperhealDragonianOrb</defName>
+		<label>install Hyperheal DragonianOrb</label>
+		<description>Install Hyperheal DragonianOrb.</description>
+		<descriptionHyperlinks>
+			<ThingDef>HyperhealDragonianOrb</ThingDef>
+			<HediffDef>HyperhealDragonianOrb</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Hyperheal DragonianOrb.</jobString>
+		<surgeryOutcomeEffect IsNull="True" />
+		<!-- Always succeeds -->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HyperhealDragonianOrb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>HyperhealDragonianOrb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>DragonianOrb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>HyperhealDragonianOrb</addsHediff>
 	</RecipeDef>
 
 	<HediffDef ParentName="AddedBodyPartBase">
@@ -356,71 +237,50 @@
 		<labelNoun>a Harden DragonianOrb.</labelNoun>
 		<description>An installed Harden DragonianOrb.</description>
 		<priceImpact>false</priceImpact>
-		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
 		<stages>
-		  <li>
-			<statOffsets>
-				<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
-				<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-			  </statOffsets>
-		  </li>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
 		</stages>
 		<addedPartProps>
-		  <solid>true</solid>
+			<solid>true</solid>
 		</addedPartProps>
 		<spawnThingOnRemoved>HardenDragonianOrb</spawnThingOnRemoved>
-	  </HediffDef>
-
-	<ThingDef ParentName="BodyPartDROrbsBase">
-	  <defName>HardenDragonianOrb</defName>
-	  <label>Harden DragonianOrb</label>
-	  <description>An Harden DragonianOrb.Make it Hard.</description>
-	  <graphicData>
-		<texPath>Dragonian/Things/Item/Resource/Dorb_AP</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-	  </graphicData>
-	  <techHediffsTags>
-		<li>HardenDragonianOrb</li>
-		<li>DragonianOrbAdvanced</li>
-	  </techHediffsTags>
-	  <statBases>
-		<MarketValue>1000</MarketValue>
-		<Mass>0.3</Mass>
-	  </statBases>
-	  <thingSetMakerTags>
-		<li>RewardStandardCore</li>
-	  </thingSetMakerTags>
-	</ThingDef>	
+	</HediffDef>
 
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-	  <defName>InstallHardenDragonianOrb</defName>
-	  <label>install Harden DragonianOrb</label>
-	  <description>Install Harden DragonianOrb.</description>
-	  <descriptionHyperlinks>
-	    <ThingDef>HardenDragonianOrb</ThingDef>
-	    <HediffDef>HardenDragonianOrb</HediffDef>
-	  </descriptionHyperlinks>
-	  <jobString>Installing Harden DragonianOrb.</jobString>
-	  <surgeryOutcomeEffect IsNull="True" /> <!-- Always succeeds -->
-	  <ingredients>
-	    <li>
-	      <filter>
-	        <thingDefs>
-	          <li>HardenDragonianOrb</li>
-	        </thingDefs>
-	      </filter>
-	      <count>1</count>
-	    </li>
-	  </ingredients>
-	  <fixedIngredientFilter>
-	    <thingDefs>
-	      <li>HardenDragonianOrb</li>
-	    </thingDefs>
-	  </fixedIngredientFilter>
-	  <appliedOnFixedBodyParts>
-	    <li>DragonianOrb</li>
-	  </appliedOnFixedBodyParts>
-	  <addsHediff>HardenDragonianOrb</addsHediff>
+		<defName>InstallHardenDragonianOrb</defName>
+		<label>install Harden DragonianOrb</label>
+		<description>Install Harden DragonianOrb.</description>
+		<descriptionHyperlinks>
+			<ThingDef>HardenDragonianOrb</ThingDef>
+			<HediffDef>HardenDragonianOrb</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Harden DragonianOrb.</jobString>
+		<surgeryOutcomeEffect IsNull="True" />
+		<!-- Always succeeds -->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HardenDragonianOrb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>HardenDragonianOrb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>DragonianOrb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>HardenDragonianOrb</addsHediff>
 	</RecipeDef>
 
 	<HediffDef>
@@ -434,74 +294,551 @@
 		<duplicationAllowed>false</duplicationAllowed>
 		<hediffClass>HediffWithComps</hediffClass>
 		<comps>
-		  <li Class="HediffCompProperties_SeverityPerDay">
-			<severityPerDay>1</severityPerDay>
-		  </li>
-		  <li Class="HediffCompProperties_SurgeryInspectable">
-			<surgicalDetectionDesc>{PAWN_nameDef} is suffering from summon sickness. His body is breaking down.the condition will keep getting worse.this condition can be lethal.</surgicalDetectionDesc> 
-		  </li>
-		  <li Class="HediffCompProperties_CauseMentalState">
-			<humanMentalState>Berserk</humanMentalState>
-			<mtbDaysToCauseMentalState>1</mtbDaysToCauseMentalState>
-		  </li>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>1</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_SurgeryInspectable">
+				<surgicalDetectionDesc>{PAWN_nameDef} is suffering from summon sickness. His body is breaking down.the condition will keep getting worse.this condition can be lethal.</surgicalDetectionDesc>
+			</li>
+			<li Class="HediffCompProperties_CauseMentalState">
+				<humanMentalState>Berserk</humanMentalState>
+				<mtbDaysToCauseMentalState>1</mtbDaysToCauseMentalState>
+			</li>
 		</comps>
 		<stages>
-		  <li>
-			<label>initial</label> 
-			<becomeVisible>True</becomeVisible>
-		  </li>
-		  <li>
-			<minSeverity>0.2</minSeverity>
-			<label>initial</label> 
-			<capMods>
-			  <li>
-				<capacity>Consciousness</capacity>
-				<offset>-0.05</offset>
-			  </li>
-			</capMods>
-			<statOffsets>
-			  <MentalBreakThreshold>0.04</MentalBreakThreshold>
-			</statOffsets>    
-		  </li>
-		  <li>
-			<minSeverity>0.5</minSeverity>
-			<label>moderate</label> 
-			<capMods>
-			  <li>
-				<capacity>Consciousness</capacity>
-				<offset>-0.1</offset>
-			  </li>
-			</capMods>
-			<statOffsets>
-			  <MentalBreakThreshold>0.08</MentalBreakThreshold>
-			</statOffsets>   
-		  </li>
-		  <li>
-			<minSeverity>0.8</minSeverity>
-			<label>extreme</label> 
-			<lifeThreatening>true</lifeThreatening>
-			<capMods>
-			  <li>
-				<capacity>Consciousness</capacity>
-				<offset>-0.15</offset>
-			  </li>
-			</capMods>
-			<statOffsets>
-			  <MentalBreakThreshold>0.14</MentalBreakThreshold>
-			</statOffsets>  
-		  </li>
-		  <li>
-			<minSeverity>0.95</minSeverity>
-			<label>debilitating</label> 
-			<lifeThreatening>true</lifeThreatening>
-			<capMods>
-			  <li>
-				<capacity>Consciousness</capacity>
-				<setMax>0.1</setMax>
-			  </li>
-			</capMods>
-		  </li>
+			<li>
+				<label>initial</label>
+				<becomeVisible>True</becomeVisible>
+			</li>
+			<li>
+				<minSeverity>0.2</minSeverity>
+				<label>initial</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MentalBreakThreshold>0.04</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.5</minSeverity>
+				<label>moderate</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MentalBreakThreshold>0.08</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.8</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MentalBreakThreshold>0.14</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.95</minSeverity>
+				<label>debilitating</label>
+				<lifeThreatening>true</lifeThreatening>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
 		</stages>
-	  </HediffDef>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DRM_ArmorMeltdown</defName>
+		<label>Armor Meltdown</label>
+		<description>This preson's armor is melting down due heat effect.</description>
+		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.2</minSeverity>
+				<statOffsets>
+					<ArmorRating_Heat>-0.15</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.35</minSeverity>
+				<statOffsets>
+					<ArmorRating_Heat>-0.35</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+			<li>
+				<label>serious</label>
+				<minSeverity>0.5</minSeverity>
+				<statOffsets>
+					<ArmorRating_Heat>-0.65</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.65</minSeverity>
+				<statOffsets>
+					<ArmorRating_Heat>-0.8</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+			<li>
+				<label>completely</label>
+				<minSeverity>0.85</minSeverity>
+				<statOffsets>
+					<ArmorRating_Heat>-2</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DRM_AcidCorrosion</defName>
+		<label>Acid Corrosion</label>
+		<description>This preson's armor is corroding due acid .</description>
+		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.2</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>-0.15</ArmorRating_Sharp>
+					<ArmorRating_Blunt>-0.1</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.35</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>-0.35</ArmorRating_Sharp>
+					<ArmorRating_Blunt>-0.3</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+			<li>
+				<label>serious</label>
+				<minSeverity>0.5</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>-0.65</ArmorRating_Sharp>
+					<ArmorRating_Blunt>-0.6</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.65</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>-0.8</ArmorRating_Sharp>
+					<ArmorRating_Blunt>-0.75</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+			<li>
+				<label>completely</label>
+				<minSeverity>0.85</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>-2</ArmorRating_Sharp>
+					<ArmorRating_Blunt>-2</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<!-- slash tail -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DRM_SlashTail</defName>
+		<label>slash tail</label>
+		<labelNoun>a slash tail</labelNoun>
+		<description>An installed slash tail turn dragonian's tail into a massive blade.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_SlashTail</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>tail</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>40</power>
+						<cooldownTime>3</cooldownTime>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>15</amount>
+								</li>
+								<li>
+									<def>Cut</def>
+									<amount>20</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>DRHammerSound</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>DRM_SlashTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallDRM_SlashTail</defName>
+		<label>install slash tail</label>
+		<description>Install a slash tail.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_SlashTail</ThingDef>
+			<HediffDef>DRM_SlashTail</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing slash tail.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DRM_SlashTail</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DRM_SlashTail</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Dragonian_Tail</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>DRM_SlashTail</addsHediff>
+	</RecipeDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DRM_FlameSlashTail</defName>
+		<label>Flame slash tail</label>
+		<labelNoun>a Flame slash tail</labelNoun>
+		<description>An installed Flame slash tail turn dragonian's tail into a massive blade.This kind make the tail extreamly hot.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_FlameSlashTail</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>tail</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>30</power>
+						<cooldownTime>3</cooldownTime>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>15</amount>
+								</li>
+								<li>
+									<def>DRM_Flame</def>
+									<amount>15</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>DRM_Flame</def>
+								<amount>20</amount>
+							</li>
+						</extraMeleeDamages>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>DRHammerSound</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>DRM_FlameSlashTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallDRM_FlameSlashTail</defName>
+		<label>install Flame slash tail</label>
+		<description>Install a Flame slash tail.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_FlameSlashTail</ThingDef>
+			<HediffDef>DRM_FlameSlashTail</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Flame slash tail.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DRM_FlameSlashTail</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DRM_FlameSlashTail</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Dragonian_Tail</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>DRM_FlameSlashTail</addsHediff>
+	</RecipeDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DRM_AcidSlashTail</defName>
+		<label>Acid slash tail</label>
+		<labelNoun>a Acid slash tail</labelNoun>
+		<description>An installed Acid slash tail turn dragonian's tail into a massive blade.This kind make the tail cover with acid.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_AcidSlashTail</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>tail</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>30</power>
+						<cooldownTime>3</cooldownTime>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>15</amount>
+								</li>
+								<li>
+									<def>DRM_AcidBurn</def>
+									<amount>15</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>DRM_AcidBurn</def>
+								<amount>20</amount>
+							</li>
+						</extraMeleeDamages>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>DRHammerSound</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>DRM_AcidSlashTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallDRM_AcidSlashTail</defName>
+		<label>install Acid slash tail</label>
+		<description>Install a Acid slash tail.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_AcidSlashTail</ThingDef>
+			<HediffDef>DRM_AcidSlashTail</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Acid slash tail.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DRM_AcidSlashTail</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DRM_AcidSlashTail</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Dragonian_Tail</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>DRM_AcidSlashTail</addsHediff>
+	</RecipeDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DRM_ExplosiveSlashTail</defName>
+		<label>Explosive slash tail</label>
+		<labelNoun>a Explosive slash tail</labelNoun>
+		<description>An installed Explosive slash tail turn dragonian's tail into a massive blade.This kind make the tail cover with Explosives.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_ExplosiveSlashTail</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>tail</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>30</power>
+						<cooldownTime>3</cooldownTime>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>15</amount>
+								</li>
+								<li>
+									<def>Bomb</def>
+									<amount>15</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Bomb</def>
+								<amount>20</amount>
+							</li>
+						</extraMeleeDamages>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>DRHammerSound</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>DRM_AcidSlashTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallDRM_ExplosiveSlashTail</defName>
+		<label>install Explosive slash tail</label>
+		<description>Install a Explosive slash tail.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_ExplosiveSlashTail</ThingDef>
+			<HediffDef>DRM_ExplosiveSlashTail</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Explosive slash tail.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DRM_ExplosiveSlashTail</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DRM_ExplosiveSlashTail</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Dragonian_Tail</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>DRM_ExplosiveSlashTail</addsHediff>
+	</RecipeDef>
 
 </Defs>

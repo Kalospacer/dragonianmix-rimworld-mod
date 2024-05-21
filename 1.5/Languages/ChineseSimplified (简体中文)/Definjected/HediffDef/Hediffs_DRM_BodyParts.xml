@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <DR_BionicTail.label>仿生尾</DR_BionicTail.label>
   <DR_BionicTail.description>一条龙娘专用的仿生尾巴。它还包含一个小型AI帮助使用者自动保持平衡。</DR_BionicTail.description>
   <DR_BionicTail.labelNoun>仿生尾</DR_BionicTail.labelNoun>
-  
+
   <DR_FakeTail.label>假尾巴</DR_FakeTail.label>
   <DR_FakeTail.description>一条龙娘专用的假尾巴。它只是用一根皮革带子作为替代。总比没有强一点。</DR_FakeTail.description>
   <DR_FakeTail.labelNoun>假尾巴</DR_FakeTail.labelNoun>
@@ -28,13 +28,29 @@
   <HardenDragonianOrb.label>龙娘 硬化龙珠</HardenDragonianOrb.label>
   <HardenDragonianOrb.description>一颗龙珠。硬起来吧！</HardenDragonianOrb.description>
   <HardenDragonianOrb.labelNoun>硬化龙珠</HardenDragonianOrb.labelNoun>
-  
+
+  <DRM_SlashTail.label>龙娘 斩龙尾</DRM_SlashTail.label>
+  <DRM_SlashTail.description>一条斩龙尾。巨大的剑刃替代了尾巴。</DRM_SlashTail.description>
+  <DRM_SlashTail.labelNoun>斩龙尾</DRM_SlashTail.labelNoun>
+
+  <DRM_FlameSlashTail.label>龙娘 焚斩尾</DRM_FlameSlashTail.label>
+  <DRM_FlameSlashTail.description>一条焚斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴温度极度炙热。</DRM_FlameSlashTail.description>
+  <DRM_FlameSlashTail.labelNoun>焚斩尾</DRM_FlameSlashTail.labelNoun>
+
+  <DRM_AcidSlashTail.label>龙娘 酸斩尾</DRM_AcidSlashTail.label>
+  <DRM_AcidSlashTail.description>一条酸斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴能分泌危险的腐蚀性酸液。</DRM_AcidSlashTail.description>
+  <DRM_AcidSlashTail.labelNoun>酸斩尾</DRM_AcidSlashTail.labelNoun>
+
+  <DRM_ExplosiveSlashTail.label>龙娘 碎斩尾</DRM_ExplosiveSlashTail.label>
+  <DRM_ExplosiveSlashTail.description>一条碎斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴上覆盖了危险的易爆材料。</DRM_ExplosiveSlashTail.description>
+  <DRM_ExplosiveSlashTail.labelNoun>碎斩尾</DRM_ExplosiveSlashTail.labelNoun>
+
   <DRM_KnightForce.label>骑士之力</DRM_KnightForce.label>
   <DRM_KnightForce.description>这个人已经完全准备就绪。无法被击退。</DRM_KnightForce.description>
 
   <DRM_HealBreakOut.label>超再生爆发</DRM_HealBreakOut.label>
   <DRM_HealBreakOut.description>这个人正处于超再生爆发状态。伤势以极度异常的速度愈合。</DRM_HealBreakOut.description>
-  
+
   <DRM_SummonSickness.label>召唤失调综合征</DRM_SummonSickness.label>
   <DRM_SummonSickness.description>这个人不应该出现在这里。他的身体正在崩解，症状将会持续恶化，最终会导致死亡。</DRM_SummonSickness.description>
 
@@ -54,4 +70,35 @@
   <DRM_Frostbite.injuryProps.destroyedLabel>因冻伤失去</DRM_Frostbite.injuryProps.destroyedLabel>
   <!-- EN: {0} in the {1} -->
   <DRM_Frostbite.labelNounPretty>{1}中的{0}</DRM_Frostbite.labelNounPretty>
+
+  <DRM_ArmorMeltdown.label>护甲熔解</DRM_ArmorMeltdown.label>
+  <DRM_ArmorMeltdown.description>由于持续受到高热影响，这个人的护甲正在熔化。将随程度降低热能护甲。</DRM_ArmorMeltdown.description>
+  <!-- EN: minor -->
+  <DRM_ArmorMeltdown.stages.minor-0.label>轻微熔化</DRM_ArmorMeltdown.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_ArmorMeltdown.stages.minor-1.label>较轻熔化</DRM_ArmorMeltdown.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_ArmorMeltdown.stages.moderate.label>中等熔化</DRM_ArmorMeltdown.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_ArmorMeltdown.stages.serious.label>严重熔化</DRM_ArmorMeltdown.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_ArmorMeltdown.stages.extreme.label>极重熔化</DRM_ArmorMeltdown.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_ArmorMeltdown.stages.completely.label>完全熔化</DRM_ArmorMeltdown.stages.completely.label>
+
+  <DRM_AcidCorrosion.label>酸性腐蚀</DRM_AcidCorrosion.label>
+  <DRM_AcidCorrosion.description>由于接触强酸性物质，这个人的护甲正在受到腐蚀。将随程度降低护甲。</DRM_AcidCorrosion.description>
+  <!-- EN: minor -->
+  <DRM_AcidCorrosion.stages.minor-0.label>轻微腐蚀</DRM_AcidCorrosion.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_AcidCorrosion.stages.minor-1.label>较轻腐蚀</DRM_AcidCorrosion.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_AcidCorrosion.stages.moderate.label>中等腐蚀</DRM_AcidCorrosion.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_AcidCorrosion.stages.serious.label>严重腐蚀</DRM_AcidCorrosion.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_AcidCorrosion.stages.extreme.label>极重腐蚀</DRM_AcidCorrosion.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_AcidCorrosion.stages.completely.label>完全腐蚀</DRM_AcidCorrosion.stages.completely.label>
+
 </LanguageData>

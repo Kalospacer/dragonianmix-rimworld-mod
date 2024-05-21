@@ -114,7 +114,6 @@
 				  <Dragonian_Clan_Guard>40</Dragonian_Clan_Guard>
 				  <Dragonian_Clan_Hunter>30</Dragonian_Clan_Hunter>
 				  <Dragonian_Clan_Warrier>29</Dragonian_Clan_Warrier>
-				  <Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>
 				</options>
 			</li>
 
@@ -126,7 +125,6 @@
 				  <Dragonian_Clan_Guard>20</Dragonian_Clan_Guard>
 				  <Dragonian_Clan_Hunter>60</Dragonian_Clan_Hunter>
 				  <Dragonian_Clan_Warrier>19</Dragonian_Clan_Warrier>
-				  <Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>
 				</options>
 			</li>
 
@@ -140,7 +138,6 @@
 				  <Dragonian_Clan_Warrier>19</Dragonian_Clan_Warrier>
 				  <Dragonian_Royal_Guard>20</Dragonian_Royal_Guard>
 				  <Dragonian_Royal_Hunter>19</Dragonian_Royal_Hunter>
-				  <Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>
 				</options>
 			</li>
 
@@ -173,15 +170,6 @@
 				<options>
 				  <Dragonian_Royal_Hunter>40</Dragonian_Royal_Hunter>
 				  <Dragonian_Royal_Warrier>60</Dragonian_Royal_Warrier>
-				</options>
-			</li>
-
-			<li>
-				<!--=死灵教团=-->
-				<kindDef>Combat</kindDef>
-				<commonality>10</commonality>
-				<options>
-				  <Dragonian_Necro_Warrier>100</Dragonian_Necro_Warrier>
 				</options>
 			</li>
 

@@ -22,12 +22,13 @@
 			<li>Simple</li>
 		</techHediffsTags>
 	</ThingDef>
+
 	<ThingDef ParentName="BodyPartBionicBase">
 		<defName>DR_BionicTail</defName>
 		<label>bionic tail</label>
 		<description>An advanced artificial tail. It also has a small AI that automatically balances the user's missing.</description>
 		<techLevel>Spacer</techLevel>
-		<costList> 
+		<costList>
 			<Plasteel>15</Plasteel>
 			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
@@ -37,6 +38,160 @@
 		</statBases>
 		<techHediffsTags>
 			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef Name="BodyPartDROrbsBase" ParentName="BodyPartBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+			<color>(190,190,190)</color>
+		</graphicData>
+		<thingCategories>
+			<li>BodyPartsNatural</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>FlareDragonianOrb</defName>
+		<label>Flare DragonianOrb</label>
+		<description>An Flare DragonianOrb. Allow owner to burst a fireball.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Item/Resource/Dorb_flare</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>FlareDragonianOrb</li>
+			<li>DragonianOrbAdvanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardCore</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>HyperhealDragonianOrb</defName>
+		<label>Hyperheal DragonianOrb</label>
+		<description>An Hyperheal DragonianOrb.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Item/Resource/Dorb_heal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>HyperhealDragonianOrb</li>
+			<li>DragonianOrbAdvanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardCore</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>HardenDragonianOrb</defName>
+		<label>Harden DragonianOrb</label>
+		<description>An Harden DragonianOrb.Make it Hard.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Item/Resource/Dorb_AP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>HardenDragonianOrb</li>
+			<li>DragonianOrbAdvanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardCore</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>DRM_SlashTail</defName>
+		<label>slash tail</label>
+		<description>A slash tail turn dragonian's tail into a massive blade.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDRM_SlashTail</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>1.0</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>DragonianSlashTail</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>DRM_FlameSlashTail</defName>
+		<label>Flame slash tail</label>
+		<description>A Flame slash tail turn dragonian's tail into a massive blade.This kind make the tail extreamly hot.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDRM_FlameSlashTail</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>1.0</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>DragonianSlashTail</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>DRM_AcidSlashTail</defName>
+		<label>Acid slash tail</label>
+		<description>An Acid slash tail turn dragonian's tail into a massive blade.This kind make the tail cover with acid.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDRM_AcidSlashTail</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>1.0</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>DragonianSlashTail</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>DRM_ExplosiveSlashTail</defName>
+		<label>Explosive slash tail</label>
+		<description>An Explosive slash tail turn dragonian's tail into a massive blade.This kind make the tail cover with Explosives.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDRM_ExplosiveSlashTail</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>1.0</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>DragonianSlashTail</li>
 		</techHediffsTags>
 	</ThingDef>
 

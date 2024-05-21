@@ -320,30 +320,6 @@
 		<meleeHitSound>DRHammerSound</meleeHitSound>
 	</ThingDef>
 
-	<DamageDef>
-		<defName>DRM_Frostbite</defName>
-		<label>frostbite</label>
-		<workerClass>DamageWorker_Frostbite</workerClass>
-		<externalViolence>false</externalViolence>
-		<deathMessage>{0} has succumbed to frostbite.</deathMessage>
-		<hediff>Frostbite</hediff>
-		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
-		<additionalHediffs>
-			<li>
-				<hediff>Hypothermia</hediff>
-				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-			</li>
-		</additionalHediffs>
-		<armorCategory>Heat</armorCategory>
-		<isRanged>true</isRanged>
-		<makesAnimalsFlee>true</makesAnimalsFlee>
-		<defaultDamage>3</defaultDamage>
-		<defaultArmorPenetration>0</defaultArmorPenetration>
-		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
-		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
-	</DamageDef>
-
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>DR_BattleStaff_Flare</defName>
 		<label>Dragonian Flare Staff</label>
@@ -401,7 +377,7 @@
 			  <requireLineOfSight>true</requireLineOfSight>
 			  <beamWidth>4</beamWidth>
 			  <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-			  <beamDamageDef>Flame</beamDamageDef>
+			  <beamDamageDef>DRM_Flame</beamDamageDef>
 			  <soundCastTail>GunTail_Medium</soundCastTail>
 			  <muzzleFlashScale>9</muzzleFlashScale>
 			  <soundCastBeam>Flamethrower_Firing</soundCastBeam>
@@ -450,7 +426,7 @@
 				<power>15</power>
 				<extraMeleeDamages>
 					<li>
-						<def>Flame</def>
+						<def>DRM_Flame</def>
 						<amount>30</amount>
 						<chance>1</chance>
 					  </li>

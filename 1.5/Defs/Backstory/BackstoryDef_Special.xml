@@ -204,35 +204,4 @@
 
 	</AlienRace.AlienBackstoryDef>
 
-	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
-		<defName>Dragonian_Necromancer</defName>
-		<title>Dragonian Necromancer</title>
-		<titleShort>Dragonian Necromancer</titleShort>
-		<baseDesc>[PAWN_nameDef] is Dragonian Necromancer.\nNot been identified,she is so mysterious that nobody knows she is live or dead.</baseDesc>
-		<slot>Adulthood</slot>
-
-		<forcedHediffs>
-			<li>DRM_SummonSickness</li>
-		</forcedHediffs>
-		
-		<spawnCategories>
-			<li>Dragonian_Necromancer</li>
-		</spawnCategories>
-
-		<skillGains>
-			<Melee>8</Melee>
-			<Medicine>8</Medicine>
-			<Intellectual>8</Intellectual>
-			<Social>-16</Social>
-		</skillGains>
-
-		<forcedTraitsChance MayRequire="Ludeon.RimWorld.Anomaly">
-			<li>
-				<defName>Occultist</defName>
-				<chance>100</chance>
-			</li>
-        </forcedTraitsChance>
-
-	</AlienRace.AlienBackstoryDef>
-
 </Defs>
