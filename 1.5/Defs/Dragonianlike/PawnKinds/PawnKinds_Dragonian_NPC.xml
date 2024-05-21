@@ -411,14 +411,12 @@
       </li>
     </backstoryFiltersOverride>
 
+    <techHediffsChance>1</techHediffsChance>
     <techHediffsMoney>600~5500</techHediffsMoney>
 	  <techHediffsTags>
       <li>DragonianSlashTail</li>
-      <li>DragonianOrbAdvanced</li>
-    </techHediffsTags>
-    <techHediffsRequired>
       <li>HardenDragonianOrb</li>
-    </techHediffsRequired>
+    </techHediffsTags>
     
     <inventoryOptions>
       <skipChance>0.70</skipChance>

@@ -113,8 +113,8 @@
 		<description>An installed Flare DragonianOrb. Allow owner to burst a fireball.</description>
 		<priceImpact>false</priceImpact>
 		<abilities>
-			<li IfModActive="Ludeon.Rimworld.Biotech">DR_FireBurst</li>
-			<li IfModActive="Ludeon.Rimworld.Anomaly">DR_BattleStaffBurner</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">DR_FireBurst</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">DR_BattleStaffBurner</li>
 		</abilities>
 		<addedPartProps>
 			<solid>true</solid>
@@ -161,7 +161,7 @@
 		<description>An installed Hyperheal DragonianOrb.</description>
 		<priceImpact>false</priceImpact>
 		<abilities>
-			<li>DRM_HealBreakOut</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DRM_HealBreakOut</li>
 		</abilities>
 		<stages>
 			<li>
@@ -176,7 +176,7 @@
 		<spawnThingOnRemoved>HyperhealDragonianOrb</spawnThingOnRemoved>
 	</HediffDef>
 
-	<HediffDef ParentName="RoleStatBuff">
+	<HediffDef>
 		<defName>DRM_HealBreakOut</defName>
 		<label>Heal BreakOut</label>
 		<description>This person is in healbreakout.Heal wound in insane speed.</description>
@@ -197,6 +197,7 @@
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		</comps>
 		<isBad>false</isBad>
+		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
 	</HediffDef>
 
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
