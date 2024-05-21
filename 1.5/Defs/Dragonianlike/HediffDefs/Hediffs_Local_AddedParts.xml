@@ -113,8 +113,8 @@
 		<description>An installed Flare DragonianOrb. Allow owner to burst a fireball.</description>
 		<priceImpact>false</priceImpact>
 		<abilities>
-			<li>DR_FireBurst</li>
-			<li>DR_BattleStaffBurner</li>
+			<li IfModActive="Ludeon.Rimworld.Biotech">DR_FireBurst</li>
+			<li IfModActive="Ludeon.Rimworld.Anomaly">DR_BattleStaffBurner</li>
 		</abilities>
 		<addedPartProps>
 			<solid>true</solid>
@@ -560,7 +560,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Dragonian_Tail</li>
+			<li>Spine</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>DRM_SlashTail</addsHediff>
 	</RecipeDef>
@@ -652,7 +652,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Dragonian_Tail</li>
+			<li>Spine</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>DRM_FlameSlashTail</addsHediff>
 	</RecipeDef>
@@ -744,7 +744,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Dragonian_Tail</li>
+			<li>Spine</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>DRM_AcidSlashTail</addsHediff>
 	</RecipeDef>
@@ -836,7 +836,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Dragonian_Tail</li>
+			<li>Spine</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>DRM_ExplosiveSlashTail</addsHediff>
 	</RecipeDef>

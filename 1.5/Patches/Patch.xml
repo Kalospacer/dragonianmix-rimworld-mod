@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+	<!--龙娘服装限制移除-->
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationReplace">
@@ -12,6 +13,7 @@
 		</operations>
 	</Operation>
 
+	<!--龙娘背景故事工作限制移除-->
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationReplace">
@@ -23,6 +25,7 @@
 		</operations>
 	</Operation>
 
+	<!--龙娘背景故事工作限制移除-->
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationReplace">
@@ -34,6 +37,7 @@
 		</operations>
 	</Operation>
 
+	<!--龙娘工作速度替换-->
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationReplace">
@@ -93,6 +97,7 @@
 		</operations>
 	</Operation>
 
+	<!--添加龙娘龙珠器官-->
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationAdd">
@@ -104,14 +109,41 @@
 						<customLabel>Dragonian Orb</customLabel>
 						<depth>Inside</depth>
 						<groups>
-						  <li>Torso</li>
+							<li>Torso</li>
 						</groups>
-					  </li>
+					</li>
 				</value>
 			</li>
 		</operations>
 	</Operation>
 
+	<!--野生龙娘概率自带斩龙尾-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="WildMan"]/techHediffsChance</xpath>
+				<value>
+					<techHediffsChance>0.3</techHediffsChance>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="WildMan"]/techHediffsMoney</xpath>
+				<value>
+					<techHediffsMoney>50~550</techHediffsMoney>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="WildMan"]/techHediffsTags</xpath>
+				<value>
+					<techHediffsTags>
+						<li>DragonianSlashTail</li>
+					</techHediffsTags>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--移除屠宰产出龙珠-->
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/ThingDef[@Name="Dragonian_PawnBase"]/butcherProducts/DragonianOrb</xpath>
 	</Operation>

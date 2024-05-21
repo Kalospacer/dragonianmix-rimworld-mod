@@ -130,7 +130,7 @@
 			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<statBases>
-			<MarketValue>1000</MarketValue>
+			<MarketValue>300</MarketValue>
 			<Mass>1.0</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -149,7 +149,7 @@
 			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<statBases>
-			<MarketValue>1000</MarketValue>
+			<MarketValue>500</MarketValue>
 			<Mass>1.0</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -168,7 +168,7 @@
 			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<statBases>
-			<MarketValue>1000</MarketValue>
+			<MarketValue>500</MarketValue>
 			<Mass>1.0</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -187,7 +187,7 @@
 			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<statBases>
-			<MarketValue>1000</MarketValue>
+			<MarketValue>500</MarketValue>
 			<Mass>1.0</Mass>
 		</statBases>
 		<techHediffsTags>

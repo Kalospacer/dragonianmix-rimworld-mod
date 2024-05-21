@@ -25,5 +25,21 @@
 
     <HardenDragonianOrb.label>龙娘 硬化龙珠</HardenDragonianOrb.label>
     <HardenDragonianOrb.description>一颗龙珠。硬起来吧！</HardenDragonianOrb.description>
+
+    <DRM_SlashTail.label>龙娘 斩龙尾</DRM_SlashTail.label>
+    <DRM_SlashTail.description>一条斩龙尾。巨大的剑刃替代了尾巴。</DRM_SlashTail.description>
+    <DRM_SlashTail.labelNoun>斩龙尾</DRM_SlashTail.labelNoun>
+  
+    <DRM_FlameSlashTail.label>龙娘 焚斩尾</DRM_FlameSlashTail.label>
+    <DRM_FlameSlashTail.description>一条焚斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴温度极度炙热。</DRM_FlameSlashTail.description>
+    <DRM_FlameSlashTail.labelNoun>焚斩尾</DRM_FlameSlashTail.labelNoun>
+  
+    <DRM_AcidSlashTail.label>龙娘 酸斩尾</DRM_AcidSlashTail.label>
+    <DRM_AcidSlashTail.description>一条酸斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴能分泌危险的腐蚀性酸液。</DRM_AcidSlashTail.description>
+    <DRM_AcidSlashTail.labelNoun>酸斩尾</DRM_AcidSlashTail.labelNoun>
+  
+    <DRM_ExplosiveSlashTail.label>龙娘 碎斩尾</DRM_ExplosiveSlashTail.label>
+    <DRM_ExplosiveSlashTail.description>一条碎斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴上覆盖了危险的易爆材料。</DRM_ExplosiveSlashTail.description>
+    <DRM_ExplosiveSlashTail.labelNoun>碎斩尾</DRM_ExplosiveSlashTail.labelNoun>
   
 </LanguageData>
