@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>AcidifierDragonianOrb</defName>
+		<label>Acidifier DragonianOrb</label>
+		<labelNoun>a Acidifier DragonianOrb.</labelNoun>
+		<description>An installed Acidifier DragonianOrb.dissolve gear in contact with the user's body.</description>
+		<priceImpact>false</priceImpact>
+		<comps>
+			<li Class="HediffCompProperties_DissolveGearOnDeath">
+			  <fleck>AcidCloud</fleck>
+			  <moteCount>6</moteCount>
+			  <moteOffsetRange>0.25~0.75</moteOffsetRange>
+			  <filth>Filth_Slime</filth>
+			  <sound>DeathAcidifier</sound>
+			  <injuryCreatedOnDeath>ChemicalBurn</injuryCreatedOnDeath>
+			  <injuryCount>3~6</injuryCount>
+			</li>
+		  </comps>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>HardenDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>AcidifierDragonianOrb</defName>
+		<label>Acidifier DragonianOrb</label>
+		<description>An Acidifier DragonianOrb.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Item/Resource/Dorb_heal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>AcidifierDragonianOrb</li>
+			<li>DragonianOrbAdvanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>400</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardCore</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallAcidifierDragonianOrb</defName>
+		<label>install Acidifier DragonianOrb</label>
+		<description>Install Acidifier DragonianOrb.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AcidifierDragonianOrb</ThingDef>
+			<HediffDef>AcidifierDragonianOrb</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Acidifier DragonianOrb.</jobString>
+		<surgeryOutcomeEffect IsNull="True" />
+		<!-- Always succeeds -->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AcidifierDragonianOrb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AcidifierDragonianOrb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>DragonianOrb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AcidifierDragonianOrb</addsHediff>
+	</RecipeDef>
+
+</Defs>

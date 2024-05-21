@@ -495,7 +495,7 @@
       <li>DragonianOrbAdvanced</li>
     </techHediffsTags>
     <techHediffsRequired>
-      <li>HardenDragonianOrb</li>
+      <li MayRequire="Ludeon.Rimworld.Royalty">AcidifierDragonianOrb</li>
     </techHediffsRequired>
     
     <inventoryOptions>

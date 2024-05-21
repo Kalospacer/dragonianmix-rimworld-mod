@@ -29,6 +29,10 @@
   <InstallHardenDragonianOrb.description>安装硬化龙珠。</InstallHardenDragonianOrb.description>
   <InstallHardenDragonianOrb.jobString>正在安装硬化龙珠。</InstallHardenDragonianOrb.jobString>
 
+  <InstallAcidifierDragonianOrb.label>安装酸解龙珠</InstallAcidifierDragonianOrb.label>
+  <InstallAcidifierDragonianOrb.description>安装酸解龙珠。</InstallAcidifierDragonianOrb.description>
+  <InstallAcidifierDragonianOrb.jobString>正在安装酸解龙珠。</InstallAcidifierDragonianOrb.jobString>
+
   <InstallDRM_SlashTail.label>安装斩龙尾</InstallDRM_SlashTail.label>
   <InstallDRM_SlashTail.description>安装斩龙尾。</InstallDRM_SlashTail.description>
   <InstallDRM_SlashTail.jobString>正在安装斩龙尾。</InstallDRM_SlashTail.jobString>
