@@ -54,15 +54,14 @@
     <iconPath>UI/Abilities/ReleaseDeadlifeDust</iconPath>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>true</aiCanUse>
     <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
-    <hostile>false</hostile>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
       <label>release deadlife dust</label>
       <drawAimPie>true</drawAimPie>
       <warmupTime>1</warmupTime>
       <range>24.9</range>
-      <violent>false</violent>
       <targetParams>
         <canTargetPawns>False</canTargetPawns>
         <canTargetLocations>True</canTargetLocations>
