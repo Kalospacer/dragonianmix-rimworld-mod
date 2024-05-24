@@ -120,6 +120,27 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>ShieldDragonianOrb</defName>
+		<label>Shield DragonianOrb</label>
+		<description>An Shield DragonianOrb.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Item/Resource/Dorb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>ShieldDragonianOrb</li>
+			<li>DragonianOrbAdvanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardCore</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
 		<defName>DRM_SlashTail</defName>
 		<label>slash tail</label>
 		<description>A slash tail turn dragonian's tail into a massive blade.</description>

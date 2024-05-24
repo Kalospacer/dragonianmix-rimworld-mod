@@ -29,6 +29,9 @@
     <AcidifierDragonianOrb.label>龙娘 酸解龙珠</AcidifierDragonianOrb.label>
     <AcidifierDragonianOrb.description>一颗龙珠。死亡时溶解身上的装备。</AcidifierDragonianOrb.description>
 
+    <ShieldDragonianOrb.label>龙娘 护盾龙珠</ShieldDragonianOrb.label>
+    <ShieldDragonianOrb.description>一颗龙珠。提供有一点自私的护盾。</ShieldDragonianOrb.description>
+
     <DRM_SlashTail.label>龙娘 斩龙尾</DRM_SlashTail.label>
     <DRM_SlashTail.description>一条斩龙尾。巨大的剑刃替代了尾巴。</DRM_SlashTail.description>
     <DRM_SlashTail.labelNoun>斩龙尾</DRM_SlashTail.labelNoun>

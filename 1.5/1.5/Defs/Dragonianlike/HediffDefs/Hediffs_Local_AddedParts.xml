@@ -842,4 +842,59 @@
 		<addsHediff>DRM_ExplosiveSlashTail</addsHediff>
 	</RecipeDef>
 
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>ShieldDragonianOrb</defName>
+		<label>Shield DragonianOrb</label>
+		<labelNoun>a Shield DragonianOrb.</labelNoun>
+		<description>An installed Shield DragonianOrb.</description>
+		<priceImpact>false</priceImpact>
+		<hediffClass>DragonianMix.HediffShield_Implant</hediffClass>
+
+		<comps>
+			<li Class="DragonianMix.HediffShieldCompProperties">
+				<MaxEnergy>100</MaxEnergy>
+				<EnergyOnReset>0</EnergyOnReset>
+				<CanFunction>True</CanFunction>
+				<RegenerationRate>0.005</RegenerationRate>
+			</li>
+		</comps>
+
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>ShieldDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallShieldDragonianOrb</defName>
+		<label>install Shield DragonianOrb</label>
+		<description>Install Shield DragonianOrb.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ShieldDragonianOrb</ThingDef>
+			<HediffDef>ShieldDragonianOrb</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Shield DragonianOrb.</jobString>
+		<surgeryOutcomeEffect IsNull="True" />
+		<!-- Always succeeds -->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ShieldDragonianOrb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ShieldDragonianOrb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>DragonianOrb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ShieldDragonianOrb</addsHediff>
+	</RecipeDef>
+
 </Defs>
