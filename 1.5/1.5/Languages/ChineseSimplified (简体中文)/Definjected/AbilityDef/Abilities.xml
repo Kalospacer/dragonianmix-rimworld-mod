@@ -14,6 +14,10 @@
   <DRM_Deaddustpop.description>释放一团死灵尘。死灵尘附着在尸体上后，便会引发混乱而剧烈的反应，使它们重获行动能力。这些活尸只会攻击你的敌人。死灵尘由飘浮在空气中的超凡微械构成，能够穿透细胞并修复坏死的组织。</DRM_Deaddustpop.description>
   <DRM_Deaddustpop.verbProperties.label>释放死灵尘</DRM_Deaddustpop.verbProperties.label>
 
+  <DRM_Toxgaspop.label>释放有毒气体</DRM_Toxgaspop.label>
+  <DRM_Toxgaspop.description>释放一团毒气。嗯。</DRM_Toxgaspop.description>
+  <DRM_Toxgaspop.verbProperties.label>释放有毒气体</DRM_Toxgaspop.verbProperties.label>
+
   <DRM_Farskip.label>远距离折跃</DRM_Farskip.label>
   <DRM_Farskip.description>折跃施法者，去往一个远处的盟友位置。这能够让人们抵达星球上很远的位置，但必须在目标位置有一个愿意充当道标的盟友时才有效果。被折跃的人总是出现在目标地图上的随机盟友附近。</DRM_Farskip.description>
 

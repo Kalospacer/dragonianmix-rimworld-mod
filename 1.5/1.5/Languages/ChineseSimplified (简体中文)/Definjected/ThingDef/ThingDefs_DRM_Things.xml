@@ -35,6 +35,9 @@
     <EnderDragonianOrb.label>龙娘 末影龙珠</EnderDragonianOrb.label>
     <EnderDragonianOrb.description>一颗龙珠。拥有强大的折跃能力。</EnderDragonianOrb.description>
 
+    <ToxicDragonianOrb.label>龙娘 毒素龙珠</ToxicDragonianOrb.label>
+    <ToxicDragonianOrb.description>一颗龙珠。有毒危险。</ToxicDragonianOrb.description>
+
     <DRM_SlashTail.label>龙娘 斩龙尾</DRM_SlashTail.label>
     <DRM_SlashTail.description>一条斩龙尾。巨大的剑刃替代了尾巴。</DRM_SlashTail.description>
     <DRM_SlashTail.labelNoun>斩龙尾</DRM_SlashTail.labelNoun>

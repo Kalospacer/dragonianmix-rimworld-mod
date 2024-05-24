@@ -5,11 +5,23 @@
 		<defName>NecroDragonianOrb</defName>
 		<label>Necro DragonianOrb</label>
 		<labelNoun>a Necro DragonianOrb.</labelNoun>
-		<description>An installed Flare DragonianOrb. Allow owner to spray deadlifedust.</description>
+		<description>An installed Necro DragonianOrb. Allow owner to spray deadlifedust.</description>
 		<priceImpact>false</priceImpact>
 		<abilities MayRequire="Ludeon.RimWorld.Anomaly">
 			<li>DRM_Deaddustpop</li>
 		</abilities>
+		<comps>
+			<li Class="DragonianMix.HediffCompProperties_DRMExplodeOnDeath">
+		      <damageDef>Smoke</damageDef>
+			  <gasType>DeadlifeDust</gasType>
+			  <soundDef>Explosion_Stun</soundDef>
+			  <explosionRadius>6</explosionRadius>
+			  <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+			  <destroyGear>false</destroyGear>
+			  <destroyBody>false</destroyBody>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath" />
+		  </comps>
 		<addedPartProps>
 			<solid>true</solid>
 		</addedPartProps>

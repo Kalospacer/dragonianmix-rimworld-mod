@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!--
 <HediffDef>
     <defName>DRM_FearGasExposure</defName>
     <label>Fear gas</label>
@@ -68,5 +69,85 @@
       </li>
     </comps>
   </HediffDef>
+  -->
+
+  <HediffDef ParentName="AddedBodyPartBase">
+		<defName>ToxicDragonianOrb</defName>
+		<label>Toxic DragonianOrb</label>
+		<labelNoun>a Toxic DragonianOrb.</labelNoun>
+		<description>An installed Toxic DragonianOrb. Allow owner to spray Toxgas.</description>
+		<priceImpact>false</priceImpact>
+		<abilities MayRequire="Ludeon.RimWorld.Biotech">
+			<li>DRM_Toxgaspop</li>
+		</abilities>
+		<comps>
+			<li Class="DragonianMix.HediffCompProperties_DRMExplodeOnDeath">
+			  <damageDef>Smoke</damageDef>
+			  <soundDef>Explosion_Stun</soundDef>
+			  <explosionRadius>6</explosionRadius>
+			  <gasType>ToxGas</gasType>
+			  <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+        <destroyGear>false</destroyGear>
+			  <destroyBody>false</destroyBody>
+			</li>
+		  </comps>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>ToxicDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallToxicDragonianOrb</defName>
+		<label>install Toxic DragonianOrb</label>
+		<description>Install Toxic DragonianOrb.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ToxicDragonianOrb</ThingDef>
+			<HediffDef>ToxicDragonianOrb</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Toxic DragonianOrb.</jobString>
+		<surgeryOutcomeEffect IsNull="True" />
+		<!-- Always succeeds -->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ToxicDragonianOrb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ToxicDragonianOrb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>DragonianOrb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ToxicDragonianOrb</addsHediff>
+	</RecipeDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>ToxicDragonianOrb</defName>
+		<label>Toxic DragonianOrb</label>
+		<description>An Toxic DragonianOrb. Allow owner to spray Toxgas.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Item/Resource/Dorb_heal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>ToxicDragonianOrb</li>
+			<li>DragonianOrbAdvanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardCore</li>
+		</thingSetMakerTags>
+	</ThingDef>
 
 </Defs>

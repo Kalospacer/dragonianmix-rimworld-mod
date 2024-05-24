@@ -72,6 +72,7 @@
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
         <smokeRadius>9</smokeRadius>
+        <gasType>DeadlifeDust</gasType>
         <clamorType>Ability</clamorType>
         <clamorRadius>20</clamorRadius>
       </li>

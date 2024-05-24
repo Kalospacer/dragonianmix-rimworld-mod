@@ -17,6 +17,14 @@
 			  <injuryCreatedOnDeath>ChemicalBurn</injuryCreatedOnDeath>
 			  <injuryCount>3~6</injuryCount>
 			</li>
+			<li Class="DragonianMix.HediffCompProperties_DRMExplodeOnDeath">
+				<damageDef>DRM_AcidBurn</damageDef>
+				<damageAmount>40</damageAmount>
+				<soundDef>Explosion_Stun</soundDef>
+				<explosionRadius>6</explosionRadius>
+				<destroyGear>false</destroyGear>
+				<destroyBody>false</destroyBody>
+			  </li>
 		  </comps>
 		<addedPartProps>
 			<solid>true</solid>

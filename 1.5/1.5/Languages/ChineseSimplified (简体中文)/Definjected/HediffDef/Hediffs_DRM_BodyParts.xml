@@ -18,7 +18,7 @@
   <FlareDragonianOrb.labelNoun>火炎龙珠</FlareDragonianOrb.labelNoun>
 
   <NecroDragonianOrb.label>龙娘 死灵龙珠</NecroDragonianOrb.label>
-  <NecroDragonianOrb.description>一颗龙珠。能够释放死灵粉尘。</NecroDragonianOrb.description>
+  <NecroDragonianOrb.description>一颗龙珠。能够释放死灵粉尘。死亡时引发死灵粉尘爆炸，触发后龙珠会消失。</NecroDragonianOrb.description>
   <NecroDragonianOrb.labelNoun>死灵龙珠</NecroDragonianOrb.labelNoun>
 
   <HyperhealDragonianOrb.label>龙娘 超再生珠</HyperhealDragonianOrb.label>
@@ -30,7 +30,7 @@
   <HardenDragonianOrb.labelNoun>硬化龙珠</HardenDragonianOrb.labelNoun>
 
   <AcidifierDragonianOrb.label>龙娘 酸解龙珠</AcidifierDragonianOrb.label>
-  <AcidifierDragonianOrb.description>一颗龙珠。死亡时溶解身上的装备。</AcidifierDragonianOrb.description>
+  <AcidifierDragonianOrb.description>一颗龙珠。死亡时引发小型酸蚀爆炸，并溶解身上的装备。</AcidifierDragonianOrb.description>
   <AcidifierDragonianOrb.labelNoun>酸解龙珠</AcidifierDragonianOrb.labelNoun>
 
   <ShieldDragonianOrb.label>龙娘 护盾龙珠</ShieldDragonianOrb.label>
@@ -40,6 +40,10 @@
   <EnderDragonianOrb.label>龙娘 末影龙珠</EnderDragonianOrb.label>
   <EnderDragonianOrb.description>一颗龙珠。拥有强大的折跃能力。</EnderDragonianOrb.description>
   <EnderDragonianOrb.labelNoun>末影龙珠</EnderDragonianOrb.labelNoun>
+  
+  <ToxicDragonianOrb.label>龙娘 毒素龙珠</ToxicDragonianOrb.label>
+  <ToxicDragonianOrb.description>一颗龙珠。有毒危险。死亡时引发有毒气体爆炸。</ToxicDragonianOrb.description>
+  <ToxicDragonianOrb.labelNoun>毒素龙珠</ToxicDragonianOrb.labelNoun>
 
   <DRM_SlashTail.label>龙娘 斩龙尾</DRM_SlashTail.label>
   <DRM_SlashTail.description>一条斩龙尾。巨大的剑刃替代了尾巴。</DRM_SlashTail.description>
