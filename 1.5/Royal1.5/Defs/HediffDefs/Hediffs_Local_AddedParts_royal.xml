@@ -34,7 +34,7 @@
 		</graphicData>
 		<techHediffsTags>
 			<li>AcidifierDragonianOrb</li>
-			<li>DragonianOrbAdvanced</li>
+			<li>DragonianOrbNormal</li>
 		</techHediffsTags>
 		<statBases>
 			<MarketValue>400</MarketValue>
@@ -76,5 +76,74 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>AcidifierDragonianOrb</addsHediff>
 	</RecipeDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EnderDragonianOrb</defName>
+		<label>Ender DragonianOrb</label>
+		<labelNoun>a Ender DragonianOrb.</labelNoun>
+		<description>An installed Ender DragonianOrb. Allow owner to teleport them self.</description>
+		<priceImpact>false</priceImpact>
+		<abilities MayRequire="Ludeon.RimWorld.Royalty">
+			<li>DRM_Skip</li>
+			<li>DRM_Farskip</li>
+		</abilities>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>EnderDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallEnderDragonianOrb</defName>
+		<label>install Ender DragonianOrb</label>
+		<description>Install Ender DragonianOrb.</description>
+		<descriptionHyperlinks>
+			<ThingDef>EnderDragonianOrb</ThingDef>
+			<HediffDef>EnderDragonianOrb</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Ender DragonianOrb.</jobString>
+		<surgeryOutcomeEffect IsNull="True" />
+		<!-- Always succeeds -->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EnderDragonianOrb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EnderDragonianOrb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>DragonianOrb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnderDragonianOrb</addsHediff>
+	</RecipeDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>EnderDragonianOrb</defName>
+		<label>Ender DragonianOrb</label>
+		<description>An Ender DragonianOrb. Allow owner to teleport them self.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Item/Resource/Dorb_heal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>EnderDragonianOrb</li>
+			<li>DragonianOrbAdvanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardCore</li>
+		</thingSetMakerTags>
+	</ThingDef>
 
 </Defs>

@@ -8,7 +8,7 @@
 		<description>An installed Flare DragonianOrb. Allow owner to spray deadlifedust.</description>
 		<priceImpact>false</priceImpact>
 		<abilities MayRequire="Ludeon.RimWorld.Anomaly">
-			<li>ReleaseDeadlifeDust</li>
+			<li>DRM_Deaddustpop</li>
 		</abilities>
 		<addedPartProps>
 			<solid>true</solid>

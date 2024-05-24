@@ -31,6 +31,9 @@
 
     <ShieldDragonianOrb.label>龙娘 护盾龙珠</ShieldDragonianOrb.label>
     <ShieldDragonianOrb.description>一颗龙珠。提供有一点自私的护盾。</ShieldDragonianOrb.description>
+    
+    <EnderDragonianOrb.label>龙娘 末影龙珠</EnderDragonianOrb.label>
+    <EnderDragonianOrb.description>一颗龙珠。拥有强大的折跃能力。</EnderDragonianOrb.description>
 
     <DRM_SlashTail.label>龙娘 斩龙尾</DRM_SlashTail.label>
     <DRM_SlashTail.description>一条斩龙尾。巨大的剑刃替代了尾巴。</DRM_SlashTail.description>

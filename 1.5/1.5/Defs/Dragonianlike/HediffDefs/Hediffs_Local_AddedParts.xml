@@ -166,8 +166,8 @@
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
-				<regeneration>300</regeneration>
-				<showRegenerationStat>false</showRegenerationStat>
+				<regeneration>1</regeneration>
+				<showRegenerationStat>true</showRegenerationStat>
 			</li>
 		</stages>
 		<addedPartProps>
@@ -184,8 +184,8 @@
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
-				<regeneration>10000</regeneration>
-				<showRegenerationStat>false</showRegenerationStat>
+				<regeneration>300</regeneration>
+				<showRegenerationStat>true</showRegenerationStat>
 				<painFactor>0.1</painFactor>
 			</li>
 		</stages>
