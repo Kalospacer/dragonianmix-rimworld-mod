@@ -365,6 +365,84 @@
 		</stages>
 	</HediffDef>
 
+	<HediffDef ParentName="DiseaseBase">
+		<defName>DRM_FearGas</defName>
+		<label>Fear gas</label>
+		<description>Aftereffects of exposure to Fear Toxgas, It burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to fear gas results in panic and violent behavior.</description>
+		<isBad>true</isBad>
+		<defaultLabelColor>(0.3,0.25,0.65)</defaultLabelColor>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>3</maxSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_SeverityPerDay">
+			<severityPerDay>-30</severityPerDay>
+		  </li>
+		  <li Class="HediffCompProperties_CauseMentalState">
+			<animalMentalState>ManhunterPermanent</animalMentalState>
+			<animalMentalStateAlias>Manhunter</animalMentalStateAlias>
+			<humanMentalState>Berserk</humanMentalState>
+			<mtbDaysToCauseMentalState>1</mtbDaysToCauseMentalState>
+		</li>
+		</comps>
+		<stages>
+		  <li>
+			<label>mild</label>
+			<minSeverity>1</minSeverity>
+			<painFactor>1.0</painFactor>
+			<capMods>
+			  <li>
+				<capacity>Sight</capacity>
+				<offset>-0.3</offset>
+			  </li>
+			  <li>
+				<capacity>Breathing</capacity>
+				<offset>-0.15</offset>
+			  </li>
+			</capMods>
+			<statOffsets>
+				<MentalBreakThreshold>0.14</MentalBreakThreshold>
+			</statOffsets>
+		  </li>
+		  <li>
+			<label>moderate</label>
+			<minSeverity>2</minSeverity>
+			<painFactor>1.2</painFactor>
+			<capMods>
+			  <li>
+				<capacity>Sight</capacity>
+				<offset>-0.6</offset>
+			  </li>
+			  <li>
+				<capacity>Breathing</capacity>
+				<offset>-0.3</offset>
+			  </li>
+			</capMods>
+			<statOffsets>
+				<MentalBreakThreshold>0.42</MentalBreakThreshold>
+			</statOffsets>
+		  </li>
+		  <li>
+			<label>severe</label>
+			<minSeverity>3</minSeverity>
+			<painFactor>2.0</painFactor>
+			<capMods>
+			  <li>
+				<capacity>Sight</capacity>
+				<setMax>0</setMax>
+			  </li>
+			  <li>
+				<capacity>Breathing</capacity>
+				<offset>-0.60</offset>
+			  </li>
+			</capMods>
+			<statOffsets>
+				<MentalBreakThreshold>1</MentalBreakThreshold>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </HediffDef>
+
 	<HediffDef>
 		<defName>DRM_ArmorMeltdown</defName>
 		<label>Armor Meltdown</label>

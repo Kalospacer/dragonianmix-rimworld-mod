@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThoughtDef>
+    <defName>RotStink</defName>
+    <workerClass>ThoughtWorker_RotStink</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>rot stink</label>
+        <description>A rotten stink invades my nostrils and sticks to my skin. It makes me sick.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>awful rot stink</label>
+        <description>The stench of rot is so thick I almost feel like I'm swimming in it. I can hardly breathe in this filth!</description>
+        <baseMoodEffect>-16</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

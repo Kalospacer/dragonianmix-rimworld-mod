@@ -86,7 +86,6 @@
 			  <soundDef>Explosion_Stun</soundDef>
 			  <explosionRadius>6</explosionRadius>
 			  <gasType>ToxGas</gasType>
-			  <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
         <destroyGear>false</destroyGear>
 			  <destroyBody>false</destroyBody>
 			</li>

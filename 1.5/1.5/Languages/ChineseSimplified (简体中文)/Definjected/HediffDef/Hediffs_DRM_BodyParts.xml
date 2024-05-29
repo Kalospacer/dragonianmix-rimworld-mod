@@ -40,7 +40,7 @@
   <EnderDragonianOrb.label>龙娘 末影龙珠</EnderDragonianOrb.label>
   <EnderDragonianOrb.description>一颗龙珠。拥有强大的折跃能力。</EnderDragonianOrb.description>
   <EnderDragonianOrb.labelNoun>末影龙珠</EnderDragonianOrb.labelNoun>
-  
+
   <ToxicDragonianOrb.label>龙娘 毒素龙珠</ToxicDragonianOrb.label>
   <ToxicDragonianOrb.description>一颗龙珠。有毒危险。死亡时引发有毒气体爆炸。</ToxicDragonianOrb.description>
   <ToxicDragonianOrb.labelNoun>毒素龙珠</ToxicDragonianOrb.labelNoun>
@@ -131,5 +131,16 @@
   <DRM_ElectricShock.stages.extreme.label>极重</DRM_ElectricShock.stages.extreme.label>
   <!-- EN: extreme -->
   <DRM_ElectricShock.stages.completely.label>完全</DRM_ElectricShock.stages.completely.label>
+
+  <!-- EN: tox gas -->
+  <DRM_FearGas.label>恐惧毒气</DRM_FearGas.label>
+  <!-- EN: Aftereffects of exposure to tox gas, a poisonous chemical gas. It burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup and eventually death. -->
+  <DRM_FearGas.description>接触恐惧气体产生的负面影响。恐惧气体会灼伤生物的眼睛与肺部，使视觉与呼吸能力暂时降低。持续暴露还会引发生物极度恐惧情绪和诱发暴力行为。</DRM_FearGas.description>
+  <!-- EN: mild -->
+  <DRM_FearGas.stages.mild.label>较轻</DRM_FearGas.stages.mild.label>
+  <!-- EN: moderate -->
+  <DRM_FearGas.stages.moderate.label>中等</DRM_FearGas.stages.moderate.label>
+  <!-- EN: severe -->
+  <DRM_FearGas.stages.severe.label>严重</DRM_FearGas.stages.severe.label>
 
 </LanguageData>

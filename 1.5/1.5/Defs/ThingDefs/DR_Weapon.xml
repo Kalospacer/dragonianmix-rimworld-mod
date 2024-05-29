@@ -19,12 +19,12 @@
 		<costStuffCount>80</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
-		</stuffCategories>	
+		</stuffCategories>
 		<costList>
 			<WoolDragonian>40</WoolDragonian>
 			<Steel>40</Steel>
 			<ComponentIndustrial>5</ComponentIndustrial>
-		</costList>	
+		</costList>
 		<recipeMaker>
 			<researchPrerequisite>Electricity</researchPrerequisite>
 			<skillRequirements>
@@ -66,137 +66,137 @@
 			</li>
 		</tools>
 		<meleeHitSound>DRHammerSound</meleeHitSound>
-	</ThingDef>	
+	</ThingDef>
 
 	<!-- <DamageDef ParentName="Bite"> -->
-		<!-- <defName>DR_ShortCircuit</defName> -->
-		<!-- <label>short circuit</label> -->
-		<!-- <additionalHediffs> -->
-			<!-- <li> -->
-				<!-- <hediff>DR_MechaShortCircuit</hediff> -->
-				<!-- <severityPerDamageDealt>0.10</severityPerDamageDealt> -->
-			<!-- </li> -->
-		<!-- </additionalHediffs> -->
+	<!-- <defName>DR_ShortCircuit</defName> -->
+	<!-- <label>short circuit</label> -->
+	<!-- <additionalHediffs> -->
+	<!-- <li> -->
+	<!-- <hediff>DR_MechaShortCircuit</hediff> -->
+	<!-- <severityPerDamageDealt>0.10</severityPerDamageDealt> -->
+	<!-- </li> -->
+	<!-- </additionalHediffs> -->
 	<!-- </DamageDef> -->
 
 
 	<!-- <HediffDef> -->
-		<!-- <defName>DR_MechaShortCircuit</defName> -->
-		<!-- <label>short circuit</label> -->
-		<!-- <description>overvoltage in the circuit. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons. -->
-<!-- \nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers. -->
-<!-- \nCreatures who die with toxic buildup cannot be eaten.</description> -->
-		<!-- <hediffClass>HediffWithComps</hediffClass> -->
-		<!-- <defaultLabelColor>(0.7, 0.7, 1.0)</defaultLabelColor> -->
-		<!-- <lethalSeverity>1</lethalSeverity> -->
-		<!-- <makesSickThought>false</makesSickThought> -->
-		<!-- <scenarioCanAdd>true</scenarioCanAdd> -->
-		<!-- <comps> -->
-			<!-- <li Class="HediffCompProperties_Immunizable"> -->
-				<!-- <severityPerDayNotImmune>-0.08</severityPerDayNotImmune> -->
-			<!-- </li> -->
-		<!-- </comps> -->
-		<!-- <stages> -->
-			<!-- <li> -->
-				<!-- <label>initial</label> -->
-				<!-- <becomeVisible>false</becomeVisible> -->
-			<!-- </li> -->
-			<!-- <li> -->
-				<!-- <label>initial</label> -->
-				<!-- <minSeverity>0.04</minSeverity> -->
-				<!-- <capMods> -->
-					<!-- <li> -->
-						<!-- <capacity>Consciousness</capacity> -->
-						<!-- <offset>-0.05</offset> -->
-					<!-- </li> -->
-				<!-- </capMods> -->
-			<!-- </li> -->
-			<!-- <li> -->
-				<!-- <label>minor</label> -->
-				<!-- <minSeverity>0.2</minSeverity> -->
-				<!-- <capMods> -->
-					<!-- <li> -->
-						<!-- <capacity>Consciousness</capacity> -->
-						<!-- <offset>-0.10</offset> -->
-					<!-- </li> -->
-				<!-- </capMods> -->
-			<!-- </li> -->
-			<!-- <li> -->
-				<!-- <label>moderate</label> -->
-				<!-- <minSeverity>0.40</minSeverity> -->
-				<!-- <vomitMtbDays>5</vomitMtbDays> -->
-				<!-- <capMods> -->
-					<!-- <li> -->
-						<!-- <capacity>Consciousness</capacity> -->
-						<!-- <offset>-0.15</offset> -->
-					<!-- </li> -->
-				<!-- </capMods> -->
-				<!-- <hediffGivers> -->
-					<!-- <li Class="HediffGiver_Random"> -->
-						<!-- <hediff>Dementia</hediff> -->
-						<!-- <mtbDays>146</mtbDays> -->
-						<!-- <partsToAffect> -->
-							<!-- <li>Brain</li> -->
-						<!-- </partsToAffect> -->
-					<!-- </li> -->
-					<!-- <li Class="HediffGiver_Random"> -->
-						<!-- <hediff>Carcinoma</hediff> -->
-						<!-- <mtbDays>438</mtbDays> -->
-						<!-- <canAffectAnyLivePart>true</canAffectAnyLivePart> -->
-					<!-- </li> -->
-				<!-- </hediffGivers> -->
-			<!-- </li> -->
-			<!-- <li> -->
-				<!-- <label>serious</label> -->
-				<!-- <minSeverity>0.60</minSeverity> -->
-				<!-- <vomitMtbDays>1</vomitMtbDays> -->
-				<!-- <capMods> -->
-					<!-- <li> -->
-						<!-- <capacity>Consciousness</capacity> -->
-						<!-- <offset>-0.25</offset> -->
-					<!-- </li> -->
-				<!-- </capMods> -->
-				<!-- <hediffGivers> -->
-					<!-- <li Class="HediffGiver_Random"> -->
-						<!-- <hediff>Dementia</hediff> -->
-						<!-- <mtbDays>37</mtbDays> -->
-						<!-- <partsToAffect> -->
-							<!-- <li>Brain</li> -->
-						<!-- </partsToAffect> -->
-					<!-- </li> -->
-					<!-- <li Class="HediffGiver_Random"> -->
-						<!-- <hediff>Carcinoma</hediff> -->
-						<!-- <mtbDays>111</mtbDays> -->
-						<!-- <canAffectAnyLivePart>true</canAffectAnyLivePart> -->
-					<!-- </li> -->
-				<!-- </hediffGivers> -->
-			<!-- </li> -->
-			<!-- <li> -->
-				<!-- <label>extreme</label> -->
-				<!-- <minSeverity>0.80</minSeverity> -->
-				<!-- <vomitMtbDays>0.5</vomitMtbDays> -->
-				<!-- <capMods> -->
-					<!-- <li> -->
-						<!-- <capacity>Consciousness</capacity> -->
-						<!-- <setMax>0.10</setMax> -->
-					<!-- </li> -->
-				<!-- </capMods> -->
-				<!-- <hediffGivers> -->
-					<!-- <li Class="HediffGiver_Random"> -->
-						<!-- <hediff>Dementia</hediff> -->
-						<!-- <mtbDays>13</mtbDays> -->
-						<!-- <partsToAffect> -->
-							<!-- <li>Brain</li> -->
-						<!-- </partsToAffect> -->
-					<!-- </li> -->
-					<!-- <li Class="HediffGiver_Random"> -->
-						<!-- <hediff>Carcinoma</hediff> -->
-						<!-- <mtbDays>39</mtbDays> -->
-						<!-- <canAffectAnyLivePart>true</canAffectAnyLivePart> -->
-					<!-- </li> -->
-				<!-- </hediffGivers> -->
-			<!-- </li> -->
-		<!-- </stages> -->
+	<!-- <defName>DR_MechaShortCircuit</defName> -->
+	<!-- <label>short circuit</label> -->
+	<!-- <description>overvoltage in the circuit. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons. -->
+	<!-- \nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers. -->
+	<!-- \nCreatures who die with toxic buildup cannot be eaten.</description> -->
+	<!-- <hediffClass>HediffWithComps</hediffClass> -->
+	<!-- <defaultLabelColor>(0.7, 0.7, 1.0)</defaultLabelColor> -->
+	<!-- <lethalSeverity>1</lethalSeverity> -->
+	<!-- <makesSickThought>false</makesSickThought> -->
+	<!-- <scenarioCanAdd>true</scenarioCanAdd> -->
+	<!-- <comps> -->
+	<!-- <li Class="HediffCompProperties_Immunizable"> -->
+	<!-- <severityPerDayNotImmune>-0.08</severityPerDayNotImmune> -->
+	<!-- </li> -->
+	<!-- </comps> -->
+	<!-- <stages> -->
+	<!-- <li> -->
+	<!-- <label>initial</label> -->
+	<!-- <becomeVisible>false</becomeVisible> -->
+	<!-- </li> -->
+	<!-- <li> -->
+	<!-- <label>initial</label> -->
+	<!-- <minSeverity>0.04</minSeverity> -->
+	<!-- <capMods> -->
+	<!-- <li> -->
+	<!-- <capacity>Consciousness</capacity> -->
+	<!-- <offset>-0.05</offset> -->
+	<!-- </li> -->
+	<!-- </capMods> -->
+	<!-- </li> -->
+	<!-- <li> -->
+	<!-- <label>minor</label> -->
+	<!-- <minSeverity>0.2</minSeverity> -->
+	<!-- <capMods> -->
+	<!-- <li> -->
+	<!-- <capacity>Consciousness</capacity> -->
+	<!-- <offset>-0.10</offset> -->
+	<!-- </li> -->
+	<!-- </capMods> -->
+	<!-- </li> -->
+	<!-- <li> -->
+	<!-- <label>moderate</label> -->
+	<!-- <minSeverity>0.40</minSeverity> -->
+	<!-- <vomitMtbDays>5</vomitMtbDays> -->
+	<!-- <capMods> -->
+	<!-- <li> -->
+	<!-- <capacity>Consciousness</capacity> -->
+	<!-- <offset>-0.15</offset> -->
+	<!-- </li> -->
+	<!-- </capMods> -->
+	<!-- <hediffGivers> -->
+	<!-- <li Class="HediffGiver_Random"> -->
+	<!-- <hediff>Dementia</hediff> -->
+	<!-- <mtbDays>146</mtbDays> -->
+	<!-- <partsToAffect> -->
+	<!-- <li>Brain</li> -->
+	<!-- </partsToAffect> -->
+	<!-- </li> -->
+	<!-- <li Class="HediffGiver_Random"> -->
+	<!-- <hediff>Carcinoma</hediff> -->
+	<!-- <mtbDays>438</mtbDays> -->
+	<!-- <canAffectAnyLivePart>true</canAffectAnyLivePart> -->
+	<!-- </li> -->
+	<!-- </hediffGivers> -->
+	<!-- </li> -->
+	<!-- <li> -->
+	<!-- <label>serious</label> -->
+	<!-- <minSeverity>0.60</minSeverity> -->
+	<!-- <vomitMtbDays>1</vomitMtbDays> -->
+	<!-- <capMods> -->
+	<!-- <li> -->
+	<!-- <capacity>Consciousness</capacity> -->
+	<!-- <offset>-0.25</offset> -->
+	<!-- </li> -->
+	<!-- </capMods> -->
+	<!-- <hediffGivers> -->
+	<!-- <li Class="HediffGiver_Random"> -->
+	<!-- <hediff>Dementia</hediff> -->
+	<!-- <mtbDays>37</mtbDays> -->
+	<!-- <partsToAffect> -->
+	<!-- <li>Brain</li> -->
+	<!-- </partsToAffect> -->
+	<!-- </li> -->
+	<!-- <li Class="HediffGiver_Random"> -->
+	<!-- <hediff>Carcinoma</hediff> -->
+	<!-- <mtbDays>111</mtbDays> -->
+	<!-- <canAffectAnyLivePart>true</canAffectAnyLivePart> -->
+	<!-- </li> -->
+	<!-- </hediffGivers> -->
+	<!-- </li> -->
+	<!-- <li> -->
+	<!-- <label>extreme</label> -->
+	<!-- <minSeverity>0.80</minSeverity> -->
+	<!-- <vomitMtbDays>0.5</vomitMtbDays> -->
+	<!-- <capMods> -->
+	<!-- <li> -->
+	<!-- <capacity>Consciousness</capacity> -->
+	<!-- <setMax>0.10</setMax> -->
+	<!-- </li> -->
+	<!-- </capMods> -->
+	<!-- <hediffGivers> -->
+	<!-- <li Class="HediffGiver_Random"> -->
+	<!-- <hediff>Dementia</hediff> -->
+	<!-- <mtbDays>13</mtbDays> -->
+	<!-- <partsToAffect> -->
+	<!-- <li>Brain</li> -->
+	<!-- </partsToAffect> -->
+	<!-- </li> -->
+	<!-- <li Class="HediffGiver_Random"> -->
+	<!-- <hediff>Carcinoma</hediff> -->
+	<!-- <mtbDays>39</mtbDays> -->
+	<!-- <canAffectAnyLivePart>true</canAffectAnyLivePart> -->
+	<!-- </li> -->
+	<!-- </hediffGivers> -->
+	<!-- </li> -->
+	<!-- </stages> -->
 	<!-- </HediffDef> -->
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -218,32 +218,32 @@
 			<AccuracyMedium>0.65</AccuracyMedium>
 			<AccuracyLong>0.55</AccuracyLong>
 			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
-		  </statBases>
+		</statBases>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<costStuffCount>80</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
-		</stuffCategories>	
+		</stuffCategories>
 		<costList>
 			<WoolDragonian>40</WoolDragonian>
 			<Steel>40</Steel>
 			<ComponentIndustrial>5</ComponentIndustrial>
-		</costList>	
+		</costList>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<weaponTags>
-			<li>DR_BattleStaff</li>
+			<li>DR_BattleStaff_Arc</li>
 		</weaponTags>
 		<thingCategories>
 			<li>WeaponsRanged</li>
-		  </thingCategories>
-		  <weaponClasses>
+		</thingCategories>
+		<weaponClasses>
 			<li>Ranged</li>
-		  </weaponClasses>
-		  <verbs>
+		</weaponClasses>
+		<verbs>
 			<li Class="DragonianMix.VerbProperties_Arc">
 				<verbClass>DragonianMix.Verb_ShootArc</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
@@ -258,14 +258,14 @@
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<targetParams>
-				  <canTargetLocations>true</canTargetLocations>
+					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<isConductible>True</isConductible>
 				<conductNum>4</conductNum>
 				<beamMoteDef>DRM_ArcBeam</beamMoteDef>
-			  </li>
-		  </verbs>
-		  <tools>
+			</li>
+		</verbs>
+		<tools>
 			<li>
 				<label>handle</label>
 				<capacities>
@@ -286,7 +286,7 @@
 						<def>DRM_Arc</def>
 						<amount>15</amount>
 						<chance>1</chance>
-					  </li>
+					</li>
 					<li>
 						<def>Stun</def>
 						<amount>1.5</amount>
@@ -317,12 +317,194 @@
 			<fadeOutUnmaintained>False</fadeOutUnmaintained>
 		</mote>
 		<drawOffscreen>true</drawOffscreen>
-    <graphicData>
-      <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
-      <texPath>Dragonian/Projectile/arc_emitter_diffuse</texPath>
-      <shaderType>MoteGlow</shaderType>
-      <drawSize>1</drawSize>
-    </graphicData>
-  </ThingDef>
+		<graphicData>
+			<graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
+			<texPath>Dragonian/Projectile/arc_emitter_diffuse</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef Name="DRM_BaseGas" Abstract="True">
+		<thingClass>Gas</thingClass>
+		<label>gas</label>
+		<category>Gas</category>
+		<altitudeLayer>Gas</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<graphicClass>Graphic_Gas</graphicClass>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+	</ThingDef>
+
+	<!-- Damage -->
+	<DamageDef>
+		<defName>DRM_Feargas</defName>		<!-- independent -->
+		<label>Fear gas</label>
+		<workerClass>DragonianMix.DamageWorker_OPToxic</workerClass>
+		<canInterruptJobs>false</canInterruptJobs>
+		<makesBlood>false</makesBlood>
+		<defaultDamage>0</defaultDamage>
+		<explosionCellFleck>BlastExtinguisher</explosionCellFleck>
+		<explosionColorEdge>(78,65,167,0.05)</explosionColorEdge>
+		<soundExplosion>Explosion_Stun</soundExplosion>
+		<harmsHealth>false</harmsHealth>
+		<combatLogRules>Damage_Extinguish</combatLogRules>
+	</DamageDef>
+
+	<!-- Gas : Thing -->
+	<ThingDef ParentName="DRM_BaseGas">
+		<defName>DRM_FearGasCloud</defName>
+		<label>Fear gas</label>
+		<graphicData>
+			<texPath>Things/Gas/ThickSmoke</texPath>
+			<drawSize>2.6</drawSize>
+			<color>(0.3,0.25,0.65,1)</color>
+		</graphicData>
+		<gas>
+			<expireSeconds>
+				<min>30</min>
+				<max>50</max>
+			</expireSeconds>
+			<!--<blockTurretTracking>true</blockTurretTracking>
+			  <accuracyPenalty>0.3</accuracyPenalty>-->
+			<rotationSpeed>20</rotationSpeed>
+		</gas>
+		<thingClass>DragonianMix.OPToxicGas</thingClass>
+		<modExtensions>
+			<li Class="DragonianMix.OPToxicDefs">
+				<OPToxicHediff>DRM_FearGas</OPToxicHediff>				<!-- Name of HediffDef to apply, change to own HediffDef -->
+				<OPToxicSeverity>1</OPToxicSeverity>				<!-- Severity build up per Tick period -->
+				<OPSevUpTickPeriod>120</OPSevUpTickPeriod>				<!-- No of game ticks per each build up, recommend >= 120 -->
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>DRM_Bullet_FeargasLauncher</defName>
+		<label>Feargas launcher shell</label>
+		<graphicData>
+			<texPath>Things/Projectile/LauncherShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<color>(78,65,167)</color>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>40</speed>
+			<damageDef>DRM_Feargas</damageDef>
+			<!-- Use default damage from explosion def -->
+			<explosionRadius>5.4</explosionRadius>
+			<soundExplode>DispensePaste</soundExplode>
+			<postExplosionSpawnThingDef>DRM_FearGasCloud</postExplosionSpawnThingDef>			<!-- ARL_ToxicGasCloud -->
+			<postExplosionSpawnChance>1</postExplosionSpawnChance>
+			<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+			<arcHeightFactor>2</arcHeightFactor>
+			<shadowSize>0.5</shadowSize>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<explosionDelay>100</explosionDelay>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>DR_BattleStaff_Fear</defName>
+		<label>Dragonian Fear Staff</label>
+		<description>A Staff for Dragonian.Can Shoot Feartox bomb.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Weapon/staff</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1</uiIconScale>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>15</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<WoolDragonian>40</WoolDragonian>
+			<Steel>40</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<weaponTags>
+			<li>DR_BattleStaff</li>
+			<li>DR_BattleStaff_Fear</li>
+		</weaponTags>
+		<thingCategories>
+			<li>WeaponsRanged</li>
+		</thingCategories>
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>DRM_Bullet_FeargasLauncher</defaultProjectile>
+				<warmupTime>3.5</warmupTime>
+				<range>23.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>physical-magic</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Demolish</li>
+				</capacities>
+				<power>15</power>
+				<extraMeleeDamages>
+					<li>
+						<def>DRM_Arc</def>
+						<amount>15</amount>
+						<chance>1</chance>
+					</li>
+					<li>
+						<def>Stun</def>
+						<amount>1.5</amount>
+						<chance>0.25</chance>
+					</li>
+				</extraMeleeDamages>
+				<cooldownTime>5.2</cooldownTime>
+			</li>
+		</tools>
+		<equippedStatOffsets>
+			<PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
+			<PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>
+		</equippedStatOffsets>
+		<meleeHitSound>DRHammerSound</meleeHitSound>
+	</ThingDef>
 
 </Defs>

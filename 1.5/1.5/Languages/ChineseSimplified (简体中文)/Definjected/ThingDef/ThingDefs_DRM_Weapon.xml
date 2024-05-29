@@ -12,5 +12,8 @@
 
   <DR_BattleStaff_Arc.label>龙娘 电弧法杖</DR_BattleStaff_Arc.label>
   <DR_BattleStaff_Arc.description>龙娘使用的法杖。能射出跳跃的闪电链。</DR_BattleStaff_Arc.description>
+
+  <DR_BattleStaff_Fear.label>龙娘 芬里尔法杖</DR_BattleStaff_Fear.label>
+  <DR_BattleStaff_Fear.description>龙娘使用的法杖。一个压缩的气体发射器。填装了芬里尔恐惧毒气弹。</DR_BattleStaff_Fear.description>
   
 </LanguageData>

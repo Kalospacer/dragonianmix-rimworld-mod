@@ -30,6 +30,9 @@
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_FireBurst">
         <radius>12</radius>
+        <damageDef>DRM_Flame</damageDef>
+        <damageAmount>80</damageAmount>
+        <armorPenetration>0</armorPenetration>
       </li>
     </comps>
   </AbilityDef>
@@ -57,10 +60,45 @@
     </verbProperties>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
+        <damageDef>Smoke</damageDef>
         <smokeRadius>9</smokeRadius>
         <gasType>ToxGas</gasType>
         <clamorType>Ability</clamorType>
         <clamorRadius>20</clamorRadius>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>DRM_Feargaspop</defName>
+    <label>FearGas Pop</label>
+    <description>Release a cloud of Feargas.</description>
+    <iconPath>UI/Abilities/ReleaseDeadlifeDust</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>true</aiCanUse>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <label>release Feargas</label>
+      <drawAimPie>true</drawAimPie>
+      <warmupTime>1</warmupTime>
+      <range>24.9</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+      <soundCast>DeadlifeRelease</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
+        <damageDef>DRM_Feargas</damageDef>
+        <smokeRadius>9</smokeRadius>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>20</clamorRadius>
+        <postExplosionSpawnThingDef>DRM_FearGasCloud</postExplosionSpawnThingDef> <!-- ARL_ToxicGasCloud -->
+      	<postExplosionSpawnChance>1</postExplosionSpawnChance>
+      	<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
       </li>
     </comps>
   </AbilityDef>
