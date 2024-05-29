@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SoundDef>
+    <defName>HD_LaserContinue</defName>
+    <sustain>true</sustain>
+    <context>MapOnly</context>
+    <maxSimultaneous>10</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <!--sustainStopSound>BeamGraser_Shooting_Resolve</sustainStopSound-->
+    <subSounds>
+      <li>
+        <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>laser_continue</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.99~1.01</pitchRange>
+        <volumeRange>90</volumeRange>
+        <sustainRelease>5</sustainRelease>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!--SoundDef>
+    <defName>HD_LaserContinue</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>laser_continue</clipPath>
+          </li>
+        </grains>
+        <volumeRange>120</volumeRange>
+		<pitchRange>
+          <min>0.6</min>        
+          <max>1.0</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef-->
+
+
+  <SoundDef>
+    <defName>HD_LaserBurst</defName>
+    <sustain>true</sustain>
+    <context>MapOnly</context>
+    <maxSimultaneous>10</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <!--sustainStopSound>BeamGraser_Shooting_Resolve</sustainStopSound-->
+    <subSounds>
+      <li>
+        <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>laser_burst</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.99~1.01</pitchRange>
+        <volumeRange>90</volumeRange>
+        <sustainRelease>5</sustainRelease>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>HD_LaserBurst_OneShot</defName>
+    <sustain>false</sustain>
+    <context>MapOnly</context>
+    <maxSimultaneous>10</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <!--sustainStopSound>BeamGraser_Shooting_Resolve</sustainStopSound-->
+    <subSounds>
+      <li>
+        <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>laser_burst_oneshot</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.99~1.01</pitchRange>
+        <volumeRange>90</volumeRange>
+        <sustainRelease>5</sustainRelease>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!--SoundDef>
+    <defName>HD_LaserBurst</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>laser_burst</clipPath>
+          </li>
+        </grains>
+        <volumeRange>120</volumeRange>
+		<pitchRange>
+          <min>0.6</min>        
+          <max>1.0</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef-->
+
+  <SoundDef>
+    <defName>HD_ArcShot</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>arc_shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>60</volumeRange>
+		<pitchRange>
+          <min>0.6</min>        
+          <max>1.0</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

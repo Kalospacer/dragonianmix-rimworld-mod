@@ -478,6 +478,98 @@
 		</stages>
 	</HediffDef>
 
+	<HediffDef>
+		<defName>DRM_ElectricShock</defName>
+		<label>Electric Shock</label>
+		<description>This preson is got a shock.</description>
+		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-4</severityPerDay>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.02</painPerSeverity>
+		  </injuryProps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.2</minSeverity>
+				<capMods>
+					<li>
+					  <capacity>Moving</capacity>
+					  <offset>-0.2</offset>
+					</li>
+					<li>
+					  <capacity>Manipulation</capacity>
+					  <offset>-0.2</offset>
+					</li>
+				  </capMods>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.35</minSeverity>
+				<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.4</offset>
+				  </li>
+				  <li>
+					<capacity>Manipulation</capacity>
+					<offset>-0.4</offset>
+				  </li>
+				</capMods>
+			</li>
+			<li>
+				<label>serious</label>
+				<minSeverity>0.5</minSeverity>
+				<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.6</offset>
+				  </li>
+				  <li>
+					<capacity>Manipulation</capacity>
+					<offset>-0.6</offset>
+				  </li>
+				</capMods>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.65</minSeverity>
+				<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>-0.8</offset>
+				  </li>
+				  <li>
+					<capacity>Manipulation</capacity>
+					<offset>-0.8</offset>
+				  </li>
+				</capMods>
+			</li>
+			<li>
+				<label>completely</label>
+				<minSeverity>0.85</minSeverity>
+				<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<setMax>0</setMax>
+				  </li>
+				  <li>
+					<capacity>Manipulation</capacity>
+					<setMax>0</setMax>
+				  </li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
 	<!-- slash tail -->
 
 	<HediffDef ParentName="AddedBodyPartBase">

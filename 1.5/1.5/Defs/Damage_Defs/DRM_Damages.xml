@@ -37,6 +37,19 @@
 	</DamageDef>
 
 	<DamageDef ParentName="Flame">
+		<defName>DRM_Arc</defName>
+		<label>Flame</label>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_ElectricShock</hediff>
+				<severityPerDamageDealt>0.02</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<causeStun>true</causeStun>
+    	<stunAdaptationTicks>120</stunAdaptationTicks>
+	</DamageDef>
+
+	<DamageDef ParentName="Flame">
 		<defName>DRM_AcidBurn</defName>
 		<label>acid burn</label>
 		<additionalHediffs>

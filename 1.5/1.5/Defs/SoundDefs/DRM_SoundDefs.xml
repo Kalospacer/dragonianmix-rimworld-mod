@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SoundDef>
+    <defName>DRM_ArcShot</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>SUTeslaStorm_expa</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>SUTeslaStorm_expb</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>SUTeslaStorm_expc</clipPath>
+          </li>
+        </grains>
+        <volumeRange>60</volumeRange>
+		<pitchRange>
+          <min>0.6</min>        
+          <max>1.0</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>
