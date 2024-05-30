@@ -235,7 +235,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<weaponTags>
-			<li>DR_BattleStaff_Arc</li>
+			<li>DR_BattleStaff</li>
 		</weaponTags>
 		<thingCategories>
 			<li>WeaponsRanged</li>
@@ -358,7 +358,7 @@
 		<defName>DRM_FearGasCloud</defName>
 		<label>Fear gas</label>
 		<graphicData>
-			<texPath>Things/Gas/ThickSmoke</texPath>
+			<texPath>Things/Gas/Puff</texPath>
 			<drawSize>2.6</drawSize>
 			<color>(0.3,0.25,0.65,1)</color>
 		</graphicData>
@@ -403,7 +403,7 @@
 			<arcHeightFactor>2</arcHeightFactor>
 			<shadowSize>0.5</shadowSize>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			<explosionDelay>100</explosionDelay>
+			<explosionDelay>0</explosionDelay>
 		</projectile>
 	</ThingDef>
 
