@@ -145,11 +145,10 @@
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <weaponTags>
-      <li>Gun</li>
-      <li>LongShots</li>
+      <li>DR_BattlePila</li>
     </weaponTags>
     <weaponMoney>
-      <min>250</min>
+      <min>550</min>
       <max>1500</max>
     </weaponMoney>
 

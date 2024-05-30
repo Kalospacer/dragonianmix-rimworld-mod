@@ -15,5 +15,10 @@
 
   <DR_BattleStaff_Fear.label>龙娘 芬里尔法杖</DR_BattleStaff_Fear.label>
   <DR_BattleStaff_Fear.description>龙娘使用的法杖。一个压缩的气体发射器。填装了芬里尔恐惧毒气弹。</DR_BattleStaff_Fear.description>
+
+  <DR_BattleSpear.label>龙娘 飞矛</DR_BattleSpear.label>
+  <DR_BattleSpear.description>龙娘使用的飞矛。她们能把这种沉重的近战武器轻松投送到极远处。</DR_BattleSpear.description>
+
+  <DRM_Spear_Thrown.label>飞矛</DRM_Spear_Thrown.label>
   
 </LanguageData>
