@@ -235,7 +235,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<weaponTags>
-			<li>DR_BattleStaff</li>
+			<li>DR_BattleStaff_Arc</li>
 		</weaponTags>
 		<thingCategories>
 			<li>WeaponsRanged</li>
@@ -443,7 +443,6 @@
 			</skillRequirements>
 		</recipeMaker>
 		<weaponTags>
-			<li>DR_BattleStaff</li>
 			<li>DR_BattleStaff_Fear</li>
 		</weaponTags>
 		<thingCategories>
