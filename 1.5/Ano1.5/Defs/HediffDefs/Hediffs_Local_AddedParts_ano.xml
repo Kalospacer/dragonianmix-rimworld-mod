@@ -16,7 +16,7 @@
 			  <gasType>DeadlifeDust</gasType>
 			  <soundDef>Explosion_Stun</soundDef>
 			  <explosionRadius>6</explosionRadius>
-			  <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+			  <postExplosionSpawnThingCount>0</postExplosionSpawnThingCount>
 			  <destroyGear>false</destroyGear>
 			  <destroyBody>false</destroyBody>
 			</li>

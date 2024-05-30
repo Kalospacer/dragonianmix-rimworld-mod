@@ -40,7 +40,7 @@
   <EnderDragonianOrb.label>龙娘 末影龙珠</EnderDragonianOrb.label>
   <EnderDragonianOrb.description>一颗龙珠。拥有强大的折跃能力。</EnderDragonianOrb.description>
   <EnderDragonianOrb.labelNoun>末影龙珠</EnderDragonianOrb.labelNoun>
-  
+
   <ToxicDragonianOrb.label>龙娘 毒素龙珠</ToxicDragonianOrb.label>
   <ToxicDragonianOrb.description>一颗龙珠。有毒危险。死亡时引发有毒气体爆炸。</ToxicDragonianOrb.description>
   <ToxicDragonianOrb.labelNoun>毒素龙珠</ToxicDragonianOrb.labelNoun>
@@ -116,5 +116,31 @@
   <DRM_AcidCorrosion.stages.extreme.label>极重腐蚀</DRM_AcidCorrosion.stages.extreme.label>
   <!-- EN: extreme -->
   <DRM_AcidCorrosion.stages.completely.label>完全腐蚀</DRM_AcidCorrosion.stages.completely.label>
+
+  <DRM_ElectricShock.label>高压触电</DRM_ElectricShock.label>
+  <DRM_ElectricShock.description>由于遭受高压电击，这个人的全身肌肉正在痉挛，无法行动。</DRM_ElectricShock.description>
+  <!-- EN: minor -->
+  <DRM_ElectricShock.stages.minor-0.label>轻微</DRM_ElectricShock.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_ElectricShock.stages.minor-1.label>较轻</DRM_ElectricShock.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_ElectricShock.stages.moderate.label>中等</DRM_ElectricShock.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_ElectricShock.stages.serious.label>严重</DRM_ElectricShock.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_ElectricShock.stages.extreme.label>极重</DRM_ElectricShock.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_ElectricShock.stages.completely.label>完全</DRM_ElectricShock.stages.completely.label>
+
+  <!-- EN: tox gas -->
+  <DRM_FearGas.label>恐惧毒气</DRM_FearGas.label>
+  <!-- EN: Aftereffects of exposure to tox gas, a poisonous chemical gas. It burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup and eventually death. -->
+  <DRM_FearGas.description>接触恐惧气体产生的负面影响。恐惧气体会灼伤生物的眼睛与肺部，使视觉与呼吸能力暂时降低。持续暴露还会引发生物极度恐惧情绪和诱发暴力行为。</DRM_FearGas.description>
+  <!-- EN: mild -->
+  <DRM_FearGas.stages.mild.label>较轻</DRM_FearGas.stages.mild.label>
+  <!-- EN: moderate -->
+  <DRM_FearGas.stages.moderate.label>中等</DRM_FearGas.stages.moderate.label>
+  <!-- EN: severe -->
+  <DRM_FearGas.stages.severe.label>严重</DRM_FearGas.stages.severe.label>
 
 </LanguageData>

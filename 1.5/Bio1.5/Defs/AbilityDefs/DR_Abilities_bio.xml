@@ -29,6 +29,9 @@
     </verbProperties>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_FireBurst">
+        <damageDef>DRM_Flame</damageDef>
+        <damageAmount>80</damageAmount>
+        <armorPenetration>0</armorPenetration>
         <radius>12</radius>
       </li>
     </comps>
@@ -57,6 +60,7 @@
     </verbProperties>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
+        <damageDef>Smoke</damageDef>
         <smokeRadius>9</smokeRadius>
         <gasType>ToxGas</gasType>
         <clamorType>Ability</clamorType>
