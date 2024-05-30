@@ -57,6 +57,7 @@
     <techHediffsMoney>600~5500</techHediffsMoney>
 	  <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
+      <li>DragonianSlashTail</li>
     </techHediffsTags>
 
     <inventoryOptions>
@@ -109,10 +110,9 @@
 
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
-    <techHediffsTags>
-      <li>Poor</li>
-      <li>Simple</li>
-      <li>ImplantEmpireCommon</li>
+	  <techHediffsTags>
+      <li>DragonianOrbAdvanced</li>
+      <li>DragonianSlashTail</li>
     </techHediffsTags>
     
     <inventoryOptions>
@@ -165,10 +165,9 @@
 
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
-    <techHediffsTags>
-      <li>Poor</li>
-      <li>Simple</li>
-      <li>ImplantEmpireCommon</li>
+	  <techHediffsTags>
+      <li>DragonianOrbAdvanced</li>
+      <li>DragonianSlashTail</li>
     </techHediffsTags>
     
     <inventoryOptions>
@@ -222,10 +221,9 @@
 
     <techHediffsChance>0.55</techHediffsChance>
     <techHediffsMoney>600~2500</techHediffsMoney>
-    <techHediffsTags>
-      <li>Simple</li>
-      <li>Advanced</li>
-      <li>ImplantEmpireCommon</li>
+	  <techHediffsTags>
+      <li>DragonianOrbAdvanced</li>
+      <li>DragonianSlashTail</li>
     </techHediffsTags>
 
     <inventoryOptions>
@@ -279,11 +277,9 @@
 
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>600~1500</techHediffsMoney>
-    <techHediffsTags>
-      <li>Poor</li>
-      <li>Simple</li>
-      <li>Advanced</li>
-      <li>ImplantEmpireCommon</li>
+	  <techHediffsTags>
+      <li>DragonianOrbAdvanced</li>
+      <li>DragonianSlashTail</li>
     </techHediffsTags>
 
     <inventoryOptions>
@@ -332,10 +328,9 @@
 
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>600~1500</techHediffsMoney>
-    <techHediffsTags>
-      <li>Simple</li>
-      <li>Advanced</li>
-      <li>ImplantEmpireCommon</li>
+	  <techHediffsTags>
+      <li>DragonianOrbAdvanced</li>
+      <li>DragonianSlashTail</li>
     </techHediffsTags>
 
     <inventoryOptions>
@@ -413,9 +408,11 @@
     <techHediffsChance>1</techHediffsChance>
     <techHediffsMoney>600~5500</techHediffsMoney>
 	  <techHediffsTags>
-      <li>DragonianSlashTail</li>
       <li>HardenDragonianOrb</li>
     </techHediffsTags>
+    <techHediffsRequired>
+      <li>HardenDragonianOrb</li>
+    </techHediffsRequired>
     
     <inventoryOptions>
       <skipChance>0.70</skipChance>
@@ -491,10 +488,10 @@
 
     <techHediffsMoney>600~5500</techHediffsMoney>
 	  <techHediffsTags>
-      <li>DragonianOrbAdvanced</li>
+      <li>ShieldDragonianOrb</li>
     </techHediffsTags>
     <techHediffsRequired>
-      <li MayRequire="Ludeon.Rimworld.Royalty">AcidifierDragonianOrb</li>
+      <li>ShieldDragonianOrb</li>
     </techHediffsRequired>
     
     <inventoryOptions>
@@ -574,6 +571,7 @@
     <techHediffsMoney>600~5500</techHediffsMoney>
 	  <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
+      <li>DragonianSlashTail</li>
     </techHediffsTags>
 
     <inventoryOptions>
