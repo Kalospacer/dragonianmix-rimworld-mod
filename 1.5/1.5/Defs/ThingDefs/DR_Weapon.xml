@@ -518,7 +518,6 @@
 		<soundInteract>Interact_BeatFire</soundInteract>
 		<costList>
 			<WoolDragonian>20</WoolDragonian>
-			<Steel>40</Steel>
 		</costList>
 		<costStuffCount>80</costStuffCount>
 		<stuffCategories>
