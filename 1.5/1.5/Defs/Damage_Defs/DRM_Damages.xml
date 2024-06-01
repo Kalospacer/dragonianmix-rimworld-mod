@@ -81,4 +81,35 @@
 		<makesAnimalsFlee>true</makesAnimalsFlee>
 	</DamageDef>
 
+	<DamageDef>
+		<defName>DRM_Thump</defName>
+		<label>thump</label>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_Stun</hediff>
+				<severityPerDamageDealt>0.1</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<deathMessage>{0} has been shot to death.</deathMessage>
+		<hediff>Crush</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<minDamageToFragment>15</minDamageToFragment>
+		<defaultDamage>5</defaultDamage>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<buildingDamageFactorImpassable>15</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>7.5</buildingDamageFactorPassable>
+		<plantDamageFactor>4</plantDamageFactor>
+		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+		<explosionCellFleck>BlastDry</explosionCellFleck>
+		<explosionColorCenter>(0.73, 0.93, 0.96)</explosionColorCenter>
+		<explosionColorEdge>(0.71, 0.82, 0.90)</explosionColorEdge>
+		<soundExplosion>Explosion_Thump</soundExplosion>
+		<combatLogRules>Damage_Bomb</combatLogRules>
+	  </DamageDef>
 </Defs>

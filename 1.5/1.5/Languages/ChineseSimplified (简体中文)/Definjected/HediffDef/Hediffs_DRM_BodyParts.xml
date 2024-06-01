@@ -143,4 +143,9 @@
   <!-- EN: severe -->
   <DRM_FearGas.stages.severe.label>严重</DRM_FearGas.stages.severe.label>
 
+  <DRM_Stun.label>被震撼</DRM_Stun.label>
+  <DRM_Stun.description>被强大的外力冲击掀翻在地。需要一点时间振作。</DRM_Stun.description>
+  <DRM_Stun.battleStateLabel>震撼</DRM_Stun.battleStateLabel>
+  <DRM_Stun.labelNoun>震撼</DRM_Stun.labelNoun>
+
 </LanguageData>

@@ -491,7 +491,7 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>Thump</damageDef>
-			<damageAmountBase>19</damageAmountBase>
+			<damageAmountBase>10</damageAmountBase>
 			<explosionRadius>3.9</explosionRadius >
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
