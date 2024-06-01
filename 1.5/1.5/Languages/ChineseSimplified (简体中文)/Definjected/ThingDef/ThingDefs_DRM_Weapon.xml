@@ -22,5 +22,12 @@
   <DR_BattleSpear.tools.point.label>矛尖</DR_BattleSpear.tools.point.label>
 
   <DRM_Spear_Thrown.label>飞矛</DRM_Spear_Thrown.label>
+
+  <DR_ClusterSpear.label>龙娘 集束飞矛</DR_ClusterSpear.label>
+  <DR_ClusterSpear.description>龙娘使用的一捆飞矛。这种武器一次能扔出一捆短矛。</DR_ClusterSpear.description>
+  <DR_ClusterSpear.tools.shaft.label>杆</DR_ClusterSpear.tools.shaft.label>
+  <DR_ClusterSpear.tools.point.label>矛尖</DR_ClusterSpear.tools.point.label>
+
+  <DRM_ShortSpear_Thrown.label>飞矛</DRM_ShortSpear_Thrown.label>
   
 </LanguageData>

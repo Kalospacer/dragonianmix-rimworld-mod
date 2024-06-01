@@ -451,7 +451,7 @@
 
 	  <ThingDef ParentName="BaseProjectileNeolithic">
 		<defName>DRM_Spear_Thrown</defName>
-		<label>pilum</label>
+		<label>Spear</label>
 		<graphicData>
 		  <texPath>Dragonian/Projectile/Spear</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -462,6 +462,97 @@
 		  <stoppingPower>2.5</stoppingPower>
 		  <speed>90</speed>
 		</projectile>
-	  </ThingDef>	  
+	  </ThingDef>
+	  
+	  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>DR_ClusterSpear</defName>
+		<label>Dragonian Cluster Spear</label>
+		<description>Pila are spears for throwing. They take a long time to throw, but one hit can do heavy damage. This weapon can throw a cluster spear at one time.</description>
+		<graphicData>
+			<texPath>Dragonian/Projectile/IkwaThing</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<soundInteract>Interact_BeatFire</soundInteract>
+		<costList>
+			<WoolDragonian>20</WoolDragonian>
+		</costList>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<relicChance>0</relicChance>
+		<statBases>
+		  <WorkToMake>7000</WorkToMake>
+		  <Mass>4</Mass>
+		  <AccuracyTouch>0.55</AccuracyTouch>
+		  <AccuracyShort>0.65</AccuracyShort>
+		  <AccuracyMedium>0.55</AccuracyMedium>
+		  <AccuracyLong>0.45</AccuracyLong>
+		  <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>DR_BattlePila</li>
+		</weaponTags>
+		<weaponClasses>
+		  <li>Ranged</li>
+		</weaponClasses>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+		  <li>
+			<verbClass>DragonianMix.Verb_ShootShotgun</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>DRM_ShortSpear_Thrown</defaultProjectile>
+			<warmupTime>0.4</warmupTime>
+			<range>14.9</range>
+			<burstShotCount>2</burstShotCount>
+			<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+			<soundCast>Interact_BeatFire</soundCast>
+			<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+		  </li>
+		</verbs>
+		<tools>
+		  <li>
+			<label>shaft</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			 <cooldownTime>2</cooldownTime>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+			  <li>Stab</li>
+			</capacities>
+			<power>20</power>
+			 <cooldownTime>2</cooldownTime>
+		  </li>
+		</tools>
+	  </ThingDef>
+
+	  <ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>DRM_ShortSpear_Thrown</defName>
+		<label>Spear</label>
+		<graphicData>
+		  <texPath>Dragonian/Projectile/Ikwa</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+		  <damageDef>DRM_RangedStab</damageDef>
+		  <damageAmountBase>8</damageAmountBase>
+		  <stoppingPower>2.5</stoppingPower>
+		  <speed>90</speed>
+		</projectile>
+		<modExtensions>
+			<li Class="DragonianMix.ShotgunExtension">
+				<pelletCount>3</pelletCount>
+			</li>
+		</modExtensions>
+	  </ThingDef>
 
 </Defs>
