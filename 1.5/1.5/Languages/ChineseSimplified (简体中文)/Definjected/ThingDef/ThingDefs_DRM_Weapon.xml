@@ -29,5 +29,12 @@
   <DR_ClusterSpear.tools.point.label>矛尖</DR_ClusterSpear.tools.point.label>
 
   <DRM_ShortSpear_Thrown.label>飞矛</DRM_ShortSpear_Thrown.label>
+
+  <DR_ChainSpear.label>龙娘 链式飞矛</DR_ChainSpear.label>
+  <DR_ChainSpear.description>龙娘使用的一串飞矛。这种武器的使用者就是一个会吐出短矛的怪物。</DR_ChainSpear.description>
+  <DR_ChainSpear.tools.shaft.label>杆</DR_ChainSpear.tools.shaft.label>
+  <DR_ChainSpear.tools.point.label>矛尖</DR_ChainSpear.tools.point.label>
+
+  <DRM_ChainSpear_Thrown.label>飞矛</DRM_ChainSpear_Thrown.label>
   
 </LanguageData>
