@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DR_BionicTail</defName>
+		<label>bionic tail</label>
+		<description>An advanced artificial tail. It also has a small AI that automatically balances the user's missing.</description>
+		<labelNoun>a bionic tail</labelNoun>
+		<spawnThingOnRemoved>DR_BionicTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DR_FakeTail</defName>
+		<label>fake tail</label>
+		<description>It is a fake tail made of leather.</description>
+		<labelNoun>a fake tail</labelNoun>
+		<spawnThingOnRemoved>DR_FakeTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.35</partEfficiency>
+			<betterThanNatural>false</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FakeDragonianOrb</defName>
+		<label>Fake DragonianOrb</label>
+		<labelNoun>a Fake DragonianOrb</labelNoun>
+		<description>An installed Fake DragonianOrb. Just for replace your missing one.</description>
+		<priceImpact>false</priceImpact>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>Plasteel</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FlareDragonianOrb</defName>
+		<label>Flare DragonianOrb</label>
+		<labelNoun>a Flare DragonianOrb.</labelNoun>
+		<description>An installed Flare DragonianOrb. Allow owner to burst a fireball.</description>
+		<priceImpact>false</priceImpact>
+		<abilities>
+			<li MayRequire="Ludeon.RimWorld.Biotech">DR_FireBurst</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">DR_BattleStaffBurner</li>
+		</abilities>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>FlareDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>HyperhealDragonianOrb</defName>
+		<label>Hyperheal DragonianOrb</label>
+		<labelNoun>a Hyperheal DragonianOrb.</labelNoun>
+		<description>An installed Hyperheal DragonianOrb.</description>
+		<priceImpact>false</priceImpact>
+		<abilities>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DRM_HealBreakOut</li>
+		</abilities>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<regeneration>1</regeneration>
+				<showRegenerationStat>true</showRegenerationStat>
+			</li>
+		</stages>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>HyperhealDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DRM_HealBreakOut</defName>
+		<label>Heal BreakOut</label>
+		<description>This person is in healbreakout.Heal wound in insane speed.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<regeneration>300</regeneration>
+				<showRegenerationStat>true</showRegenerationStat>
+				<painFactor>0.1</painFactor>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>True</showRemainingTime>
+				<disappearsAfterTicks>15000</disappearsAfterTicks>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<isBad>false</isBad>
+		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
+	</HediffDef>
+
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>HardenDragonianOrb</defName>
+		<label>Harden DragonianOrb</label>
+		<labelNoun>a Harden DragonianOrb.</labelNoun>
+		<description>An installed Harden DragonianOrb.</description>
+		<priceImpact>false</priceImpact>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+		</stages>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>HardenDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+
+	<!-- slash tail -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DRM_SlashTail</defName>
+		<label>slash tail</label>
+		<labelNoun>a slash tail</labelNoun>
+		<description>An installed slash tail turn dragonian's tail into a massive blade.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_SlashTail</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>tail</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>40</power>
+						<cooldownTime>3</cooldownTime>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>15</amount>
+								</li>
+								<li>
+									<def>Cut</def>
+									<amount>20</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>DRHammerSound</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>DRM_SlashTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DRM_FlameSlashTail</defName>
+		<label>Flame slash tail</label>
+		<labelNoun>a Flame slash tail</labelNoun>
+		<description>An installed Flame slash tail turn dragonian's tail into a massive blade.This kind make the tail extreamly hot.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_FlameSlashTail</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>tail</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>30</power>
+						<cooldownTime>3</cooldownTime>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>15</amount>
+								</li>
+								<li>
+									<def>DRM_Flame</def>
+									<amount>15</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>DRM_Flame</def>
+								<amount>20</amount>
+							</li>
+						</extraMeleeDamages>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>DRHammerSound</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>DRM_FlameSlashTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DRM_AcidSlashTail</defName>
+		<label>Acid slash tail</label>
+		<labelNoun>a Acid slash tail</labelNoun>
+		<description>An installed Acid slash tail turn dragonian's tail into a massive blade.This kind make the tail cover with acid.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_AcidSlashTail</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>tail</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>30</power>
+						<cooldownTime>3</cooldownTime>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>15</amount>
+								</li>
+								<li>
+									<def>DRM_AcidBurn</def>
+									<amount>15</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>DRM_AcidBurn</def>
+								<amount>20</amount>
+							</li>
+						</extraMeleeDamages>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>DRHammerSound</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>DRM_AcidSlashTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DRM_ExplosiveSlashTail</defName>
+		<label>Explosive slash tail</label>
+		<labelNoun>a Explosive slash tail</labelNoun>
+		<description>An installed Explosive slash tail turn dragonian's tail into a massive blade.This kind make the tail cover with Explosives.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_ExplosiveSlashTail</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>tail</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>30</power>
+						<cooldownTime>3</cooldownTime>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>15</amount>
+								</li>
+								<li>
+									<def>Bomb</def>
+									<amount>15</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Bomb</def>
+								<amount>20</amount>
+							</li>
+						</extraMeleeDamages>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>DRHammerSound</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>DRM_AcidSlashTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>ShieldDragonianOrb</defName>
+		<label>Shield DragonianOrb</label>
+		<labelNoun>a Shield DragonianOrb.</labelNoun>
+		<description>An installed Shield DragonianOrb.</description>
+		<priceImpact>false</priceImpact>
+		<hediffClass>DragonianMix.HediffShield_Implant</hediffClass>
+
+		<comps>
+			<li Class="DragonianMix.HediffShieldCompProperties">
+				<MaxEnergy>100</MaxEnergy>
+				<EnergyOnReset>0</EnergyOnReset>
+				<CanFunction>True</CanFunction>
+				<RegenerationRate>0.005</RegenerationRate>
+			</li>
+		</comps>
+
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>ShieldDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+</Defs>
