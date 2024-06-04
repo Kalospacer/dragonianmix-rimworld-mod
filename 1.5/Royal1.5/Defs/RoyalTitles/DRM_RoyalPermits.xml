@@ -138,7 +138,7 @@
 
   <RoyalTitlePermitDef>
     <defName>DRM_CallMilitaryAidSmall</defName>
-    <label>call guard squad</label>
+    <label>call hunter squad</label>
     <description>Call a group of 4 light troopers to aid you in battle.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
@@ -147,7 +147,7 @@
     <uiPosition>(0,3)</uiPosition>
     <royalAid>
       <favorCost>4</favorCost>
-      <pawnKindDef>Dragonian_Clan_Guard</pawnKindDef>
+      <pawnKindDef>Dragonian_Clan_Hunter</pawnKindDef>
       <pawnCount>4</pawnCount>
       <targetingRange>39.9</targetingRange>
     </royalAid>
@@ -156,7 +156,7 @@
 
   <RoyalTitlePermitDef>
     <defName>DRM_CallMilitaryAidLarge</defName>
-    <label>call hunter squad</label>
+    <label>call guard squad</label>
     <description>Call a group of 4 professional janissaries to aid you in battle.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
@@ -165,7 +165,7 @@
     <uiPosition>(0,7)</uiPosition>
     <royalAid>
       <favorCost>6</favorCost>
-      <pawnKindDef>Dragonian_Clan_Hunter</pawnKindDef>
+      <pawnKindDef>Dragonian_Clan_Guard</pawnKindDef>
       <pawnCount>4</pawnCount>
       <targetingRange>39.9</targetingRange>
     </royalAid>
