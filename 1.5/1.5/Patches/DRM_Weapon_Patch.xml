@@ -57,41 +57,4 @@
 		</operations>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="DR_BattleStaff"]/tools</xpath>
-		<value>
-			<tools>
-				<li>
-					<label>handle</label>
-					<capacities>
-						<li>Poke</li>
-					</capacities>
-					<power>8</power>
-					<cooldownTime>2</cooldownTime>
-				</li>
-				<li>
-					<label>physical-magic</label>
-					<capacities>
-						<li>Blunt</li>
-						<li>Demolish</li>
-					</capacities>
-					<power>15</power>
-					<extraMeleeDamages>
-						<li>
-							<def>Bomb</def>
-							<amount>40</amount>
-							<chance>1</chance>
-						  </li>
-						<li>
-							<def>Stun</def>
-							<amount>1.5</amount>
-							<chance>0.25</chance>
-						</li>
-					</extraMeleeDamages>
-					<cooldownTime>5.2</cooldownTime>
-				</li>
-			</tools>
-		</value>
-	</Operation>
-
 </Patch>
