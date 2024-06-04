@@ -37,7 +37,7 @@
   <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
     <defName>DRM_HappyBundleDrop</defName>
     <label>happybundle drop</label>
-    <description>Call for a bundle drop that contain 250 steel,20 packaged survival meals,and 500 silver.Be happy kids.</description>
+    <description>Call for a bundle drop that contain 250 steel,5 component,20 packaged survival meals,and 500 silver.Be happy kids.</description>
     <minTitle>DRM_Freeholder</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
@@ -45,6 +45,7 @@
     <royalAid>
       <itemsToDrop>
         <Steel>250</Steel>
+        <ComponentIndustrial>5</ComponentIndustrial>
         <MealSurvivalPack>20</MealSurvivalPack>
         <Silver>500</Silver>
       </itemsToDrop>
@@ -83,12 +84,12 @@
   <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
     <defName>DRM_MedDrop</defName>
     <label>med drop</label>
-    <description>Call for a drop of 10 medicine.That's the best thing they can find.</description>
+    <description>Call for a drop of 20 Herbal medicine.That's the best thing they can find.</description>
     <minTitle>DRM_Freeholder</minTitle>
-    <uiPosition>(1,1)</uiPosition>
+    <uiPosition>(0,1)</uiPosition>
     <royalAid>
       <itemsToDrop>
-        <MedicineIndustrial>10</MedicineIndustrial>
+        <MedicineHerbal>20</MedicineHerbal>
       </itemsToDrop>
       <favorCost>8</favorCost>
     </royalAid>
