@@ -170,7 +170,7 @@
     <royalAid>
       <favorCost>8</favorCost>
       <pawnKindDef>Dragonian_Clan_Hunter</pawnKindDef>
-      <pawnCount>4</pawnCount>
+      <pawnCount>6</pawnCount>
       <targetingRange>39.9</targetingRange>
     </royalAid>
     <cooldownDays>60</cooldownDays>
