@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RoyalTitleDef Abstract="True" Name="Dragonian_BaseRoyalTitle">
+        <tags>
+            <li>Dragonian_Royal_Title</li>
+        </tags>
+        <awardThought>GainedTitle</awardThought>
+        <lostThought>LostTitle</lostThought>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="Dragonian_BaseRoyalTitle">
+        <defName>DRM_Freeholder</defName>
+        <label>freeholder</label>
+        <description>The Imperial title of freeholder is used by the Empire to signifies a fully-respected individual. Most Imperial citizens earn it while young through volunteer work or military service. The title is also offered to outsiders who act with honor in the eyes of the Empire.</description>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+    </RoyalTitleDef>
+
+<Defs>

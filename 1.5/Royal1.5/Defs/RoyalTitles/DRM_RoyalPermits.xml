@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================= Permits from royal titles ============================= -->
+
+  <!--<RoyalTitlePermitDef>
+    <defName>TradeSettlement</defName>
+    <label>trade with settlements</label>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>TradeOrbital</defName>
+    <label>trade with orbital traders</label>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>TradeCaravan</defName>
+    <label>trade with caravans</label>
+  </RoyalTitlePermitDef>-->
+
+
+  <!-- ============================= Faction permits ============================= -->
+
+  <!-- Econ -->
+
+  <RoyalTitlePermitDef Name="DRM_DropResourcesBase" Abstract="True">
+    <workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
+    <faction>Dragonian_Clans</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>45</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <royalAid>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+    <defName>DRM_SteelDrop</defName>
+    <label>steel drop</label>
+    <description>Call for a drop of 250 steel.</description>
+    <minTitle>DRM_Freeholder</minTitle>
+    <faction>Dragonian_Clans</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,0)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Steel>250</Steel>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+    <defName>DRM_FoodDrop</defName>
+    <label>food drop</label>
+    <description>Call for a drop of 20 packaged survival meals.</description>
+    <minTitle>DRM_Freeholder</minTitle>
+    <uiPosition>(0,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MealSurvivalPack>20</MealSurvivalPack>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+    <defName>DRM_SilverDrop</defName>
+    <label>silver drop</label>
+    <description>Call for a drop of 500 silver.</description>
+    <minTitle>DRM_Freeholder</minTitle>
+    <uiPosition>(0,4)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Silver>500</Silver>
+      </itemsToDrop>
+      <favorCost>6</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+    <defName>DRM_GlitterMedDrop</defName>
+    <label>glitter med drop</label>
+    <description>Call for a drop of 5 glitterworld medicine.</description>
+    <minTitle>DRM_Freeholder</minTitle>
+    <uiPosition>(0,8)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MedicineUltratech>5</MedicineUltratech>
+      </itemsToDrop>
+      <favorCost>8</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallLaborerTeam</defName>
+    <label>call Villager team</label>
+    <description>Call a group of 4 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
+    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
+    <minTitle>DRM_Freeholder</minTitle>
+    <faction>Dragonian_Clans</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,2)</uiPosition>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>Dragonian_Villager</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <aidDurationDays>4</aidDurationDays>
+      <targetingRange>44.9</targetingRange>
+      <targetingRequireLOS>false</targetingRequireLOS>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallLaborerGang</defName>
+    <label>call Villager gang</label>
+    <description>Call a group of 8 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
+    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
+    <minTitle>DRM_Freeholder</minTitle>
+    <faction>Dragonian_Clans</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>CallLaborerTeam</prerequisite>
+    <uiPosition>(1,2)</uiPosition>
+    <royalAid>
+      <favorCost>8</favorCost>
+      <pawnKindDef>Dragonian_Villager</pawnKindDef>
+      <pawnCount>8</pawnCount>
+      <aidDurationDays>4</aidDurationDays>
+      <targetingRange>44.9</targetingRange>
+      <targetingRequireLOS>false</targetingRequireLOS>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+
+  <!-- Combat -->
+
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallMilitaryAidSmall</defName>
+    <label>call trooper squad</label>
+    <description>Call a group of 4 light troopers to aid you in battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>DRM_Freeholder</minTitle>
+    <faction>Dragonian_Clans</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,3)</uiPosition>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>Dragonian_Clan_Guard</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>40</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallMilitaryAidLarge</defName>
+    <label>call Royal Hunter squad</label>
+    <description>Call a group of 4 professional janissaries to aid you in battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>DRM_Freeholder</minTitle>
+    <faction>Dragonian_Clans</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,7)</uiPosition>
+    <royalAid>
+      <favorCost>6</favorCost>
+      <pawnKindDef>Dragonian_Royal_Hunter</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>50</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallMilitaryAidGrand</defName>
+    <label>call cataphract squad</label>
+    <description>Call a group of 4 heavy cataphracts to aid you in battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>DRM_Freeholder</minTitle>
+    <faction>Dragonian_Clans</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>CallMilitaryAidLarge</prerequisite>
+    <uiPosition>(1,7)</uiPosition>
+    <royalAid>
+      <favorCost>8</favorCost>
+      <pawnKindDef>Dragonian_Royal_Guard</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <!--<RoyalTitlePermitDef>
+    <defName>CallOrbitalStrike</defName>
+    <label>call aerodrone strike</label>
+    <description>Call a single-impact aerodrone strike at a target position.</description>
+    <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
+    <minTitle>DRM_Freeholder</minTitle>
+    <faction>Dragonian_Clans</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>45</cooldownDays>
+    <uiPosition>(0,5)</uiPosition>
+    <royalAid>
+      <favorCost>6</favorCost>
+      <targetingRange>44.9</targetingRange>
+      <radius>2.9</radius>
+      <explosionRadiusRange>7.9</explosionRadiusRange>
+      <explosionCount>1</explosionCount>
+      <intervalTicks>60</intervalTicks>
+      <warmupTicks>120</warmupTicks>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>CallOrbitalSalvo</defName>
+    <label>call aerodrone salvo</label>
+    <description>Call a salvo of aerodrone strikes around a target position.</description>
+    <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
+    <minTitle>DRM_Freeholder</minTitle>
+    <faction>Dragonian_Clans</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>CallOrbitalStrike</prerequisite>
+    <cooldownDays>60</cooldownDays>
+    <uiPosition>(1,5)</uiPosition>
+    <royalAid>
+      <favorCost>8</favorCost>
+      <targetingRange>44.9</targetingRange>
+      <radius>7.9</radius>
+      <explosionRadiusRange>5.9</explosionRadiusRange>
+      <explosionCount>6</explosionCount>
+      <intervalTicks>60</intervalTicks>
+      <warmupTicks>120</warmupTicks>
+    </royalAid>
+  </RoyalTitlePermitDef>-->
+
+
+  <!-- Utility -->
+
+  <!--<RoyalTitlePermitDef>
+    <defName>CallTransportShuttle</defName>
+    <label>call transport shuttle</label>
+    <description>Call a shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 70 world tiles.</description>
+    <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>
+    <minTitle>DRM_Freeholder</minTitle>
+    <faction>Dragonian_Clans</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>40</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <uiPosition>(0,6)</uiPosition>
+    <royalAid>
+      <favorCost>8</favorCost>
+      <targetingRange>44.9</targetingRange>
+      <targetingRequireLOS>false</targetingRequireLOS>
+    </royalAid>
+  </RoyalTitlePermitDef>-->
+
+</Defs>
