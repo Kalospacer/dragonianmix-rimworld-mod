@@ -35,9 +35,9 @@
   </RoyalTitlePermitDef>
 
   <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
-    <defName>DRM_SteelDrop</defName>
-    <label>steel drop</label>
-    <description>Call for a drop of 250 steel.</description>
+    <defName>DRM_HappyBundleDrop</defName>
+    <label>happybundle drop</label>
+    <description>Call for a bundle drop that contain 250 steel,20 packaged survival meals,and 500 silver.Be happy kids.</description>
     <minTitle>DRM_Freeholder</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
@@ -45,12 +45,14 @@
     <royalAid>
       <itemsToDrop>
         <Steel>250</Steel>
+        <MealSurvivalPack>20</MealSurvivalPack>
+        <Silver>500</Silver>
       </itemsToDrop>
       <favorCost>4</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 
-  <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+  <!--<RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
     <defName>DRM_FoodDrop</defName>
     <label>food drop</label>
     <description>Call for a drop of 20 packaged survival meals.</description>
@@ -76,26 +78,26 @@
       </itemsToDrop>
       <favorCost>6</favorCost>
     </royalAid>
-  </RoyalTitlePermitDef>
+  </RoyalTitlePermitDef>-->
 
   <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
-    <defName>DRM_GlitterMedDrop</defName>
-    <label>glitter med drop</label>
-    <description>Call for a drop of 5 glitterworld medicine.</description>
+    <defName>DRM_MedDrop</defName>
+    <label>med drop</label>
+    <description>Call for a drop of 10 medicine.That's the best thing they can find.</description>
     <minTitle>DRM_Freeholder</minTitle>
-    <uiPosition>(0,8)</uiPosition>
+    <uiPosition>(1,1)</uiPosition>
     <royalAid>
       <itemsToDrop>
-        <MedicineUltratech>5</MedicineUltratech>
+        <MedicineIndustrial>10</MedicineIndustrial>
       </itemsToDrop>
       <favorCost>8</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 
   <RoyalTitlePermitDef>
-    <defName>DRM_CallLaborerTeam</defName>
+    <defName>DRM_CallVillagerTeam</defName>
     <label>call Villager team</label>
-    <description>Call a group of 4 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
+    <description>Call a group of 4 dragonian villager to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
     <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
     <faction>Dragonian_NPC</faction>
@@ -113,14 +115,14 @@
   </RoyalTitlePermitDef>
 
   <RoyalTitlePermitDef>
-    <defName>DRM_CallLaborerGang</defName>
+    <defName>DRM_CallVillagerGang</defName>
     <label>call Villager gang</label>
-    <description>Call a group of 8 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
+    <description>Call a group of 8 dragonian villager to assist you for 4 days. I don't know why you need so many dragonian.They will back onepiece right?</description>
     <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
-    <prerequisite>DRM_CallLaborerTeam</prerequisite>
+    <prerequisite>DRM_CallVillagerTeam</prerequisite>
     <uiPosition>(1,2)</uiPosition>
     <royalAid>
       <favorCost>8</favorCost>
@@ -137,16 +139,16 @@
   <!-- Combat -->
 
   <RoyalTitlePermitDef>
-    <defName>DRM_CallMilitaryAidSmall</defName>
+    <defName>DRM_CallHunterAidSmall</defName>
     <label>call hunter squad</label>
-    <description>Call a group of 4 light troopers to aid you in battle.</description>
+    <description>Call a group of 4 Dragonian Clan Hunter to aid you in battle.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,3)</uiPosition>
+    <uiPosition>(0,6)</uiPosition>
     <royalAid>
-      <favorCost>4</favorCost>
+      <favorCost>6</favorCost>
       <pawnKindDef>Dragonian_Clan_Hunter</pawnKindDef>
       <pawnCount>4</pawnCount>
       <targetingRange>39.9</targetingRange>
@@ -155,7 +157,26 @@
   </RoyalTitlePermitDef>
 
   <RoyalTitlePermitDef>
-    <defName>DRM_CallMilitaryAidLarge</defName>
+    <defName>DRM_CallHunterAidLarge</defName>
+    <label>call hunter squad extra</label>
+    <description>Call a group of 8 Dragonian Clan Hunter to aid you in battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>DRM_Freeholder</minTitle>
+    <faction>Dragonian_NPC</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>DRM_CallHunterAidSmall</prerequisite>
+    <uiPosition>(1,6)</uiPosition>
+    <royalAid>
+      <favorCost>8</favorCost>
+      <pawnKindDef>Dragonian_Clan_Hunter</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallGuardAidSmall</defName>
     <label>call guard squad</label>
     <description>Call a group of 4 professional janissaries to aid you in battle.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
@@ -173,14 +194,14 @@
   </RoyalTitlePermitDef>
 
   <RoyalTitlePermitDef>
-    <defName>DRM_CallMilitaryAidGrand</defName>
+    <defName>DRM_CallRoyalGuardAidSmall</defName>
     <label>call royal guard group</label>
-    <description>Call a group of 4 heavy cataphracts to aid you in battle.</description>
+    <description>Call a group of 4 heavy cataphracts to aid you in battle.Hammers time.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
-    <prerequisite>DRM_CallMilitaryAidLarge</prerequisite>
+    <prerequisite>DRM_CallGuardAidSmall</prerequisite>
     <uiPosition>(1,7)</uiPosition>
     <royalAid>
       <favorCost>8</favorCost>
