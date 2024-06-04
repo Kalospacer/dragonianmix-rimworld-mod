@@ -40,26 +40,6 @@
 
 		<melaninRange>0</melaninRange>
 
-		<!-- royalty content begin-->
-		<royalFavorLabel>honor</royalFavorLabel>
-		<royalFavorIconPath>UI/Icons/RoyalFavor</royalFavorIconPath>
-		<royalTitleTags>
-			<li>Dragonian_Royal_Title</li>
-		</royalTitleTags>
-		<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
-		<royalTitleInheritanceRelations>
-			<li>Child</li>
-			<li>Grandchild</li>
-			<li>GreatGrandchild</li>
-			<li>NephewOrNiece</li>
-			<li>Spouse</li>
-			<li>Sibling</li>
-			<li>HalfSibling</li>
-			<li>Cousin</li>
-			<li>Parent</li>
-			<li>UncleOrAunt</li>
-		</royalTitleInheritanceRelations>
-		<!-- royalty content end-->
 		<xenotypeSet>
 			<xenotypeChances>
 				<DragonianXenotype MayRequire="Ludeon.RimWorld.Biotech">1</DragonianXenotype>
@@ -254,6 +234,26 @@
 		<defName>Dragonian_NPC</defName>
 		<label>Dragonian</label>
 		<description>Dragonian settlement</description>
+		<!-- royalty content begin-->
+		<royalFavorLabel>honor</royalFavorLabel>
+		<royalFavorIconPath>UI/Icons/RoyalFavor</royalFavorIconPath>
+		<royalTitleTags>
+			<li>Dragonian_Royal_Title</li>
+		</royalTitleTags>
+		<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+		<royalTitleInheritanceRelations>
+			<li>Child</li>
+			<li>Grandchild</li>
+			<li>GreatGrandchild</li>
+			<li>NephewOrNiece</li>
+			<li>Spouse</li>
+			<li>Sibling</li>
+			<li>HalfSibling</li>
+			<li>Cousin</li>
+			<li>Parent</li>
+			<li>UncleOrAunt</li>
+		</royalTitleInheritanceRelations>
+		<!-- royalty content end-->
 	</FactionDef>
 
 	<FactionDef ParentName="Dragonian_NPCFactionBase">

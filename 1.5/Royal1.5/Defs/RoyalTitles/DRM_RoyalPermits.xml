@@ -25,7 +25,7 @@
 
   <RoyalTitlePermitDef Name="DRM_DropResourcesBase" Abstract="True">
     <workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
-    <faction>Dragonian_Clans</faction>
+    <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <cooldownDays>45</cooldownDays>
     <usableOnWorldMap>true</usableOnWorldMap>
@@ -39,7 +39,7 @@
     <label>steel drop</label>
     <description>Call for a drop of 250 steel.</description>
     <minTitle>DRM_Freeholder</minTitle>
-    <faction>Dragonian_Clans</faction>
+    <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,0)</uiPosition>
     <royalAid>
@@ -98,7 +98,7 @@
     <description>Call a group of 4 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
     <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
-    <faction>Dragonian_Clans</faction>
+    <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,2)</uiPosition>
     <royalAid>
@@ -118,9 +118,9 @@
     <description>Call a group of 8 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
     <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
-    <faction>Dragonian_Clans</faction>
+    <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
-    <prerequisite>CallLaborerTeam</prerequisite>
+    <prerequisite>DRM_CallLaborerTeam</prerequisite>
     <uiPosition>(1,2)</uiPosition>
     <royalAid>
       <favorCost>8</favorCost>
@@ -138,11 +138,11 @@
 
   <RoyalTitlePermitDef>
     <defName>DRM_CallMilitaryAidSmall</defName>
-    <label>call trooper squad</label>
+    <label>call guard squad</label>
     <description>Call a group of 4 light troopers to aid you in battle.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
-    <faction>Dragonian_Clans</faction>
+    <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,3)</uiPosition>
     <royalAid>
@@ -156,16 +156,16 @@
 
   <RoyalTitlePermitDef>
     <defName>DRM_CallMilitaryAidLarge</defName>
-    <label>call Royal Hunter squad</label>
+    <label>call hunter squad</label>
     <description>Call a group of 4 professional janissaries to aid you in battle.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
-    <faction>Dragonian_Clans</faction>
+    <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,7)</uiPosition>
     <royalAid>
       <favorCost>6</favorCost>
-      <pawnKindDef>Dragonian_Royal_Hunter</pawnKindDef>
+      <pawnKindDef>Dragonian_Clan_Hunter</pawnKindDef>
       <pawnCount>4</pawnCount>
       <targetingRange>39.9</targetingRange>
     </royalAid>
@@ -174,13 +174,13 @@
 
   <RoyalTitlePermitDef>
     <defName>DRM_CallMilitaryAidGrand</defName>
-    <label>call cataphract squad</label>
+    <label>call royal guard group</label>
     <description>Call a group of 4 heavy cataphracts to aid you in battle.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
-    <faction>Dragonian_Clans</faction>
+    <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
-    <prerequisite>CallMilitaryAidLarge</prerequisite>
+    <prerequisite>DRM_CallMilitaryAidLarge</prerequisite>
     <uiPosition>(1,7)</uiPosition>
     <royalAid>
       <favorCost>8</favorCost>
@@ -197,7 +197,7 @@
     <description>Call a single-impact aerodrone strike at a target position.</description>
     <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
-    <faction>Dragonian_Clans</faction>
+    <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <cooldownDays>45</cooldownDays>
     <uiPosition>(0,5)</uiPosition>
@@ -218,7 +218,7 @@
     <description>Call a salvo of aerodrone strikes around a target position.</description>
     <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
-    <faction>Dragonian_Clans</faction>
+    <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <prerequisite>CallOrbitalStrike</prerequisite>
     <cooldownDays>60</cooldownDays>
@@ -243,7 +243,7 @@
     <description>Call a shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 70 world tiles.</description>
     <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>
     <minTitle>DRM_Freeholder</minTitle>
-    <faction>Dragonian_Clans</faction>
+    <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <cooldownDays>40</cooldownDays>
     <usableOnWorldMap>true</usableOnWorldMap>
