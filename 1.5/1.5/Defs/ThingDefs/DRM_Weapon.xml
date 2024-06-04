@@ -504,7 +504,7 @@
 		<label>Dragonian Battle Spear</label>
 		<description>Pila are spears for throwing. They take a long time to throw, but one hit can do heavy damage. This weapon represents a bundle of pila and can be thrown over and over. The singular of pila is pilum.</description>
 		<graphicData>
-			<texPath>Dragonian/Projectile/SpearThing</texPath>
+			<texPath>Dragonian/Things/Weapon/SpearThing</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
@@ -588,7 +588,7 @@
 		<label>Dragonian Cluster Spear</label>
 		<description>Pila are spears for throwing. They take a long time to throw, but one hit can do heavy damage. This weapon can throw a cluster spear at one time.</description>
 		<graphicData>
-			<texPath>Dragonian/Projectile/IkwaThing</texPath>
+			<texPath>Dragonian/Things/Weapon/IkwaThing</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
@@ -679,7 +679,7 @@
 		<label>Dragonian Chain Spear</label>
 		<description>Pila are spears for throwing. They take a long time to throw, but one hit can do heavy damage. This weapon can spray and pray.</description>
 		<graphicData>
-			<texPath>Dragonian/Projectile/IkwaChain</texPath>
+			<texPath>Dragonian/Things/Weapon/IkwaChain</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
