@@ -31,7 +31,7 @@
         <label>Known</label>
         <description>Known.</description>
         <seniority>100</seniority>
-        <favorCost>14</favorCost>
+        <favorCost>12</favorCost>
         <recruitmentResistanceOffset>3</recruitmentResistanceOffset>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>
         <commonality>0.6</commonality>
@@ -44,7 +44,7 @@
         <label>trusted</label>
         <description>trusted.</description>
         <seniority>200</seniority>
-        <favorCost>32</favorCost>
+        <favorCost>24</favorCost>
         <recruitmentResistanceOffset>3</recruitmentResistanceOffset>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>
         <commonality>0.6</commonality>
