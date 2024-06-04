@@ -235,7 +235,7 @@
 		<label>Dragonian</label>
 		<description>Dragonian settlement</description>
 		<!-- royalty content begin-->
-		<royalFavorLabel>honor</royalFavorLabel>
+		<royalFavorLabel>Trust</royalFavorLabel>
 		<royalFavorIconPath>UI/Icons/RoyalFavor</royalFavorIconPath>
 		<royalTitleTags>
 			<li>Dragonian_Royal_Title</li>

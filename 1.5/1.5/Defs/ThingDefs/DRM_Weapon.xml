@@ -628,7 +628,7 @@
 			<defaultProjectile>DRM_ShortSpear_Thrown</defaultProjectile>
 			<warmupTime>0.4</warmupTime>
 			<range>14.9</range>
-			<burstShotCount>2</burstShotCount>
+			<burstShotCount>1</burstShotCount>
 			<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
 			<soundCast>Interact_BeatFire</soundCast>
 			<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
@@ -669,7 +669,7 @@
 		</projectile>
 		<modExtensions>
 			<li Class="DragonianMix.ShotgunExtension">
-				<pelletCount>3</pelletCount>
+				<pelletCount>6</pelletCount>
 			</li>
 		</modExtensions>
 	  </ThingDef>

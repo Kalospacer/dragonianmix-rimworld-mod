@@ -592,6 +592,7 @@
     <labelPlural>Dragonian Princess</labelPlural>
     <combatPower>200</combatPower>
     <factionLeader>true</factionLeader>
+    <titleRequired>DRM_Princess</titleRequired>
     <isFighter>false</isFighter>
     <itemQuality>Legendary</itemQuality>
 

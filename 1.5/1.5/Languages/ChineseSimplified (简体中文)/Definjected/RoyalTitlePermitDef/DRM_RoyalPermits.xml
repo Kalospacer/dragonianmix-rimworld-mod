@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <DRM_HappyBundleDrop.label>请求开心小礼包</DRM_HappyBundleDrop.label>
+  <DRM_HappyBundleDrop.description>请求一个包含各种资源的开心小礼包。快乐起来吧孩子们。</DRM_HappyBundleDrop.description>
+
+  <DRM_MedDrop.label>请求药物</DRM_MedDrop.label>
+  <DRM_MedDrop.description>请求一包20个草药。这是她们能找到最好的货了。</DRM_MedDrop.description>
+  
+  <DRM_CallVillagerTeam.label>呼叫龙娘工程队</DRM_CallVillagerTeam.label>
+  <DRM_CallVillagerTeam.description>一队4名龙娘村民会来帮助你工作4天。你最好能保证她们的安全。</DRM_CallVillagerTeam.description>
+
+  <DRM_CallVillagerGang.label>呼叫龙娘承包商</DRM_CallVillagerGang.label>
+  <DRM_CallVillagerGang.description>一队8名龙娘村民会来帮助你工作4天。我不知道你为什么需要这么多龙娘，但她们最好能完整的回去。</DRM_CallVillagerGang.description>
+
+  <DRM_CallHunterAidSmall.label>呼叫龙娘骑兵队</DRM_CallHunterAidSmall.label>
+  <DRM_CallHunterAidSmall.description>一队4名龙娘村庄骠骑兵会来支援你作战。她们是远程单位。</DRM_CallHunterAidSmall.description>
+
+  <DRM_CallHunterAidLarge.label>呼叫龙娘骑兵团</DRM_CallHunterAidLarge.label>
+  <DRM_CallHunterAidLarge.description>一队4名龙娘村庄骠骑兵会来支援你作战。她们是远程单位。</DRM_CallHunterAidLarge.description>
+
+  <DRM_CallGuardAidSmall.label>呼叫龙娘卫队</DRM_CallGuardAidSmall.label>
+  <DRM_CallGuardAidSmall.description>一队4名龙娘村庄卫士会来支援你作战。她们是近战单位。</DRM_CallGuardAidSmall.description>
+
+  <DRM_CallRoyalGuardAidSmall.label>呼叫龙娘皇家近卫队</DRM_CallRoyalGuardAidSmall.label>
+  <DRM_CallRoyalGuardAidSmall.description>一队4名龙娘皇家卫士会来支援你作战。她们是近战单位,配备有重装甲。</DRM_CallRoyalGuardAidSmall.description>
+
+</LanguageData>

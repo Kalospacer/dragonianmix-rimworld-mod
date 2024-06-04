@@ -10,14 +10,72 @@
     </RoyalTitleDef>
 
     <RoyalTitleDef ParentName="Dragonian_BaseRoyalTitle">
-        <defName>DRM_Freeholder</defName>
-        <label>freeholder</label>
-        <description>The Imperial title of freeholder is used by the Empire to signifies a fully-respected individual. Most Imperial citizens earn it while young through volunteer work or military service. The title is also offered to outsiders who act with honor in the eyes of the Empire.</description>
+        <defName>DRM_Stranger</defName>
+        <label>stranger</label>
+        <description>stranger.</description>
         <seniority>0</seniority>
-        <favorCost>1</favorCost>
+        <favorCost>8</favorCost>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>
         <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <permitPointsAwarded>1</permitPointsAwarded>
         <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permits>
+            <li>TradeSettlement</li>
+            <li>TradeCaravan</li>
+            <li>TradeOrbital</li>
+          </permits>
     </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="Dragonian_BaseRoyalTitle">
+        <defName>DRM_Known</defName>
+        <label>Known</label>
+        <description>Known.</description>
+        <seniority>100</seniority>
+        <favorCost>14</favorCost>
+        <recruitmentResistanceOffset>3</recruitmentResistanceOffset>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>0.6</commonality>
+        <permitPointsAwarded>2</permitPointsAwarded>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+      </RoyalTitleDef>
+
+      <RoyalTitleDef ParentName="Dragonian_BaseRoyalTitle">
+        <defName>DRM_trusted</defName>
+        <label>trusted</label>
+        <description>trusted.</description>
+        <seniority>200</seniority>
+        <favorCost>32</favorCost>
+        <recruitmentResistanceOffset>3</recruitmentResistanceOffset>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>0.6</commonality>
+        <permitPointsAwarded>3</permitPointsAwarded>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+      </RoyalTitleDef>
+
+      <RoyalTitleDef ParentName="Dragonian_BaseRoyalTitle">
+        <defName>DRM_Cheften</defName>
+        <label>chieftain</label>
+        <description>chieftain is actual leader of dragonian clan.</description>
+        <seniority>700</seniority>
+        <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+        <recruitmentResistanceOffset>75</recruitmentResistanceOffset>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>0</commonality>
+        <permitPointsAwarded>4</permitPointsAwarded>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+      </RoyalTitleDef>
+
+      <RoyalTitleDef ParentName="Dragonian_BaseRoyalTitle">
+        <defName>DRM_Princess</defName>
+        <label>Princess</label>
+        <description>the chosen one dragonian princess.</description>
+        <seniority>1000</seniority>
+        <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+        <recruitmentResistanceOffset>75</recruitmentResistanceOffset>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>0</commonality>
+        <permitPointsAwarded>10</permitPointsAwarded>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+      </RoyalTitleDef>
 
 </Defs>

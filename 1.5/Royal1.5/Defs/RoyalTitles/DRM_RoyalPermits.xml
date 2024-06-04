@@ -38,7 +38,7 @@
     <defName>DRM_HappyBundleDrop</defName>
     <label>happybundle drop</label>
     <description>Call for a bundle drop that contain 250 steel,5 component,20 packaged survival meals,and 500 silver.Be happy kids.</description>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_Stranger</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,0)</uiPosition>
@@ -57,7 +57,7 @@
     <defName>DRM_FoodDrop</defName>
     <label>food drop</label>
     <description>Call for a drop of 20 packaged survival meals.</description>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_Stranger</minTitle>
     <uiPosition>(0,1)</uiPosition>
     <royalAid>
       <itemsToDrop>
@@ -71,7 +71,7 @@
     <defName>DRM_SilverDrop</defName>
     <label>silver drop</label>
     <description>Call for a drop of 500 silver.</description>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_Stranger</minTitle>
     <uiPosition>(0,4)</uiPosition>
     <royalAid>
       <itemsToDrop>
@@ -85,7 +85,7 @@
     <defName>DRM_MedDrop</defName>
     <label>med drop</label>
     <description>Call for a drop of 20 Herbal medicine.That's the best thing they can find.</description>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_Stranger</minTitle>
     <uiPosition>(0,1)</uiPosition>
     <royalAid>
       <itemsToDrop>
@@ -100,7 +100,7 @@
     <label>call Villager team</label>
     <description>Call a group of 4 dragonian villager to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
     <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_Known</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,2)</uiPosition>
@@ -120,7 +120,7 @@
     <label>call Villager gang</label>
     <description>Call a group of 8 dragonian villager to assist you for 4 days. I don't know why you need so many dragonian.They will back onepiece right?</description>
     <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_trusted</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <prerequisite>DRM_CallVillagerTeam</prerequisite>
@@ -142,9 +142,9 @@
   <RoyalTitlePermitDef>
     <defName>DRM_CallHunterAidSmall</defName>
     <label>call hunter squad</label>
-    <description>Call a group of 4 Dragonian Clan Hunter to aid you in battle.</description>
+    <description>Call a group of 4 Dragonian Clan Hunter to aid you in battle.They are ranged troop.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_Known</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,6)</uiPosition>
@@ -160,9 +160,9 @@
   <RoyalTitlePermitDef>
     <defName>DRM_CallHunterAidLarge</defName>
     <label>call hunter squad extra</label>
-    <description>Call a group of 8 Dragonian Clan Hunter to aid you in battle.</description>
+    <description>Call a group of 8 Dragonian Clan Hunter to aid you in battle.They are ranged troop.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_trusted</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <prerequisite>DRM_CallHunterAidSmall</prerequisite>
@@ -179,9 +179,9 @@
   <RoyalTitlePermitDef>
     <defName>DRM_CallGuardAidSmall</defName>
     <label>call guard squad</label>
-    <description>Call a group of 4 professional janissaries to aid you in battle.</description>
+    <description>Call a group of 4 professional janissaries to aid you in battle.They are melee troop.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_Known</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,7)</uiPosition>
@@ -199,7 +199,7 @@
     <label>call royal guard group</label>
     <description>Call a group of 4 heavy cataphracts to aid you in battle.Hammers time.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_trusted</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <prerequisite>DRM_CallGuardAidSmall</prerequisite>
@@ -218,7 +218,7 @@
     <label>call aerodrone strike</label>
     <description>Call a single-impact aerodrone strike at a target position.</description>
     <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_Stranger</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <cooldownDays>45</cooldownDays>
@@ -239,7 +239,7 @@
     <label>call aerodrone salvo</label>
     <description>Call a salvo of aerodrone strikes around a target position.</description>
     <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_Stranger</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <prerequisite>CallOrbitalStrike</prerequisite>
@@ -264,7 +264,7 @@
     <label>call transport shuttle</label>
     <description>Call a shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 70 world tiles.</description>
     <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>
-    <minTitle>DRM_Freeholder</minTitle>
+    <minTitle>DRM_Stranger</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
     <cooldownDays>40</cooldownDays>
