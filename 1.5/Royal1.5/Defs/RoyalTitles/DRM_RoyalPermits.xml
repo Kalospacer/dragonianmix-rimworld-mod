@@ -27,7 +27,7 @@
     <workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
-    <cooldownDays>45</cooldownDays>
+    <cooldownDays>20</cooldownDays>
     <usableOnWorldMap>true</usableOnWorldMap>
     <royalAid>
       <targetingRange>39.9</targetingRange>
@@ -86,10 +86,42 @@
     <label>med drop</label>
     <description>Call for a drop of 20 Herbal medicine.That's the best thing they can find.</description>
     <minTitle>DRM_Stranger</minTitle>
-    <uiPosition>(0,1)</uiPosition>
+    <uiPosition>(1,0)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <MedicineHerbal>20</MedicineHerbal>
+      </itemsToDrop>
+      <favorCost>8</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+    <defName>DRM_DressDrop</defName>
+    <label>Dress drop</label>
+    <description>Call for a drop of 3 basic dress.All dragonian should dress up nice and clean.</description>
+    <workerClass>DragonianMix.RoyalTitlePermitWorker_DropResources</workerClass>
+    <minTitle>DRM_Stranger</minTitle>
+    <uiPosition>(0,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <DR_BasicDress>
+          <stuff>WoolDragonian</stuff>
+          <count>3</count>
+        </DR_BasicDress>
+      </itemsToDrop>
+      <favorCost>8</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+    <defName>DRM_WoolDrop</defName>
+    <label>Wool drop</label>
+    <description>Call for a drop of 100 dragonian wool.Make use of them.</description>
+    <minTitle>DRM_Stranger</minTitle>
+    <uiPosition>(1,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <WoolDragonian>100</WoolDragonian>
       </itemsToDrop>
       <favorCost>8</favorCost>
     </royalAid>
@@ -112,7 +144,7 @@
       <targetingRange>44.9</targetingRange>
       <targetingRequireLOS>false</targetingRequireLOS>
     </royalAid>
-    <cooldownDays>60</cooldownDays>
+    <cooldownDays>40</cooldownDays>
   </RoyalTitlePermitDef>
 
   <RoyalTitlePermitDef>
@@ -173,7 +205,7 @@
       <pawnCount>6</pawnCount>
       <targetingRange>39.9</targetingRange>
     </royalAid>
-    <cooldownDays>60</cooldownDays>
+    <cooldownDays>40</cooldownDays>
   </RoyalTitlePermitDef>
 
   <RoyalTitlePermitDef>
@@ -191,7 +223,7 @@
       <pawnCount>4</pawnCount>
       <targetingRange>39.9</targetingRange>
     </royalAid>
-    <cooldownDays>50</cooldownDays>
+    <cooldownDays>40</cooldownDays>
   </RoyalTitlePermitDef>
 
   <RoyalTitlePermitDef>
@@ -210,7 +242,7 @@
       <pawnCount>4</pawnCount>
       <targetingRange>39.9</targetingRange>
     </royalAid>
-    <cooldownDays>60</cooldownDays>
+    <cooldownDays>40</cooldownDays>
   </RoyalTitlePermitDef>
 
   <!--<RoyalTitlePermitDef>
