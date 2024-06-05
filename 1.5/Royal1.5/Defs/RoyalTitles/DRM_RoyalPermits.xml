@@ -213,11 +213,11 @@
     <cooldownDays>60</cooldownDays>
   </RoyalTitlePermitDef>
 
-  <!--<RoyalTitlePermitDef>
-    <defName>CallOrbitalStrike</defName>
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallOrbitalStrike</defName>
     <label>call aerodrone strike</label>
     <description>Call a single-impact aerodrone strike at a target position.</description>
-    <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
+    <workerClass>DragonianMix.RoyalTitlePermitWorker_DRM_OrbitalStrike</workerClass>
     <minTitle>DRM_Stranger</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
@@ -227,14 +227,42 @@
       <favorCost>6</favorCost>
       <targetingRange>44.9</targetingRange>
       <radius>2.9</radius>
-      <explosionRadiusRange>7.9</explosionRadiusRange>
+      <explosionRadiusRange>14.9</explosionRadiusRange>
       <explosionCount>1</explosionCount>
       <intervalTicks>60</intervalTicks>
       <warmupTicks>120</warmupTicks>
     </royalAid>
   </RoyalTitlePermitDef>
 
-  <RoyalTitlePermitDef>
+  <!-- Gas : Thing -->
+  <ThingDef ParentName="DRM_BaseGas">
+    <defName>DRM_AcidGasCloud</defName>
+    <label>Acid gas</label>
+    <graphicData>
+      <texPath>Things/Gas/Puff</texPath>
+      <drawSize>2.6</drawSize>
+      <color>(0.56, 1, 0.03,1)</color>
+    </graphicData>
+    <gas>
+      <expireSeconds>
+        <min>30</min>
+        <max>50</max>
+      </expireSeconds>
+      <!--<blockTurretTracking>true</blockTurretTracking>
+        <accuracyPenalty>0.3</accuracyPenalty>-->
+      <rotationSpeed>20</rotationSpeed>
+    </gas>
+    <thingClass>DragonianMix.OPToxicGas</thingClass>
+    <modExtensions>
+      <li Class="DragonianMix.OPToxicDefs">
+        <OPToxicHediff>DRM_AcidCorrosion</OPToxicHediff>				<!-- Name of HediffDef to apply, change to own HediffDef -->
+        <OPToxicSeverity>0.05</OPToxicSeverity>				<!-- Severity build up per Tick period -->
+        <OPSevUpTickPeriod>240</OPSevUpTickPeriod>				<!-- No of game ticks per each build up, recommend >= 120 -->
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!--<RoyalTitlePermitDef>
     <defName>CallOrbitalSalvo</defName>
     <label>call aerodrone salvo</label>
     <description>Call a salvo of aerodrone strikes around a target position.</description>
@@ -255,9 +283,6 @@
       <warmupTicks>120</warmupTicks>
     </royalAid>
   </RoyalTitlePermitDef>-->
-
-
-  <!-- Utility -->
 
   <!--<RoyalTitlePermitDef>
     <defName>CallTransportShuttle</defName>
