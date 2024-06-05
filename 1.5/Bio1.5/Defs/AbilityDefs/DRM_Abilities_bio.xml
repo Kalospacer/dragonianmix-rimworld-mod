@@ -103,4 +103,40 @@
     </comps>
   </AbilityDef>
 
+  <AbilityDef>
+    <defName>DRM_Acidgaspop</defName>
+    <label>AcidGas Pop</label>
+    <description>Release a cloud of Acidgas.</description>
+    <iconPath>UI/Abilities/ReleaseDeadlifeDust</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>true</aiCanUse>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <label>release Feargas</label>
+      <drawAimPie>true</drawAimPie>
+      <warmupTime>1</warmupTime>
+      <range>24.9</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+      <soundCast>DeadlifeRelease</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
+        <damageDef>DRM_AcidBurn</damageDef>
+        <damageAmount>25</damageAmount>
+        <armorPenetration>0.5</armorPenetration>
+        <smokeRadius>9</smokeRadius>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>20</clamorRadius>
+        <postExplosionSpawnThingDef>DRM_AcidGasCloud</postExplosionSpawnThingDef> <!-- ARL_ToxicGasCloud -->
+      	<postExplosionSpawnChance>1</postExplosionSpawnChance>
+      	<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      </li>
+    </comps>
+  </AbilityDef>
+
 </Defs>

@@ -300,6 +300,7 @@
     <labelPlural>Dragonian clan councilmen</labelPlural>
     <combatPower>100</combatPower>
     <factionLeader>true</factionLeader>
+    <titleRequired MayRequire="Ludeon.RimWorld.Royalty">DRM_Cheften</titleRequired>
     <isFighter>false</isFighter>
     <itemQuality>Good</itemQuality>
 
@@ -592,7 +593,7 @@
     <labelPlural>Dragonian Princess</labelPlural>
     <combatPower>200</combatPower>
     <factionLeader>true</factionLeader>
-    <titleRequired>DRM_Princess</titleRequired>
+    <titleRequired MayRequire="Ludeon.RimWorld.Royalty">DRM_Princess</titleRequired>
     <isFighter>false</isFighter>
     <itemQuality>Legendary</itemQuality>
 
