@@ -6,6 +6,12 @@
 
   <DRM_MedDrop.label>请求药物</DRM_MedDrop.label>
   <DRM_MedDrop.description>请求一包20个草药。这是她们能找到最好的货了。</DRM_MedDrop.description>
+
+  <DRM_DressDrop.label>请求衣物</DRM_DressDrop.label>
+  <DRM_DressDrop.description>请求3件龙娘裙装。每位龙娘都应该好好穿衣服。</DRM_DressDrop.description>
+
+  <DRM_WoolDrop.label>请求龙娘毛发</DRM_WoolDrop.label>
+  <DRM_WoolDrop.description>请求100个龙娘毛发。利用它们做新衣服穿。</DRM_WoolDrop.description>
   
   <DRM_CallVillagerTeam.label>呼叫龙娘工程队</DRM_CallVillagerTeam.label>
   <DRM_CallVillagerTeam.description>一队4名龙娘村民会来帮助你工作4天。你最好能保证她们的安全。</DRM_CallVillagerTeam.description>
