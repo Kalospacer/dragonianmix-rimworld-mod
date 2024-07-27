@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <InstallDR_BionicTail.label>安装仿生尾</InstallDR_BionicTail.label>
+  <InstallDR_BionicTail.description>安装仿生尾。</InstallDR_BionicTail.description>
+  <InstallDR_BionicTail.jobString>正在安装仿生尾。</InstallDR_BionicTail.jobString>
+
+  <InstallDR_FakeTail.label>安装假龙尾</InstallDR_FakeTail.label>
+  <InstallDR_FakeTail.description>安装假龙尾。</InstallDR_FakeTail.description>
+  <InstallDR_FakeTail.jobString>正在安装假龙尾。</InstallDR_FakeTail.jobString>
+
+</LanguageData>

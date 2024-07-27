@@ -45,6 +45,14 @@
   <InstallDRM_SlashTail.description>安装斩龙尾。</InstallDRM_SlashTail.description>
   <InstallDRM_SlashTail.jobString>正在安装斩龙尾。</InstallDRM_SlashTail.jobString>
 
+  <InstallDR_BionicTail.label>安装仿生尾</InstallDR_BionicTail.label>
+  <InstallDR_BionicTail.description>安装仿生尾。</InstallDR_BionicTail.description>
+  <InstallDR_BionicTail.jobString>正在安装仿生尾。</InstallDR_BionicTail.jobString>
+
+  <InstallDR_FakeTail.label>安装假龙尾</InstallDR_FakeTail.label>
+  <InstallDR_FakeTail.description>安装假龙尾。</InstallDR_FakeTail.description>
+  <InstallDR_FakeTail.jobString>正在安装假龙尾。</InstallDR_FakeTail.jobString>
+
   <InstallDRM_FlameSlashTail.label>安装焚斩尾</InstallDRM_FlameSlashTail.label>
   <InstallDRM_FlameSlashTail.description>安装焚斩尾。</InstallDRM_FlameSlashTail.description>
   <InstallDRM_FlameSlashTail.jobString>正在安装焚斩尾。</InstallDRM_FlameSlashTail.jobString>
