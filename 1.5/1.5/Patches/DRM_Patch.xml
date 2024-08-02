@@ -148,4 +148,16 @@
 		<xpath>Defs/ThingDef[@Name="Dragonian_PawnBase"]/butcherProducts/DragonianOrb</xpath>
 	</Operation>
 
+	<!--龙娘公主头发替换-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li/extendedGraphics</xpath>
+				<value>
+					<Hediff For="DRM_Princess_Mark">Dragonian/Dragonianlike/AddonHairs/DRM</Hediff>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
 </Patch>

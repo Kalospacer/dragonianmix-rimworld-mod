@@ -5,7 +5,7 @@
 		<defName>DR_TwinDownBindFront</defName>
 		<label>twin down bind(front)</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_TwinDownBindFront</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>
@@ -16,7 +16,7 @@
 		<defName>DR_TwinDownBindBoth</defName>
 		<label>twin down bind</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_TwinDownBindBoth</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>
@@ -27,7 +27,7 @@
 		<defName>DR_TwinDownBindBack</defName>
 		<label>twin down bind(back)</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_TwinDownBindBack</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>
@@ -38,7 +38,7 @@
 		<defName>DR_Twintail</defName>
 		<label>twin tail</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Twintail</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>
@@ -49,7 +49,7 @@
 		<defName>DR_TwinDownBind</defName>
 		<label>twin down bind</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_TwinDownBind</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>
@@ -60,7 +60,7 @@
 		<defName>DR_Long</defName>
 		<label>long</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Long</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>
@@ -71,7 +71,7 @@
 		<defName>DR_Japan</defName>
 		<label>roll up hair</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Japan</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>
@@ -82,7 +82,7 @@
 		<defName>DR_Wavelongop</defName>
 		<label>wavelong op</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Wavelongop</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>
@@ -93,7 +93,7 @@
 		<defName>DR_Twinlongop</defName>
 		<label>twinlong op</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Twinlongop</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>
@@ -104,7 +104,7 @@
 		<defName>DR_Twinlong</defName>
 		<label>twinlong</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Twinlong</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>
@@ -115,7 +115,7 @@
 		<defName>DR_Wavelong</defName>
 		<label>wavelong</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Wavelong</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>
@@ -126,7 +126,7 @@
 		<defName>DR_Middlecut</defName>
 		<label>middlecut</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Middlecut</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>
@@ -137,7 +137,7 @@
 		<defName>DR_Short</defName>
 		<label>shortcut</label>
 		<hairGender>Female</hairGender>
-		<texPath>Dragonian/Dragonianlike/Eld_Hairs/DR_Short</texPath>
+		<texPath>Dragonian/Dragonianlike/AddonHairs/HairNon_A</texPath>
 		<category>DRhair</category>
 		<styleTags>
 			<li>DRhair</li>

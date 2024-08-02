@@ -11,6 +11,10 @@
 			<li>Dragonian_Princess</li>
 		</spawnCategories>
 
+		<forcedHediffs>
+			<li>DRM_Princess_Mark</li>
+		</forcedHediffs>
+
 		<skillGains>
 			<Melee>2</Melee>
 			<Shooting>2</Shooting>
