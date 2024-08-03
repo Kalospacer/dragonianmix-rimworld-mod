@@ -57,4 +57,15 @@
 		</operations>
 	</Operation>
 
+	<!--龙娘武器限制删除-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/raceRestriction/weaponList</xpath>
+				<value>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
 </Patch>
