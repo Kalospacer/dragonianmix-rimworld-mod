@@ -83,4 +83,18 @@
 		</operations>
 	</Operation>
 
+	<!--龙娘服装限制添加-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/raceRestriction/apparelList</xpath>
+				<value>
+					<li>DRM_BattleDressC</li>
+					<li>DRM_BattleHelmC</li>
+					<li>DRM_BattleHelmD</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
 </Patch>

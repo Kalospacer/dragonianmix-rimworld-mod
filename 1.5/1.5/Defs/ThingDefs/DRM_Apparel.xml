@@ -12,6 +12,7 @@
         <li>HandTailoringBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Dragonian/Apparel/Gear/drapparelF</texPath>
@@ -21,6 +22,7 @@
     <tradeTags>
       <li>Armor</li>
     </tradeTags>
+    <techLevel>Medieval</techLevel>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <MaxHitPoints>480</MaxHitPoints>
@@ -76,6 +78,7 @@
         <li>HandTailoringBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Dragonian/Apparel/Gear/drahgA</texPath>
@@ -85,6 +88,7 @@
     <tradeTags>
       <li>Armor</li>
     </tradeTags>
+    <techLevel>Medieval</techLevel>
     <statBases>
       <WorkToMake>8750</WorkToMake>
       <MaxHitPoints>220</MaxHitPoints>
