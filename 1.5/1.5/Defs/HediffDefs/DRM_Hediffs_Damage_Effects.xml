@@ -205,7 +205,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-1</severityPerDay>
+				<severityPerDay>-4</severityPerDay>
 			</li>
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		</comps>
@@ -261,6 +261,9 @@
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-4</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>1800</disappearsAfterTicks>
 			</li>
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		</comps>
