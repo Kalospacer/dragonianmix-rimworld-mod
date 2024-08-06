@@ -84,7 +84,7 @@
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
-				<regeneration>10000</regeneration>
+				<regeneration>1000</regeneration>
 				<showRegenerationStat>true</showRegenerationStat>
 				<painFactor>0.1</painFactor>
 			</li>

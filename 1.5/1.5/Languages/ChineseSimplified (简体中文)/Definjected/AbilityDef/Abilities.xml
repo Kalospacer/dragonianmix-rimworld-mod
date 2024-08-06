@@ -28,9 +28,9 @@
   <DRM_Acidgaspop.description>释放一团酸性云雾。接触酸性气体后会造成持续的酸蚀伤害附着。</DRM_Acidgaspop.description>
   <DRM_Acidgaspop.verbProperties.label>释放酸性云雾</DRM_Acidgaspop.verbProperties.label>
 
-  <DRM_Acidgaspop.label>恐惧毒雾</DRM_Acidgaspop.label>
-  <DRM_Acidgaspop.description>释放一团恐惧毒雾。恐惧气体会灼伤生物的眼睛与肺部，使视觉与呼吸能力暂时降低。持续暴露还会引发生物极度恐惧情绪和诱发暴力行为。</DRM_Acidgaspop.description>
-  <DRM_Acidgaspop.verbProperties.label>释放恐惧毒雾</DRM_Acidgaspop.verbProperties.label>
+  <DRM_Feargaspop.label>恐惧毒雾</DRM_Feargaspop.label>
+  <DRM_Feargaspop.description>释放一团恐惧毒雾。恐惧气体会灼伤生物的眼睛与肺部，使视觉与呼吸能力暂时降低。持续暴露还会引发生物极度恐惧情绪和诱发暴力行为。</DRM_Feargaspop.description>
+  <DRM_Feargaspop.verbProperties.label>释放恐惧毒雾</DRM_Feargaspop.verbProperties.label>
 
   <!-- EN: acid spray -->
   <DRM_AcidSpray.label>酸液喷吐</DRM_AcidSpray.label>
