@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <DR_BattleHammerBladelink.label>龙娘 Δ'战锤</DR_BattleHammerBladelink.label>
+  <DR_BattleHammerBladelink.description>一柄内置了EMP发生器的战锤。当击中时会释放电击瘫痪机械装置。\n\n这件武器自身具备智能人格只能与一名使用者进行绑定。持有者和智能武器可以同调两者之间的本能反应以及攻击步调、准确性、创造力。一但与持有者绑定，这件武器的智能人格将拒绝其它人的使用。</DR_BattleHammerBladelink.description>
+  <!-- EN: handle -->
+  <DR_BattleHammerBladelink.tools.handle.label>锤柄</DR_BattleHammerBladelink.tools.handle.label>
+  <!-- EN: head -->
+  <DR_BattleHammerBladelink.tools.head.label>锤头</DR_BattleHammerBladelink.tools.head.label>
+  
+</LanguageData>

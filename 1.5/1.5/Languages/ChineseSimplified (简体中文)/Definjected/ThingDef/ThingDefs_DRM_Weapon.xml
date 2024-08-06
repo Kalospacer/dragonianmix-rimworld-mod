@@ -3,6 +3,10 @@
   
   <DR_BattleHammer.label>龙娘 战锤</DR_BattleHammer.label>
   <DR_BattleHammer.description>一柄内置了EMP发生器的战锤。当击中时会释放电击瘫痪机械装置。</DR_BattleHammer.description>
+  <!-- EN: handle -->
+  <DR_BattleHammer.tools.handle.label>锤柄</DR_BattleHammer.tools.handle.label>
+  <!-- EN: head -->
+  <DR_BattleHammer.tools.head.label>锤头</DR_BattleHammer.tools.head.label>
 
   <DR_BattleStaff_Beam.label>龙娘 光束法杖</DR_BattleStaff_Beam.label>
   <DR_BattleStaff_Beam.description>龙娘使用的法杖。能射出急冻光束。</DR_BattleStaff_Beam.description>
@@ -31,13 +35,13 @@
   <DR_ClusterSpear.tools.shaft.label>杆</DR_ClusterSpear.tools.shaft.label>
   <DR_ClusterSpear.tools.point.label>矛尖</DR_ClusterSpear.tools.point.label>
 
-  <DRM_ShortSpear_Thrown.label>飞矛</DRM_ShortSpear_Thrown.label>
+  <DRM_ShortSpear_Thrown.label>短飞矛</DRM_ShortSpear_Thrown.label>
 
   <DR_ChainSpear.label>龙娘 链式飞矛</DR_ChainSpear.label>
   <DR_ChainSpear.description>龙娘使用的一串飞矛。这种武器的使用者就是一个会吐出短矛的怪物。</DR_ChainSpear.description>
   <DR_ChainSpear.tools.shaft.label>杆</DR_ChainSpear.tools.shaft.label>
   <DR_ChainSpear.tools.point.label>矛尖</DR_ChainSpear.tools.point.label>
 
-  <DRM_ChainSpear_Thrown.label>飞矛</DRM_ChainSpear_Thrown.label>
+  <DRM_ChainSpear_Thrown.label>短飞矛</DRM_ChainSpear_Thrown.label>
   
 </LanguageData>

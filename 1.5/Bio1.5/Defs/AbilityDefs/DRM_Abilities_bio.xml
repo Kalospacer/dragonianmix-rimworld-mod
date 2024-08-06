@@ -114,7 +114,7 @@
     <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <label>release Feargas</label>
+      <label>release Acidgas</label>
       <drawAimPie>true</drawAimPie>
       <warmupTime>1</warmupTime>
       <range>24.9</range>
