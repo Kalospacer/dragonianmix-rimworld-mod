@@ -6,7 +6,7 @@
     <label>BattleStaff burner</label>
     <description>Use terra magic to create a massive cone of flame.</description>
     <iconPath>UI/Abilities/Burner</iconPath>
-    <cooldownTicksRange>900</cooldownTicksRange>
+    <cooldownTicksRange>1800</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>
     <ai_IsIncendiary>true</ai_IsIncendiary>
     <warmupStartSound>FireSpew_Warmup</warmupStartSound>
@@ -26,11 +26,12 @@
       </flammabilityAttachFireChanceCurve>
     </verbProperties>
     <comps>
-      <li Class="CompProperties_AbilityFireSpew">
+      <li Class="DragonianMix.CompProperties_AbilityDRM_FireSpew">
         <range>22.9</range>
         <lineWidthEnd>5</lineWidthEnd>
         <filthDef>Filth_Ash</filthDef>
         <damAmount>30</damAmount>
+        <damageDef>DRM_Flame</damageDef>
         <canHitFilledCells>true</canHitFilledCells>
       </li>
       <li Class="CompProperties_AbilityBurner">

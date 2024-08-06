@@ -139,4 +139,60 @@
     </comps>
   </AbilityDef>
 
+  <AbilityDef>
+    <defName>DRM_AcidSpray</defName>
+    <label>acid spray</label>
+    <description>Spray a sticky acid substance from glands in the neck up through the mouth and all over the target area. The acid will stick to targets and burn them.</description>
+    <iconPath>UI/Abilities/AcidSpray</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <category>Sanguophage</category>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>22.5</range>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySprayLiquid">
+        <projectileDef>Proj_Acid</projectileDef>
+        <numCellsToHit>25</numCellsToHit>
+        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThingDef>
+    <defName>Proj_Acid</defName>
+    <label>acid</label>
+    <thingClass>Projectile_Liquid</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <texPath>Things/Projectile/Acid</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>DRM_AcidBurn</damageDef>
+      <speed>25</speed>
+      <damageAmountBase>30</damageAmountBase>
+      <arcHeightFactor>0.4</arcHeightFactor>
+      <armorPenetrationBase>0.8</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <shadowSize>0</shadowSize>
+      <filth>Filth_SpentAcid</filth>
+      <filthCount>1</filthCount>
+    </projectile>
+  </ThingDef>
+
 </Defs>

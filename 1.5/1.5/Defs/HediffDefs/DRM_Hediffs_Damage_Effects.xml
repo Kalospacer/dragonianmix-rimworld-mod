@@ -207,6 +207,7 @@
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-1</severityPerDay>
 			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		</comps>
 		<stages>
 			<li>
@@ -256,16 +257,16 @@
 		<label>Acid Corrosion</label>
 		<description>This preson's armor is corroding due acid .</description>
 		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
+		<hediffClass>DragonianMix.HediffCurseFlame</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-1</severityPerDay>
+				<severityPerDay>-4</severityPerDay>
 			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		</comps>
 		<stages>
 			<li>
 				<label>minor</label>
-				<becomeVisible>false</becomeVisible>
 			</li>
 			<li>
 				<label>minor</label>

@@ -7,6 +7,10 @@
 		<labelNoun>a Acidifier DragonianOrb.</labelNoun>
 		<description>An installed Acidifier DragonianOrb.dissolve gear in contact with the user's body.</description>
 		<priceImpact>false</priceImpact>
+		<abilities>
+			<li MayRequire="Ludeon.RimWorld.Biotech">DRM_AcidSpray</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">DRM_Acidgaspop</li>
+		</abilities>
 		<comps>
 			<li Class="HediffCompProperties_DissolveGearOnDeath">
 			  <fleck>AcidCloud</fleck>

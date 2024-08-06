@@ -10,9 +10,9 @@
   <DR_BattleStaffBurner.label>火焰喷射</DR_BattleStaffBurner.label>
   <DR_BattleStaffBurner.description>使用大地魔法的力量，喷射出一片巨大的锥形火焰。</DR_BattleStaffBurner.description>
 
-  <DRM_Deaddustpop.label>释放死灵尘</DRM_Deaddustpop.label>
+  <DRM_Deaddustpop.label>死灵尘雾</DRM_Deaddustpop.label>
   <DRM_Deaddustpop.description>释放一团死灵尘。死灵尘附着在尸体上后，便会引发混乱而剧烈的反应，使它们重获行动能力。这些活尸只会攻击你的敌人。死灵尘由飘浮在空气中的超凡微械构成，能够穿透细胞并修复坏死的组织。</DRM_Deaddustpop.description>
-  <DRM_Deaddustpop.verbProperties.label>释放死灵尘</DRM_Deaddustpop.verbProperties.label>
+  <DRM_Deaddustpop.verbProperties.label>释放死灵尘雾</DRM_Deaddustpop.verbProperties.label>
 
   <DRM_Toxgaspop.label>释放有毒气体</DRM_Toxgaspop.label>
   <DRM_Toxgaspop.description>释放一团毒气。嗯。</DRM_Toxgaspop.description>
@@ -23,5 +23,18 @@
 
   <DRM_Skip.label>折跃</DRM_Skip.label>
   <DRM_Skip.description>将目标传送到离原点不远的特定位置。太大的物体无法被传送。</DRM_Skip.description>
+
+  <DRM_Acidgaspop.label>酸性云雾</DRM_Acidgaspop.label>
+  <DRM_Acidgaspop.description>释放一团酸性云雾。接触酸性气体后会造成持续的酸蚀伤害附着。</DRM_Acidgaspop.description>
+  <DRM_Acidgaspop.verbProperties.label>释放酸性云雾</DRM_Acidgaspop.verbProperties.label>
+
+  <DRM_Acidgaspop.label>恐惧毒雾</DRM_Acidgaspop.label>
+  <DRM_Acidgaspop.description>释放一团恐惧毒雾。恐惧气体会灼伤生物的眼睛与肺部，使视觉与呼吸能力暂时降低。持续暴露还会引发生物极度恐惧情绪和诱发暴力行为。</DRM_Acidgaspop.description>
+  <DRM_Acidgaspop.verbProperties.label>释放恐惧毒雾</DRM_Acidgaspop.verbProperties.label>
+
+  <!-- EN: acid spray -->
+  <DRM_AcidSpray.label>酸液喷吐</DRM_AcidSpray.label>
+  <!-- EN: Spray a sticky acid substance from glands in the neck up through the mouth and all over the target area. The acid will stick to targets and burn them. -->
+  <DRM_AcidSpray.description>从颈部的腺体喷出粘稠的酸性物质，通过嘴巴向外喷出。酸性物质附着的目标会被灼烧。</DRM_AcidSpray.description>
     
 </LanguageData>
