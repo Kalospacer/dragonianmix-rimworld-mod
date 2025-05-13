@@ -57,7 +57,7 @@
           <showBurstShotStats>false</showBurstShotStats>
           <requireLineOfSight>true</requireLineOfSight>
           <beamWidth>4</beamWidth>
-          <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+          <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
           <beamDamageDef>DRM_Flame</beamDamageDef>
           <soundCastTail>GunTail_Medium</soundCastTail>
           <muzzleFlashScale>9</muzzleFlashScale>
@@ -67,7 +67,7 @@
           <beamMaxDeviation>0</beamMaxDeviation>
           <beamCurvature>0.1</beamCurvature>
           <beamEndEffecterDef>IncineratorBeam_End</beamEndEffecterDef> 
-          <beamChanceToStartFire>0.1</beamChanceToStartFire>
+          <beamChanceToStartFire>0.8</beamChanceToStartFire>
           <beamFireSizeRange>0.55~0.85</beamFireSizeRange>
           <beamHitsNeighborCells>true</beamHitsNeighborCells>
           <beamCantHitWithinMinRange>true</beamCantHitWithinMinRange>

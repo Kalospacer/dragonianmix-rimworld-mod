@@ -62,7 +62,7 @@
 			  <beamMaxDeviation>0</beamMaxDeviation>
 			  <beamCurvature>0</beamCurvature>
 			  <burstShotCount>15</burstShotCount>
-			  <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+			  <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 			  <showBurstShotStats>false</showBurstShotStats>
 			  <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
 			  <beamGroundFleckDef>Fleck_BeamBurn</beamGroundFleckDef>
