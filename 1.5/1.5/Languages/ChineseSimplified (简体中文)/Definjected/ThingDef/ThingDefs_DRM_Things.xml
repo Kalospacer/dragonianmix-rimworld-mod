@@ -53,5 +53,9 @@
     <DRM_ExplosiveSlashTail.label>龙娘 碎斩尾</DRM_ExplosiveSlashTail.label>
     <DRM_ExplosiveSlashTail.description>一条碎斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴上覆盖了危险的易爆材料。</DRM_ExplosiveSlashTail.description>
     <DRM_ExplosiveSlashTail.labelNoun>碎斩尾</DRM_ExplosiveSlashTail.labelNoun>
+
+    <DRM_CryoSlashTail.label>龙娘 霜斩尾</DRM_CryoSlashTail.label>
+    <DRM_CryoSlashTail.description>一条霜斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴温度极度冰冷。</DRM_CryoSlashTail.description>
+    <DRM_CryoSlashTail.labelNoun>霜斩尾</DRM_CryoSlashTail.labelNoun>
   
 </LanguageData>

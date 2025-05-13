@@ -211,7 +211,7 @@
 		</comps>
 		<stages>
 			<li>
-				<label>shivering</label>
+				<label>minor</label>
 				<becomeVisible>false</becomeVisible>
 			</li>
 			<li>
@@ -289,7 +289,7 @@
 		</comps>
 		<stages>
 			<li>
-				<label>shivering</label>
+				<label>minor</label>
 				<becomeVisible>True</becomeVisible>
 			</li>
 			<li>
@@ -366,7 +366,7 @@
 		</injuryProps>
 		<stages>
 			<li>
-				<label>shivering</label>
+				<label>minor</label>
 				<becomeVisible>false</becomeVisible>
 			</li>
 			<li>
@@ -458,7 +458,7 @@
 		</injuryProps>
 		<stages>
 			<li>
-				<label>shivering</label>
+				<label>minor</label>
 				<becomeVisible>false</becomeVisible>
 			</li>
 			<li>

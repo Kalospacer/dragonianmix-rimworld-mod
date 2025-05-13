@@ -61,6 +61,10 @@
   <DRM_ExplosiveSlashTail.description>一条碎斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴上覆盖了危险的易爆材料。</DRM_ExplosiveSlashTail.description>
   <DRM_ExplosiveSlashTail.labelNoun>碎斩尾</DRM_ExplosiveSlashTail.labelNoun>
 
+  <DRM_CryoSlashTail.label>龙娘 霜斩尾</DRM_CryoSlashTail.label>
+  <DRM_CryoSlashTail.description>一条霜斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴温度极度冰冷。</DRM_CryoSlashTail.description>
+  <DRM_CryoSlashTail.labelNoun>霜斩尾</DRM_CryoSlashTail.labelNoun>
+
   <DRM_KnightForce.label>骑士之力</DRM_KnightForce.label>
   <DRM_KnightForce.description>这个人已经完全准备就绪。无法被击退。</DRM_KnightForce.description>
 
@@ -131,6 +135,21 @@
   <DRM_ElectricShock.stages.extreme.label>极重</DRM_ElectricShock.stages.extreme.label>
   <!-- EN: extreme -->
   <DRM_ElectricShock.stages.completely.label>完全</DRM_ElectricShock.stages.completely.label>
+
+  <DRM_CryoShock.label>低温休克</DRM_CryoShock.label>
+  <DRM_CryoShock.description>由于体温骤降，这个人意识正在降低，无法行动。</DRM_CryoShock.description>
+  <!-- EN: minor -->
+  <DRM_CryoShock.stages.minor-0.label>轻微</DRM_CryoShock.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_CryoShock.stages.minor-1.label>较轻</DRM_CryoShock.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_CryoShock.stages.moderate.label>中等</DRM_CryoShock.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_CryoShock.stages.serious.label>严重</DRM_CryoShock.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_CryoShock.stages.extreme.label>极重</DRM_CryoShock.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_CryoShock.stages.completely.label>完全</DRM_CryoShock.stages.completely.label>
 
   <!-- EN: tox gas -->
   <DRM_FearGas.label>恐惧毒气</DRM_FearGas.label>
