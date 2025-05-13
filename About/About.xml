@@ -7,7 +7,7 @@
   <li>1.5</li>
   </supportedVersions>
   <packageId>kalospacer.DragonianMix</packageId>
-  <modVersion>1.5.25</modVersion><!-- prev 1.5.23 -->
+  <modVersion>1.5.26</modVersion><!-- prev 1.5.23 -->
   <modIconPath IgnoreIfNoMatchingField="True">Dragonian/Icon/viewicon</modIconPath>
   <description>
 Dragonian Faction and Scenarios patch for Gloomy Dragonian race.
