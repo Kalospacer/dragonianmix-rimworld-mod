@@ -216,4 +216,23 @@
 		</techHediffsTags>
 	</ThingDef>
 
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>DRM_CryoSlashTail</defName>
+		<label>Cryo slash tail</label>
+		<description>A Cryo slash tail turn dragonian's tail into a massive blade.This kind make the tail extreamly hot.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDRM_CryoSlashTail</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<Mass>1.0</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>DragonianSlashTail</li>
+		</techHediffsTags>
+	</ThingDef>
+
 </Defs>

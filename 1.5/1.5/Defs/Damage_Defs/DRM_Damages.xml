@@ -12,8 +12,14 @@
 		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
 		<additionalHediffs>
 			<li>
+				<hediff>DRM_CryoShock</hediff>
+				<severityPerDamageDealt>0.02</severityPerDamageDealt>
+			</li>
+			<li>
 				<hediff>Hypothermia</hediff>
-				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+				<severityPerDamageDealt>0.003</severityPerDamageDealt>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
 			</li>
 		</additionalHediffs>
 		<armorCategory>Heat</armorCategory>

@@ -58,11 +58,11 @@
 
 			  <beamStartOffset>0.8</beamStartOffset>
 			  <beamFullWidthRange>3</beamFullWidthRange>
-			  <beamWidth>-3</beamWidth>
-			  <beamMaxDeviation>0.5</beamMaxDeviation>
-			  <beamCurvature>0.1</beamCurvature>
+			  <beamWidth>3</beamWidth>
+			  <beamMaxDeviation>0</beamMaxDeviation>
+			  <beamCurvature>0</beamCurvature>
 			  <burstShotCount>15</burstShotCount>
-			  <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+			  <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 			  <showBurstShotStats>false</showBurstShotStats>
 			  <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
 			  <beamGroundFleckDef>Fleck_BeamBurn</beamGroundFleckDef>

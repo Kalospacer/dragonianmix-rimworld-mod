@@ -180,8 +180,6 @@
 		</addedPartProps>
 	</HediffDef>
 
-
-
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>DRM_FlameSlashTail</defName>
 		<label>Flame slash tail</label>
@@ -389,6 +387,68 @@
 			<solid>true</solid>
 		</addedPartProps>
 		<spawnThingOnRemoved>ShieldDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DRM_CryoSlashTail</defName>
+		<label>Cryo slash tail</label>
+		<labelNoun>a Cryo slash tail</labelNoun>
+		<description>An installed Cryo slash tail turn dragonian's tail into a massive blade.This kind make the tail extreamly cold.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DRM_CryoSlashTail</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>tail</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>30</power>
+						<cooldownTime>3</cooldownTime>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>15</amount>
+								</li>
+								<li>
+									<def>DRM_Frostbite</def>
+									<amount>15</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>DRM_Frostbite</def>
+								<amount>20</amount>
+							</li>
+						</extraMeleeDamages>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>DRHammerSound</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>DRM_CryoSlashTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
 	</HediffDef>
 
 </Defs>

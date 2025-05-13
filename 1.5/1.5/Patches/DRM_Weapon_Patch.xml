@@ -2,11 +2,10 @@
 <Patch>
 
 	<Operation Class="PatchOperationSequence">
-		
+
 		<operations>
 			<li Class="PatchOperationTest">
 				<xpath>Defs/ThingDef[defName="DR_BattleMace"]</xpath>
-				
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_BattleMace"]</xpath>
@@ -20,11 +19,11 @@
 	</Operation>
 
 	<Operation Class="PatchOperationSequence">
-		
+
 		<operations>
 			<li Class="PatchOperationTest">
 				<xpath>Defs/ThingDef[defName="DR_Battlesword"]</xpath>
-				
+
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_Battlesword"]</xpath>
@@ -39,11 +38,11 @@
 	</Operation>
 
 	<Operation Class="PatchOperationSequence">
-		
+
 		<operations>
 			<li Class="PatchOperationTest">
 				<xpath>Defs/ThingDef[defName="DR_BattleStaff"]</xpath>
-				
+
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DR_BattleStaff"]</xpath>
@@ -67,5 +66,53 @@
 			</li>
 		</operations>
 	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_SoulMace"]</xpath>
+
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_SoulMace"]</xpath>
+				<value>
+					<weaponTags>
+						<li>DR_SoulMace</li>
+					</weaponTags>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="DR_SoulMace"]/tools</xpath>
+				<value>
+					<tools>
+						<li>
+							<label>head</label>
+							<labelUsedInLogging>false</labelUsedInLogging>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>22</power>
+							<cooldownTime>3.35</cooldownTime>
+							<extraMeleeDamages>
+								<li>
+									<def>DRM_Frostbite</def>
+									<amount>20</amount>
+								</li>
+								<li>
+									<def>Stun</def>
+									<amount>11</amount>
+								</li>
+							</extraMeleeDamages>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+		</operations>
+		
+	</Operation>
+
 
 </Patch>
