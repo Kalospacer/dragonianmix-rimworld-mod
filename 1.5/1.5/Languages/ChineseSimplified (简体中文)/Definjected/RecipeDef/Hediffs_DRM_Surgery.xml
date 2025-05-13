@@ -57,6 +57,10 @@
   <InstallDRM_FlameSlashTail.description>安装焚斩尾。</InstallDRM_FlameSlashTail.description>
   <InstallDRM_FlameSlashTail.jobString>正在安装焚斩尾。</InstallDRM_FlameSlashTail.jobString>
 
+  <InstallDRM_CryoSlashTail.label>安装霜斩尾</InstallDRM_CryoSlashTail.label>
+  <InstallDRM_CryoSlashTail.description>安装霜斩尾。</InstallDRM_CryoSlashTail.description>
+  <InstallDRM_CryoSlashTail.jobString>正在安装霜斩尾。</InstallDRM_CryoSlashTail.jobString>
+
   <InstallDRM_AcidSlashTail.label>安装酸斩尾</InstallDRM_AcidSlashTail.label>
   <InstallDRM_AcidSlashTail.description>安装酸斩尾。</InstallDRM_AcidSlashTail.description>
   <InstallDRM_AcidSlashTail.jobString>正在安装酸斩尾。</InstallDRM_AcidSlashTail.jobString>

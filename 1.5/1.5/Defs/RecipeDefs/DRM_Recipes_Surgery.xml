@@ -288,6 +288,36 @@
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+        <defName>InstallDRM_CryoSlashTail</defName>
+        <label>install Cryo slash tail</label>
+        <description>Install a Cryo slash tail.</description>
+        <descriptionHyperlinks>
+            <ThingDef>DRM_CryoSlashTail</ThingDef>
+            <HediffDef>DRM_CryoSlashTail</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Cryo slash tail.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>DRM_CryoSlashTail</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>DRM_CryoSlashTail</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Spine</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>DRM_CryoSlashTail</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
         <defName>InstallDRM_AcidSlashTail</defName>
         <label>install Acid slash tail</label>
         <description>Install a Acid slash tail.</description>
