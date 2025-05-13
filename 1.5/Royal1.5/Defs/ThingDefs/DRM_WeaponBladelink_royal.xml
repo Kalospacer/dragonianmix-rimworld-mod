@@ -44,9 +44,13 @@
             <capacities>
                 <li>Blunt</li>
             </capacities>
-            <power>29</power>
+            <power>25</power>
             <cooldownTime>2.5</cooldownTime>
             <extraMeleeDamages>
+                <li>
+                    <def>DRM_Arc</def>
+                    <amount>14</amount>
+                </li>
                 <li>
                     <def>EMP</def>
                     <amount>15</amount>
