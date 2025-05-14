@@ -277,14 +277,14 @@
 									<amount>15</amount>
 								</li>
 								<li>
-									<def>DRM_AcidBurn</def>
+									<def>DRM_AcidCover</def>
 									<amount>15</amount>
 								</li>
 							</extraMeleeDamages>
 						</surpriseAttack>
 						<extraMeleeDamages>
 							<li>
-								<def>DRM_AcidBurn</def>
+								<def>DRM_AcidCover</def>
 								<amount>20</amount>
 							</li>
 						</extraMeleeDamages>
@@ -328,7 +328,7 @@
 					<li>
 						<label>tail</label>
 						<capacities>
-							<li>Cut</li>
+							<li>Blunt</li>
 						</capacities>
 						<power>30</power>
 						<cooldownTime>3</cooldownTime>
@@ -424,7 +424,7 @@
 									<amount>15</amount>
 								</li>
 								<li>
-									<def>DRM_Frostbite</def>
+									<def>DRM_Frostcover</def>
 									<amount>15</amount>
 								</li>
 							</extraMeleeDamages>

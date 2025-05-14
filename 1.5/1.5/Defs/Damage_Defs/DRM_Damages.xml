@@ -12,14 +12,40 @@
 		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
 		<additionalHediffs>
 			<li>
-				<hediff>DRM_CryoShock</hediff>
-				<severityPerDamageDealt>0.02</severityPerDamageDealt>
+				<hediff>Hypothermia</hediff>
+				<severityPerDamageDealt>0.003</severityPerDamageDealt>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
 			</li>
+		</additionalHediffs>
+		<armorCategory>Heat</armorCategory>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<defaultDamage>3</defaultDamage>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>DRM_Frostcover</defName>
+		<label>frostbite</label>
+		<workerClass>DamageWorker_Frostbite</workerClass>
+		<externalViolence>false</externalViolence>
+		<deathMessage>{0} has succumbed to frostbite.</deathMessage>
+		<hediff>Frostbite</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+		<additionalHediffs>
 			<li>
 				<hediff>Hypothermia</hediff>
 				<severityPerDamageDealt>0.003</severityPerDamageDealt>
 				<inverseStatScaling>true</inverseStatScaling>
 				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+			<li>
+				<hediff>DRM_CryoShock</hediff>
+				<severityPerDamageDealt>0.02</severityPerDamageDealt>
 			</li>
 		</additionalHediffs>
 		<armorCategory>Heat</armorCategory>
@@ -61,6 +87,21 @@
 		<additionalHediffs>
 			<li>
 				<hediff>DRM_AcidCorrosion</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<armorCategory>Sharp</armorCategory>
+		<hediff>AcidBurn</hediff>
+		<scaleDamageToBuildingsBasedOnFlammability>false</scaleDamageToBuildingsBasedOnFlammability>
+	</DamageDef>
+
+	<DamageDef ParentName="Flame">
+		<defName>DRM_AcidCover</defName>
+		<label>acid burn</label>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_AcidCoverd</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
 			</li>
 		</additionalHediffs>

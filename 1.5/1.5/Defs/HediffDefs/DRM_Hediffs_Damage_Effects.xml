@@ -273,11 +273,76 @@
 	</HediffDef>
 
 	<HediffDef>
+		<defName>DRM_AcidCoverd</defName>
+		<label>Acid Coverd</label>
+		<description>This preson is coverd with acid .</description>
+		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
+		<hediffClass>DragonianMix.HediffCurseFlame</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-4</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>1800</disappearsAfterTicks>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<modExtensions>
+			<li Class="DragonianMix.CurseFlameModExt">
+				<damageDefName>DRM_AcidBurn</damageDefName>
+				<damageRange>1~5</damageRange>
+				<damageIntervalTicks>40</damageIntervalTicks>
+			</li>
+		</modExtensions>
+		<stages>
+			<li>
+				<label>minor</label>
+				<becomeVisible>true</becomeVisible>
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.2</minSeverity>
+				<statFactors>
+					<IncomingDamageFactor>1.25</IncomingDamageFactor>
+				</statFactors>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.35</minSeverity>
+				<statFactors>
+					<IncomingDamageFactor>1.75</IncomingDamageFactor>
+				</statFactors>
+			</li>
+			<li>
+				<label>serious</label>
+				<minSeverity>0.5</minSeverity>
+				<statFactors>
+					<IncomingDamageFactor>2.35</IncomingDamageFactor>
+				</statFactors>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.65</minSeverity>
+				<statFactors>
+					<IncomingDamageFactor>2.85</IncomingDamageFactor>
+				</statFactors>
+			</li>
+			<li>
+				<label>completely</label>
+				<minSeverity>0.85</minSeverity>
+				<statFactors>
+					<IncomingDamageFactor>3.25</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
 		<defName>DRM_AcidCorrosion</defName>
 		<label>Acid Corrosion</label>
 		<description>This preson's armor is corroding due acid .</description>
 		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
-		<hediffClass>DragonianMix.HediffCurseFlame</hediffClass>
+		<hediffClass>HediffWithComps</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-4</severityPerDay>
@@ -290,7 +355,7 @@
 		<stages>
 			<li>
 				<label>minor</label>
-				<becomeVisible>True</becomeVisible>
+				<becomeVisible>false</becomeVisible>
 			</li>
 			<li>
 				<label>minor</label>
@@ -299,9 +364,6 @@
 					<ArmorRating_Sharp>-0.15</ArmorRating_Sharp>
 					<ArmorRating_Blunt>-0.1</ArmorRating_Blunt>
 				</statOffsets>
-				<statFactors>
-					<IncomingDamageFactor>1.25</IncomingDamageFactor>
-				</statFactors>
 			</li>
 			<li>
 				<label>moderate</label>
@@ -310,9 +372,6 @@
 					<ArmorRating_Sharp>-0.35</ArmorRating_Sharp>
 					<ArmorRating_Blunt>-0.3</ArmorRating_Blunt>
 				</statOffsets>
-				<statFactors>
-					<IncomingDamageFactor>1.75</IncomingDamageFactor>
-				</statFactors>
 			</li>
 			<li>
 				<label>serious</label>
@@ -321,9 +380,6 @@
 					<ArmorRating_Sharp>-0.65</ArmorRating_Sharp>
 					<ArmorRating_Blunt>-0.6</ArmorRating_Blunt>
 				</statOffsets>
-				<statFactors>
-					<IncomingDamageFactor>2.35</IncomingDamageFactor>
-				</statFactors>
 			</li>
 			<li>
 				<label>extreme</label>
@@ -343,9 +399,6 @@
 					<ArmorRating_Sharp>-2</ArmorRating_Sharp>
 					<ArmorRating_Blunt>-2</ArmorRating_Blunt>
 				</statOffsets>
-				<statFactors>
-					<IncomingDamageFactor>3.25</IncomingDamageFactor>
-				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
@@ -447,19 +500,26 @@
 		<label>Cryo Shock</label>
 		<description>This preson is Freezed.</description>
 		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
+		<hediffClass>DragonianMix.HediffCurseFlame</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-6</severityPerDay>
 			</li>
 		</comps>
+		<modExtensions>
+			<li Class="DragonianMix.CurseFlameModExt">
+				<damageDefName>DRM_Frostbite</damageDefName>
+				<damageRange>1~1</damageRange>
+				<damageIntervalTicks>40</damageIntervalTicks>
+			</li>
+		</modExtensions>
 		<injuryProps>
 			<painPerSeverity>0.02</painPerSeverity>
 		</injuryProps>
 		<stages>
 			<li>
 				<label>minor</label>
-				<becomeVisible>false</becomeVisible>
+				<becomeVisible>true</becomeVisible>
 			</li>
 			<li>
 				<label>minor</label>
@@ -479,7 +539,7 @@
 				<minSeverity>0.35</minSeverity>
 				<statOffsets>
 					<ComfyTemperatureMin>80</ComfyTemperatureMin>
-				</statOffsets>  
+				</statOffsets>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>

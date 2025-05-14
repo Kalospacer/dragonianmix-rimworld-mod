@@ -67,7 +67,7 @@
 			  <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
 			  <beamGroundFleckDef>Fleck_BeamBurn</beamGroundFleckDef>
 			  
-			  <beamDamageDef>DRM_Frostbite</beamDamageDef>
+			  <beamDamageDef>DRM_Frostcover</beamDamageDef>
 			  <beamMoteDef>Mote_GraserBeamBase</beamMoteDef>
 			  <beamEndEffecterDef>GraserBeam_End</beamEndEffecterDef>
 			  <beamLineFleckDef>Fleck_BeamSpark</beamLineFleckDef>
@@ -102,7 +102,7 @@
 				<power>15</power>
 				<extraMeleeDamages>
 					<li>
-						<def>DRM_Frostbite</def>
+						<def>DRM_Frostcover</def>
 						<amount>30</amount>
 						<chance>1</chance>
 					  </li>

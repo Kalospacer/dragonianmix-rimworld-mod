@@ -126,7 +126,7 @@
     </verbProperties>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
-        <damageDef>DRM_AcidBurn</damageDef>
+        <damageDef>DRM_AcidCover</damageDef>
         <damageAmount>25</damageAmount>
         <armorPenetration>0.5</armorPenetration>
         <smokeRadius>9</smokeRadius>
@@ -183,7 +183,7 @@
       <drawSize>0.85</drawSize>
     </graphicData>
     <projectile>
-      <damageDef>DRM_AcidBurn</damageDef>
+      <damageDef>DRM_AcidCover</damageDef>
       <speed>25</speed>
       <damageAmountBase>30</damageAmountBase>
       <arcHeightFactor>0.4</arcHeightFactor>
