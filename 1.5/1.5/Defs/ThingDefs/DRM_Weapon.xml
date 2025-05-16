@@ -48,6 +48,7 @@
 					</li>
 				</extraMeleeDamages>
 				<cooldownTime>2</cooldownTime>
+				<chanceFactor>1</chanceFactor>
 			</li>
 			<li>
 				<label>head</label>
@@ -55,14 +56,19 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>29</power>
+				<power>21</power>
 				<cooldownTime>3</cooldownTime>
-				<extraMeleeDamages>
-					<li>
-						<def>EMP</def>
-						<amount>15</amount>
-					</li>
-				</extraMeleeDamages>
+                <extraMeleeDamages>
+                    <li>
+                        <def>DRM_Arc</def>
+                        <amount>7</amount>
+                    </li>
+                    <li>
+                        <def>EMP</def>
+                        <amount>15</amount>
+                    </li>
+                </extraMeleeDamages>
+				<chanceFactor>10</chanceFactor>
 			</li>
 		</tools>
 		<meleeHitSound>DRHammerSound</meleeHitSound>

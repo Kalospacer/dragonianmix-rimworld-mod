@@ -408,19 +408,26 @@
 		<label>Electric Shock</label>
 		<description>This preson is got a shock.</description>
 		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
+		<hediffClass>DragonianMix.HediffCurseFlame</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-4</severityPerDay>
 			</li>
 		</comps>
+		<modExtensions>
+			<li Class="DragonianMix.CurseFlameModExt">
+				<damageDefName>EMP</damageDefName>
+				<damageRange>1~5</damageRange>
+				<damageIntervalTicks>40</damageIntervalTicks>
+			</li>
+		</modExtensions>
 		<injuryProps>
 			<painPerSeverity>0.02</painPerSeverity>
 		</injuryProps>
 		<stages>
 			<li>
 				<label>minor</label>
-				<becomeVisible>false</becomeVisible>
+				<becomeVisible>true</becomeVisible>
 			</li>
 			<li>
 				<label>minor</label>
@@ -617,6 +624,61 @@
 						<offset>-0.30</offset>
 					</li>
 				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DRM_AwakenHeart</defName>
+		<label>Awaken Heart</label>
+		<description>Affected by personality weapons, this individual is urgently attempting to awaken the minds of others.</description>
+		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-4</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<becomeVisible>true</becomeVisible>
+				<statOffsets>
+					<MeleeDamageFactor>1.2</MeleeDamageFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.2</minSeverity>
+				<statOffsets>
+					<MeleeCooldownFactor>-0.2</MeleeCooldownFactor>
+					<MeleeDamageFactor>1.4</MeleeDamageFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.4</minSeverity>
+				<statOffsets>
+					<MeleeCooldownFactor>-0.4</MeleeCooldownFactor>
+					<MeleeDamageFactor>1.6</MeleeDamageFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<label>serious</label>
+				<minSeverity>0.6</minSeverity>
+				<statOffsets>
+					<MeleeCooldownFactor>-0.6</MeleeCooldownFactor>
+					<MeleeDamageFactor>1.8</MeleeDamageFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<label>completely</label>
+				<minSeverity>0.8</minSeverity>
+				<statOffsets>
+					<MeleeCooldownFactor>-0.8</MeleeCooldownFactor>
+					<MeleeDamageFactor>2.0</MeleeDamageFactor>
+				</statOffsets>
 			</li>
 		</stages>
 	</HediffDef>

@@ -1,63 +1,115 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="BaseWeapon_Bladelink">
-    <defName>DR_BattleHammerBladelink</defName>
-    <label>persona battle hammer</label>
-    <description>A warhammer with an embedded EMP capacitor. Upon impact, Electrical shock temporarily paralyzes the circuit.
+    <ThingDef ParentName="BaseWeapon_Bladelink">
+        <defName>DR_BattleHammerBladelink</defName>
+        <label>persona battle hammer</label>
+        <description>A warhammer with an embedded EMP capacitor. Upon impact, Electrical shock temporarily paralyzes the circuit.
 \nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
-    <statBases>
-      <MarketValue>3000</MarketValue>
-      <Mass>2</Mass>
-    </statBases>
-    <soundInteract>Interact_BladelinkZeusHammer</soundInteract>
-    <meleeHitSound>DRHammerSound</meleeHitSound>
-    <smeltable>false</smeltable>
-    <equippedAngleOffset>0</equippedAngleOffset>
-    <graphicData>
-        <texPath>Dragonian/Things/Weapon/DR_BattleHammer</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-        <shaderType>CutoutComplex</shaderType>
-    </graphicData>
-    <uiIconScale>1</uiIconScale>
-    <weaponTags>
-        <li>DR_BattleHammer</li>
-    </weaponTags>
-    <tools>
-        <li>
-            <label>handle</label>
-            <capacities>
-                <li>Poke</li>
-            </capacities>
-            <power>17</power>
-            <extraMeleeDamages>
-                <li>
-                    <def>EMP</def>
-                    <amount>5</amount>
-                </li>
-            </extraMeleeDamages>
-            <cooldownTime>1.5</cooldownTime>
-        </li>
-        <li>
-            <label>head</label>
-            <labelUsedInLogging>false</labelUsedInLogging>
-            <capacities>
-                <li>Blunt</li>
-            </capacities>
-            <power>25</power>
-            <cooldownTime>2.5</cooldownTime>
-            <extraMeleeDamages>
-                <li>
-                    <def>DRM_Arc</def>
-                    <amount>14</amount>
-                </li>
-                <li>
-                    <def>EMP</def>
-                    <amount>15</amount>
-                </li>
-            </extraMeleeDamages>
-        </li>
-    </tools>
-  </ThingDef>
-  
+        <statBases>
+            <MarketValue>3000</MarketValue>
+            <Mass>2</Mass>
+        </statBases>
+        <soundInteract>Interact_BladelinkZeusHammer</soundInteract>
+        <meleeHitSound>DRHammerSound</meleeHitSound>
+        <smeltable>false</smeltable>
+        <equippedAngleOffset>0</equippedAngleOffset>
+        <graphicData>
+            <texPath>Dragonian/Things/Weapon/DR_BattleHammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <uiIconScale>1</uiIconScale>
+        <weaponTags>
+            <li>DR_BattleHammer</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>17</power>
+                <extraMeleeDamages>
+                    <li>
+                        <def>EMP</def>
+                        <amount>5</amount>
+                    </li>
+                </extraMeleeDamages>
+                <cooldownTime>1.5</cooldownTime>
+                <chanceFactor>1</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>DRM_HummerSmash</li>
+                </capacities>
+                <power>25</power>
+                <cooldownTime>2.5</cooldownTime>
+                <extraMeleeDamages>
+                    <li>
+                        <def>DRM_Arc</def>
+                        <amount>14</amount>
+                    </li>
+                    <li>
+                        <def>EMP</def>
+                        <amount>15</amount>
+                    </li>
+                </extraMeleeDamages>
+                <chanceFactor>10</chanceFactor>
+            </li>
+        </tools>
+        <comps>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+            <li Class="DragonianMix.CompPropertiesScarletSickle_Data">
+                <sputteringRange>2</sputteringRange>
+                <sputteringNumber>5</sputteringNumber>
+                <sputteringDamageAmount>25</sputteringDamageAmount>
+                <sputteringDamage>DRM_Arc</sputteringDamage>
+                <hitHediff>DRM_AwakenHeart</hitHediff>
+                <hitHediffSeverity>0.1</hitHediffSeverity>
+            </li>
+            <li Class="CompProperties_Biocodable"/>
+            <li Class="CompProperties_Art">
+                <nameMaker>NamerArtWeaponMelee</nameMaker>
+                <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+                <minQualityForArtistic>Excellent</minQualityForArtistic>
+            </li>
+        </comps>
+        <costList>
+            <Shard MayRequire="Ludeon.RimWorld.Anomaly">1</Shard>
+            <WoolDragonian>400</WoolDragonian>
+            <Bioferrite MayRequire="Ludeon.RimWorld.Anomaly">400</Bioferrite>
+            <Steel MayNotRequire="Ludeon.RimWorld.Anomaly">400</Steel>
+            <ComponentSpacer>5</ComponentSpacer>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>Electricity</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>10</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+    </ThingDef>
+
+    <ManeuverDef>
+        <defName>Smash_DR_BattleHammer</defName>
+        <requiredCapacity>DRM_HummerSmash</requiredCapacity>
+        <verb>
+            <verbClass>DragonianMix.Verb_MeleeAttack_ScarletSickle</verbClass>
+            <meleeDamageDef>Blunt</meleeDamageDef>
+        </verb>
+        <logEntryDef>MeleeAttack</logEntryDef>
+        <combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+        <combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+        <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+        <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+    </ManeuverDef>
+
+    <ToolCapacityDef>
+        <defName>DRM_HummerSmash</defName>
+        <label>Blunt</label>
+    </ToolCapacityDef>
 </Defs>

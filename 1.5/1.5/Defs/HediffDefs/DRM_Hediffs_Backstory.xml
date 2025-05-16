@@ -3,7 +3,7 @@
 
 	<HediffDef>
 		<defName>DRM_Princess_Mark</defName>
-		<hediffClass>Hediff_High</hediffClass>
+		<hediffClass>HediffWithComps</hediffClass>
 		<label>Dragonian Princess</label>
 		<description>She is the chosen one Dragonian Princess. How cool! But this means nothing.</description>
 		<defaultLabelColor>(1,1,1)</defaultLabelColor>
