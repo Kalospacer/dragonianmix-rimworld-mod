@@ -645,7 +645,7 @@
 				<label>minor</label>
 				<becomeVisible>true</becomeVisible>
 				<statOffsets>
-					<MeleeDamageFactor>1.2</MeleeDamageFactor>
+					<MeleeDamageFactor>0.2</MeleeDamageFactor>
 				</statOffsets>
 			</li>
 			<li>
@@ -653,7 +653,7 @@
 				<minSeverity>0.2</minSeverity>
 				<statOffsets>
 					<MeleeCooldownFactor>-0.2</MeleeCooldownFactor>
-					<MeleeDamageFactor>1.4</MeleeDamageFactor>
+					<MeleeDamageFactor>0.4</MeleeDamageFactor>
 				</statOffsets>
 			</li>
 			<li>
@@ -661,7 +661,7 @@
 				<minSeverity>0.4</minSeverity>
 				<statOffsets>
 					<MeleeCooldownFactor>-0.4</MeleeCooldownFactor>
-					<MeleeDamageFactor>1.6</MeleeDamageFactor>
+					<MeleeDamageFactor>0.6</MeleeDamageFactor>
 				</statOffsets>
 			</li>
 			<li>
@@ -669,7 +669,7 @@
 				<minSeverity>0.6</minSeverity>
 				<statOffsets>
 					<MeleeCooldownFactor>-0.6</MeleeCooldownFactor>
-					<MeleeDamageFactor>1.8</MeleeDamageFactor>
+					<MeleeDamageFactor>0.8</MeleeDamageFactor>
 				</statOffsets>
 			</li>
 			<li>
@@ -677,7 +677,7 @@
 				<minSeverity>0.8</minSeverity>
 				<statOffsets>
 					<MeleeCooldownFactor>-0.8</MeleeCooldownFactor>
-					<MeleeDamageFactor>2.0</MeleeDamageFactor>
+					<MeleeDamageFactor>1.0</MeleeDamageFactor>
 				</statOffsets>
 			</li>
 		</stages>

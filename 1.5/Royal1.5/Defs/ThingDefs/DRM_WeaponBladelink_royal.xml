@@ -65,7 +65,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li Class="DragonianMix.CompPropertiesScarletSickle_Data">
-                <sputteringRange>2</sputteringRange>
+                <sputteringRange>5</sputteringRange>
                 <sputteringNumber>5</sputteringNumber>
                 <sputteringDamageAmount>25</sputteringDamageAmount>
                 <sputteringDamage>DRM_Arc</sputteringDamage>
