@@ -635,10 +635,11 @@
 		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
 		<hediffClass>HediffWithComps</hediffClass>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-4</severityPerDay>
+			<li Class="HediffCompProperties_DisappearsOnDeath" />
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>1800</disappearsAfterTicks> <!-- 30 seconds -->
+				<showRemainingTime>true</showRemainingTime>
 			</li>
-			<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		</comps>
 		<stages>
 			<li>
@@ -650,7 +651,7 @@
 			</li>
 			<li>
 				<label>minor</label>
-				<minSeverity>0.2</minSeverity>
+				<minSeverity>4</minSeverity>
 				<statOffsets>
 					<MeleeCooldownFactor>-0.2</MeleeCooldownFactor>
 					<MeleeDamageFactor>0.4</MeleeDamageFactor>
@@ -658,7 +659,7 @@
 			</li>
 			<li>
 				<label>moderate</label>
-				<minSeverity>0.4</minSeverity>
+				<minSeverity>8</minSeverity>
 				<statOffsets>
 					<MeleeCooldownFactor>-0.4</MeleeCooldownFactor>
 					<MeleeDamageFactor>0.6</MeleeDamageFactor>
@@ -666,7 +667,7 @@
 			</li>
 			<li>
 				<label>serious</label>
-				<minSeverity>0.6</minSeverity>
+				<minSeverity>12</minSeverity>
 				<statOffsets>
 					<MeleeCooldownFactor>-0.6</MeleeCooldownFactor>
 					<MeleeDamageFactor>0.8</MeleeDamageFactor>
@@ -674,7 +675,7 @@
 			</li>
 			<li>
 				<label>completely</label>
-				<minSeverity>0.8</minSeverity>
+				<minSeverity>16</minSeverity>
 				<statOffsets>
 					<MeleeCooldownFactor>-0.8</MeleeCooldownFactor>
 					<MeleeDamageFactor>1.0</MeleeDamageFactor>
