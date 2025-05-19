@@ -58,16 +58,16 @@
 				</capacities>
 				<power>21</power>
 				<cooldownTime>3</cooldownTime>
-                <extraMeleeDamages>
-                    <li>
-                        <def>DRM_Arc</def>
-                        <amount>7</amount>
-                    </li>
-                    <li>
-                        <def>EMP</def>
-                        <amount>15</amount>
-                    </li>
-                </extraMeleeDamages>
+				<extraMeleeDamages>
+					<li>
+						<def>DRM_Arc</def>
+						<amount>7</amount>
+					</li>
+					<li>
+						<def>EMP</def>
+						<amount>15</amount>
+					</li>
+				</extraMeleeDamages>
 				<chanceFactor>10</chanceFactor>
 			</li>
 		</tools>
@@ -816,17 +816,20 @@
 		<costStuffCount>80</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
-		</stuffCategories>	
+		</stuffCategories>
 		<costList>
 			<WoolDragonian>40</WoolDragonian>
 			<Steel>40</Steel>
 			<ComponentIndustrial>5</ComponentIndustrial>
-		</costList>	
+		</costList>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<weaponTags>
+			<li>DR_BattleMace</li>
+		</weaponTags>
 		<tools>
 			<li>
 				<label>handle</label>
@@ -846,15 +849,15 @@
 				</capacities>
 				<power>20</power>
 				<extraMeleeDamages>
-                    <li>
-                        <def>DRM_Bomb</def>
-                        <amount>20</amount>
-                    </li>
-                    <li>
-                        <def>Stun</def>
-                        <amount>6</amount>
-                    </li>
-                </extraMeleeDamages>
+					<li>
+						<def>DRM_Bomb</def>
+						<amount>20</amount>
+					</li>
+					<li>
+						<def>Stun</def>
+						<amount>6</amount>
+					</li>
+				</extraMeleeDamages>
 				<cooldownTime>4</cooldownTime>
 				<chanceFactor>10</chanceFactor>
 			</li>

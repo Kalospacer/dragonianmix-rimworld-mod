@@ -701,7 +701,7 @@
 			  <showRemainingTime>true</showRemainingTime>
 			  <damageAmount>30</damageAmount>
 			  <armorPenetration>0.10</armorPenetration>
-			  <disappearsAfterTicks>300</disappearsAfterTicks>
+			  <disappearsAfterTicks>200</disappearsAfterTicks>
 			</li>
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
 		</comps>
