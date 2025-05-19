@@ -8,6 +8,11 @@
   <!-- EN: head -->
   <DR_BattleHammer.tools.head.label>锤头</DR_BattleHammer.tools.head.label>
 
+  <DR_BattleMace_explosive.label>龙娘 爆碎锤矛</DR_BattleMace_explosive.label>
+  <DR_BattleMace_explosive.description>龙娘使用的爆碎锤矛。当击中时会附着产生危险爆炸的黏菌。</DR_BattleMace_explosive.description>
+  <DR_BattleMace_explosive.tools.0.label>锤柄</DR_BattleMace_explosive.tools.0.label>
+  <DR_BattleMace_explosive.tools.1.label>锤头</DR_BattleMace_explosive.tools.1.label>
+
   <DR_BattleStaff_Beam.label>龙娘 光束法杖</DR_BattleStaff_Beam.label>
   <DR_BattleStaff_Beam.description>龙娘使用的法杖。能射出急冻光束。</DR_BattleStaff_Beam.description>
 

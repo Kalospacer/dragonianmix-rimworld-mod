@@ -92,7 +92,7 @@
   <DRM_Frostbite.labelNounPretty>{1}中的{0}</DRM_Frostbite.labelNounPretty>
 
   <DRM_ArmorMeltdown.label>护甲熔解</DRM_ArmorMeltdown.label>
-  <DRM_ArmorMeltdown.description>由于持续受到高热影响，这个人的护甲正在熔化。将随程度降低热能护甲。</DRM_ArmorMeltdown.description>
+  <DRM_ArmorMeltdown.description>由于持续受到高热影响，这个[PAWN_nameDef]的护甲正在熔化。将随程度降低热能护甲。</DRM_ArmorMeltdown.description>
   <!-- EN: minor -->
   <DRM_ArmorMeltdown.stages.minor-0.label>轻微熔化</DRM_ArmorMeltdown.stages.minor-0.label>
   <!-- EN: minor -->
@@ -107,7 +107,7 @@
   <DRM_ArmorMeltdown.stages.completely.label>完全熔化</DRM_ArmorMeltdown.stages.completely.label>
 
   <DRM_AcidCoverd.label>酸性沾染</DRM_AcidCoverd.label>
-  <DRM_AcidCoverd.description>由于接触强酸性物质，这个人正在受到持续性的酸蚀伤害。</DRM_AcidCoverd.description>
+  <DRM_AcidCoverd.description>由于接触强酸性物质，这个[PAWN_nameDef]正在受到持续性的酸蚀伤害。</DRM_AcidCoverd.description>
   <!-- EN: minor -->
   <DRM_AcidCoverd.stages.minor-0.label>轻微</DRM_AcidCoverd.stages.minor-0.label>
   <!-- EN: minor -->
@@ -122,7 +122,7 @@
   <DRM_AcidCoverd.stages.completely.label>完全</DRM_AcidCoverd.stages.completely.label>
 
   <DRM_AcidCorrosion.label>酸性腐蚀</DRM_AcidCorrosion.label>
-  <DRM_AcidCorrosion.description>由于接触强酸性物质，这个人的护甲正在受到腐蚀。将随程度降低护甲。</DRM_AcidCorrosion.description>
+  <DRM_AcidCorrosion.description>由于接触强酸性物质，这个[PAWN_nameDef]的护甲正在受到腐蚀。将随程度降低护甲。</DRM_AcidCorrosion.description>
   <!-- EN: minor -->
   <DRM_AcidCorrosion.stages.minor-0.label>轻微腐蚀</DRM_AcidCorrosion.stages.minor-0.label>
   <!-- EN: minor -->
@@ -137,7 +137,7 @@
   <DRM_AcidCorrosion.stages.completely.label>完全腐蚀</DRM_AcidCorrosion.stages.completely.label>
 
   <DRM_ElectricShock.label>高压触电</DRM_ElectricShock.label>
-  <DRM_ElectricShock.description>由于遭受高压电击，这个人的全身肌肉正在痉挛，无法行动。</DRM_ElectricShock.description>
+  <DRM_ElectricShock.description>由于遭受高压电击，这个[PAWN_nameDef]的全身肌肉正在痉挛，无法行动。</DRM_ElectricShock.description>
   <!-- EN: minor -->
   <DRM_ElectricShock.stages.minor-0.label>轻微</DRM_ElectricShock.stages.minor-0.label>
   <!-- EN: minor -->
@@ -152,7 +152,7 @@
   <DRM_ElectricShock.stages.completely.label>完全</DRM_ElectricShock.stages.completely.label>
 
   <DRM_CryoShock.label>低温休克</DRM_CryoShock.label>
-  <DRM_CryoShock.description>由于体温骤降，这个人意识正在降低，无法行动。</DRM_CryoShock.description>
+  <DRM_CryoShock.description>由于体温骤降，这个[PAWN_nameDef]意识正在降低，无法行动。</DRM_CryoShock.description>
   <!-- EN: minor -->
   <DRM_CryoShock.stages.minor-0.label>轻微</DRM_CryoShock.stages.minor-0.label>
   <!-- EN: minor -->
@@ -178,7 +178,7 @@
   <DRM_FearGas.stages.severe.label>严重</DRM_FearGas.stages.severe.label>
 
   <DRM_AwakenHeart.label>唤醒心灵</DRM_AwakenHeart.label>
-  <DRM_AwakenHeart.description>受到人格武器影响，这个人正迫切想要唤醒他人的心灵。</DRM_AwakenHeart.description>
+  <DRM_AwakenHeart.description>受到人格武器影响，这个[PAWN_nameDef]正迫切想要唤醒他人的心灵。</DRM_AwakenHeart.description>
   <!-- EN: minor -->
   <DRM_AwakenHeart.stages.minor-0.label>等级1/5</DRM_AwakenHeart.stages.minor-0.label>
   <!-- EN: minor -->
@@ -191,6 +191,22 @@
   <DRM_AwakenHeart.stages.extreme.label>等级5/5</DRM_AwakenHeart.stages.extreme.label>
   <!-- EN: extreme -->
   <DRM_AwakenHeart.stages.completely.label>等级5/5</DRM_AwakenHeart.stages.completely.label>
+
+  <DRM_SlimeCoverd.label>黏菌附着</DRM_SlimeCoverd.label>
+  <DRM_SlimeCoverd.description>这个[PAWN_nameDef]被爆炸黏菌附着，黏菌即将产生爆炸。</DRM_SlimeCoverd.description>
+  <!-- EN: minor -->
+  <DRM_SlimeCoverd.stages.minor-0.label>轻微</DRM_SlimeCoverd.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_SlimeCoverd.stages.minor-1.label>较轻</DRM_SlimeCoverd.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_SlimeCoverd.stages.moderate.label>中等</DRM_SlimeCoverd.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_SlimeCoverd.stages.serious.label>严重</DRM_SlimeCoverd.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_SlimeCoverd.stages.extreme.label>极重</DRM_SlimeCoverd.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_SlimeCoverd.stages.completely.label>完全</DRM_SlimeCoverd.stages.completely.label>
+
 
   <DRM_Stun.label>被震撼</DRM_Stun.label>
   <DRM_Stun.description>被强大的外力冲击掀翻在地。需要一点时间振作。</DRM_Stun.description>

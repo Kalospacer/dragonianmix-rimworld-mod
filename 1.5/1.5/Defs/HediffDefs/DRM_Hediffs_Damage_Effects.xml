@@ -684,4 +684,83 @@
 		</stages>
 	</HediffDef>
 
+	<HediffDef>
+		<defName>DRM_SlimeCoverd</defName>
+		<label>Slime Coverd</label>
+		<description>This preson is coverd with dangerous explosive slime .</description>
+		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-4</severityPerDay>
+			</li>
+			<li Class="DragonianMix.HediffCompProperties_TimedExplosion">
+		      <damageDef>Bomb</damageDef>
+			  <soundDef>Explosion_Bomb</soundDef>
+			  <explosionRadius>2</explosionRadius>
+			  <showRemainingTime>true</showRemainingTime>
+			  <damageAmount>30</damageAmount>
+			  <armorPenetration>0.10</armorPenetration>
+			  <disappearsAfterTicks>300</disappearsAfterTicks>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<becomeVisible>true</becomeVisible>
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.2</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.35</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>serious</label>
+				<minSeverity>0.5</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.3</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.65</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.4</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>completely</label>
+				<minSeverity>0.85</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.5</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
 </Defs>

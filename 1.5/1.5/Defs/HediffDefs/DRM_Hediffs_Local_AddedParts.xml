@@ -339,14 +339,14 @@
 									<amount>15</amount>
 								</li>
 								<li>
-									<def>Bomb</def>
+									<def>DRM_Bomb</def>
 									<amount>15</amount>
 								</li>
 							</extraMeleeDamages>
 						</surpriseAttack>
 						<extraMeleeDamages>
 							<li>
-								<def>Bomb</def>
+								<def>DRM_Bomb</def>
 								<amount>20</amount>
 							</li>
 						</extraMeleeDamages>
