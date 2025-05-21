@@ -774,11 +774,11 @@
 				<severityPerDay>-4</severityPerDay>
 			</li>
 			<li Class="DragonianMix.HediffCompProperties_TimedExplosion">
-				<damageDef>DRM_Damage_FrostCoverd</damageDef>
+				<damageDef>DRM_Damage_FrostCoverd_after</damageDef>
 				<soundDef>Explosion_Stun</soundDef>
 				<explosionRadius>3</explosionRadius>
 				<showRemainingTime>true</showRemainingTime>
-				<damageAmount>5</damageAmount>
+				<damageAmount>0</damageAmount>
 				<armorPenetration>0.10</armorPenetration>
 				<disappearsAfterTicks>60~120</disappearsAfterTicks>
 				<postExplosionSpawnThingDef>DRM_FrostGasCloud_Ex</postExplosionSpawnThingDef>				<!-- ARL_ToxicGasCloud -->

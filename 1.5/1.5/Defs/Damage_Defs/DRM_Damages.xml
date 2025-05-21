@@ -85,7 +85,7 @@
 				<severityPerDamageDealt>0.02</severityPerDamageDealt>
 			</li>
 			<li>
-				<hediff>DRM_Hediff_FrostCoverd</hediff>
+				<hediff>DRM_Hediff_FrostCoverd_after</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
 				<inverseStatScaling>true</inverseStatScaling>
 				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>

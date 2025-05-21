@@ -424,7 +424,7 @@
 									<amount>15</amount>
 								</li>
 								<li>
-									<def>DRM_Damage_FrostCoverd</def>
+									<def>DRM_Damage_FrostCoverd_after</def>
 									<amount>15</amount>
 								</li>
 							</extraMeleeDamages>
