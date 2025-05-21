@@ -366,7 +366,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<weaponTags>
-			<li>DR_BattleStaff_Ranged</li>
+			<li>DR_BattleStaff_Air</li>
 		</weaponTags>
 		<thingCategories>
 			<li>WeaponsRanged</li>
