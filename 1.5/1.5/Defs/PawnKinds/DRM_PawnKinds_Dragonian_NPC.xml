@@ -316,7 +316,7 @@
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <weaponTags>
-      <li>DR_BattleStaff</li>
+      <li>DR_BattleStaff_Ranged</li>
     </weaponTags>
     <weaponMoney>
       <min>900</min>
@@ -469,7 +469,7 @@
     </apparelRequired>
 
     <weaponTags>
-      <li>DR_BattleStaff</li>
+      <li>DR_BattleStaff_Ranged</li>
     </weaponTags>
     <weaponMoney>
       <min>900</min>

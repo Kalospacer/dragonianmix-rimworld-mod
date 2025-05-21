@@ -366,7 +366,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<weaponTags>
-			<li>DR_BattleStaff</li>
+			<li>DR_BattleStaff_Ranged</li>
 		</weaponTags>
 		<thingCategories>
 			<li>WeaponsRanged</li>
@@ -379,6 +379,105 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>DRM_Bullet_AirCannon</defaultProjectile>
+				<warmupTime>2.4</warmupTime>
+				<range>23.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>physical-magic</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Demolish</li>
+				</capacities>
+				<power>15</power>
+				<extraMeleeDamages>
+					<li>
+						<def>DRM_Arc</def>
+						<amount>15</amount>
+						<chance>1</chance>
+					</li>
+					<li>
+						<def>Stun</def>
+						<amount>1.5</amount>
+						<chance>0.25</chance>
+					</li>
+				</extraMeleeDamages>
+				<cooldownTime>5.2</cooldownTime>
+			</li>
+		</tools>
+		<equippedStatOffsets>
+			<PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
+			<PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>
+		</equippedStatOffsets>
+		<meleeHitSound>DRHammerSound</meleeHitSound>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>DR_BattleStaff_AcidAir</defName>
+		<label>Dragonian AcidAirCannon Staff</label>
+		<description>A Staff for Dragonian.Can Shoot AcidAirCannon.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Weapon/staff</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1</uiIconScale>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>15</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<WoolDragonian>40</WoolDragonian>
+			<Steel>40</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<weaponTags>
+			<li>DR_BattleStaff_Ranged</li>
+		</weaponTags>
+		<thingCategories>
+			<li>WeaponsRanged</li>
+		</thingCategories>
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>DRM_Bullet_AcidAirCannon</defaultProjectile>
 				<warmupTime>2.4</warmupTime>
 				<range>23.9</range>
 				<forcedMissRadius>1.9</forcedMissRadius>
@@ -443,6 +542,26 @@
 			<damageDef>Thump</damageDef>
 			<damageAmountBase>10</damageAmountBase>
 			<explosionRadius>3.9</explosionRadius >
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>DRM_Bullet_AcidAirCannon</defName>
+		<label>AcidAirCannon shell</label>
+		<graphicData>
+			<texPath>Things/Projectile/LauncherShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<color>(111,111,111)</color>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>DRM_Damage_AcidCover_Ex</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<explosionRadius>1.9</explosionRadius >
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
