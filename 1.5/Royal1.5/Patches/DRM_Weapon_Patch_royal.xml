@@ -31,7 +31,7 @@
 							<cooldownTime>3.35</cooldownTime>
 							<extraMeleeDamages>
 								<li>
-									<def>DRM_Frostcover</def>
+									<def>DRM_Damage_FrostCoverd</def>
 									<amount>20</amount>
 								</li>
 								<li>
@@ -39,6 +39,7 @@
 									<amount>11</amount>
 								</li>
 							</extraMeleeDamages>
+							<chanceFactor>10</chanceFactor>
 						</li>
 					</tools>
 				</value>
