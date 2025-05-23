@@ -126,6 +126,24 @@
         </recipeMaker>
     </ThingDef>
 
+    <ThingDef ParentName="BodyPartBionicBase">
+        <defName>ShieldDragonianOrb_AdvancedBooster</defName>
+        <label>Dragonian Shield Advanced Booster</label>
+        <description>Install a Dragonian Shield Advanced Booster.</description>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallShieldDragonianOrb_AdvancedBooster</RecipeDef>
+        </descriptionHyperlinks>
+        <costList>
+            <Plasteel>15</Plasteel>
+            <Uranium>40</Uranium>
+            <Gold>1</Gold>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>ShieldBelt</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
     <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>InstallShieldDragonianOrb_Booster</defName>
         <label>install a Dragonian Shield Booster</label>
