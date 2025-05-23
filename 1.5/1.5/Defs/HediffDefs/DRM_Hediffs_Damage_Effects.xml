@@ -765,7 +765,7 @@
 
 	<HediffDef>
 		<defName>DRM_AcidCoverd_Ex</defName>
-		<label>Acid Coverd</label>
+		<label>Acid Coverd</label> 
 		<description>This preson is coverd with acid.</description>
 		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -776,7 +776,7 @@
 			<li Class="DragonianMix.HediffCompProperties_TimedExplosion">
 				<damageDef>DRM_AcidBurn</damageDef>
 				<soundDef>Explosion_Stun</soundDef>
-				<explosionRadius>3</explosionRadius>
+				<explosionRadius>1.1</explosionRadius>
 				<showRemainingTime>true</showRemainingTime>
 				<damageAmount>5</damageAmount>
 				<armorPenetration>0.10</armorPenetration>

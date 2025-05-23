@@ -66,6 +66,7 @@
 			  <showBurstShotStats>false</showBurstShotStats>
 			  <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
 			  <beamGroundFleckDef>Fleck_BeamBurn</beamGroundFleckDef>
+			  <beamHitsNeighborCells>true</beamHitsNeighborCells>
 			  
 			  <beamDamageDef>DRM_Damage_FrostCoverd_after</beamDamageDef>
 			  <beamMoteDef>Mote_GraserBeamBase</beamMoteDef>
