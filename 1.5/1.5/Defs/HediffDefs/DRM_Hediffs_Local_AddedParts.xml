@@ -130,7 +130,6 @@
 		<labelNoun>a Harden DragonianOrb.</labelNoun>
 		<description>An installed Harden DragonianOrb can reduce incoming damage by half.</description>
 		<priceImpact>false</priceImpact>
-		<hediffClass>DragonianMix.HediffShield_Implant</hediffClass>
 		<stages>
 			<li>
 				<statOffsets>
@@ -139,13 +138,6 @@
 				</statOffsets>
 			</li>
 		</stages>
-			<comps>
-			<li Class="DragonianMix.HediffShieldCompProperties">
-				<MaxEnergy>0</MaxEnergy>
-				<DampeningField>true</DampeningField>
-				<FunctionalModule>true</FunctionalModule>
-			</li>
-		</comps>
 		<addedPartProps>
 			<solid>true</solid>
 		</addedPartProps>

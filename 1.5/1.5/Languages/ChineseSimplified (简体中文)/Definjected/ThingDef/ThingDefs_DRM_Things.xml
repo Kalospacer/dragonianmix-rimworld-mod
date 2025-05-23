@@ -70,8 +70,8 @@
     <ShieldDragonianOrb_AdaptiveModule.description>一颗神秘的石头。让护盾同种伤害类型减少伤害。</ShieldDragonianOrb_AdaptiveModule.description>
     <ShieldDragonianOrb_AdaptiveModule.labelNoun>龙娘 护盾适应源石</ShieldDragonianOrb_AdaptiveModule.labelNoun>
 
-    <ShieldDragonianOrb.label>龙娘 护盾缓冲源石</ShieldDragonianOrb.label>
-    <ShieldDragonianOrb.description>一颗神秘的石头。让护盾不会受到超过10点伤害。</ShieldDragonianOrb.description>
-    <ShieldDragonianOrb.labelNoun>龙娘 护盾缓冲源石</ShieldDragonianOrb.labelNoun>
+    <ShieldDragonianOrb_BufferModule.label>龙娘 护盾缓冲源石</ShieldDragonianOrb_BufferModule.label>
+    <ShieldDragonianOrb_BufferModule.description>一颗神秘的石头。让护盾不会受到超过10点伤害。</ShieldDragonianOrb_BufferModule.description>
+    <ShieldDragonianOrb_BufferModule.labelNoun>龙娘 护盾缓冲源石</ShieldDragonianOrb_BufferModule.labelNoun>
 
 </LanguageData>

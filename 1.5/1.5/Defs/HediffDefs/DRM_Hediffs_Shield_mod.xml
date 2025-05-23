@@ -86,6 +86,9 @@
         </costList>
         <recipeMaker>
             <researchPrerequisite>ShieldBelt</researchPrerequisite>
+            <recipeUsers>                <!--工作于-->
+                <li>FabricationBench</li>                <!--精密加工台-->
+            </recipeUsers>
         </recipeMaker>
     </ThingDef>
 
@@ -104,6 +107,9 @@
         </costList>
         <recipeMaker>
             <researchPrerequisite>ShieldBelt</researchPrerequisite>
+            <recipeUsers>                <!--工作于-->
+                <li>FabricationBench</li>                <!--精密加工台-->
+            </recipeUsers>
         </recipeMaker>
     </ThingDef>
 
@@ -123,6 +129,9 @@
         </costList>
         <recipeMaker>
             <researchPrerequisite>ShieldBelt</researchPrerequisite>
+            <recipeUsers>                <!--工作于-->
+                <li>FabricationBench</li>                <!--精密加工台-->
+            </recipeUsers>
         </recipeMaker>
     </ThingDef>
 
@@ -141,10 +150,13 @@
         </costList>
         <recipeMaker>
             <researchPrerequisite>ShieldBelt</researchPrerequisite>
+            <recipeUsers>                <!--工作于-->
+                <li>FabricationBench</li>                <!--精密加工台-->
+            </recipeUsers>
         </recipeMaker>
     </ThingDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
         <defName>InstallShieldDragonianOrb_Booster</defName>
         <label>install a Dragonian Shield Booster</label>
         <description>Install a Dragonian Shield Booster.</description>
@@ -180,7 +192,7 @@
         </incompatibleWithHediffTags>
     </RecipeDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
         <defName>InstallShieldDragonianOrb_AdvancedBooster</defName>
         <label>install a Dragonian Shield Advanced Booster</label>
         <description>Install a Dragonian Shield Advanced Booster.</description>
@@ -216,7 +228,7 @@
         </incompatibleWithHediffTags>
     </RecipeDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
         <defName>InstallShieldDragonianOrb_AdaptiveModule</defName>
         <label>install a Dragonian Shield Adaptive Module</label>
         <description>Install a Dragonian Shield Adaptive Module.</description>
@@ -252,7 +264,7 @@
         </incompatibleWithHediffTags>
     </RecipeDef>
 
-    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
         <defName>InstallShieldDragonianOrb_BufferModule</defName>
         <label>install a Dragonian Shield Buffer Module</label>
         <description>Install a Dragonian Shield Buffer Module.</description>
@@ -287,5 +299,52 @@
             <li>ShieldDragonianOrb_AdaptiveModule</li>
         </incompatibleWithHediffTags>
     </RecipeDef>
+
+    <!--<RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveShieldDragonianOrb_Booster</defName>
+        <label>remove Dragonian Shield Booster</label>
+        <description>Remove Dragonian Shield Booster.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_Booster</ThingDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Dragonian Shield Booster.</jobString>
+        <removesHediff>ShieldDragonianOrb_Booster</removesHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveShieldDragonianOrb_AdvancedBooster</defName>
+        <label>remove Dragonian Shield Advanced Booster</label>
+        <description>Remove Dragonian Shield Advanced Booster.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_AdvancedBooster</ThingDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Dragonian Shield Advanced Booster.</jobString>
+        <removesHediff>ShieldDragonianOrb_AdvancedBooster</removesHediff>
+    </RecipeDef>-->
+
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveShieldDragonianOrb_AdaptiveModule</defName>
+        <label>remove Dragonian Shield Adaptive Module</label>
+        <description>Remove Dragonian Shield Adaptive Module.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_AdaptiveModule</ThingDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Dragonian Shield Adaptive Module.</jobString>
+        <removesHediff>ShieldDragonianOrb_AdaptiveModule</removesHediff>
+    </RecipeDef>
+
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveShieldDragonianOrb_BufferModule</defName>
+        <label>remove Dragonian Shield Buffer Module</label>
+        <description>Remove Dragonian Shield Buffer Module.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_BufferModule</ThingDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Dragonian Shield Buffer Module.</jobString>
+        <removesHediff>ShieldDragonianOrb_BufferModule</removesHediff>
+    </RecipeDef>
+
 
 </Defs>
