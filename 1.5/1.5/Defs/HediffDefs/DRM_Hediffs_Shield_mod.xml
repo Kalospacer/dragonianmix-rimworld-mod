@@ -19,8 +19,8 @@
 
     <ThingDef ParentName="BodyPartBionicBase">
         <defName>ShieldDragonianOrb_Booster</defName>
-           <label>Dragonian Shield Booster</label>
-        <labelNoun>a Dragonian Shield Booster</labelNoun>
+        <label>Dragonian Shield Booster</label>
+        <description>Install a Dragonian Shield Booster.</description>
         <descriptionHyperlinks>
             <RecipeDef>InstallShieldDragonianOrb_Booster</RecipeDef>
         </descriptionHyperlinks>
