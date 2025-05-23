@@ -100,13 +100,37 @@
 		<defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor>
 	</HediffDef>
 
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>ShieldDragonianOrb</defName>
+		<label>Shield DragonianOrb</label>
+		<labelNoun>a Shield DragonianOrb.</labelNoun>
+		<description>An installed Shield DragonianOrb.</description>
+		<priceImpact>false</priceImpact>
+		<hediffClass>DragonianMix.HediffShield_Implant</hediffClass>
+
+		<comps>
+			<li Class="DragonianMix.HediffShieldCompProperties">
+				<MaxEnergy>100</MaxEnergy>
+				<EnergyOnReset>0</EnergyOnReset>
+				<CanFunction>True</CanFunction>
+				<RegenerationRate>0.005</RegenerationRate>
+			</li>
+		</comps>
+
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>ShieldDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
 
 	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>HardenDragonianOrb</defName>
 		<label>Harden DragonianOrb</label>
 		<labelNoun>a Harden DragonianOrb.</labelNoun>
-		<description>An installed Harden DragonianOrb.</description>
+		<description>An installed Harden DragonianOrb can reduce incoming damage by half.</description>
 		<priceImpact>false</priceImpact>
+		<hediffClass>DragonianMix.HediffShield_Implant</hediffClass>
 		<stages>
 			<li>
 				<statOffsets>
@@ -115,6 +139,13 @@
 				</statOffsets>
 			</li>
 		</stages>
+			<comps>
+			<li Class="DragonianMix.HediffShieldCompProperties">
+				<MaxEnergy>0</MaxEnergy>
+				<DampeningField>true</DampeningField>
+				<FunctionalModule>true</FunctionalModule>
+			</li>
+		</comps>
 		<addedPartProps>
 			<solid>true</solid>
 		</addedPartProps>
@@ -364,29 +395,6 @@
 			<partEfficiency>1.00</partEfficiency>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
-	</HediffDef>
-
-	<HediffDef ParentName="AddedBodyPartBase">
-		<defName>ShieldDragonianOrb</defName>
-		<label>Shield DragonianOrb</label>
-		<labelNoun>a Shield DragonianOrb.</labelNoun>
-		<description>An installed Shield DragonianOrb.</description>
-		<priceImpact>false</priceImpact>
-		<hediffClass>DragonianMix.HediffShield_Implant</hediffClass>
-
-		<comps>
-			<li Class="DragonianMix.HediffShieldCompProperties">
-				<MaxEnergy>100</MaxEnergy>
-				<EnergyOnReset>0</EnergyOnReset>
-				<CanFunction>True</CanFunction>
-				<RegenerationRate>0.005</RegenerationRate>
-			</li>
-		</comps>
-
-		<addedPartProps>
-			<solid>true</solid>
-		</addedPartProps>
-		<spawnThingOnRemoved>ShieldDragonianOrb</spawnThingOnRemoved>
 	</HediffDef>
 
 	<HediffDef ParentName="AddedBodyPartBase">

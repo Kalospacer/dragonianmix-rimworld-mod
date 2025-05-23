@@ -1,6 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <ShieldDragonianOrb_Booster.label>龙娘 护盾赤色充能源石</ShieldDragonianOrb_Booster.label>
+  <ShieldDragonianOrb_Booster.description>一颗神秘的石头。让护盾更好更快更强。</ShieldDragonianOrb_Booster.description>
+  <ShieldDragonianOrb_Booster.labelNoun>龙娘 护盾赤色充能源石</ShieldDragonianOrb_Booster.labelNoun>
+
+  <ShieldDragonianOrb_AdvancedBooster.label>龙娘 护盾橙色充能源石</ShieldDragonianOrb_AdvancedBooster.label>
+  <ShieldDragonianOrb_AdvancedBooster.description>一颗神秘的石头。让护盾更好更快更强。</ShieldDragonianOrb_AdvancedBooster.description>
+  <ShieldDragonianOrb_AdvancedBooster.labelNoun>龙娘 护盾橙色充能源石</ShieldDragonianOrb_AdvancedBooster.labelNoun>
+
+  <ShieldDragonianOrb_AdaptiveModule.label>龙娘 护盾适应源石</ShieldDragonianOrb_AdaptiveModule.label>
+  <ShieldDragonianOrb_AdaptiveModule.description>一颗神秘的石头。让护盾同种伤害类型减少伤害。</ShieldDragonianOrb_AdaptiveModule.description>
+  <ShieldDragonianOrb_AdaptiveModule.labelNoun>龙娘 护盾适应源石</ShieldDragonianOrb_AdaptiveModule.labelNoun>
+
+  <ShieldDragonianOrb.label>龙娘 护盾缓冲源石</ShieldDragonianOrb.label>
+  <ShieldDragonianOrb.description>一颗神秘的石头。让护盾不会受到超过10点伤害。</ShieldDragonianOrb.description>
+  <ShieldDragonianOrb.labelNoun>龙娘 护盾缓冲源石</ShieldDragonianOrb.labelNoun>
+
   <DR_BionicTail.label>仿生尾</DR_BionicTail.label>
   <DR_BionicTail.description>一条龙娘专用的仿生尾巴。它还包含一个小型AI帮助使用者自动保持平衡。</DR_BionicTail.description>
   <DR_BionicTail.labelNoun>仿生尾</DR_BionicTail.labelNoun>

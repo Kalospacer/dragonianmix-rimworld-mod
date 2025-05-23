@@ -68,5 +68,21 @@
   <InstallExplosiveSlashTail.label>安装碎斩尾</InstallExplosiveSlashTail.label>
   <InstallExplosiveSlashTail.description>安装碎斩尾。</InstallExplosiveSlashTail.description>
   <InstallExplosiveSlashTail.jobString>正在安装碎斩尾。</InstallExplosiveSlashTail.jobString>
+
+  <InstallShieldDragonianOrb_Booster.label>安装龙娘护盾赤色充能源石</InstallShieldDragonianOrb_Booster.label>
+  <InstallShieldDragonianOrb_Booster.description>安装龙娘护盾赤色充能源石。</InstallShieldDragonianOrb_Booster.description>
+  <InstallShieldDragonianOrb_Booster.jobString>安装龙娘护盾赤色充能源石。</InstallShieldDragonianOrb_Booster.jobString>
+
+    <InstallShieldDragonianOrb_AdvancedBooster.label>安装龙娘护盾橙色充能源石</InstallShieldDragonianOrb_AdvancedBooster.label>
+  <InstallShieldDragonianOrb_AdvancedBooster.description>安装龙娘护盾橙色充能源石。</InstallShieldDragonianOrb_AdvancedBooster.description>
+  <InstallShieldDragonianOrb_AdvancedBooster.jobString>正在安装龙娘护盾橙色充能源石。</InstallShieldDragonianOrb_AdvancedBooster.jobString>
+
+    <InstallShieldDragonianOrb_AdaptiveModule.label>安装龙娘护盾适应源石</InstallShieldDragonianOrb_AdaptiveModule.label>
+  <InstallShieldDragonianOrb_AdaptiveModule.description>安装龙娘护盾适应源石。</InstallShieldDragonianOrb_AdaptiveModule.description>
+  <InstallShieldDragonianOrb_AdaptiveModule.jobString>正在安装安装龙娘护盾适应源石。</InstallShieldDragonianOrb_AdaptiveModule.jobString>
+
+    <InstallShieldDragonianOrb_BufferModule.label>安装龙娘护盾缓冲源石</InstallShieldDragonianOrb_BufferModule.label>
+  <InstallShieldDragonianOrb_BufferModule.description>安装龙娘护盾缓冲源石。</InstallShieldDragonianOrb_BufferModule.description>
+  <InstallShieldDragonianOrb_BufferModule.jobString>正在安装龙娘护盾缓冲源石。</InstallShieldDragonianOrb_BufferModule.jobString>
   
 </LanguageData>
