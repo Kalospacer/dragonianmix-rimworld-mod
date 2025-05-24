@@ -332,6 +332,7 @@
         </descriptionHyperlinks>
         <jobString>Removing Dragonian Shield Adaptive Module.</jobString>
         <removesHediff>ShieldDragonianOrb_AdaptiveModule</removesHediff>
+        <spawnThingOnRemoved>ShieldDragonianOrb_AdaptiveModule</spawnThingOnRemoved>
     </RecipeDef>
 
 
@@ -344,7 +345,7 @@
         </descriptionHyperlinks>
         <jobString>Removing Dragonian Shield Buffer Module.</jobString>
         <removesHediff>ShieldDragonianOrb_BufferModule</removesHediff>
+        <spawnThingOnRemoved>ShieldDragonianOrb_BufferModule</spawnThingOnRemoved>
     </RecipeDef>
-
 
 </Defs>
