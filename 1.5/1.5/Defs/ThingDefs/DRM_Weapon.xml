@@ -1055,7 +1055,7 @@
 				<damageAmount>15</damageAmount>
 				<EMPDamageAmount>20</EMPDamageAmount>
 				<warmupTime>1.5</warmupTime>
-				<range>29.9</range>
+				<range>24.9</range>
 				<affectedAngle>20</affectedAngle>
 				<armorPenetration>1.0</armorPenetration>
 				<soundCast>DRM_ArcShot</soundCast>
@@ -1065,6 +1065,7 @@
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<isConductible>True</isConductible>
+				<conductFriendly>False</conductFriendly>
 				<conductNum>4</conductNum>
 				<beamMoteDef>DRM_ArcBeam</beamMoteDef>
 			</li>
