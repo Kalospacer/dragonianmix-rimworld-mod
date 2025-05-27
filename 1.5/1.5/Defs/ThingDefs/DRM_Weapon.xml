@@ -919,6 +919,92 @@
 		</tools>
 	</ThingDef>
 
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>DR_ChainSpear_Ex</defName>
+		<label>Dragonian Explosive Chain Spear</label>
+		<description>Pila are spears for throwing. They take a long time to throw, but one hit can do heavy damage. This weapon can spray bomb everywhere.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Weapon/IkwaChain</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<soundInteract>Interact_BeatFire</soundInteract>
+		<costList>
+			<WoolDragonian>20</WoolDragonian>
+		</costList>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<relicChance>0</relicChance>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<Mass>4</Mass>
+			<AccuracyTouch>0.70</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.85</AccuracyLong>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>DR_BattlePila</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>DRM_ChainSpear_Ex</defaultProjectile>
+				<warmupTime>0.4</warmupTime>
+				<range>24.9</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>16</burstShotCount>
+				<soundCast>Interact_BeatFire</soundCast>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>DRM_ChainSpear_Ex</defName>
+		<label>Spear</label>
+		<graphicData>
+			<texPath>Dragonian/Projectile/Ikwa</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>DRM_Bomb_mini</damageDef>
+			<damageAmountBase>4</damageAmountBase>
+			<stoppingPower>2.5</stoppingPower>
+			<speed>90</speed>
+		</projectile>
+	</ThingDef>
+
 	<ThingDef ParentName="BaseProjectileNeolithic">
 		<defName>DRM_ChainSpear_Thrown</defName>
 		<label>Spear</label>

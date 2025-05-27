@@ -238,6 +238,21 @@
   <!-- EN: extreme -->
   <DRM_SlimeCoverd.stages.completely.label>完全</DRM_SlimeCoverd.stages.completely.label>
 
+  <DRM_SlimeCoverd_mini.label>黏菌附着</DRM_SlimeCoverd_mini.label>
+  <DRM_SlimeCoverd_mini.description>这个[PAWN_nameDef]被爆炸黏菌附着，黏菌即将产生爆炸。</DRM_SlimeCoverd_mini.description>
+  <!-- EN: minor -->
+  <DRM_SlimeCoverd_mini.stages.minor-0.label>轻微</DRM_SlimeCoverd_mini.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_SlimeCoverd_mini.stages.minor-1.label>较轻</DRM_SlimeCoverd_mini.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_SlimeCoverd_mini.stages.moderate.label>中等</DRM_SlimeCoverd_mini.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_SlimeCoverd_mini.stages.serious.label>严重</DRM_SlimeCoverd_mini.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_SlimeCoverd_mini.stages.extreme.label>极重</DRM_SlimeCoverd_mini.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_SlimeCoverd_mini.stages.completely.label>完全</DRM_SlimeCoverd_mini.stages.completely.label>
+
 
   <DRM_Stun.label>被震撼</DRM_Stun.label>
   <DRM_Stun.description>被强大的外力冲击掀翻在地。需要一点时间振作。</DRM_Stun.description>

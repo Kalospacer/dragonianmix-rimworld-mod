@@ -56,6 +56,12 @@
   <DR_ChainSpear.tools.shaft.label>杆</DR_ChainSpear.tools.shaft.label>
   <DR_ChainSpear.tools.point.label>矛尖</DR_ChainSpear.tools.point.label>
 
+  <DR_ChainSpear_Ex.label>龙娘 爆碎链式飞矛</DR_ChainSpear_Ex.label>
+  <DR_ChainSpear_Ex.description>龙娘使用的一串飞矛。这种武器的使用者就是一个会吐出炸弹的怪物。</DR_ChainSpear_Ex.description>
+  <DR_ChainSpear_Ex.tools.shaft.label>杆</DR_ChainSpear_Ex.tools.shaft.label>
+  <DR_ChainSpear_Ex.tools.point.label>矛尖</DR_ChainSpear_Ex.tools.point.label>
+
   <DRM_ChainSpear_Thrown.label>短飞矛</DRM_ChainSpear_Thrown.label>
+  <DRM_ChainSpear_Ex.label>爆碎飞矛</DRM_ChainSpear_Ex.label>
   
 </LanguageData>
