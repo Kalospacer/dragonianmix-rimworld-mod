@@ -47,42 +47,36 @@
 		  </weaponClasses>
 		  <verbs>
 			<li>
-			  <verbClass>Verb_ShootBeam</verbClass>
-			  <hasStandardCommand>true</hasStandardCommand>
-			  <warmupTime>1.5</warmupTime>
-			  <range>24.9</range>
-			  <minRange>3.9</minRange>
-			  <muzzleFlashScale>9</muzzleFlashScale>
-			  <soundCastTail>GunTail_Medium</soundCastTail>
-			  <soundCastBeam>BeamGraser_Shooting</soundCastBeam>
-
-			  <beamStartOffset>0.8</beamStartOffset>
-			  <beamFullWidthRange>3</beamFullWidthRange>
-			  <beamWidth>3</beamWidth>
-			  <beamMaxDeviation>0</beamMaxDeviation>
-			  <beamCurvature>0</beamCurvature>
-			  <burstShotCount>15</burstShotCount>
-			  <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-			  <showBurstShotStats>false</showBurstShotStats>
-			  <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
-			  <beamGroundFleckDef>Fleck_BeamBurn</beamGroundFleckDef>
-			  <beamHitsNeighborCells>true</beamHitsNeighborCells>
-			  
-			  <beamDamageDef>DRM_Damage_FrostCoverd_after</beamDamageDef>
-			  <beamMoteDef>Mote_GraserBeamBase</beamMoteDef>
-			  <beamEndEffecterDef>GraserBeam_End</beamEndEffecterDef>
-			  <beamLineFleckDef>Fleck_BeamSpark</beamLineFleckDef>
-
-			  <beamChanceToStartFire>0</beamChanceToStartFire>
-			  <beamChanceToAttachFire>0</beamChanceToAttachFire>
-			  <beamFireSizeRange>0</beamFireSizeRange>
-			  <beamLineFleckChanceCurve>
-				<points>
-				  <li>(0, 0)</li>
-				  <li>(0.2, 0.1)</li>
-				  <li>(0.4, 0.2)</li>
-				</points>
-			  </beamLineFleckChanceCurve>
+				<verbClass>Verb_ShootBeam</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<warmupTime>0</warmupTime>
+				<range>29.9</range>
+				<beamFullWidthRange>1000</beamFullWidthRange>
+				<burstShotCount>10</burstShotCount>
+				<beamWidth>-1</beamWidth>
+				<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+				<beamDamageDef>DRM_Damage_FrostCoverd_after</beamDamageDef>
+				<!-- <soundCastTail>GunTail_Medium</soundCastTail> -->
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<soundCastBeam>BeamGraser_Shooting</soundCastBeam>
+				<beamGroundFleckDef>Fleck_BeamBurn</beamGroundFleckDef>
+				<beamFleckChancePerTick>0.32</beamFleckChancePerTick>
+				<beamMaxDeviation>0</beamMaxDeviation>
+				<beamCurvature>0</beamCurvature>
+				<beamMoteDef>Mote_GraserBeamBase</beamMoteDef>
+				<beamEndEffecterDef>GraserBeam_End</beamEndEffecterDef>
+				<beamChanceToStartFire>0</beamChanceToStartFire>
+				<beamChanceToAttachFire>0</beamChanceToAttachFire>
+				<beamFireSizeRange>0</beamFireSizeRange>
+				<beamStartOffset>0</beamStartOffset>
+				<beamHitsNeighborCells>true</beamHitsNeighborCells>
+				<beamLineFleckChanceCurve>
+					<points>
+						<li>(0, 0)</li>
+						<li>(0.65, 0.4)</li>
+						<li>(1, 0.75)</li>
+					</points>
+				</beamLineFleckChanceCurve>
 			</li>
 		  </verbs>
 		  <tools>

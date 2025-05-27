@@ -6,125 +6,122 @@
     <label>Dragonian Flare Staff</label>
     <description>A Staff for Dragonian.Can Spray Fire shoot.</description>
     <graphicData>
-        <texPath>Dragonian/Things/Weapon/staff</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-        <shaderType>CutoutComplex</shaderType>
+      <texPath>Dragonian/Things/Weapon/staff</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <uiIconScale>1</uiIconScale>
     <techLevel>Medieval</techLevel>
     <statBases>
-        <WorkToMake>12000</WorkToMake>
-        <Mass>15</Mass>
-        <AccuracyTouch>0.60</AccuracyTouch>
-        <AccuracyShort>0.70</AccuracyShort>
-        <AccuracyMedium>0.65</AccuracyMedium>
-        <AccuracyLong>0.55</AccuracyLong>
-        <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
-      </statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>15</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+    </statBases>
     <equippedAngleOffset>45</equippedAngleOffset>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
-        <li>Metallic</li>
-    </stuffCategories>	
+      <li>Metallic</li>
+    </stuffCategories>
     <costList>
-        <WoolDragonian>40</WoolDragonian>
-        <Steel>40</Steel>
-        <ComponentIndustrial>5</ComponentIndustrial>
-    </costList>	
+      <WoolDragonian>40</WoolDragonian>
+      <Steel>40</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
     <recipeMaker>
-        <skillRequirements>
-            <Crafting>10</Crafting>
-        </skillRequirements>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <weaponTags>
-        <li>DR_BattleStaff_Ranged</li>
+      <li>DR_BattleStaff_Ranged</li>
     </weaponTags>
     <thingCategories>
-        <li>WeaponsRanged</li>
-      </thingCategories>
-      <weaponClasses>
-        <li>Ranged</li>
-      </weaponClasses>
-      <verbs>
-        <li>
-          <verbClass>Verb_ArcSprayIncinerator</verbClass>
-          <hasStandardCommand>true</hasStandardCommand>
-          <warmupTime>0.5</warmupTime>
-          <range>22.9</range>
-          <minRange>5.9</minRange>
-          <beamFullWidthRange>11</beamFullWidthRange>
-          <burstShotCount>15</burstShotCount>
-          <showBurstShotStats>false</showBurstShotStats>
-          <requireLineOfSight>true</requireLineOfSight>
-          <beamWidth>4</beamWidth>
-          <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-          <beamDamageDef>DRM_Flame</beamDamageDef>
-          <soundCastTail>GunTail_Medium</soundCastTail>
-          <muzzleFlashScale>9</muzzleFlashScale>
-          <soundCastBeam>Flamethrower_Firing</soundCastBeam>
-          <beamGroundFleckDef>Fleck_IncineratorBeamBurn</beamGroundFleckDef>
-          <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
-          <beamMaxDeviation>0</beamMaxDeviation>
-          <beamCurvature>0.1</beamCurvature>
-          <beamEndEffecterDef>IncineratorBeam_End</beamEndEffecterDef> 
-          <beamChanceToStartFire>0.8</beamChanceToStartFire>
-          <beamFireSizeRange>0.55~0.85</beamFireSizeRange>
-          <beamHitsNeighborCells>true</beamHitsNeighborCells>
-          <beamCantHitWithinMinRange>true</beamCantHitWithinMinRange>
-          <beamHitsNeighborCellsRequiresLOS>true</beamHitsNeighborCellsRequiresLOS>
-          <beamSetsGroundOnFire>true</beamSetsGroundOnFire>
-          <ai_BeamIsIncendiary>true</ai_BeamIsIncendiary>
-          <highlightColor>(180, 60, 10)</highlightColor>
-          <secondaryHighlightColor>(220, 210, 20)</secondaryHighlightColor>
-          <targetParams>
-            <canTargetLocations>true</canTargetLocations>
-          </targetParams>
-          <flammabilityAttachFireChanceCurve>
-            <points>
-              <li>(0.6, 0)</li>
-              <li>(0.7, 0.2)</li>
-              <li>(1.2, 0.8)</li>
-            </points>
-          </flammabilityAttachFireChanceCurve>
-          <rangedFireRulepack>Combat_RangedFlamethrower</rangedFireRulepack>
-        </li>
-      </verbs>
-      <tools>
-        <li>
-            <label>handle</label>
-            <capacities>
-                <li>Poke</li>
-            </capacities>
-            <power>8</power>
-            <cooldownTime>2</cooldownTime>
-        </li>
-        <li>
-            <label>physical-magic</label>
-            <capacities>
-                <li>Blunt</li>
-                <li>Demolish</li>
-            </capacities>
-            <power>15</power>
-            <extraMeleeDamages>
-                <li>
-                    <def>DRM_Flame</def>
-                    <amount>30</amount>
-                    <chance>1</chance>
-                  </li>
-                <li>
-                    <def>Stun</def>
-                    <amount>1.5</amount>
-                    <chance>0.25</chance>
-                </li>
-            </extraMeleeDamages>
-            <cooldownTime>5.2</cooldownTime>
-        </li>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <weaponClasses>
+      <li>Ranged</li>
+    </weaponClasses>
+    <verbs>
+      <li>
+        <verbClass>Verb_ArcSprayIncinerator</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>0</warmupTime>
+        <range>22.9</range>
+        <beamFullWidthRange>1000</beamFullWidthRange>
+        <burstShotCount>10</burstShotCount>
+        <beamWidth>-1</beamWidth>
+        <requireLineOfSight>true</requireLineOfSight>
+        <ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+        <beamDamageDef>DRM_Flame</beamDamageDef>
+        <!-- <soundCastTail>GunTail_Medium</soundCastTail> -->
+        <muzzleFlashScale>0</muzzleFlashScale>
+        <soundCastBeam>Flamethrower_Firing</soundCastBeam>
+        <beamGroundFleckDef>Fleck_IncineratorBeamBurn</beamGroundFleckDef>
+        <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
+        <beamMaxDeviation>0</beamMaxDeviation>
+        <beamCurvature>0</beamCurvature>
+        <beamEndEffecterDef>IncineratorBeam_End</beamEndEffecterDef>
+        <beamChanceToStartFire>0.5</beamChanceToStartFire>
+        <beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+        <beamHitsNeighborCells>true</beamHitsNeighborCells>
+        <beamChanceToAttachFire>0.5</beamChanceToAttachFire>
+        <beamStartOffset>0</beamStartOffset>
+        <highlightColor>(180, 60, 10)</highlightColor>
+        <secondaryHighlightColor>(220, 210, 20)</secondaryHighlightColor>
+        <beamSetsGroundOnFire>true</beamSetsGroundOnFire>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <flammabilityAttachFireChanceCurve>
+          <points>
+            <li>(0.6, 0)</li>
+            <li>(0.7, 0.2)</li>
+            <li>(1.2, 0.8)</li>
+          </points>
+        </flammabilityAttachFireChanceCurve>
+        <rangedFireRulepack>Combat_RangedFlamethrower</rangedFireRulepack>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>physical-magic</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Demolish</li>
+        </capacities>
+        <power>15</power>
+        <extraMeleeDamages>
+          <li>
+            <def>DRM_Flame</def>
+            <amount>30</amount>
+            <chance>1</chance>
+          </li>
+          <li>
+            <def>Stun</def>
+            <amount>1.5</amount>
+            <chance>0.25</chance>
+          </li>
+        </extraMeleeDamages>
+        <cooldownTime>5.2</cooldownTime>
+      </li>
     </tools>
     <equippedStatOffsets>
-        <PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
-        <PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>
+      <PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>
     </equippedStatOffsets>
     <meleeHitSound>DRHammerSound</meleeHitSound>
-</ThingDef>
+  </ThingDef>
 
 </Defs>

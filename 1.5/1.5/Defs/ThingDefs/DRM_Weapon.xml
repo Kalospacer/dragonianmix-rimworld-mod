@@ -479,7 +479,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>DRM_Bullet_AcidAirCannon</defaultProjectile>
 				<warmupTime>2.4</warmupTime>
-				<range>23.9</range>
+				<range>29.9</range>
 				<forcedMissRadius>1.9</forcedMissRadius>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
@@ -558,7 +558,6 @@
 			<shaderType>TransparentPostLight</shaderType>
 			<color>(111,111,111)</color>
 		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>DRM_Damage_AcidCover_Ex</damageDef>
 			<damageAmountBase>5</damageAmountBase>
@@ -567,6 +566,25 @@
 			<speed>50</speed>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
+		<thingClass>DragonianMix.Projectile_CruiseMissile</thingClass>
+		<modExtensions>
+			<li Class="DragonianMix.CruiseMissileProperties">
+				<!-- 主爆炸参数 -->
+				<customDamageDef>DRM_Damage_AcidCover_Ex</customDamageDef>
+				<customDamageAmount>5</customDamageAmount>
+				<customExplosionRadius>1.1</customExplosionRadius>
+				<customSoundExplode>ThumpCannon_Impact</customSoundExplode>
+
+				<!-- 子爆炸系统 -->
+				<useSubExplosions>true</useSubExplosions>
+				<subExplosionCount>2</subExplosionCount>
+				<subExplosionRadius>1.1</subExplosionRadius>
+				<subExplosionDamage>5</subExplosionDamage>
+				<subExplosionSpread>3</subExplosionSpread>
+				<subDamageDef>DRM_Damage_AcidCover_Ex</subDamageDef>
+				<subSoundExplode>ThumpCannon_Impact</subSoundExplode>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
