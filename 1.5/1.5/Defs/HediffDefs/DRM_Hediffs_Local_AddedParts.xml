@@ -51,6 +51,15 @@
 		<addedPartProps>
 			<solid>true</solid>
 		</addedPartProps>
+		<modExtensions>
+			<li Class="DragonianMix.ProphecyGearEffect">
+                <enableHediffEffect>false</enableHediffEffect>
+
+				<extraDamageFactor>0.2</extraDamageFactor>
+				<extraDamageType>DRM_Flame</extraDamageType>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</modExtensions>
 		<spawnThingOnRemoved>FlareDragonianOrb</spawnThingOnRemoved>
 	</HediffDef>
 

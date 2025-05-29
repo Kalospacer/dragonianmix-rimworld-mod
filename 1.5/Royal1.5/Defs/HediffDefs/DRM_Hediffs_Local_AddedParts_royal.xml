@@ -13,23 +13,32 @@
 		</abilities>
 		<comps>
 			<li Class="HediffCompProperties_DissolveGearOnDeath">
-			  <fleck>AcidCloud</fleck>
-			  <moteCount>6</moteCount>
-			  <moteOffsetRange>0.25~0.75</moteOffsetRange>
-			  <filth>Filth_Slime</filth>
-			  <sound>DeathAcidifier</sound>
-			  <injuryCreatedOnDeath>ChemicalBurn</injuryCreatedOnDeath>
-			  <injuryCount>3~6</injuryCount>
+				<fleck>AcidCloud</fleck>
+				<moteCount>6</moteCount>
+				<moteOffsetRange>0.25~0.75</moteOffsetRange>
+				<filth>Filth_Slime</filth>
+				<sound>DeathAcidifier</sound>
+				<injuryCreatedOnDeath>ChemicalBurn</injuryCreatedOnDeath>
+				<injuryCount>3~6</injuryCount>
 			</li>
 			<li Class="DragonianMix.HediffCompProperties_DRMExplodeOnDeath">
-				<damageDef>DRM_AcidBurn</damageDef>
+				<damageDef>DRM_AcidCover</damageDef>
 				<damageAmount>40</damageAmount>
 				<soundDef>Explosion_Stun</soundDef>
 				<explosionRadius>6</explosionRadius>
 				<destroyGear>false</destroyGear>
 				<destroyBody>false</destroyBody>
-			  </li>
-		  </comps>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="DragonianMix.ProphecyGearEffect">
+				<enableHediffEffect>false</enableHediffEffect>
+
+				<extraDamageFactor>0.2</extraDamageFactor>
+				<extraDamageType>DRM_AcidCover</extraDamageType>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</modExtensions>
 		<addedPartProps>
 			<solid>true</solid>
 		</addedPartProps>
@@ -48,6 +57,15 @@
 			<li>AcidifierDragonianOrb</li>
 			<li>DragonianOrbNormal</li>
 		</techHediffsTags>
+		<modExtensions>
+			<li Class="DragonianMix.ProphecyGearEffect">
+				<enableHediffEffect>false</enableHediffEffect>
+
+				<extraDamageFactor>0.2</extraDamageFactor>
+				<extraDamageType>DRM_AcidCover</extraDamageType>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</modExtensions>
 		<statBases>
 			<MarketValue>400</MarketValue>
 			<Mass>0.3</Mass>

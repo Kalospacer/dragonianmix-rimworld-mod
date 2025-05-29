@@ -63,7 +63,7 @@
         <thingClass>DragonianMix.OPToxicGas</thingClass>
         <modExtensions>
             <li Class="DragonianMix.OPToxicDefs">
-                <OPToxicHediff>DRM_AcidCorrosion</OPToxicHediff>                <!-- Name of HediffDef to apply, change to own HediffDef -->
+                <OPToxicHediff>DRM_AcidCoverd</OPToxicHediff>                <!-- Name of HediffDef to apply, change to own HediffDef -->
                 <OPToxicSeverity>0.1</OPToxicSeverity>                <!-- Severity build up per Tick period -->
                 <OPSevUpTickPeriod>240</OPSevUpTickPeriod>                <!-- No of game ticks per each build up, recommend >= 120 -->
             </li>

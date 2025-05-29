@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!--
+	<!--
 <HediffDef>
     <defName>DRM_FearGasExposure</defName>
     <label>Fear gas</label>
@@ -71,7 +71,7 @@
   </HediffDef>
   -->
 
-  <HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>ToxicDragonianOrb</defName>
 		<label>Toxic DragonianOrb</label>
 		<labelNoun>a Toxic DragonianOrb.</labelNoun>
@@ -82,17 +82,26 @@
 		</abilities>
 		<comps>
 			<li Class="DragonianMix.HediffCompProperties_DRMExplodeOnDeath">
-			  <damageDef>Smoke</damageDef>
-			  <soundDef>Explosion_Stun</soundDef>
-			  <explosionRadius>6</explosionRadius>
-			  <gasType>ToxGas</gasType>
-        <destroyGear>false</destroyGear>
-			  <destroyBody>false</destroyBody>
+				<damageDef>Smoke</damageDef>
+				<soundDef>Explosion_Stun</soundDef>
+				<explosionRadius>6</explosionRadius>
+				<gasType>ToxGas</gasType>
+				<destroyGear>false</destroyGear>
+				<destroyBody>false</destroyBody>
 			</li>
-		  </comps>
+		</comps>
 		<addedPartProps>
 			<solid>true</solid>
 		</addedPartProps>
+		<modExtensions>
+			<li Class="DragonianMix.ProphecyGearEffect">
+				<enableHediffEffect>false</enableHediffEffect>
+
+				<extraDamageFactor>0.2</extraDamageFactor>
+				<extraDamageType>ScratchToxic</extraDamageType>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</modExtensions>
 		<spawnThingOnRemoved>ToxicDragonianOrb</spawnThingOnRemoved>
 	</HediffDef>
 
@@ -144,6 +153,15 @@
 			<MarketValue>1000</MarketValue>
 			<Mass>0.3</Mass>
 		</statBases>
+		<modExtensions>
+			<li Class="DragonianMix.ProphecyGearEffect">
+				<enableHediffEffect>false</enableHediffEffect>
+
+				<extraDamageFactor>0.2</extraDamageFactor>
+				<extraDamageType>ScratchToxic</extraDamageType>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</modExtensions>
 		<thingSetMakerTags>
 			<li>RewardStandardCore</li>
 		</thingSetMakerTags>
