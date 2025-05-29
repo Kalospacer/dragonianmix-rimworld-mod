@@ -14,15 +14,6 @@
     <DR_BionicTail.label>仿生尾</DR_BionicTail.label>
     <DR_BionicTail.description>先进的人工尾巴。它还有一个小型人工智能，能自动帮助使用者保持平衡。</DR_BionicTail.description>
 
-    <FlareDragonianOrb.label>龙娘 火炎龙珠</FlareDragonianOrb.label>
-    <FlareDragonianOrb.description>一颗龙珠。能够释放一团火球。</FlareDragonianOrb.description>
-
-    <ThunderDragonianOrb.label>龙娘 雷光龙珠</ThunderDragonianOrb.label>
-    <ThunderDragonianOrb.description>一颗龙珠。能够释放雷电。</ThunderDragonianOrb.description>
-
-    <FrozenDragonianOrb.label>龙娘 冰结龙珠</FrozenDragonianOrb.label>
-    <FrozenDragonianOrb.description>一颗龙珠。能够冻结空气。装备或植入时攻击额外造成20%冷冻伤害。</FrozenDragonianOrb.description>
-
     <NecroDragonianOrb.label>龙娘 死灵龙珠</NecroDragonianOrb.label>
     <NecroDragonianOrb.description>一颗龙珠。能够释放死灵粉尘。</NecroDragonianOrb.description>
 
@@ -32,17 +23,26 @@
     <HardenDragonianOrb.label>龙娘 硬化龙珠</HardenDragonianOrb.label>
     <HardenDragonianOrb.description>一颗龙珠。减少一半受到的伤害。硬起来吧！</HardenDragonianOrb.description>
 
-    <AcidifierDragonianOrb.label>龙娘 酸解龙珠</AcidifierDragonianOrb.label>
-    <AcidifierDragonianOrb.description>一颗龙珠。死亡时溶解身上的装备。</AcidifierDragonianOrb.description>
-
     <ShieldDragonianOrb.label>龙娘 护盾龙珠</ShieldDragonianOrb.label>
     <ShieldDragonianOrb.description>一颗龙珠。提供有一点自私的护盾。可安装模块增强。</ShieldDragonianOrb.description>
 
     <EnderDragonianOrb.label>龙娘 末影龙珠</EnderDragonianOrb.label>
     <EnderDragonianOrb.description>一颗龙珠。拥有强大的折跃能力。</EnderDragonianOrb.description>
 
+    <FlareDragonianOrb.label>龙娘 火炎龙珠</FlareDragonianOrb.label>
+    <FlareDragonianOrb.description>一颗龙珠。能够释放一团火球。装备或植入时攻击额外造成20%火焰伤害。</FlareDragonianOrb.description>
+
+    <AcidifierDragonianOrb.label>龙娘 酸解龙珠</AcidifierDragonianOrb.label>
+    <AcidifierDragonianOrb.description>一颗龙珠。死亡时引发小型酸蚀爆炸，并溶解身上的装备。装备或植入时攻击额外造成20%酸蚀伤害。</AcidifierDragonianOrb.description>
+
     <ToxicDragonianOrb.label>龙娘 毒素龙珠</ToxicDragonianOrb.label>
-    <ToxicDragonianOrb.description>一颗龙珠。有毒危险。</ToxicDragonianOrb.description>
+    <ToxicDragonianOrb.description>一颗龙珠。有毒危险。死亡时引发有毒气体爆炸。装备或植入时攻击额外造成20%毒素伤害。</ToxicDragonianOrb.description>
+
+    <ThunderDragonianOrb.label>龙娘 雷光龙珠</ThunderDragonianOrb.label>
+    <ThunderDragonianOrb.description>一颗龙珠。能够释放雷电。装备或植入时攻击额外造成20%雷电伤害。</ThunderDragonianOrb.description>
+
+    <FrozenDragonianOrb.label>龙娘 冰结龙珠</FrozenDragonianOrb.label>
+    <FrozenDragonianOrb.description>一颗龙珠。能够冻结空气。装备或植入时攻击额外造成20%冷冻伤害。</FrozenDragonianOrb.description>
 
     <DRM_SlashTail.label>龙娘 斩龙尾</DRM_SlashTail.label>
     <DRM_SlashTail.description>一条斩龙尾。巨大的剑刃替代了尾巴。</DRM_SlashTail.description>

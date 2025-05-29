@@ -29,10 +29,6 @@
   <FakeDragonianOrb.description>一个大玻璃球。用来替代龙娘缺失的那颗。</FakeDragonianOrb.description>
   <FakeDragonianOrb.labelNoun>玻璃龙珠</FakeDragonianOrb.labelNoun>
 
-  <FlareDragonianOrb.label>龙娘 火炎龙珠</FlareDragonianOrb.label>
-  <FlareDragonianOrb.description>一颗龙珠。能够释放一团火球。装备或植入时攻击额外造成20%火焰伤害。</FlareDragonianOrb.description>
-  <FlareDragonianOrb.labelNoun>火炎龙珠</FlareDragonianOrb.labelNoun>
-
   <NecroDragonianOrb.label>龙娘 死灵龙珠</NecroDragonianOrb.label>
   <NecroDragonianOrb.description>一颗龙珠。能够释放死灵粉尘。死亡时引发死灵粉尘爆炸，触发后龙珠会消失。</NecroDragonianOrb.description>
   <NecroDragonianOrb.labelNoun>死灵龙珠</NecroDragonianOrb.labelNoun>
@@ -44,6 +40,10 @@
   <HardenDragonianOrb.label>龙娘 硬化龙珠</HardenDragonianOrb.label>
   <HardenDragonianOrb.description>一颗龙珠。硬起来吧！</HardenDragonianOrb.description>
   <HardenDragonianOrb.labelNoun>硬化龙珠</HardenDragonianOrb.labelNoun>
+
+    <FlareDragonianOrb.label>龙娘 火炎龙珠</FlareDragonianOrb.label>
+  <FlareDragonianOrb.description>一颗龙珠。能够释放一团火球。装备或植入时攻击额外造成20%火焰伤害。</FlareDragonianOrb.description>
+  <FlareDragonianOrb.labelNoun>火炎龙珠</FlareDragonianOrb.labelNoun>
 
   <AcidifierDragonianOrb.label>龙娘 酸解龙珠</AcidifierDragonianOrb.label>
   <AcidifierDragonianOrb.description>一颗龙珠。死亡时引发小型酸蚀爆炸，并溶解身上的装备。装备或植入时攻击额外造成20%酸蚀伤害。</AcidifierDragonianOrb.description>
