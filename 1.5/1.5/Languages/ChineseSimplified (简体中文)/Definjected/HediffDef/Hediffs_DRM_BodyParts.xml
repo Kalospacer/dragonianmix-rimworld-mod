@@ -30,7 +30,7 @@
   <FakeDragonianOrb.labelNoun>玻璃龙珠</FakeDragonianOrb.labelNoun>
 
   <FlareDragonianOrb.label>龙娘 火炎龙珠</FlareDragonianOrb.label>
-  <FlareDragonianOrb.description>一颗龙珠。能够释放一团火球。</FlareDragonianOrb.description>
+  <FlareDragonianOrb.description>一颗龙珠。能够释放一团火球。装备或植入时攻击额外造成20%火焰伤害。</FlareDragonianOrb.description>
   <FlareDragonianOrb.labelNoun>火炎龙珠</FlareDragonianOrb.labelNoun>
 
   <NecroDragonianOrb.label>龙娘 死灵龙珠</NecroDragonianOrb.label>
@@ -46,7 +46,7 @@
   <HardenDragonianOrb.labelNoun>硬化龙珠</HardenDragonianOrb.labelNoun>
 
   <AcidifierDragonianOrb.label>龙娘 酸解龙珠</AcidifierDragonianOrb.label>
-  <AcidifierDragonianOrb.description>一颗龙珠。死亡时引发小型酸蚀爆炸，并溶解身上的装备。</AcidifierDragonianOrb.description>
+  <AcidifierDragonianOrb.description>一颗龙珠。死亡时引发小型酸蚀爆炸，并溶解身上的装备。装备或植入时攻击额外造成20%酸蚀伤害。</AcidifierDragonianOrb.description>
   <AcidifierDragonianOrb.labelNoun>酸解龙珠</AcidifierDragonianOrb.labelNoun>
 
   <ShieldDragonianOrb.label>龙娘 护盾龙珠</ShieldDragonianOrb.label>
@@ -58,8 +58,16 @@
   <EnderDragonianOrb.labelNoun>末影龙珠</EnderDragonianOrb.labelNoun>
 
   <ToxicDragonianOrb.label>龙娘 毒素龙珠</ToxicDragonianOrb.label>
-  <ToxicDragonianOrb.description>一颗龙珠。有毒危险。死亡时引发有毒气体爆炸。</ToxicDragonianOrb.description>
+  <ToxicDragonianOrb.description>一颗龙珠。有毒危险。死亡时引发有毒气体爆炸。装备或植入时攻击额外造成20%毒素伤害。</ToxicDragonianOrb.description>
   <ToxicDragonianOrb.labelNoun>毒素龙珠</ToxicDragonianOrb.labelNoun>
+
+  <ThunderDragonianOrb.label>龙娘 雷光龙珠</ThunderDragonianOrb.label>
+  <ThunderDragonianOrb.description>一颗龙珠。能够释放雷电。装备或植入时攻击额外造成20%雷电伤害。</ThunderDragonianOrb.description>
+  <ThunderDragonianOrb.labelNoun>雷光龙珠</ThunderDragonianOrb.labelNoun>
+
+  <FrozenDragonianOrb.label>龙娘 冰结龙珠</FrozenDragonianOrb.label>
+  <FrozenDragonianOrb.description>一颗龙珠。能够冻结空气。装备或植入时攻击额外造成20%冷冻伤害。</FrozenDragonianOrb.description>
+  <FrozenDragonianOrb.labelNoun>冰结龙珠</FrozenDragonianOrb.labelNoun>
 
   <DRM_SlashTail.label>龙娘 斩龙尾</DRM_SlashTail.label>
   <DRM_SlashTail.description>一条斩龙尾。巨大的剑刃替代了尾巴。</DRM_SlashTail.description>

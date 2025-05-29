@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageData> 
-  
+<LanguageData>
+
   <DRM_HealBreakOut.label>超再生爆发</DRM_HealBreakOut.label>
   <DRM_HealBreakOut.description>短时间超载龙珠。提供极度异常的再生速度。</DRM_HealBreakOut.description>
 
@@ -32,9 +32,17 @@
   <DRM_Feargaspop.description>释放一团恐惧毒雾。恐惧气体会灼伤生物的眼睛与肺部，使视觉与呼吸能力暂时降低。持续暴露还会引发生物极度恐惧情绪和诱发暴力行为。</DRM_Feargaspop.description>
   <DRM_Feargaspop.verbProperties.label>释放恐惧毒雾</DRM_Feargaspop.verbProperties.label>
 
+  <DRM_LightingStrike.label>雷电招来</DRM_LightingStrike.label>
+  <DRM_LightingStrike.description>选定特定区域，引发一道天雷轰击。</DRM_LightingStrike.description>
+  <DRM_LightingStrike.verbProperties.label>释放雷电招来</DRM_LightingStrike.verbProperties.label>
+
+  <DRM_Frostcloudpop.label>冰淞云雾</DRM_Frostcloudpop.label>
+  <DRM_Frostcloudpop.description>释放一团冷冻云雾。接触冷冻云雾后会造成严重的冻结伤害。</DRM_Frostcloudpop.description>
+  <DRM_Frostcloudpop.verbProperties.label>释放冰淞云雾</DRM_Frostcloudpop.verbProperties.label>
+
   <!-- EN: acid spray -->
   <DRM_AcidSpray.label>酸液喷吐</DRM_AcidSpray.label>
   <!-- EN: Spray a sticky acid substance from glands in the neck up through the mouth and all over the target area. The acid will stick to targets and burn them. -->
   <DRM_AcidSpray.description>从颈部的腺体喷出粘稠的酸性物质，通过嘴巴向外喷出。酸性物质附着的目标会被灼烧。</DRM_AcidSpray.description>
-    
+
 </LanguageData>

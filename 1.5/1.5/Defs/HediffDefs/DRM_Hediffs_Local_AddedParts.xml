@@ -64,6 +64,54 @@
 	</HediffDef>
 
 	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>ThunderDragonianOrb</defName>
+		<label>Thunder DragonianOrb</label>
+		<labelNoun>a Thunder DragonianOrb.</labelNoun>
+		<description>An installed Thunder DragonianOrb. Allow owner to calling lighting.</description>
+		<priceImpact>false</priceImpact>
+		<abilities>
+			<li>DRM_LightingStrike</li>
+		</abilities>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<modExtensions>
+			<li Class="DragonianMix.ProphecyGearEffect">
+                <enableHediffEffect>false</enableHediffEffect>
+
+				<extraDamageFactor>0.2</extraDamageFactor>
+				<extraDamageType>DRM_Arc</extraDamageType>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</modExtensions>
+		<spawnThingOnRemoved>ThunderDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FrozenDragonianOrb</defName>
+		<label>Frozen DragonianOrb</label>
+		<labelNoun>a Frozen DragonianOrb.</labelNoun>
+		<description>An installed Frozen DragonianOrb. Allow owner to Frozen Air.</description>
+		<priceImpact>false</priceImpact>
+		<abilities>
+			<li>DRM_Frostcloudpop</li>
+		</abilities>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<modExtensions>
+			<li Class="DragonianMix.ProphecyGearEffect">
+                <enableHediffEffect>false</enableHediffEffect>
+
+				<extraDamageFactor>0.2</extraDamageFactor>
+				<extraDamageType>DRM_Damage_FrostCoverd_after</extraDamageType>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</modExtensions>
+		<spawnThingOnRemoved>FrozenDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
 		<defName>HyperhealDragonianOrb</defName>
 		<label>Hyperheal DragonianOrb</label>
 		<labelNoun>a Hyperheal DragonianOrb.</labelNoun>
@@ -440,7 +488,7 @@
 						</surpriseAttack>
 						<extraMeleeDamages>
 							<li>
-								<def>DRM_Frostbite</def>
+								<def>DRM_Damage_FrostCoverd_after</def>
 								<amount>20</amount>
 							</li>
 						</extraMeleeDamages>

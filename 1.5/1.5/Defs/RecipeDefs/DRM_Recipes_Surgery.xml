@@ -104,6 +104,70 @@
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>InstallThunderDragonianOrb</defName>
+        <label>install Thunder DragonianOrb</label>
+        <description>Install Thunder DragonianOrb.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ThunderDragonianOrb</ThingDef>
+            <HediffDef>ThunderDragonianOrb</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Thunder DragonianOrb.</jobString>
+        <surgeryOutcomeEffect IsNull="True" />
+        <!-- Always succeeds -->
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ThunderDragonianOrb</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ThunderDragonianOrb</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>DragonianOrb</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>ThunderDragonianOrb</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>InstallFrozenDragonianOrb</defName>
+        <label>install Frozen DragonianOrb</label>
+        <description>Install Frozen DragonianOrb.</description>
+        <descriptionHyperlinks>
+            <ThingDef>FrozenDragonianOrb</ThingDef>
+            <HediffDef>FrozenDragonianOrb</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Frozen DragonianOrb.</jobString>
+        <surgeryOutcomeEffect IsNull="True" />
+        <!-- Always succeeds -->
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FrozenDragonianOrb</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>FrozenDragonianOrb</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>DragonianOrb</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>FrozenDragonianOrb</addsHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
         <defName>InstallHyperhealDragonianOrb</defName>
         <label>install Hyperheal DragonianOrb</label>
         <description>Install Hyperheal DragonianOrb.</description>
@@ -226,7 +290,7 @@
         </appliedOnFixedBodyParts>
         <addsHediff>DR_FakeTail</addsHediff>
     </RecipeDef>
-    
+
     <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
         <defName>InstallDRM_SlashTail</defName>
         <label>install slash tail</label>

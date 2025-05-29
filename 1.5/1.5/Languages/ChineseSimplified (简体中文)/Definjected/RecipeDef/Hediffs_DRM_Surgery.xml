@@ -9,9 +9,17 @@
   <InstallDragonianOrb.description>安装龙珠。</InstallDragonianOrb.description>
   <InstallDragonianOrb.jobString>正在安装龙珠。</InstallDragonianOrb.jobString>
 
+  <InstallThunderDragonianOrb.label>安装雷光龙珠</InstallThunderDragonianOrb.label>
+  <InstallThunderDragonianOrb.description>安装雷光龙珠。</InstallThunderDragonianOrb.description>
+  <InstallThunderDragonianOrb.jobString>正在安装雷光龙珠。</InstallThunderDragonianOrb.jobString>
+
   <InstallFlareDragonianOrb.label>安装火炎龙珠</InstallFlareDragonianOrb.label>
   <InstallFlareDragonianOrb.description>安装火炎龙珠。</InstallFlareDragonianOrb.description>
   <InstallFlareDragonianOrb.jobString>正在安装火炎龙珠。</InstallFlareDragonianOrb.jobString>
+
+  <InstallFrozenDragonianOrb.label>安装冰结龙珠</InstallFrozenDragonianOrb.label>
+  <InstallFrozenDragonianOrb.description>安装冰结龙珠。</InstallFrozenDragonianOrb.description>
+  <InstallFrozenDragonianOrb.jobString>正在安装冰结龙珠。</InstallFrozenDragonianOrb.jobString>
 
   <InstallNecroDragonianOrb.label>安装死灵龙珠</InstallNecroDragonianOrb.label>
   <InstallNecroDragonianOrb.description>安装死灵龙珠。</InstallNecroDragonianOrb.description>

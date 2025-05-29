@@ -103,6 +103,66 @@
     </ThingDef>
 
     <ThingDef ParentName="BodyPartDROrbsBase">
+        <defName>ThunderDragonianOrb</defName>
+        <label>Thunder DragonianOrb</label>
+        <description>An Thunder DragonianOrb. Allow owner to burst a fireball.</description>
+        <graphicData>
+            <texPath>Dragonian/Things/Item/Resource/Dorb_thunder</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techHediffsTags>
+            <li>ThunderDragonianOrb</li>
+            <li>DragonianOrbAdvanced</li>
+        </techHediffsTags>
+        <statBases>
+            <MarketValue>1000</MarketValue>
+            <Mass>0.3</Mass>
+        </statBases>
+        <modExtensions>
+            <li Class="DragonianMix.ProphecyGearEffect">
+                <enableHediffEffect>false</enableHediffEffect>
+
+                <extraDamageFactor>0.2</extraDamageFactor>
+                <extraDamageType>DRM_Arc</extraDamageType>
+                <armorPenetration>0.1</armorPenetration>
+            </li>
+        </modExtensions>
+        <thingSetMakerTags>
+            <li>RewardStandardCore</li>
+        </thingSetMakerTags>
+    </ThingDef>
+
+    <ThingDef ParentName="BodyPartDROrbsBase">
+        <defName>FrozenDragonianOrb</defName>
+        <label>Frozen DragonianOrb</label>
+        <description>An Frozen DragonianOrb. Allow owner to Frozen Air.</description>
+        <graphicData>
+            <texPath>Dragonian/Things/Item/Resource/Dorb</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techHediffsTags>
+            <li>FrozenDragonianOrb</li>
+            <li>DragonianOrbAdvanced</li>
+        </techHediffsTags>
+        <statBases>
+            <MarketValue>1000</MarketValue>
+            <Mass>0.3</Mass>
+        </statBases>
+        <modExtensions>
+            <li Class="DragonianMix.ProphecyGearEffect">
+                <enableHediffEffect>false</enableHediffEffect>
+
+                <extraDamageFactor>0.2</extraDamageFactor>
+                <extraDamageType>DRM_Damage_FrostCoverd_after</extraDamageType>
+                <armorPenetration>0.1</armorPenetration>
+            </li>
+        </modExtensions>
+        <thingSetMakerTags>
+            <li>RewardStandardCore</li>
+        </thingSetMakerTags>
+    </ThingDef>
+
+    <ThingDef ParentName="BodyPartDROrbsBase">
         <defName>HyperhealDragonianOrb</defName>
         <label>Hyperheal DragonianOrb</label>
         <description>An Hyperheal DragonianOrb.</description>

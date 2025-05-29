@@ -17,6 +17,12 @@
     <FlareDragonianOrb.label>龙娘 火炎龙珠</FlareDragonianOrb.label>
     <FlareDragonianOrb.description>一颗龙珠。能够释放一团火球。</FlareDragonianOrb.description>
 
+    <ThunderDragonianOrb.label>龙娘 雷光龙珠</ThunderDragonianOrb.label>
+    <ThunderDragonianOrb.description>一颗龙珠。能够释放雷电。</ThunderDragonianOrb.description>
+
+    <FrozenDragonianOrb.label>龙娘 冰结龙珠</FrozenDragonianOrb.label>
+    <FrozenDragonianOrb.description>一颗龙珠。能够冻结空气。装备或植入时攻击额外造成20%冷冻伤害。</FrozenDragonianOrb.description>
+
     <NecroDragonianOrb.label>龙娘 死灵龙珠</NecroDragonianOrb.label>
     <NecroDragonianOrb.description>一颗龙珠。能够释放死灵粉尘。</NecroDragonianOrb.description>
 
