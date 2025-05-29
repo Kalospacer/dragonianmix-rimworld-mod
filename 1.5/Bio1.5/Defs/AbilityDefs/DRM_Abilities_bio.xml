@@ -103,7 +103,7 @@
     </comps>
   </AbilityDef>
 
-    <AbilityDef>
+  <AbilityDef>
     <defName>DRM_LightingStrike</defName>
     <label>LightingStrike</label>
     <description>Summon a LightingStrike.</description>
@@ -226,7 +226,7 @@
     </projectile>
   </ThingDef>
 
-    <AbilityDef>
+  <AbilityDef>
     <defName>DRM_Frostcloudpop</defName>
     <label>FrostCloud Pop</label>
     <description>Release a cloud of Frozen ice.</description>
