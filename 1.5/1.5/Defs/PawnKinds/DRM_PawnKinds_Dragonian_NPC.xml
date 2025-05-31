@@ -27,7 +27,7 @@
   <PawnKindDef ParentName="DRMDragonianBasePawnKind">
     <defName>Dragonian_Villager</defName>
     <label>Dragonian villager</label>
-    <combatPower>20</combatPower>
+    <combatPower>100</combatPower>
     <isFighter>false</isFighter>
     <itemQuality>Poor</itemQuality>
     
@@ -75,7 +75,7 @@
   <PawnKindDef ParentName="DRMDragonianBasePawnKind">
     <defName>Dragonian_Clan_Guard</defName>
     <label>Dragonian clan guard</label>
-    <combatPower>90</combatPower>
+    <combatPower>150</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Normal</itemQuality>
    
@@ -130,7 +130,7 @@
   <PawnKindDef ParentName="DRMDragonianBasePawnKind">
     <defName>Dragonian_Clan_Hunter</defName>
     <label>Dragonian clan hunter</label>
-    <combatPower>90</combatPower>
+    <combatPower>150</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Normal</itemQuality>
    
@@ -186,7 +186,7 @@
     <defName>Dragonian_Clan_Warrier</defName>
     <label>Dragonian clan Warrier</label>
     <labelPlural>Dragonian clan Warrier</labelPlural>
-    <combatPower>100</combatPower>
+    <combatPower>150</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Good</itemQuality>
 
@@ -242,7 +242,7 @@
     <defName>Dragonian_Clan_Trader</defName>
     <label>Dragonian clan trader</label>
     <trader>true</trader>
-    <combatPower>40</combatPower>
+    <combatPower>100</combatPower>
     <isFighter>false</isFighter>
     <itemQuality>Normal</itemQuality>
 
@@ -349,7 +349,7 @@
   <PawnKindDef ParentName="DRMDragonianBasePawnKind">
     <defName>Dragonian_Royal_Guard</defName>
     <label>Dragonian royal guard</label>
-    <combatPower>140</combatPower>
+    <combatPower>250</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Excellent</itemQuality>
    
@@ -430,7 +430,7 @@
   <PawnKindDef ParentName="DRMDragonianBasePawnKind">
     <defName>Dragonian_Royal_Hunter</defName>
     <label>Dragonian royal hunter</label>
-    <combatPower>140</combatPower>
+    <combatPower>250</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Excellent</itemQuality>
    
@@ -511,7 +511,7 @@
     <defName>Dragonian_Royal_Warrier</defName>
     <label>Dragonian royal Warrier</label>
     <labelPlural>Dragonian royal Warrier</labelPlural>
-    <combatPower>150</combatPower>
+    <combatPower>250</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Masterwork</itemQuality>
 
