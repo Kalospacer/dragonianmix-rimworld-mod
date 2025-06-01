@@ -41,7 +41,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartDROrbsBase">
+	<ThingDef ParentName="BodyPartDRTailBase">
 		<defName>DRM_SlashTail</defName>
 		<label>slash tail</label>
 		<description>A slash tail turn dragonian's tail into a massive blade.</description>
@@ -60,7 +60,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartDROrbsBase">
+	<ThingDef ParentName="BodyPartDRTailBase">
 		<defName>DRM_FlameSlashTail</defName>
 		<label>Flame slash tail</label>
 		<description>A Flame slash tail turn dragonian's tail into a massive blade.This kind make the tail extreamly hot.</description>
@@ -79,7 +79,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartDROrbsBase">
+	<ThingDef ParentName="BodyPartDRTailBase">
 		<defName>DRM_AcidSlashTail</defName>
 		<label>Acid slash tail</label>
 		<description>An Acid slash tail turn dragonian's tail into a massive blade.This kind make the tail cover with acid.</description>
@@ -98,7 +98,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartDROrbsBase">
+	<ThingDef ParentName="BodyPartDRTailBase">
 		<defName>DRM_ExplosiveSlashTail</defName>
 		<label>Explosive slash tail</label>
 		<description>An Explosive slash tail turn dragonian's tail into a massive blade.This kind make the tail cover with Explosives.</description>
@@ -117,7 +117,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartDROrbsBase">
+	<ThingDef ParentName="BodyPartDRTailBase">
 		<defName>DRM_CryoSlashTail</defName>
 		<label>Cryo slash tail</label>
 		<description>A Cryo slash tail turn dragonian's tail into a massive blade.This kind make the tail extreamly hot.</description>
