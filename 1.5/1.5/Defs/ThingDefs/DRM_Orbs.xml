@@ -72,7 +72,7 @@
         </statBases>
     </ThingDef>
 
-    <ThingDef Name="BodyPartDRTailBase" ParentName="DRM_OrbApparelNoQualityBase" Abstract="True">
+    <ThingDef Name="BodyPartDRTailBase" ParentName="BodyPartBase" Abstract="True">
         <graphicData>
             <texPath>Things/Item/Health/HealthItem</texPath>
             <graphicClass>Graphic_Single</graphicClass>
