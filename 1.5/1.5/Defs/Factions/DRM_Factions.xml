@@ -100,7 +100,8 @@
 				<kindDef>Combat</kindDef>
 				<commonality>50</commonality>
 				<options>
-					<Dragonian_Villager>50</Dragonian_Villager>
+					<Dragonian_Clan_Musketeer>25</Dragonian_Clan_Musketeer>
+					<Dragonian_Villager>20</Dragonian_Villager>
 					<Dragonian_Clan_Guard>30</Dragonian_Clan_Guard>
 					<Dragonian_Clan_Hunter>24</Dragonian_Clan_Hunter>
 					<Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>

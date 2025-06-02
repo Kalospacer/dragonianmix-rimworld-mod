@@ -182,6 +182,61 @@
     </inventoryOptions>
   </PawnKindDef>
 
+    <PawnKindDef ParentName="DRMDragonianBasePawnKind">
+    <defName>Dragonian_Clan_Musketeer</defName>
+    <label>Dragonian clan Musketeer</label>
+    <combatPower>150</combatPower>
+    <isFighter>true</isFighter>
+    <itemQuality>Normal</itemQuality>
+   
+    <apparelTags>
+      <li>DR_Apparel</li>
+    </apparelTags>
+    <gearHealthRange>0.6~2</gearHealthRange>
+    <apparelMoney>
+      <min>1500</min>
+      <max>2500</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.05</apparelAllowHeadgearChance>
+
+    <weaponTags>
+      <li>DR_Guns</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>550</min>
+      <max>1500</max>
+    </weaponMoney>
+
+    <backstoryFiltersOverride>
+      <li>
+        <categoriesChildhood>
+          <li>Dragonian_spawnCategoriesA</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
+          <li>Dragonian_Clan_Guard</li>
+        </categoriesAdulthood>
+      </li>
+    </backstoryFiltersOverride>
+
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>200~700</techHediffsMoney>
+	  <techHediffsTags>
+      <li>DragonianOrbAdvanced</li>
+      <li>DragonianSlashTail</li>
+    </techHediffsTags>
+    
+    <inventoryOptions>
+      <skipChance>0.70</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>30~100</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
   <PawnKindDef ParentName="DRMDragonianBasePawnKind">
     <defName>Dragonian_Clan_Warrier</defName>
     <label>Dragonian clan Warrier</label>
