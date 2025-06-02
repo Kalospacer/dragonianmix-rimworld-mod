@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>DragonianTech</defName>
+		<label>Dragonian tech</label>
+	</ResearchTabDef>
+
+	<ResearchProjectTagDef>
+		<defName>DragonianStart</defName>
+	</ResearchProjectTagDef>
+
+	<ResearchProjectDef>
+		<defName>DragonianMeleeWeapon</defName>
+		<label>Dragonian Melee Weapon</label>
+		<description>Dragonian Melee Weapon</description>
+		<tab>DragonianTech</tab>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>LongBlades</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>DragonianEnhancedWeapon</defName>
+		<label>Dragonian Enhanced Weapon</label>
+		<description>Dragonian Enhanced Weapon</description>
+		<tab>DragonianTech</tab>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>DragonianMeleeWeapon</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>DragonianPersonaWeapon</defName>
+		<label>Dragonian Persona Weapon</label>
+		<description>Dragonian Persona Weapon</description>
+		<tab>DragonianTech</tab>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>DragonianEnhancedWeapon</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>DragonianRangedWeapon</defName>
+		<label>Dragonian Ranged Weapon</label>
+		<description>Dragonian Ranged Weapon</description>
+		<tab>DragonianTech</tab>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>DragonianFireArmSmithing</defName>
+		<label>Dragonian FireArm Smithing</label>
+		<description>Dragonian FireArm Smithing</description>
+		<tab>DragonianTech</tab>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Gunsmithing</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>DragonianWandMagic</defName>
+		<label>Dragonian Wand Magic</label>
+		<description>Dragonian Wand Magic</description>
+		<tab>DragonianTech</tab>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>DragonianMeleeWeapon</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>DragonianClothing</defName>
+		<label>Dragonian clothing</label>
+		<description>Dragonian clothing</description>
+		<tab>DragonianTech</tab>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>ComplexClothing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>DragonianArmorClothing</defName>
+		<label>Dragonian Armor clothing</label>
+		<description>Dragonian Armor clothing</description>
+		<tab>DragonianTech</tab>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>DragonianClothing</li>
+			<li>PlateArmor</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>DragonianShieldModule</defName>
+		<label>Dragonian Shield Module</label>
+		<description>Dragonian Shield Module</description>
+		<tab>DragonianTech</tab>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>DragonianBionics</li>
+			<li>ShieldBelt</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>DragonianBionics</defName>
+		<label>Dragonian Bionics</label>
+		<description>Dragonian Bionics</description>
+		<tab>DragonianTech</tab>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Bionics</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+
+</Defs>

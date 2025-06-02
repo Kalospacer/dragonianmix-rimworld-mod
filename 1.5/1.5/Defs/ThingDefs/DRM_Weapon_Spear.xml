@@ -38,6 +38,9 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
+			<researchPrerequisites>
+				<li>DragonianRangedWeapon</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<verbs>
 			<li>
@@ -107,6 +110,9 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
+			<researchPrerequisites>
+				<li>DragonianRangedWeapon</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<verbs>
 			<li>
@@ -178,6 +184,10 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
+			<researchPrerequisites>
+				<li>DragonianRangedWeapon</li>
+				<li>DragonianEnhancedWeapon</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<verbs>
 			<li>
@@ -249,6 +259,9 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
+			<researchPrerequisites>
+				<li>DragonianRangedWeapon</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<verbs>
 			<li>
@@ -320,6 +333,10 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
+			<researchPrerequisites>
+				<li>DragonianRangedWeapon</li>
+				<li>DragonianEnhancedWeapon</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<verbs>
 			<li>

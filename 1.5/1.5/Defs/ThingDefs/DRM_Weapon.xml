@@ -26,7 +26,11 @@
 			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>Electricity</researchPrerequisite>
+			<researchPrerequisites>
+				<li>DragonianMeleeWeapon</li>
+				<li>Electricity</li>
+			</researchPrerequisites>
+			
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
@@ -235,6 +239,10 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
+			<researchPrerequisites>
+				<li>DragonianMeleeWeapon</li>
+				<li>DragonianEnhancedWeapon</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<weaponTags>
 			<li>DR_BattleMace</li>

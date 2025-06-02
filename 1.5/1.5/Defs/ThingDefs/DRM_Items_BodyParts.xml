@@ -39,6 +39,11 @@
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>DragonianBionics</li>
+			</researchPrerequisites>
+		</recipeMaker>
 	</ThingDef>
 
 	<ThingDef ParentName="BodyPartDRTailBase">

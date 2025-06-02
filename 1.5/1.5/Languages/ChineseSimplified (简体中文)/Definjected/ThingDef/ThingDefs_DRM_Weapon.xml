@@ -31,6 +31,9 @@
   <DR_BattleStaff_AcidAir.label>龙娘 酸雾法杖</DR_BattleStaff_AcidAir.label>
   <DR_BattleStaff_AcidAir.description>龙娘使用的法杖。一个压缩的气体发射器。能够发射对环境有害的酸雾气团。</DR_BattleStaff_AcidAir.description>
 
+  <DRM_RifledFlintlock.label>龙娘 线膛燧发枪</DRM_RifledFlintlock.label>
+  <DRM_RifledFlintlock.description>龙娘使用的枪械。具有古典的设计和性能。</DRM_RifledFlintlock.description>
+
   <DR_BattleSpear.label>龙娘 飞矛</DR_BattleSpear.label>
   <DR_BattleSpear.description>龙娘使用的飞矛。她们能把这种沉重的近战武器轻松投送到极远处。</DR_BattleSpear.description>
   <DR_BattleSpear.tools.shaft.label>杆</DR_BattleSpear.tools.shaft.label>

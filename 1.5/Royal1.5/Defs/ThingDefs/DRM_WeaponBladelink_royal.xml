@@ -92,7 +92,7 @@
             <workSkill>Crafting</workSkill>
             <effectWorking>Smith</effectWorking>
             <soundWorking>Recipe_Smith</soundWorking>
-            <researchPrerequisite>Electricity</researchPrerequisite>
+            <researchPrerequisite>DragonianPersonaWeapon</researchPrerequisite>
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>
@@ -189,7 +189,7 @@
             <workSkill>Crafting</workSkill>
             <effectWorking>Smith</effectWorking>
             <soundWorking>Recipe_Smith</soundWorking>
-            <researchPrerequisite>Electricity</researchPrerequisite>
+            <researchPrerequisite>DragonianPersonaWeapon</researchPrerequisite>
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>

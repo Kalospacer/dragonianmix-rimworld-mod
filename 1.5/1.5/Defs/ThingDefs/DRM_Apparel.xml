@@ -12,7 +12,9 @@
         <li>HandTailoringBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <researchPrerequisites>
+          <li>DragonianArmorClothing</li>
+      </researchPrerequisites>
     </recipeMaker>
     <graphicData>
       <texPath>Dragonian/Apparel/Gear/drapparelF</texPath>
@@ -78,7 +80,9 @@
         <li>HandTailoringBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <researchPrerequisites>
+          <li>DragonianArmorClothing</li>
+      </researchPrerequisites>
     </recipeMaker>
     <graphicData>
       <texPath>Dragonian/Apparel/Gear/drahgA</texPath>

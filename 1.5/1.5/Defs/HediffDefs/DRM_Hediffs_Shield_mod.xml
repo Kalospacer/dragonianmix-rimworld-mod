@@ -87,7 +87,7 @@
             <ComponentSpacer>2</ComponentSpacer>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>ShieldBelt</researchPrerequisite>
+            <researchPrerequisite>DragonianShieldModule</researchPrerequisite>
             <recipeUsers>                <!--工作于-->
                 <li>FabricationBench</li>                <!--精密加工台-->
             </recipeUsers>
@@ -108,7 +108,7 @@
             <ComponentSpacer>2</ComponentSpacer>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>ShieldBelt</researchPrerequisite>
+            <researchPrerequisite>DragonianShieldModule</researchPrerequisite>
             <recipeUsers>                <!--工作于-->
                 <li>FabricationBench</li>                <!--精密加工台-->
             </recipeUsers>
@@ -130,7 +130,7 @@
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>ShieldBelt</researchPrerequisite>
+            <researchPrerequisite>DragonianShieldModule</researchPrerequisite>
             <recipeUsers>                <!--工作于-->
                 <li>FabricationBench</li>                <!--精密加工台-->
             </recipeUsers>
@@ -151,7 +151,7 @@
             <ComponentSpacer>2</ComponentSpacer>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>ShieldBelt</researchPrerequisite>
+            <researchPrerequisite>DragonianShieldModule</researchPrerequisite>
             <recipeUsers>                <!--工作于-->
                 <li>FabricationBench</li>                <!--精密加工台-->
             </recipeUsers>

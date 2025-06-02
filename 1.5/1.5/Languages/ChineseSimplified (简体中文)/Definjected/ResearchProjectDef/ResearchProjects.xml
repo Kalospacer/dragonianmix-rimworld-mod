@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DragonianMeleeWeapon.label>龙娘近战武器</DragonianMeleeWeapon.label>
+  <DragonianMeleeWeapon.description>龙娘使用的最基本的近战武器。</DragonianMeleeWeapon.description>
+
+  <DragonianClothing.label>龙娘基本服装</DragonianClothing.label>
+  <DragonianClothing.description>龙娘们所穿着的最基本的服装。</DragonianClothing.description>
+
+  <DragonianArmorClothing.label>龙娘装甲服装</DragonianArmorClothing.label>
+  <DragonianArmorClothing.description>龙娘们为了保护自己所穿着的装甲服装。</DragonianArmorClothing.description>
+
+  <DragonianEnhancedWeapon.label>龙娘附魔武器</DragonianEnhancedWeapon.label>
+  <DragonianEnhancedWeapon.description>龙娘们使用的经过附魔后的武器，拥有各种各样的伤害效果。</DragonianEnhancedWeapon.description>
+
+  <DragonianPersonaWeapon.label>龙娘人格武器</DragonianPersonaWeapon.label>
+  <DragonianPersonaWeapon.description>龙娘们使用的人格化武器，有着最强大的战力。</DragonianPersonaWeapon.description>
+
+  <DragonianRangedWeapon.label>龙娘远程武器</DragonianRangedWeapon.label>
+  <DragonianRangedWeapon.description>龙娘们为了保护自己所制造的远程武器。</DragonianRangedWeapon.description>
+
+  <DragonianFireArmSmithing.label>龙娘火器锻造</DragonianFireArmSmithing.label>
+  <DragonianFireArmSmithing.description>龙娘们制造的具有古典风格和性能的枪械。</DragonianFireArmSmithing.description>
+
+  <DragonianWandMagic.label>龙娘法杖魔法</DragonianWandMagic.label>
+  <DragonianWandMagic.description>龙娘们使用的法杖，魔法的效果与法杖的外形很难关联起来。</DragonianWandMagic.description>
+
+  <DragonianShieldModule.label>龙娘护盾模块</DragonianShieldModule.label>
+  <DragonianShieldModule.description>龙娘护盾龙珠所使用的增强模块。能够提升护盾的性能。</DragonianShieldModule.description>
+
+  <DragonianBionics.label>龙娘仿生学部件</DragonianBionics.label>
+  <DragonianBionics.description>神秘的龙娘博士所研发的仿生身体部件，能够完美代替龙娘们身体缺失的部分。</DragonianBionics.description>
+
+</LanguageData>
