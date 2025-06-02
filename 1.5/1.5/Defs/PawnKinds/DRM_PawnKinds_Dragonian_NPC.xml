@@ -197,7 +197,7 @@
       <min>1500</min>
       <max>2500</max>
     </apparelMoney>
-    <apparelAllowHeadgearChance>0.05</apparelAllowHeadgearChance>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 
     <weaponTags>
       <li>DR_Guns</li>
