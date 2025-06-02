@@ -27,8 +27,13 @@
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>DR_BattleMace</thingDef>
-					<stuff>Steel</stuff>
+					<thingDef>DRM_Revolver</thingDef>
+					<quality>Excellent</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>DRM_RifledFlintlock</thingDef>
+					<quality>Excellent</quality>
 				</li>
 				<li Class="ScenPart_CreateIncident">
 					<def>CreateIncident</def>
