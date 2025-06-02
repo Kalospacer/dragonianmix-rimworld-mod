@@ -52,6 +52,8 @@
 				<defaultProjectile>DRM_Bullet_AirCannon</defaultProjectile>
 				<warmupTime>2.4</warmupTime>
 				<range>23.9</range>
+				<isMortar>true</isMortar>
+				<requireLineOfSight>false</requireLineOfSight>
 				<forcedMissRadius>1.9</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>Shot_IncendiaryLauncher</soundCast>
@@ -151,6 +153,8 @@
 				<defaultProjectile>DRM_Bullet_AcidAirCannon</defaultProjectile>
 				<warmupTime>2.4</warmupTime>
 				<range>29.9</range>
+				<isMortar>true</isMortar>
+				<requireLineOfSight>false</requireLineOfSight>
 				<forcedMissRadius>1.9</forcedMissRadius>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
@@ -308,7 +312,6 @@
 			<shaderType>TransparentPostLight</shaderType>
 			<color>(111,111,111)</color>
 		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>Thump</damageDef>
 			<damageAmountBase>10</damageAmountBase>
@@ -317,6 +320,19 @@
 			<speed>50</speed>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
+		<thingClass>DragonianMix.Projectile_CruiseMissile</thingClass>
+		<modExtensions>
+			<li Class="DragonianMix.CruiseMissileProperties">
+				<!-- 主爆炸参数 -->
+				<customDamageDef>Thump</customDamageDef>
+				<customDamageAmount>10</customDamageAmount>
+				<customExplosionRadius>3.9</customExplosionRadius>
+				<customSoundExplode>ThumpCannon_Impact</customSoundExplode>
+
+				<!-- 子爆炸系统 -->
+				<useSubExplosions>false</useSubExplosions>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
