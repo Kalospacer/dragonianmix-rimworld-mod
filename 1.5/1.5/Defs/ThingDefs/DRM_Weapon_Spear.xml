@@ -270,7 +270,7 @@
 				<defaultProjectile>DRM_ChainSpear_Thrown</defaultProjectile>
 				<warmupTime>0.4</warmupTime>
 				<range>29.9</range>
-				<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>32</ticksBetweenBurstShots>
 				<burstShotCount>16</burstShotCount>
 				<soundCast>Interact_BeatFire</soundCast>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
@@ -345,7 +345,7 @@
 				<defaultProjectile>DRM_ChainSpear_Ex</defaultProjectile>
 				<warmupTime>0.4</warmupTime>
 				<range>24.9</range>
-				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>32</ticksBetweenBurstShots>
 				<burstShotCount>16</burstShotCount>
 				<soundCast>Interact_BeatFire</soundCast>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
@@ -416,7 +416,7 @@
 		</projectile>
 		<modExtensions>
 			<li Class="DragonianMix.ShotgunExtension">
-				<pelletCount>6</pelletCount>
+				<pelletCount>3</pelletCount>
 			</li>
 		</modExtensions>
 	</ThingDef>
