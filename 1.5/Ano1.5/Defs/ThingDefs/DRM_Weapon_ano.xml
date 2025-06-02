@@ -35,6 +35,10 @@
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
+      <researchPrerequisites>
+        <li>DragonianMeleeWeapon</li>
+        <li>DragonianWandMagic</li>
+      </researchPrerequisites>
     </recipeMaker>
     <weaponTags>
       <li>DR_BattleStaff_Ranged</li>

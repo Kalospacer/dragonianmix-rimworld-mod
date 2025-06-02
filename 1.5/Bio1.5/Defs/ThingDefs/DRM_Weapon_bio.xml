@@ -20,32 +20,36 @@
 			<AccuracyMedium>0.65</AccuracyMedium>
 			<AccuracyLong>0.55</AccuracyLong>
 			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
-		  </statBases>
+		</statBases>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<costStuffCount>80</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
-		</stuffCategories>	
+		</stuffCategories>
 		<costList>
 			<WoolDragonian>40</WoolDragonian>
 			<Steel>40</Steel>
 			<ComponentIndustrial>5</ComponentIndustrial>
-		</costList>	
+		</costList>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
+			<researchPrerequisites>
+				<li>DragonianMeleeWeapon</li>
+				<li>DragonianWandMagic</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<weaponTags>
 			<li>DR_BattleStaff_Ranged</li>
 		</weaponTags>
 		<thingCategories>
 			<li>WeaponsRanged</li>
-		  </thingCategories>
-		  <weaponClasses>
+		</thingCategories>
+		<weaponClasses>
 			<li>Ranged</li>
-		  </weaponClasses>
-		  <verbs>
+		</weaponClasses>
+		<verbs>
 			<li>
 				<verbClass>Verb_ShootBeam</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
@@ -78,8 +82,8 @@
 					</points>
 				</beamLineFleckChanceCurve>
 			</li>
-		  </verbs>
-		  <tools>
+		</verbs>
+		<tools>
 			<li>
 				<label>handle</label>
 				<capacities>
@@ -100,7 +104,7 @@
 						<def>DRM_Damage_FrostCoverd_after</def>
 						<amount>30</amount>
 						<chance>1</chance>
-					  </li>
+					</li>
 					<li>
 						<def>Stun</def>
 						<amount>1.5</amount>
@@ -116,5 +120,5 @@
 		</equippedStatOffsets>
 		<meleeHitSound>DRHammerSound</meleeHitSound>
 	</ThingDef>
-	
+
 </Defs>

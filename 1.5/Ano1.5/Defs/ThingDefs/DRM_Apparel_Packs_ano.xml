@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="ApparelNoQualityBase">
+<!--<ThingDef ParentName="ApparelNoQualityBase">
     <defName>DR_Apparel_PackNecro</defName>
     <label>Necro pack</label>
     <description>A reusable backpack containing canisters of reagents and a mechanism that uses them to generate deadlifedust.</description>
@@ -121,6 +121,6 @@
     <tradeTags>
       <li>Clothing</li>
     </tradeTags>
-  </ThingDef>
+  </ThingDef>-->
 
 </Defs>
