@@ -15,7 +15,7 @@
 		<label>Dragonian Melee Weapon</label>
 		<description>Dragonian Melee Weapon</description>
 		<tab>DragonianTech</tab>
-		<baseCost>100</baseCost>
+		<baseCost>500</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
 			<li>LongBlades</li>
@@ -29,7 +29,7 @@
 		<label>Dragonian Enhanced Weapon</label>
 		<description>Dragonian Enhanced Weapon</description>
 		<tab>DragonianTech</tab>
-		<baseCost>100</baseCost>
+		<baseCost>2500</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
 			<li>DragonianMeleeWeapon</li>
@@ -43,12 +43,12 @@
 		<label>Dragonian Persona Weapon</label>
 		<description>Dragonian Persona Weapon</description>
 		<tab>DragonianTech</tab>
-		<baseCost>100</baseCost>
+		<baseCost>4000</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
 			<li>DragonianEnhancedWeapon</li>
 		</prerequisites>
-		<researchViewX>1</researchViewX>
+		<researchViewX>2</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
@@ -57,7 +57,7 @@
 		<label>Dragonian Ranged Weapon</label>
 		<description>Dragonian Ranged Weapon</description>
 		<tab>DragonianTech</tab>
-		<baseCost>100</baseCost>
+		<baseCost>500</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
 			<li>Smithing</li>
@@ -71,7 +71,7 @@
 		<label>Dragonian FireArm Smithing</label>
 		<description>Dragonian FireArm Smithing</description>
 		<tab>DragonianTech</tab>
-		<baseCost>100</baseCost>
+		<baseCost>500</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
 			<li>Gunsmithing</li>
@@ -85,7 +85,7 @@
 		<label>Dragonian Wand Magic</label>
 		<description>Dragonian Wand Magic</description>
 		<tab>DragonianTech</tab>
-		<baseCost>100</baseCost>
+		<baseCost>2500</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
 			<li>DragonianMeleeWeapon</li>
@@ -113,7 +113,7 @@
 		<label>Dragonian Armor clothing</label>
 		<description>Dragonian Armor clothing</description>
 		<tab>DragonianTech</tab>
-		<baseCost>100</baseCost>
+		<baseCost>1000</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
 			<li>DragonianClothing</li>
@@ -128,7 +128,7 @@
 		<label>Dragonian Shield Module</label>
 		<description>Dragonian Shield Module</description>
 		<tab>DragonianTech</tab>
-		<baseCost>100</baseCost>
+		<baseCost>1000</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
 			<li>DragonianBionics</li>
@@ -143,7 +143,7 @@
 		<label>Dragonian Bionics</label>
 		<description>Dragonian Bionics</description>
 		<tab>DragonianTech</tab>
-		<baseCost>100</baseCost>
+		<baseCost>500</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
 			<li>Bionics</li>

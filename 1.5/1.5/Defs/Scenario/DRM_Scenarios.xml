@@ -50,6 +50,18 @@
 					<thingDef>WoodLog</thingDef>
 					<count>400</count>
 				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>DragonianMeleeWeapon</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>DragonianRangedWeapon</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>DragonianClothing</project>
+				</li>
 			</parts>
 		</scenario>
 	</ScenarioDef>
