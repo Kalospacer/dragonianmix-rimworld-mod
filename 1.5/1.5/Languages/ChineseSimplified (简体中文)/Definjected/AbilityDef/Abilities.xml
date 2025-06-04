@@ -36,6 +36,10 @@
   <DRM_LightingStrike.description>选定特定区域，引发一道天雷轰击。</DRM_LightingStrike.description>
   <DRM_LightingStrike.verbProperties.label>释放雷电招来</DRM_LightingStrike.verbProperties.label>
 
+  <DRM_LightningBombardment.label>闪电风暴</DRM_LightningBombardment.label>
+  <DRM_LightningBombardment.description>选定特定区域，引发一场局部性的闪电风暴。</DRM_LightningBombardment.description>
+  <DRM_LightningBombardment.verbProperties.label>释放闪电风暴</DRM_LightningBombardment.verbProperties.label>
+
   <DRM_Frostcloudpop.label>冰淞云雾</DRM_Frostcloudpop.label>
   <DRM_Frostcloudpop.description>释放一团冷冻云雾。接触冷冻云雾后会造成严重的冻结伤害。</DRM_Frostcloudpop.description>
   <DRM_Frostcloudpop.verbProperties.label>释放冰淞云雾</DRM_Frostcloudpop.verbProperties.label>

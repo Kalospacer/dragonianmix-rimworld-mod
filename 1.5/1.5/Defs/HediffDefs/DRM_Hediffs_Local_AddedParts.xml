@@ -71,6 +71,7 @@
 		<priceImpact>false</priceImpact>
 		<abilities>
 			<li>DRM_LightingStrike</li>
+			<li>DRM_LightningBombardment</li>
 		</abilities>
 		<addedPartProps>
 			<solid>true</solid>
