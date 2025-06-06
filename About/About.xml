@@ -44,6 +44,7 @@ Playable Dragonian
     <li>erdelf.HumanoidAlienRaces</li>
 	  <li>goudaquiche.MoharFramework</li>
     <li>RooAndGloomy.DragonianRaceMod</li>
+    <li>hailuan.customquestframework</li>
   </loadAfter>
   <forceLoadAfter>
 	  <li>erdelf.HumanoidAlienRaces</li>
