@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AbilityDef>
+    <defName>DR_FireBurst</defName>
+    <label>fire burst</label>
+    <description>Overdrive orbs cause explosion and set fire on ground.</description>
+    <jobDef>CastAbilityOnThingWithoutWeapon</jobDef>
+    <iconPath>UI/Abilities/FireBurst</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>true</aiCanUse>
+    <ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
+    <targetRequired>false</targetRequired>
+    <showCastingProgressBar>true</showCastingProgressBar>
+
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupEffecter>Fire_Burst_Warmup</warmupEffecter>
+      <warmupTime>1.5</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <range>12</range>
+      <drawAimPie>false</drawAimPie>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="DragonianMix.CompProperties_AbilityDRM_FireBurst">
+        <radius>12</radius>
+        <damageDef>DRM_Flame</damageDef>
+        <damageAmount>80</damageAmount>
+        <armorPenetration>0</armorPenetration>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>DRM_Toxgaspop</defName>
+    <label>ToxGas Pop</label>
+    <description>Release a cloud of Toxgas.</description>
+    <iconPath>UI/Abilities/ReleaseDeadlifeDust</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>true</aiCanUse>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <label>release deadlife dust</label>
+      <drawAimPie>true</drawAimPie>
+      <warmupTime>1</warmupTime>
+      <range>24.9</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+      <soundCast>DeadlifeRelease</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
+        <damageDef>Smoke</damageDef>
+        <smokeRadius>9</smokeRadius>
+        <gasType>ToxGas</gasType>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>20</clamorRadius>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>DRM_Feargaspop</defName>
+    <label>FearGas Pop</label>
+    <description>Release a cloud of Feargas.</description>
+    <iconPath>UI/Abilities/ReleaseDeadlifeDust</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>true</aiCanUse>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <label>release Feargas</label>
+      <drawAimPie>true</drawAimPie>
+      <warmupTime>1</warmupTime>
+      <range>24.9</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+      <soundCast>DeadlifeRelease</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
+        <damageDef>DRM_Feargas</damageDef>
+        <smokeRadius>9</smokeRadius>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>20</clamorRadius>
+        <postExplosionSpawnThingDef>DRM_FearGasCloud</postExplosionSpawnThingDef>        <!-- ARL_ToxicGasCloud -->
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>DRM_LightingStrike</defName>
+    <label>LightingStrike</label>
+    <description>Summon a LightingStrike.</description>
+    <iconPath>UI/Abilities/Flashstorm</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>true</aiCanUse>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <label>Summon LightingStrike</label>
+      <drawAimPie>true</drawAimPie>
+      <warmupTime>1</warmupTime>
+      <range>24.9</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+      <soundCast>DeadlifeRelease</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="DragonianMix.CompProperties_AbilityDRM_LightingStrike">
+        <explosionRadius>4.0</explosionRadius>
+        <damageDef>DRM_Arc</damageDef>
+        <damageAmount>45</damageAmount>
+        <armorPenetration>1.0</armorPenetration>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>DRM_LightningBombardment</defName>
+    <label>LightningStorm</label>
+    <description>Summon a LightningStorm.</description>
+    <iconPath>UI/Abilities/Flashstorm</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>true</aiCanUse>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <label>Summon LightningStorm</label>
+      <drawAimPie>true</drawAimPie>
+      <warmupTime>1</warmupTime>
+      <range>29.9</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+      <soundCast>DeadlifeRelease</soundCast>
+    </verbProperties>
+    <comps>
+       <li Class="DragonianMix.CompProperties_AbilityDRM_LightningBombardment">
+          <impactAreaRadius>12</impactAreaRadius>
+          <explosionRadiusRange>3~4</explosionRadiusRange>
+          <bombIntervalTicks>30</bombIntervalTicks>
+          <explosionCount>20</explosionCount>
+          
+          <damageDef>DRM_Arc</damageDef>
+          <damageAmount>45</damageAmount>
+          <armorPenetration>1.0</armorPenetration>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>DRM_Acidgaspop</defName>
+    <label>AcidGas Pop</label>
+    <description>Release a cloud of Acidgas.</description>
+    <iconPath>UI/Abilities/ReleaseDeadlifeDust</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>true</aiCanUse>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <label>release Acidgas</label>
+      <drawAimPie>true</drawAimPie>
+      <warmupTime>1</warmupTime>
+      <range>24.9</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+      <soundCast>DeadlifeRelease</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
+        <damageDef>DRM_AcidCover</damageDef>
+        <damageAmount>25</damageAmount>
+        <armorPenetration>0.5</armorPenetration>
+        <smokeRadius>9</smokeRadius>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>20</clamorRadius>
+        <postExplosionSpawnThingDef>DRM_AcidGasCloud</postExplosionSpawnThingDef>        <!-- ARL_ToxicGasCloud -->
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>DRM_AcidSpray</defName>
+    <label>acid spray</label>
+    <description>Spray a sticky acid substance from glands in the neck up through the mouth and all over the target area. The acid will stick to targets and burn them.</description>
+    <iconPath>UI/Abilities/AcidSpray</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <category>Sanguophage</category>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>22.5</range>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySprayLiquid">
+        <projectileDef>Proj_Acid</projectileDef>
+        <numCellsToHit>25</numCellsToHit>
+        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThingDef>
+    <defName>Proj_Acid</defName>
+    <label>acid</label>
+    <thingClass>Projectile_Liquid</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <texPath>Things/Projectile/Acid</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>DRM_AcidCover</damageDef>
+      <speed>25</speed>
+      <damageAmountBase>30</damageAmountBase>
+      <arcHeightFactor>0.4</arcHeightFactor>
+      <armorPenetrationBase>0.8</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <shadowSize>0</shadowSize>
+      <filth>Filth_SpentAcid</filth>
+      <filthCount>1</filthCount>
+    </projectile>
+  </ThingDef>
+
+  <AbilityDef>
+    <defName>DRM_Frostcloudpop</defName>
+    <label>FrostCloud Pop</label>
+    <description>Release a cloud of Frozen ice.</description>
+    <iconPath>UI/Abilities/ReleaseDeadlifeDust</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>true</aiCanUse>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <label>release FrostCloud</label>
+      <drawAimPie>true</drawAimPie>
+      <warmupTime>1</warmupTime>
+      <range>24.9</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+      <soundCast>DeadlifeRelease</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
+        <damageDef>DRM_Damage_FrostCoverd</damageDef>
+        <damageAmount>20</damageAmount>
+        <armorPenetration>0.5</armorPenetration>
+        <smokeRadius>6</smokeRadius>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>20</clamorRadius>
+        <postExplosionSpawnThingDef>DRM_FrostGasCloud_Ex</postExplosionSpawnThingDef>        <!-- ARL_ToxicGasCloud -->
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      </li>
+    </comps>
+  </AbilityDef>
+
+</Defs>

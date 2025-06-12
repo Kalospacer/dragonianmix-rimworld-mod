@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AbilityDef>
+    <defName>DR_BattleStaffBurner</defName>
+    <label>BattleStaff burner</label>
+    <description>Use terra magic to create a massive cone of flame.</description>
+    <iconPath>UI/Abilities/Burner</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <ai_IsIncendiary>true</ai_IsIncendiary>
+    <warmupStartSound>FireSpew_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>22.9</range>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>FireSpew_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+      <flammabilityAttachFireChanceCurve>
+        <points>
+          <li>(0.2, 0)</li>
+          <li>(1, 1)</li>
+        </points>
+      </flammabilityAttachFireChanceCurve>
+    </verbProperties>
+    <comps>
+      <li Class="DragonianMix.CompProperties_AbilityDRM_FireSpew">
+        <range>22.9</range>
+        <lineWidthEnd>5</lineWidthEnd>
+        <filthDef>Filth_Ash</filthDef>
+        <damAmount>30</damAmount>
+        <damageDef>DRM_Flame</damageDef>
+        <canHitFilledCells>true</canHitFilledCells>
+      </li>
+      <li Class="CompProperties_AbilityBurner">
+        <numStreams>15</numStreams>
+        <range>24</range>        <!-- go a bit further than the actual ability range, since it's meant to be a noisy effect -->
+        <coneSizeDegrees>12</coneSizeDegrees>
+        <moteDef>Mote_IncineratorBurst</moteDef>
+        <barrelOffsetDistance>6</barrelOffsetDistance>
+        <sizeReductionDistanceThreshold>8</sizeReductionDistanceThreshold>
+        <lifespanNoise>40</lifespanNoise>
+        <rangeNoise>.4</rangeNoise>
+        <effecterDef>BurnerUsed</effecterDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>DRM_Deaddustpop</defName>
+    <label>Deaddust Pop</label>
+    <description>Release a cloud of dust-like substance that will settle on nearby corpses and raise them as shamblers. The shamblers will only attack your enemies. Deadlife dust is made of nano-scale archites that penetrate and reanimate dead tissue at the cellular level.</description>
+    <iconPath>UI/Abilities/ReleaseDeadlifeDust</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>true</aiCanUse>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <label>release deadlife dust</label>
+      <drawAimPie>true</drawAimPie>
+      <warmupTime>1</warmupTime>
+      <range>24.9</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+      <soundCast>DeadlifeRelease</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
+        <damageDef>Smoke</damageDef>
+        <smokeRadius>9</smokeRadius>
+        <gasType>DeadlifeDust</gasType>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>20</clamorRadius>
+      </li>
+    </comps>
+  </AbilityDef>
+
+</Defs>

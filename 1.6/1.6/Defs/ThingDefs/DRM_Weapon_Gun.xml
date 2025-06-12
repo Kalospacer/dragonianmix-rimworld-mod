@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>DRM_RifledFlintlock</defName>
+    <label>Dragonian RifledFlintlock</label>
+    <description>An ancient pattern bolt-action rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting.</description>
+	<graphicData>
+		<texPath>Dragonian/Things/Weapon/DRM_RifledFlintlock</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+		<weaponTags>
+			<li>DR_Guns</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <displayPriority>415</displayPriority>
+      <researchPrerequisites>
+				<li>DragonianFireArmSmithing</li>
+			</researchPrerequisites>
+    </recipeMaker>
+			<verbs>
+			<li>
+				<verbClass>DragonianMix.Verb_ShootShotgun</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>DRM_Bullet_RifledFlintlock</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>36.9</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+				<soundCast>Shot_Shotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+    <defName>DRM_Bullet_RifledFlintlock</defName>
+    <label>Rifled-Flintlock bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>70</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+			<modExtensions>
+			<li Class="DragonianMix.ShotgunExtension">
+				<pelletCount>5</pelletCount>
+			</li>
+		</modExtensions>
+	
+  </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+    <defName>DRM_Bullet_Revolver</defName>
+    <label>revolver bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>55</speed>
+    </projectile>
+    			<modExtensions>
+			<li Class="DragonianMix.ShotgunExtension">
+				<pelletCount>3</pelletCount>
+			</li>
+		</modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>DRM_Revolver</defName>
+    <label>dragonian revolver</label>
+    <description>An ancient pattern double-action revolver. It's not very powerful, but has a decent range for a pistol and is quick on the draw.</description>
+    <possessionCount>1</possessionCount>
+	<graphicData>
+		<texPath>Dragonian/Things/Weapon/DRM_Revolver</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+    <uiIconScale>1.4</uiIconScale>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <Mass>1.4</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+    </statBases>
+		<weaponTags>
+			<li>DR_Guns</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <displayPriority>400</displayPriority>
+            <researchPrerequisites>
+				<li>DragonianFireArmSmithing</li>
+			</researchPrerequisites>
+    </recipeMaker>
+    			<verbs>
+			<li>
+				<verbClass>DragonianMix.Verb_ShootShotgun</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>DRM_Bullet_Revolver</defaultProjectile>
+        <warmupTime>1.6</warmupTime>
+        <range>25.9</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+				<soundCast>Shot_Revolver</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

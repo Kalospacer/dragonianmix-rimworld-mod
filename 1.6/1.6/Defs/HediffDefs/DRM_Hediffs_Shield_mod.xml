@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <HediffDef ParentName="ImplantHediffBase">
+        <hediffClass>DragonianMix.HediffShield_Implant</hediffClass>
+        <defName>ShieldDragonianOrb_Booster</defName>
+        <label>Dragonian Shield Booster</label>
+        <labelNoun>a Dragonian Shield Booster</labelNoun>
+        <description>device can boost dragonian shield that better faster stronger.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_Booster</ThingDef>
+        </descriptionHyperlinks>
+        <comps>
+            <li Class="DragonianMix.HediffShieldCompProperties">
+                <MaxEnergy>100</MaxEnergy>
+                <RegenerationRate>0.01</RegenerationRate>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="ImplantHediffBase">
+        <hediffClass>DragonianMix.HediffShield_Implant</hediffClass>
+        <defName>ShieldDragonianOrb_AdvancedBooster</defName>
+        <label>Dragonian Shield Advanced Booster</label>
+        <labelNoun>a Dragonian Shield Advanced Booster</labelNoun>
+        <description>device can boost dragonian shield that More better faster stronger.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_Booster</ThingDef>
+        </descriptionHyperlinks>
+        <comps>
+            <li Class="DragonianMix.HediffShieldCompProperties">
+                <MaxEnergy>200</MaxEnergy>
+                <RegenerationRate>0.02</RegenerationRate>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="ImplantHediffBase">
+        <hediffClass>DragonianMix.HediffShield_Implant</hediffClass>
+        <defName>ShieldDragonianOrb_AdaptiveModule</defName>
+        <label>Dragonian Shield Adaptive Module</label>
+        <labelNoun>a Dragonian Shield Adaptive Module</labelNoun>
+        <description>device can boost dragonian shield that adapt to same damage types,reduce damage from that type.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_AdaptiveModule</ThingDef>
+        </descriptionHyperlinks>
+        <comps>
+            <li Class="DragonianMix.HediffShieldCompProperties">
+                <MaxEnergy>0</MaxEnergy>
+                <Adaptive>true</Adaptive>
+                <FunctionalModule>true</FunctionalModule>
+            </li>
+        </comps>
+        <spawnThingOnRemoved>ShieldDragonianOrb_AdaptiveModule</spawnThingOnRemoved>
+    </HediffDef>
+
+    <HediffDef ParentName="ImplantHediffBase">
+        <hediffClass>DragonianMix.HediffShield_Implant</hediffClass>
+        <defName>ShieldDragonianOrb_BufferModule</defName>
+        <label>Dragonian Shield Buffer Module</label>
+        <labelNoun>a Dragonian Shield Buffer Module</labelNoun>
+        <description>device can boost dragonian shield that limit energy loss to 10 per damage instance.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_BufferModule</ThingDef>
+        </descriptionHyperlinks>
+        <comps>
+            <li Class="DragonianMix.HediffShieldCompProperties">
+                <MaxEnergy>0</MaxEnergy>
+                <Hardened>10</Hardened>
+                <FunctionalModule>true</FunctionalModule>
+            </li>
+        </comps>
+        <spawnThingOnRemoved>ShieldDragonianOrb_BufferModule</spawnThingOnRemoved>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartBionicBase">
+        <defName>ShieldDragonianOrb_AdaptiveModule</defName>
+        <label>Dragonian Shield Adaptive Module</label>
+        <description>Install a Dragonian Shield Adaptive Module.</description>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallShieldDragonianOrb_AdaptiveModule</RecipeDef>
+        </descriptionHyperlinks>
+        <costList>
+            <Plasteel>15</Plasteel>
+            <Uranium>40</Uranium>
+            <Gold>1</Gold>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>DragonianShieldModule</researchPrerequisite>
+            <recipeUsers>                <!--工作于-->
+                <li>FabricationBench</li>                <!--精密加工台-->
+            </recipeUsers>
+        </recipeMaker>
+    </ThingDef>
+
+    <ThingDef ParentName="BodyPartBionicBase">
+        <defName>ShieldDragonianOrb_BufferModule</defName>
+        <label>Dragonian Shield Buffer Module</label>
+        <description>Install a Dragonian Shield Buffer Module.</description>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallShieldDragonianOrb_BufferModule</RecipeDef>
+        </descriptionHyperlinks>
+        <costList>
+            <Plasteel>15</Plasteel>
+            <Uranium>40</Uranium>
+            <Gold>1</Gold>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>DragonianShieldModule</researchPrerequisite>
+            <recipeUsers>                <!--工作于-->
+                <li>FabricationBench</li>                <!--精密加工台-->
+            </recipeUsers>
+        </recipeMaker>
+    </ThingDef>
+
+
+    <ThingDef ParentName="BodyPartBionicBase">
+        <defName>ShieldDragonianOrb_Booster</defName>
+        <label>Dragonian Shield Booster</label>
+        <description>Install a Dragonian Shield Booster.</description>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallShieldDragonianOrb_Booster</RecipeDef>
+        </descriptionHyperlinks>
+        <costList>
+            <Plasteel>15</Plasteel>
+            <Uranium>40</Uranium>
+            <Gold>1</Gold>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>DragonianShieldModule</researchPrerequisite>
+            <recipeUsers>                <!--工作于-->
+                <li>FabricationBench</li>                <!--精密加工台-->
+            </recipeUsers>
+        </recipeMaker>
+    </ThingDef>
+
+    <ThingDef ParentName="BodyPartBionicBase">
+        <defName>ShieldDragonianOrb_AdvancedBooster</defName>
+        <label>Dragonian Shield Advanced Booster</label>
+        <description>Install a Dragonian Shield Advanced Booster.</description>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallShieldDragonianOrb_AdvancedBooster</RecipeDef>
+        </descriptionHyperlinks>
+        <costList>
+            <Plasteel>15</Plasteel>
+            <Uranium>40</Uranium>
+            <Gold>1</Gold>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>DragonianShieldModule</researchPrerequisite>
+            <recipeUsers>                <!--工作于-->
+                <li>FabricationBench</li>                <!--精密加工台-->
+            </recipeUsers>
+        </recipeMaker>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallShieldDragonianOrb_Booster</defName>
+        <label>install a Dragonian Shield Booster</label>
+        <description>Install a Dragonian Shield Booster.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_Booster</ThingDef>
+            <HediffDef>ShieldDragonianOrb_Booster</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Dragonian Shield Booster.</jobString>
+        <skillRequirements>
+            <Medicine>9</Medicine>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ShieldDragonianOrb_Booster</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ShieldDragonianOrb_Booster</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>DragonianOrb</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>ShieldDragonianOrb_Booster</addsHediff>
+        <incompatibleWithHediffTags>
+            <li>ShieldDragonianOrb_AdvancedBooster</li>
+        </incompatibleWithHediffTags>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallShieldDragonianOrb_AdvancedBooster</defName>
+        <label>install a Dragonian Shield Advanced Booster</label>
+        <description>Install a Dragonian Shield Advanced Booster.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_AdvancedBooster</ThingDef>
+            <HediffDef>ShieldDragonianOrb_AdvancedBooster</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Dragonian Shield Booster.</jobString>
+        <skillRequirements>
+            <Medicine>9</Medicine>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ShieldDragonianOrb_AdvancedBooster</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ShieldDragonianOrb_AdvancedBooster</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>DragonianOrb</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>ShieldDragonianOrb_AdvancedBooster</addsHediff>
+        <incompatibleWithHediffTags>
+            <li>ShieldDragonianOrb_Booster</li>
+        </incompatibleWithHediffTags>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallShieldDragonianOrb_AdaptiveModule</defName>
+        <label>install a Dragonian Shield Adaptive Module</label>
+        <description>Install a Dragonian Shield Adaptive Module.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_AdaptiveModule</ThingDef>
+            <HediffDef>ShieldDragonianOrb_AdaptiveModule</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Dragonian Shield Adaptive Module.</jobString>
+        <skillRequirements>
+            <Medicine>9</Medicine>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ShieldDragonianOrb_AdaptiveModule</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ShieldDragonianOrb_AdaptiveModule</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>DragonianOrb</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>ShieldDragonianOrb_AdaptiveModule</addsHediff>
+        <incompatibleWithHediffTags>
+            <li>ShieldDragonianOrb_BufferModule</li>
+        </incompatibleWithHediffTags>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <defName>InstallShieldDragonianOrb_BufferModule</defName>
+        <label>install a Dragonian Shield Buffer Module</label>
+        <description>Install a Dragonian Shield Buffer Module.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_BufferModule</ThingDef>
+            <HediffDef>ShieldDragonianOrb_BufferModule</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing Dragonian Buffer Module.</jobString>
+        <skillRequirements>
+            <Medicine>9</Medicine>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ShieldDragonianOrb_BufferModule</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ShieldDragonianOrb_BufferModule</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>DragonianOrb</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>ShieldDragonianOrb_BufferModule</addsHediff>
+        <incompatibleWithHediffTags>
+            <li>ShieldDragonianOrb_AdaptiveModule</li>
+        </incompatibleWithHediffTags>
+    </RecipeDef>
+
+    <!--<RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveShieldDragonianOrb_Booster</defName>
+        <label>remove Dragonian Shield Booster</label>
+        <description>Remove Dragonian Shield Booster.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_Booster</ThingDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Dragonian Shield Booster.</jobString>
+        <removesHediff>ShieldDragonianOrb_Booster</removesHediff>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveShieldDragonianOrb_AdvancedBooster</defName>
+        <label>remove Dragonian Shield Advanced Booster</label>
+        <description>Remove Dragonian Shield Advanced Booster.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_AdvancedBooster</ThingDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Dragonian Shield Advanced Booster.</jobString>
+        <removesHediff>ShieldDragonianOrb_AdvancedBooster</removesHediff>
+    </RecipeDef>-->
+
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveShieldDragonianOrb_AdaptiveModule</defName>
+        <label>remove Dragonian Shield Adaptive Module</label>
+        <description>Remove Dragonian Shield Adaptive Module.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_AdaptiveModule</ThingDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Dragonian Shield Adaptive Module.</jobString>
+        <removesHediff>ShieldDragonianOrb_AdaptiveModule</removesHediff>  
+    </RecipeDef>
+
+
+    <RecipeDef ParentName="SurgeryRemoveImplantBase">
+        <defName>RemoveShieldDragonianOrb_BufferModule</defName>
+        <label>remove Dragonian Shield Buffer Module</label>
+        <description>Remove Dragonian Shield Buffer Module.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ShieldDragonianOrb_BufferModule</ThingDef>
+        </descriptionHyperlinks>
+        <jobString>Removing Dragonian Shield Buffer Module.</jobString>
+        <removesHediff>ShieldDragonianOrb_BufferModule</removesHediff>
+    </RecipeDef>
+
+</Defs>

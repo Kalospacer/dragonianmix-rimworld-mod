@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="Dragonian_PlayerFactionBase" Name="Dragonian_NPCFactionBase" Abstract="True">
+		<defName>Dragonian_Clans</defName>
+		<label>Dragonian Clans</label>
+		<fixedName>Dragonian Nest</fixedName>
+		<description>a group of dragonian that come out from the ground in one day.they are beautiful wild creature and high value on blackmarket.they take a group to protect them self.</description>
+		<categoryTag>Dragonian_Faction</categoryTag>
+
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxConfigurableAtWorldCreation>5</maxConfigurableAtWorldCreation>
+
+		<pawnSingular>Dragonian</pawnSingular>		<!-- 세력 폰 단일명칭 -->
+		<pawnsPlural>Dragonians</pawnsPlural>		<!-- 세력 폰 복수명칭 -->
+
+		<listOrderPriority>40</listOrderPriority>
+
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<configurationListOrderPriority>15</configurationListOrderPriority>
+
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+
+		<leaderTitle>Dungeon Master</leaderTitle>
+		<leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+
+		<factionIconPath>Dragonian/Icon/DR_Icon</factionIconPath>
+		<settlementTexturePath>Dragonian/Icon/DR_Icon</settlementTexturePath>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+
+		<humanlikeFaction>true</humanlikeFaction>
+		<canUseAvoidGrid>true</canUseAvoidGrid>
+		<techLevel>Medieval</techLevel>
+		<basicMemberKind>Dragonian_Colonist</basicMemberKind>
+
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+
+		<melaninRange>0</melaninRange>
+
+		<xenotypeSet>
+			<xenotypeChances>
+				<DragonianXenotype MayRequire="Ludeon.RimWorld.Biotech">1</DragonianXenotype>
+			</xenotypeChances>
+		</xenotypeSet>
+		<backstoryCategories>			<!-- 세력에서 사용하는 백스토리, 단 종족은 폰카인드 설정에서 불러오므로 종족 전용 백스토리는 넣을 필요가 없음 -->
+			<li>Dragonian_spawnCategoriesA</li>
+		</backstoryCategories>
+		<allowedCultures>			<!-- 허용되는 문화 -->
+			<li>DragonianCulture</li>
+		</allowedCultures>
+		<apparelStuffFilter>			<!-- 시작시 폰 복장의 재료 -->
+			<thingDefs>
+				<li>WoolDragonian</li>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+
+		<caravanTraderKinds>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>Caravan_Outlander_Exotic</li>
+			<li>Caravan_Outlander_PirateMerchant</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Dragonian_Standard</li>
+		</baseTraderKinds>
+
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+
+		<raidLootMaker>DragonianRaidLootMaker</raidLootMaker>
+
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(500, 100)</li>
+				<li>(1000, 150)</li>
+				<li>(2000, 250)</li>
+				<li>(3000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+
+		<raidLootValueFromPointsCurve>
+			<points>
+				<li>(35,     35)</li>
+				<li>(100,   100)</li>
+				<li>(500,  500)</li>
+				<li>(800,  800)</li>
+				<li>(1000, 1000)</li>
+			</points>
+		</raidLootValueFromPointsCurve>
+
+		<pawnGroupMakers>
+			<li>
+				<!-- 村民团 -->
+				<kindDef>Combat</kindDef>
+				<commonality>50</commonality>
+				<options>
+					<Dragonian_Clan_Musketeer>25</Dragonian_Clan_Musketeer>
+					<Dragonian_Villager>20</Dragonian_Villager>
+					<Dragonian_Clan_Guard>30</Dragonian_Clan_Guard>
+					<Dragonian_Clan_Hunter>24</Dragonian_Clan_Hunter>
+					<Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>
+				</options>
+			</li>
+
+			<li>
+				<!--=骠骑兵=-->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<Dragonian_Clan_Guard>40</Dragonian_Clan_Guard>
+					<Dragonian_Clan_Hunter>30</Dragonian_Clan_Hunter>
+					<Dragonian_Clan_Warrier>29</Dragonian_Clan_Warrier>
+				</options>
+			</li>
+
+			<li>
+				<!--=游骑兵=-->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<Dragonian_Clan_Guard>20</Dragonian_Clan_Guard>
+					<Dragonian_Clan_Hunter>60</Dragonian_Clan_Hunter>
+					<Dragonian_Clan_Warrier>19</Dragonian_Clan_Warrier>
+				</options>
+			</li>
+
+			<li>
+				<!--=皇家巡卫=-->
+				<kindDef>Combat</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<Dragonian_Clan_Guard>30</Dragonian_Clan_Guard>
+					<Dragonian_Clan_Hunter>20</Dragonian_Clan_Hunter>
+					<Dragonian_Clan_Warrier>19</Dragonian_Clan_Warrier>
+					<Dragonian_Royal_Guard>20</Dragonian_Royal_Guard>
+					<Dragonian_Royal_Hunter>19</Dragonian_Royal_Hunter>
+				</options>
+			</li>
+
+			<li>
+				<!--=皇家骠骑=-->
+				<kindDef>Combat</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<Dragonian_Royal_Guard>40</Dragonian_Royal_Guard>
+					<Dragonian_Royal_Hunter>40</Dragonian_Royal_Hunter>
+					<Dragonian_Royal_Warrier>20</Dragonian_Royal_Warrier>
+				</options>
+			</li>
+
+			<li>
+				<!--=皇家游骑=-->
+				<kindDef>Combat</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<Dragonian_Royal_Guard>20</Dragonian_Royal_Guard>
+					<Dragonian_Royal_Hunter>60</Dragonian_Royal_Hunter>
+					<Dragonian_Royal_Warrier>20</Dragonian_Royal_Warrier>
+				</options>
+			</li>
+
+			<li>
+				<!--=禁卫军=-->
+				<kindDef>Combat</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<Dragonian_Royal_Hunter>40</Dragonian_Royal_Hunter>
+					<Dragonian_Royal_Warrier>60</Dragonian_Royal_Warrier>
+				</options>
+			</li>
+
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>99</commonality>
+				<options>
+					<Dragonian_Villager>30</Dragonian_Villager>
+					<Dragonian_Clan_Guard>20</Dragonian_Clan_Guard>
+					<Dragonian_Clan_Trader>20</Dragonian_Clan_Trader>
+					<Dragonian_Clan_Hunter>29</Dragonian_Clan_Hunter>
+					<Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>
+				</options>
+			</li>
+
+			<li>
+				<!--=公主出巡=-->
+				<kindDef>Peaceful</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Dragonian_Royal_Warrier>99</Dragonian_Royal_Warrier>
+					<Dragonian_Princess>1</Dragonian_Princess>
+				</options>
+			</li>
+
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Dragonian_Clan_Trader>1</Dragonian_Clan_Trader>
+				</traders>
+				<carriers>
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2</Alpaca>
+					<Elephant>1</Elephant>
+				</carriers>
+				<guards>
+					<Dragonian_Villager>30</Dragonian_Villager>
+					<Dragonian_Clan_Guard>20</Dragonian_Clan_Guard>
+					<Dragonian_Clan_Hunter>49</Dragonian_Clan_Hunter>
+					<Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>
+				</guards>
+			</li>
+
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<Dragonian_Villager>10</Dragonian_Villager>
+					<Dragonian_Clan_Guard>30</Dragonian_Clan_Guard>
+					<Dragonian_Clan_Hunter>20</Dragonian_Clan_Hunter>
+					<Dragonian_Clan_Warrier>19</Dragonian_Clan_Warrier>
+					<Dragonian_Royal_Guard>20</Dragonian_Royal_Guard>
+					<Dragonian_Royal_Hunter>19</Dragonian_Royal_Hunter>
+					<Dragonian_Clan_Councilman>1</Dragonian_Clan_Councilman>
+				</options>
+			</li>
+		</pawnGroupMakers>
+	</FactionDef>
+
+	<FactionDef ParentName="Dragonian_NPCFactionBase">
+		<defName>Dragonian_NPC</defName>
+		<label>Dragonian</label>
+		<description>Dragonian settlement</description>
+		<!-- royalty content begin-->
+		<royalFavorLabel>Trust</royalFavorLabel>
+		<royalFavorIconPath>UI/Icons/RoyalFavor</royalFavorIconPath>
+		<royalTitleTags>
+			<li>Dragonian_Royal_Title</li>
+		</royalTitleTags>
+		<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+		<royalTitleInheritanceRelations>
+			<li>Child</li>
+			<li>Grandchild</li>
+			<li>GreatGrandchild</li>
+			<li>NephewOrNiece</li>
+			<li>Spouse</li>
+			<li>Sibling</li>
+			<li>HalfSibling</li>
+			<li>Cousin</li>
+			<li>Parent</li>
+			<li>UncleOrAunt</li>
+		</royalTitleInheritanceRelations>
+		<!-- royalty content end-->
+	</FactionDef>
+
+	<FactionDef ParentName="Dragonian_NPCFactionBase">
+		<defName>Unfrindly_Dragonian</defName>
+		<label>Unfrindly Dragonian</label>
+		<description>Unfrindly Dragonian is group of dragonian that not fit in clans,they been kick off the group and have to live by them own to rubber others goods.</description>
+		<listOrderPriority>10</listOrderPriority>
+		<leaderTitle>Boss</leaderTitle>
+		<permanentEnemy>true</permanentEnemy>
+		<factionNameMaker>NamerFactionPirate</factionNameMaker>
+		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
+		<techLevel>Spacer</techLevel>
+		<factionIconPath>Dragonian/Icon/DR_Icon_hostile</factionIconPath>
+		<settlementTexturePath>Dragonian/Icon/DR_Icon_hostile</settlementTexturePath>
+	</FactionDef>
+
+	<ThingSetMakerDef>
+		<defName>DragonianRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+						<li>Gold</li>
+						<li>Plasteel</li>
+						<li>Uranium</li>
+						<li>Jade</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+
+</Defs>

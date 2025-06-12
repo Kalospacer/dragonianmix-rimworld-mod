@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="DRM_ApparelArmorBase" ParentName="ApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <researchPrerequisites>
+          <li>DragonianArmorClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Dragonian/Apparel/Gear/drapparelF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <MaxHitPoints>480</MaxHitPoints>
+      <Mass>9</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.46</ArmorRating_Heat>
+      <Insulation_Cold>32</Insulation_Cold>
+      <Insulation_Heat>9</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <costList>
+      <Steel>100</Steel>
+      <WoolDragonian>40</WoolDragonian>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Dragonian/Apparel/Gear/drapparelF</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>OnSkin</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+  <ThingDef Name="DRM_ApparelArmorHelmetBase" ParentName="ApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <researchPrerequisites>
+          <li>DragonianArmorClothing</li>
+      </researchPrerequisites>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Dragonian/Apparel/Gear/drahgA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <WorkToMake>8750</WorkToMake>
+      <MaxHitPoints>220</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.46</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ArmorHeadgear</li>
+    </thingCategories>
+    <costList>
+      <Steel>25</Steel>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Dragonian/Apparel/Gear/drahgA</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <parentTagDef>ApparelHead</parentTagDef>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+  <ThingDef ParentName="DRM_ApparelArmorBase">
+    <defName>DRM_BattleDressC</defName>
+    <label>dragonian Battle dress c</label>
+    <description>Lightweight armor with plate on the dress.Upgrade with Plasteel.</description>
+    <apparel>
+      <tags>
+        <li>DR_Armor</li>
+        <li>DRM_BattleDressC</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>DRM_KnightForce</hediff>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>DRM_KnightForce</defName>
+    <label>KnightForce</label>
+    <description>Can't be knock back.This person is fully prepared.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <stages>
+      <li>
+        <statFactors>
+          <StaggerDurationFactor>0</StaggerDurationFactor>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <ThingDef ParentName="DRM_ApparelArmorHelmetBase">
+    <defName>DRM_BattleHelmC</defName>
+    <label>dragonian battle helm C</label>
+    <description>A lightweight battle helm with a complex design.Can protect Full Head.</description>
+    <apparel>
+      <tags>
+        <li>DR_Armor</li>
+        <li>DRM_BattleHelmC</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="DRM_ApparelArmorHelmetBase">
+    <defName>DRM_BattleHelmD</defName>
+    <label>dragonian battle helm D</label>
+    <description>A lightweight battle helm with a complex design.Can protect Full Head.</description>
+    <apparel>
+      <tags>
+        <li>DR_Armor</li>
+        <li>DRM_BattleHelmD</li>
+      </tags>
+      <wornGraphicPath>Dragonian/Apparel/Gear/drahgB</wornGraphicPath>
+    </apparel>
+    <graphicData>
+      <texPath>Dragonian/Apparel/Gear/drahgB</texPath>
+    </graphicData>
+  </ThingDef>
+
+</Defs>

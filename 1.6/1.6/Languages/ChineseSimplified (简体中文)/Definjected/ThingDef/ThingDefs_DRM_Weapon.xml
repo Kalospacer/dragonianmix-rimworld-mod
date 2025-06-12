@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <DR_BattleHammer.label>龙娘 战锤</DR_BattleHammer.label>
+  <DR_BattleHammer.description>一柄内置了EMP发生器的战锤。当击中时会释放电击瘫痪机械装置。</DR_BattleHammer.description>
+  <!-- EN: handle -->
+  <DR_BattleHammer.tools.handle.label>锤柄</DR_BattleHammer.tools.handle.label>
+  <!-- EN: head -->
+  <DR_BattleHammer.tools.head.label>锤头</DR_BattleHammer.tools.head.label>
+
+  <DR_BattleMace_explosive.label>龙娘 爆碎锤矛</DR_BattleMace_explosive.label>
+  <DR_BattleMace_explosive.description>龙娘使用的爆碎锤矛。当击中时会附着产生危险爆炸的黏菌。</DR_BattleMace_explosive.description>
+  <DR_BattleMace_explosive.tools.0.label>锤柄</DR_BattleMace_explosive.tools.0.label>
+  <DR_BattleMace_explosive.tools.1.label>锤头</DR_BattleMace_explosive.tools.1.label>
+
+  <DR_BattleStaff_Beam.label>龙娘 光束法杖</DR_BattleStaff_Beam.label>
+  <DR_BattleStaff_Beam.description>龙娘使用的法杖。能射出急冻光束。</DR_BattleStaff_Beam.description>
+
+  <DR_BattleStaff_Flare.label>龙娘 火焰法杖</DR_BattleStaff_Flare.label>
+  <DR_BattleStaff_Flare.description>龙娘使用的法杖。能射出火焰束。</DR_BattleStaff_Flare.description>
+
+  <DR_BattleStaff_Arc.label>龙娘 电弧法杖</DR_BattleStaff_Arc.label>
+  <DR_BattleStaff_Arc.description>龙娘使用的法杖。能射出跳跃的闪电链。</DR_BattleStaff_Arc.description>
+
+  <DR_BattleStaff_Fear.label>龙娘 恐惧法杖</DR_BattleStaff_Fear.label>
+  <DR_BattleStaff_Fear.description>龙娘使用的法杖。一个压缩的气体发射器。填装了芬里尔恐惧毒气弹。</DR_BattleStaff_Fear.description>
+
+  <DR_BattleStaff_Air.label>龙娘 气震法杖</DR_BattleStaff_Air.label>
+  <DR_BattleStaff_Air.description>龙娘使用的法杖。一个压缩的气体发射器。能够发射对建筑伤害极大的共振气团。</DR_BattleStaff_Air.description>
+
+  <DR_BattleStaff_AcidAir.label>龙娘 酸雾法杖</DR_BattleStaff_AcidAir.label>
+  <DR_BattleStaff_AcidAir.description>龙娘使用的法杖。一个压缩的气体发射器。能够发射对环境有害的酸雾气团。</DR_BattleStaff_AcidAir.description>
+
+  <DRM_RifledFlintlock.label>龙娘 线膛燧发枪</DRM_RifledFlintlock.label>
+  <DRM_RifledFlintlock.description>龙娘使用的枪械。具有古典的设计和性能。</DRM_RifledFlintlock.description>
+
+  <DRM_Revolver.label>龙娘 手枪</DRM_Revolver.label>
+  <DRM_Revolver.description>龙娘使用的枪械。具有古典的设计和性能。</DRM_Revolver.description>
+
+  <DR_BattleSpear.label>龙娘 飞矛</DR_BattleSpear.label>
+  <DR_BattleSpear.description>龙娘使用的飞矛。她们能把这种沉重的近战武器轻松投送到极远处。</DR_BattleSpear.description>
+  <DR_BattleSpear.tools.shaft.label>杆</DR_BattleSpear.tools.shaft.label>
+  <DR_BattleSpear.tools.point.label>矛尖</DR_BattleSpear.tools.point.label>
+
+  <DRM_Spear_Thrown.label>飞矛</DRM_Spear_Thrown.label>
+
+  <DR_ClusterSpear.label>龙娘 集束飞矛</DR_ClusterSpear.label>
+  <DR_ClusterSpear.description>龙娘使用的一捆飞矛。这种武器一次能扔出一捆短矛。</DR_ClusterSpear.description>
+  <DR_ClusterSpear.tools.shaft.label>杆</DR_ClusterSpear.tools.shaft.label>
+  <DR_ClusterSpear.tools.point.label>矛尖</DR_ClusterSpear.tools.point.label>
+
+  <DR_ClusterSpear_Acid.label>龙娘 浸酸飞矛</DR_ClusterSpear_Acid.label>
+  <DR_ClusterSpear_Acid.description>龙娘使用的一捆飞矛。这种武器经过浸酸处理。</DR_ClusterSpear_Acid.description>
+  <DR_ClusterSpear_Acid.tools.shaft.label>杆</DR_ClusterSpear_Acid.tools.shaft.label>
+  <DR_ClusterSpear_Acid.tools.point.label>矛尖</DR_ClusterSpear_Acid.tools.point.label>
+
+  <DRM_ShortSpear_Thrown.label>短飞矛</DRM_ShortSpear_Thrown.label>
+  <DRM_ShortSpear_Acid.label>浸酸短飞矛</DRM_ShortSpear_Acid.label>
+
+  <DR_ChainSpear.label>龙娘 链式飞矛</DR_ChainSpear.label>
+  <DR_ChainSpear.description>龙娘使用的一串飞矛。这种武器的使用者就是一个会吐出短矛的怪物。</DR_ChainSpear.description>
+  <DR_ChainSpear.tools.shaft.label>杆</DR_ChainSpear.tools.shaft.label>
+  <DR_ChainSpear.tools.point.label>矛尖</DR_ChainSpear.tools.point.label>
+
+  <DR_ChainSpear_Ex.label>龙娘 爆碎链式飞矛</DR_ChainSpear_Ex.label>
+  <DR_ChainSpear_Ex.description>龙娘使用的一串飞矛。这种武器的使用者就是一个会吐出炸弹的怪物。</DR_ChainSpear_Ex.description>
+  <DR_ChainSpear_Ex.tools.shaft.label>杆</DR_ChainSpear_Ex.tools.shaft.label>
+  <DR_ChainSpear_Ex.tools.point.label>矛尖</DR_ChainSpear_Ex.tools.point.label>
+
+  <DRM_ChainSpear_Thrown.label>短飞矛</DRM_ChainSpear_Thrown.label>
+  <DRM_ChainSpear_Ex.label>爆碎飞矛</DRM_ChainSpear_Ex.label>
+
+</LanguageData>

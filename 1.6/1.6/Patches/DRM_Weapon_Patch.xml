@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_BattleMace"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_BattleMace"]</xpath>
+				<value>
+					<weaponTags>
+						<li>DR_BattleMace</li>
+					</weaponTags>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_BattleMace"]/recipeMaker</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>DragonianMeleeWeapon</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_Battlesword"]</xpath>
+
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_Battlesword"]</xpath>
+				<value>
+					<weaponTags>
+						<li>DR_Battlesword</li>
+					</weaponTags>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_Battlesword"]/recipeMaker</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>DragonianMeleeWeapon</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_BattleStaff"]</xpath>
+
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_BattleStaff"]</xpath>
+				<value>
+					<weaponTags>
+						<li>DR_BattleStaff_Melee</li>
+					</weaponTags>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_BattleStaff"]/recipeMaker</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>DragonianMeleeWeapon</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--龙娘武器限制删除-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/raceRestriction/weaponList</xpath>
+				<value>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

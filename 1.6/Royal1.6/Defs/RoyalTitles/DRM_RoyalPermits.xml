@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================= Permits from royal titles ============================= -->
+
+  <!--<RoyalTitlePermitDef>
+    <defName>TradeSettlement</defName>
+    <label>trade with settlements</label>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>TradeOrbital</defName>
+    <label>trade with orbital traders</label>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>TradeCaravan</defName>
+    <label>trade with caravans</label>
+  </RoyalTitlePermitDef>-->
+
+
+  <!-- ============================= Faction permits ============================= -->
+
+  <!-- Econ -->
+
+  <RoyalTitlePermitDef Name="DRM_DropResourcesBase" Abstract="True">
+    <workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
+    <faction>Dragonian_NPC</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>20</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <royalAid>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+    <defName>DRM_HappyBundleDrop</defName>
+    <label>happybundle drop</label>
+    <description>Call for a bundle drop that contain 250 steel,5 component,20 packaged survival meals,and 500 silver.Be happy kids.</description>
+    <minTitle>DRM_Stranger</minTitle>
+    <faction>Dragonian_NPC</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,0)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Steel>250</Steel>
+        <ComponentIndustrial>5</ComponentIndustrial>
+        <MealSurvivalPack>20</MealSurvivalPack>
+        <Silver>500</Silver>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <!--<RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+    <defName>DRM_FoodDrop</defName>
+    <label>food drop</label>
+    <description>Call for a drop of 20 packaged survival meals.</description>
+    <minTitle>DRM_Stranger</minTitle>
+    <uiPosition>(0,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MealSurvivalPack>20</MealSurvivalPack>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+    <defName>DRM_SilverDrop</defName>
+    <label>silver drop</label>
+    <description>Call for a drop of 500 silver.</description>
+    <minTitle>DRM_Stranger</minTitle>
+    <uiPosition>(0,4)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Silver>500</Silver>
+      </itemsToDrop>
+      <favorCost>6</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>-->
+
+  <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+    <defName>DRM_MedDrop</defName>
+    <label>med drop</label>
+    <description>Call for a drop of 20 Herbal medicine.That's the best thing they can find.</description>
+    <minTitle>DRM_Stranger</minTitle>
+    <uiPosition>(1,0)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MedicineHerbal>20</MedicineHerbal>
+      </itemsToDrop>
+      <favorCost>8</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+    <defName>DRM_DressDrop</defName>
+    <label>Dress drop</label>
+    <description>Call for a drop of 3 basic dress.All dragonian should dress up nice and clean.</description>
+    <workerClass>DragonianMix.RoyalTitlePermitWorker_DropResources</workerClass>
+    <minTitle>DRM_Stranger</minTitle>
+    <uiPosition>(0,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <DR_BasicDress>
+          <stuff>WoolDragonian</stuff>
+          <count>3</count>
+        </DR_BasicDress>
+      </itemsToDrop>
+      <favorCost>8</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="DRM_DropResourcesBase">
+    <defName>DRM_WoolDrop</defName>
+    <label>Wool drop</label>
+    <description>Call for a drop of 100 dragonian wool.Make use of them.</description>
+    <minTitle>DRM_Stranger</minTitle>
+    <uiPosition>(1,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <WoolDragonian>100</WoolDragonian>
+      </itemsToDrop>
+      <favorCost>8</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallVillagerTeam</defName>
+    <label>call Villager team</label>
+    <description>Call a group of 4 dragonian villager to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
+    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
+    <minTitle>DRM_Known</minTitle>
+    <faction>Dragonian_NPC</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,2)</uiPosition>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>Dragonian_Villager</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <aidDurationDays>4</aidDurationDays>
+      <targetingRange>44.9</targetingRange>
+      <targetingRequireLOS>false</targetingRequireLOS>
+    </royalAid>
+    <cooldownDays>40</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallVillagerGang</defName>
+    <label>call Villager gang</label>
+    <description>Call a group of 8 dragonian villager to assist you for 4 days. I don't know why you need so many dragonian.They will back onepiece right?</description>
+    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
+    <minTitle>DRM_trusted</minTitle>
+    <faction>Dragonian_NPC</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>DRM_CallVillagerTeam</prerequisite>
+    <uiPosition>(1,2)</uiPosition>
+    <royalAid>
+      <favorCost>8</favorCost>
+      <pawnKindDef>Dragonian_Villager</pawnKindDef>
+      <pawnCount>8</pawnCount>
+      <aidDurationDays>4</aidDurationDays>
+      <targetingRange>44.9</targetingRange>
+      <targetingRequireLOS>false</targetingRequireLOS>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+
+  <!-- Combat -->
+
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallHunterAidSmall</defName>
+    <label>call hunter squad</label>
+    <description>Call a group of 4 Dragonian Clan Hunter to aid you in battle.They are ranged troop.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>DRM_Known</minTitle>
+    <faction>Dragonian_NPC</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,6)</uiPosition>
+    <royalAid>
+      <favorCost>6</favorCost>
+      <pawnKindDef>Dragonian_Clan_Hunter</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>40</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallHunterAidLarge</defName>
+    <label>call hunter squad extra</label>
+    <description>Call a group of 8 Dragonian Clan Hunter to aid you in battle.They are ranged troop.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>DRM_trusted</minTitle>
+    <faction>Dragonian_NPC</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>DRM_CallHunterAidSmall</prerequisite>
+    <uiPosition>(1,6)</uiPosition>
+    <royalAid>
+      <favorCost>8</favorCost>
+      <pawnKindDef>Dragonian_Clan_Hunter</pawnKindDef>
+      <pawnCount>6</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>40</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallGuardAidSmall</defName>
+    <label>call guard squad</label>
+    <description>Call a group of 4 professional janissaries to aid you in battle.They are melee troop.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>DRM_Known</minTitle>
+    <faction>Dragonian_NPC</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,7)</uiPosition>
+    <royalAid>
+      <favorCost>6</favorCost>
+      <pawnKindDef>Dragonian_Clan_Guard</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>40</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>DRM_CallRoyalGuardAidSmall</defName>
+    <label>call royal guard group</label>
+    <description>Call a group of 4 heavy cataphracts to aid you in battle.Hammers time.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>DRM_trusted</minTitle>
+    <faction>Dragonian_NPC</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>DRM_CallGuardAidSmall</prerequisite>
+    <uiPosition>(1,7)</uiPosition>
+    <royalAid>
+      <favorCost>8</favorCost>
+      <pawnKindDef>Dragonian_Royal_Guard</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>40</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <!--<RoyalTitlePermitDef>
+    <defName>DRM_CallOrbitalStrike</defName>
+    <label>call aerodrone strike</label>
+    <description>Call a single-impact aerodrone strike at a target position.</description>
+    <workerClass>DragonianMix.RoyalTitlePermitWorker_DRM_OrbitalStrike</workerClass>
+    <minTitle>DRM_Stranger</minTitle>
+    <faction>Dragonian_NPC</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>45</cooldownDays>
+    <uiPosition>(0,5)</uiPosition>
+    <royalAid>
+      <favorCost>6</favorCost>
+      <targetingRange>44.9</targetingRange>
+      <radius>2.9</radius>
+      <explosionRadiusRange>14.9</explosionRadiusRange>
+      <explosionCount>1</explosionCount>
+      <intervalTicks>60</intervalTicks>
+      <warmupTicks>120</warmupTicks>
+    </royalAid>
+  </RoyalTitlePermitDef>-->
+
+  <!--<RoyalTitlePermitDef>
+    <defName>CallOrbitalSalvo</defName>
+    <label>call aerodrone salvo</label>
+    <description>Call a salvo of aerodrone strikes around a target position.</description>
+    <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
+    <minTitle>DRM_Stranger</minTitle>
+    <faction>Dragonian_NPC</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>CallOrbitalStrike</prerequisite>
+    <cooldownDays>60</cooldownDays>
+    <uiPosition>(1,5)</uiPosition>
+    <royalAid>
+      <favorCost>8</favorCost>
+      <targetingRange>44.9</targetingRange>
+      <radius>7.9</radius>
+      <explosionRadiusRange>5.9</explosionRadiusRange>
+      <explosionCount>6</explosionCount>
+      <intervalTicks>60</intervalTicks>
+      <warmupTicks>120</warmupTicks>
+    </royalAid>
+  </RoyalTitlePermitDef>-->
+
+  <!--<RoyalTitlePermitDef>
+    <defName>CallTransportShuttle</defName>
+    <label>call transport shuttle</label>
+    <description>Call a shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 70 world tiles.</description>
+    <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>
+    <minTitle>DRM_Stranger</minTitle>
+    <faction>Dragonian_NPC</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>40</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <uiPosition>(0,6)</uiPosition>
+    <royalAid>
+      <favorCost>8</favorCost>
+      <targetingRange>44.9</targetingRange>
+      <targetingRequireLOS>false</targetingRequireLOS>
+    </royalAid>
+  </RoyalTitlePermitDef>-->
+
+</Defs>

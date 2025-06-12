@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RoyalTitleDef Abstract="True" Name="Dragonian_BaseRoyalTitle">
+        <tags>
+            <li>Dragonian_Royal_Title</li>
+        </tags>
+        <awardThought>GainedTitle</awardThought>
+        <lostThought>LostTitle</lostThought>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="Dragonian_BaseRoyalTitle">
+        <defName>DRM_Stranger</defName>
+        <label>stranger</label>
+        <description>stranger.</description>
+        <seniority>0</seniority>
+        <favorCost>8</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <permitPointsAwarded>1</permitPointsAwarded>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permits>
+            <li>TradeSettlement</li>
+            <li>TradeCaravan</li>
+            <li>TradeOrbital</li>
+          </permits>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="Dragonian_BaseRoyalTitle">
+        <defName>DRM_Known</defName>
+        <label>Known</label>
+        <description>Known.</description>
+        <seniority>100</seniority>
+        <favorCost>12</favorCost>
+        <recruitmentResistanceOffset>3</recruitmentResistanceOffset>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>0.6</commonality>
+        <permitPointsAwarded>2</permitPointsAwarded>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+      </RoyalTitleDef>
+
+      <RoyalTitleDef ParentName="Dragonian_BaseRoyalTitle">
+        <defName>DRM_trusted</defName>
+        <label>trusted</label>
+        <description>trusted.</description>
+        <seniority>200</seniority>
+        <favorCost>24</favorCost>
+        <recruitmentResistanceOffset>3</recruitmentResistanceOffset>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>0.6</commonality>
+        <permitPointsAwarded>3</permitPointsAwarded>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+      </RoyalTitleDef>
+
+      <RoyalTitleDef ParentName="Dragonian_BaseRoyalTitle">
+        <defName>DRM_Cheften</defName>
+        <label>chieftain</label>
+        <description>chieftain is actual leader of dragonian clan.</description>
+        <seniority>700</seniority>
+        <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+        <recruitmentResistanceOffset>75</recruitmentResistanceOffset>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>0</commonality>
+        <permitPointsAwarded>4</permitPointsAwarded>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+      </RoyalTitleDef>
+
+      <RoyalTitleDef ParentName="Dragonian_BaseRoyalTitle">
+        <defName>DRM_Princess</defName>
+        <label>Princess</label>
+        <description>the chosen one dragonian princess.</description>
+        <seniority>1000</seniority>
+        <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+        <recruitmentResistanceOffset>75</recruitmentResistanceOffset>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>0</commonality>
+        <permitPointsAwarded>10</permitPointsAwarded>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+      </RoyalTitleDef>
+
+</Defs>

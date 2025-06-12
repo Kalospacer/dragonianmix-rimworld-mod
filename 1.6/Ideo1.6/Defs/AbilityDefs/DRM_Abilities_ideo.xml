@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AbilityDef ParentName="RoleAuraBuffBase">
+    <defName>DRM_HealBreakOut</defName>
+    <label>Heal BreakOut</label>
+    <description>Overdrive orbs.Heal wound in insane speed.</description>
+    <iconPath>UI/Abilities/ImmunityDrive</iconPath>
+    <warmupMoteSocialSymbol>UI/Abilities/ImmunityDrive</warmupMoteSocialSymbol>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>false</aiCanUse>
+    <showCastingProgressBar>true</showCastingProgressBar>
+
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
+    <statBases>
+      <Ability_Duration>150</Ability_Duration>
+      <Ability_EffectRadius>0</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <range>0</range>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>DRM_HealBreakOut</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+      </li>
+    </comps>
+  </AbilityDef>
+
+</Defs>

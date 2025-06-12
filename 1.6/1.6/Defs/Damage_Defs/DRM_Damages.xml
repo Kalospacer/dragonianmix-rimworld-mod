@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DamageDef>
+		<defName>DRM_Frostbite</defName>
+		<label>frostbite</label>
+		<workerClass>DamageWorker_Frostbite</workerClass>
+		<externalViolence>false</externalViolence>
+		<deathMessage>{0} has succumbed to frostbite.</deathMessage>
+		<hediff>Frostbite</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+		<additionalHediffs>
+			<li>
+				<hediff>Hypothermia</hediff>
+				<severityPerDamageDealt>0.003</severityPerDamageDealt>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+		<armorCategory>Heat</armorCategory>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<defaultDamage>3</defaultDamage>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
+		<causeStun>true</causeStun>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>DRM_Bomb</defName>
+		<label>bomb</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<deathMessage>{0} has died in an explosion.</deathMessage>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_SlimeCoverd</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+		<hediff>Shredded</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<minDamageToFragment>15</minDamageToFragment>
+		<defaultDamage>20</defaultDamage>
+		<defaultStoppingPower>0.5</defaultStoppingPower>
+		<defaultArmorPenetration>0.10</defaultArmorPenetration>
+		<buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>2</buildingDamageFactorPassable>
+		<plantDamageFactor>4</plantDamageFactor>
+		<corpseDamageFactor>0.5</corpseDamageFactor>
+		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+		<explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+		<explosionCellFleck>BlastDry</explosionCellFleck>
+		<explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
+		<explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+		<soundExplosion>Explosion_Bomb</soundExplosion>
+		<combatLogRules>Damage_Bomb</combatLogRules>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>DRM_Bomb_mini</defName>
+		<label>bomb</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<deathMessage>{0} has died in an explosion.</deathMessage>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_SlimeCoverd_mini</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+		<hediff>Shredded</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<minDamageToFragment>15</minDamageToFragment>
+		<defaultDamage>20</defaultDamage>
+		<defaultStoppingPower>0.5</defaultStoppingPower>
+		<defaultArmorPenetration>0.10</defaultArmorPenetration>
+		<buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>2</buildingDamageFactorPassable>
+		<plantDamageFactor>4</plantDamageFactor>
+		<corpseDamageFactor>0.5</corpseDamageFactor>
+		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+		<explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+		<explosionCellFleck>BlastDry</explosionCellFleck>
+		<explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
+		<explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+		<soundExplosion>Explosion_Bomb</soundExplosion>
+		<combatLogRules>Damage_Bomb</combatLogRules>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>DRM_Damage_FrostCoverd</defName>
+		<label>frostbite</label>
+		<workerClass>DamageWorker_Frostbite</workerClass>
+		<externalViolence>false</externalViolence>
+		<deathMessage>{0} has succumbed to frostbite.</deathMessage>
+		<hediff>Frostbite</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+		<additionalHediffs>
+			<li>
+				<hediff>Hypothermia</hediff>
+				<severityPerDamageDealt>0.003</severityPerDamageDealt>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+			<li>
+				<hediff>DRM_CryoShock</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+			</li>
+			<li>
+				<hediff>DRM_Hediff_FrostCoverd_after</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+		<armorCategory>Heat</armorCategory>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<defaultDamage>3</defaultDamage>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>DRM_Damage_FrostCoverd_after</defName>
+		<label>frostbite</label>
+		<workerClass>DamageWorker_Frostbite</workerClass>
+		<externalViolence>false</externalViolence>
+		<deathMessage>{0} has succumbed to frostbite.</deathMessage>
+		<hediff>Frostbite</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+		<additionalHediffs>
+			<li>
+				<hediff>Hypothermia</hediff>
+				<severityPerDamageDealt>0.003</severityPerDamageDealt>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+			<li>
+				<hediff>DRM_CryoShock</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<armorCategory>Heat</armorCategory>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<defaultDamage>3</defaultDamage>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
+	</DamageDef>
+
+	<DamageDef ParentName="Flame">
+		<defName>DRM_Flame</defName>
+		<label>Flame</label>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_ArmorMeltdown</hediff>
+				<severityPerDamageDealt>0.02</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<DamageDef ParentName="Flame">
+		<defName>DRM_Arc</defName>
+		<label>Flame</label>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_ElectricShock</hediff>
+				<severityPerDamageDealt>0.02</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<causeStun>true</causeStun>
+		<stunAdaptationTicks>120</stunAdaptationTicks>
+	</DamageDef>
+
+	<DamageDef ParentName="Flame">
+		<defName>DRM_AcidBurn</defName>
+		<label>acid burn</label>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_AcidCorrosion</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<armorCategory>Sharp</armorCategory>
+		<hediff>AcidBurn</hediff>
+		<scaleDamageToBuildingsBasedOnFlammability>false</scaleDamageToBuildingsBasedOnFlammability>
+	</DamageDef>
+
+	<DamageDef ParentName="Flame">
+		<defName>DRM_AcidCover</defName>
+		<label>acid burn</label>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_AcidCoverd</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<armorCategory>Sharp</armorCategory>
+		<hediff>AcidBurn</hediff>
+		<scaleDamageToBuildingsBasedOnFlammability>false</scaleDamageToBuildingsBasedOnFlammability>
+	</DamageDef>
+
+	<DamageDef ParentName="Flame">
+		<defName>DRM_Damage_AcidCover_Ex</defName>
+		<label>acid burn</label>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_AcidCoverd_Ex</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+			</li>
+			<li>
+				<hediff>DRM_AcidCoverd</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<armorCategory>Sharp</armorCategory>
+		<hediff>AcidBurn</hediff>
+		<scaleDamageToBuildingsBasedOnFlammability>false</scaleDamageToBuildingsBasedOnFlammability>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>DRM_RangedStab</defName>
+		<label>stab</label>
+		<workerClass>DamageWorker_Stab</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stabbed to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<defaultArmorPenetration>0.5</defaultArmorPenetration>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>DRM_Thump</defName>
+		<label>thump</label>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_Stun</hediff>
+				<severityPerDamageDealt>0.1</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<deathMessage>{0} has been shot to death.</deathMessage>
+		<hediff>Crush</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<minDamageToFragment>15</minDamageToFragment>
+		<defaultDamage>5</defaultDamage>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<buildingDamageFactorImpassable>15</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>7.5</buildingDamageFactorPassable>
+		<plantDamageFactor>4</plantDamageFactor>
+		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+		<explosionCellFleck>BlastDry</explosionCellFleck>
+		<explosionColorCenter>(0.73, 0.93, 0.96)</explosionColorCenter>
+		<explosionColorEdge>(0.71, 0.82, 0.90)</explosionColorEdge>
+		<soundExplosion>Explosion_Thump</soundExplosion>
+		<combatLogRules>Damage_Bomb</combatLogRules>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>DRM_Feargas</defName>		<!-- independent -->
+		<label>Fear gas</label>
+		<workerClass>DragonianMix.DamageWorker_OPToxic</workerClass>
+		<canInterruptJobs>false</canInterruptJobs>
+		<makesBlood>false</makesBlood>
+		<defaultDamage>0</defaultDamage>
+		<explosionCellFleck>BlastExtinguisher</explosionCellFleck>
+		<explosionColorEdge>(78,65,167,0.05)</explosionColorEdge>
+		<soundExplosion>Explosion_Stun</soundExplosion>
+		<harmsHealth>false</harmsHealth>
+		<combatLogRules>Damage_Extinguish</combatLogRules>
+	</DamageDef>
+
+</Defs>

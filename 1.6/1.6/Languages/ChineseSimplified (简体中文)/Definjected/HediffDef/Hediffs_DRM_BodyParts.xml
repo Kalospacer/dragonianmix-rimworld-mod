@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <ShieldDragonianOrb_Booster.label>龙娘 护盾赤色充能源石</ShieldDragonianOrb_Booster.label>
+  <ShieldDragonianOrb_Booster.description>一颗神秘的石头。让护盾更好更快更强。</ShieldDragonianOrb_Booster.description>
+  <ShieldDragonianOrb_Booster.labelNoun>龙娘 护盾赤色充能源石</ShieldDragonianOrb_Booster.labelNoun>
+
+  <ShieldDragonianOrb_AdvancedBooster.label>龙娘 护盾橙色充能源石</ShieldDragonianOrb_AdvancedBooster.label>
+  <ShieldDragonianOrb_AdvancedBooster.description>一颗神秘的石头。让护盾更好更快更强。</ShieldDragonianOrb_AdvancedBooster.description>
+  <ShieldDragonianOrb_AdvancedBooster.labelNoun>龙娘 护盾橙色充能源石</ShieldDragonianOrb_AdvancedBooster.labelNoun>
+
+  <ShieldDragonianOrb_AdaptiveModule.label>龙娘 护盾适应源石</ShieldDragonianOrb_AdaptiveModule.label>
+  <ShieldDragonianOrb_AdaptiveModule.description>一颗神秘的石头。让护盾同种伤害类型减少伤害。</ShieldDragonianOrb_AdaptiveModule.description>
+  <ShieldDragonianOrb_AdaptiveModule.labelNoun>龙娘 护盾适应源石</ShieldDragonianOrb_AdaptiveModule.labelNoun>
+
+  <ShieldDragonianOrb_BufferModule.label>龙娘 护盾缓冲源石</ShieldDragonianOrb_BufferModule.label>
+  <ShieldDragonianOrb_BufferModule.description>一颗神秘的石头。让护盾不会受到超过10点伤害。</ShieldDragonianOrb_BufferModule.description>
+  <ShieldDragonianOrb_BufferModule.labelNoun>龙娘 护盾缓冲源石</ShieldDragonianOrb_BufferModule.labelNoun>
+
+  <DR_BionicTail.label>仿生尾</DR_BionicTail.label>
+  <DR_BionicTail.description>一条龙娘专用的仿生尾巴。它还包含一个小型AI帮助使用者自动保持平衡。</DR_BionicTail.description>
+  <DR_BionicTail.labelNoun>仿生尾</DR_BionicTail.labelNoun>
+
+  <DR_FakeTail.label>假尾巴</DR_FakeTail.label>
+  <DR_FakeTail.description>一条龙娘专用的假尾巴。它只是用一根皮革带子作为替代。总比没有强一点。</DR_FakeTail.description>
+  <DR_FakeTail.labelNoun>假尾巴</DR_FakeTail.labelNoun>
+
+  <FakeDragonianOrb.label>玻璃龙珠</FakeDragonianOrb.label>
+  <FakeDragonianOrb.description>一个大玻璃球。用来替代龙娘缺失的那颗。</FakeDragonianOrb.description>
+  <FakeDragonianOrb.labelNoun>玻璃龙珠</FakeDragonianOrb.labelNoun>
+
+  <NecroDragonianOrb.label>龙娘 死灵龙珠</NecroDragonianOrb.label>
+  <NecroDragonianOrb.description>一颗龙珠。能够释放死灵粉尘。死亡时引发死灵粉尘爆炸，触发后龙珠会消失。</NecroDragonianOrb.description>
+  <NecroDragonianOrb.labelNoun>死灵龙珠</NecroDragonianOrb.labelNoun>
+
+  <HyperhealDragonianOrb.label>龙娘 超再生珠</HyperhealDragonianOrb.label>
+  <HyperhealDragonianOrb.description>一颗龙珠。拥有强大的再生能力。</HyperhealDragonianOrb.description>
+  <HyperhealDragonianOrb.labelNoun>超再生珠</HyperhealDragonianOrb.labelNoun>
+
+  <HardenDragonianOrb.label>龙娘 硬化龙珠</HardenDragonianOrb.label>
+  <HardenDragonianOrb.description>一颗龙珠。硬起来吧！</HardenDragonianOrb.description>
+  <HardenDragonianOrb.labelNoun>硬化龙珠</HardenDragonianOrb.labelNoun>
+
+    <FlareDragonianOrb.label>龙娘 火炎龙珠</FlareDragonianOrb.label>
+  <FlareDragonianOrb.description>一颗龙珠。能够释放一团火球。装备或植入时攻击额外造成20%火焰伤害。</FlareDragonianOrb.description>
+  <FlareDragonianOrb.labelNoun>火炎龙珠</FlareDragonianOrb.labelNoun>
+
+  <AcidifierDragonianOrb.label>龙娘 酸解龙珠</AcidifierDragonianOrb.label>
+  <AcidifierDragonianOrb.description>一颗龙珠。死亡时引发小型酸蚀爆炸，并溶解身上的装备。装备或植入时攻击额外造成20%酸蚀伤害。</AcidifierDragonianOrb.description>
+  <AcidifierDragonianOrb.labelNoun>酸解龙珠</AcidifierDragonianOrb.labelNoun>
+
+  <ShieldDragonianOrb.label>龙娘 护盾龙珠</ShieldDragonianOrb.label>
+  <ShieldDragonianOrb.description>一颗龙珠。提供有一点自私的护盾。</ShieldDragonianOrb.description>
+  <ShieldDragonianOrb.labelNoun>护盾龙珠</ShieldDragonianOrb.labelNoun>
+
+  <EnderDragonianOrb.label>龙娘 末影龙珠</EnderDragonianOrb.label>
+  <EnderDragonianOrb.description>一颗龙珠。拥有强大的折跃能力。</EnderDragonianOrb.description>
+  <EnderDragonianOrb.labelNoun>末影龙珠</EnderDragonianOrb.labelNoun>
+
+  <ToxicDragonianOrb.label>龙娘 毒素龙珠</ToxicDragonianOrb.label>
+  <ToxicDragonianOrb.description>一颗龙珠。有毒危险。死亡时引发有毒气体爆炸。装备或植入时攻击额外造成20%毒素伤害。</ToxicDragonianOrb.description>
+  <ToxicDragonianOrb.labelNoun>毒素龙珠</ToxicDragonianOrb.labelNoun>
+
+  <ThunderDragonianOrb.label>龙娘 雷光龙珠</ThunderDragonianOrb.label>
+  <ThunderDragonianOrb.description>一颗龙珠。能够释放雷电。装备或植入时攻击额外造成20%雷电伤害。</ThunderDragonianOrb.description>
+  <ThunderDragonianOrb.labelNoun>雷光龙珠</ThunderDragonianOrb.labelNoun>
+
+  <FrozenDragonianOrb.label>龙娘 冰结龙珠</FrozenDragonianOrb.label>
+  <FrozenDragonianOrb.description>一颗龙珠。能够冻结空气。装备或植入时攻击额外造成20%冷冻伤害。</FrozenDragonianOrb.description>
+  <FrozenDragonianOrb.labelNoun>冰结龙珠</FrozenDragonianOrb.labelNoun>
+
+  <DRM_SlashTail.label>龙娘 斩龙尾</DRM_SlashTail.label>
+  <DRM_SlashTail.description>一条斩龙尾。巨大的剑刃替代了尾巴。</DRM_SlashTail.description>
+  <DRM_SlashTail.labelNoun>斩龙尾</DRM_SlashTail.labelNoun>
+
+  <DRM_FlameSlashTail.label>龙娘 焚斩尾</DRM_FlameSlashTail.label>
+  <DRM_FlameSlashTail.description>一条焚斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴温度极度炙热。</DRM_FlameSlashTail.description>
+  <DRM_FlameSlashTail.labelNoun>焚斩尾</DRM_FlameSlashTail.labelNoun>
+
+  <DRM_AcidSlashTail.label>龙娘 酸斩尾</DRM_AcidSlashTail.label>
+  <DRM_AcidSlashTail.description>一条酸斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴能分泌危险的腐蚀性酸液。</DRM_AcidSlashTail.description>
+  <DRM_AcidSlashTail.labelNoun>酸斩尾</DRM_AcidSlashTail.labelNoun>
+
+  <DRM_ExplosiveSlashTail.label>龙娘 碎斩尾</DRM_ExplosiveSlashTail.label>
+  <DRM_ExplosiveSlashTail.description>一条碎斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴上覆盖了危险的易爆材料。</DRM_ExplosiveSlashTail.description>
+  <DRM_ExplosiveSlashTail.labelNoun>碎斩尾</DRM_ExplosiveSlashTail.labelNoun>
+
+  <DRM_CryoSlashTail.label>龙娘 霜斩尾</DRM_CryoSlashTail.label>
+  <DRM_CryoSlashTail.description>一条霜斩尾。巨大的剑刃替代了尾巴。这种亚种尾巴温度极度冰冷。</DRM_CryoSlashTail.description>
+  <DRM_CryoSlashTail.labelNoun>霜斩尾</DRM_CryoSlashTail.labelNoun>
+
+  <DRM_KnightForce.label>骑士之力</DRM_KnightForce.label>
+  <DRM_KnightForce.description>这个人已经完全准备就绪。无法被击退。</DRM_KnightForce.description>
+
+  <DRM_HealBreakOut.label>超再生爆发</DRM_HealBreakOut.label>
+  <DRM_HealBreakOut.description>这个人正处于超再生爆发状态。伤势以极度异常的速度愈合。</DRM_HealBreakOut.description>
+
+  <DRM_SummonSickness.label>召唤失调综合征</DRM_SummonSickness.label>
+  <DRM_SummonSickness.description>这个人不应该出现在这里。他的身体正在崩解，症状将会持续恶化，最终会导致死亡。</DRM_SummonSickness.description>
+
+  <!-- EN: frostbite -->
+  <DRM_Frostbite.label>冻伤</DRM_Frostbite.label>
+  <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
+  <DRM_Frostbite.description>冻伤是由于寒冷潮湿作用引起的患者局部或全身损伤。冻伤非常痛苦，患者经常会被迫失去冻伤的身体部位。</DRM_Frostbite.description>
+  <!-- EN: tended -->
+  <DRM_Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</DRM_Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <DRM_Frostbite.comps.HediffComp_TendDuration.labelTendedWell>已包扎</DRM_Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <DRM_Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</DRM_Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: frostbite scar -->
+  <DRM_Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>冻伤疤痕</DRM_Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Lost to frostbite -->
+  <DRM_Frostbite.injuryProps.destroyedLabel>因冻伤失去</DRM_Frostbite.injuryProps.destroyedLabel>
+  <!-- EN: {0} in the {1} -->
+  <DRM_Frostbite.labelNounPretty>{1}中的{0}</DRM_Frostbite.labelNounPretty>
+
+  <DRM_ArmorMeltdown.label>护甲熔解</DRM_ArmorMeltdown.label>
+  <DRM_ArmorMeltdown.description>由于持续受到高热影响，这个[PAWN_nameDef]的护甲正在熔化。将随程度降低热能护甲。</DRM_ArmorMeltdown.description>
+  <!-- EN: minor -->
+  <DRM_ArmorMeltdown.stages.minor-0.label>轻微熔化</DRM_ArmorMeltdown.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_ArmorMeltdown.stages.minor-1.label>较轻熔化</DRM_ArmorMeltdown.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_ArmorMeltdown.stages.moderate.label>中等熔化</DRM_ArmorMeltdown.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_ArmorMeltdown.stages.serious.label>严重熔化</DRM_ArmorMeltdown.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_ArmorMeltdown.stages.extreme.label>极重熔化</DRM_ArmorMeltdown.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_ArmorMeltdown.stages.completely.label>完全熔化</DRM_ArmorMeltdown.stages.completely.label>
+
+  <DRM_AcidCoverd.label>酸性沾染</DRM_AcidCoverd.label>
+  <DRM_AcidCoverd.description>由于接触强酸性物质，这个[PAWN_nameDef]正在受到持续性的酸蚀伤害。</DRM_AcidCoverd.description>
+  <!-- EN: minor -->
+  <DRM_AcidCoverd.stages.minor-0.label>轻微</DRM_AcidCoverd.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_AcidCoverd.stages.minor-1.label>较轻</DRM_AcidCoverd.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_AcidCoverd.stages.moderate.label>中等</DRM_AcidCoverd.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_AcidCoverd.stages.serious.label>严重</DRM_AcidCoverd.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_AcidCoverd.stages.extreme.label>极重</DRM_AcidCoverd.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_AcidCoverd.stages.completely.label>完全</DRM_AcidCoverd.stages.completely.label>
+
+  <DRM_AcidCoverd_Ex.label>酸雾沾染</DRM_AcidCoverd_Ex.label>
+  <DRM_AcidCoverd_Ex.description>[PAWN_nameDef]被酸雾沾染，即将产生酸蚀爆炸。</DRM_AcidCoverd_Ex.description>
+  <!-- EN: minor -->
+  <DRM_AcidCoverd_Ex.stages.minor-0.label>轻微</DRM_AcidCoverd_Ex.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_AcidCoverd_Ex.stages.minor-1.label>较轻</DRM_AcidCoverd_Ex.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_AcidCoverd_Ex.stages.moderate.label>中等</DRM_AcidCoverd_Ex.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_AcidCoverd_Ex.stages.serious.label>严重</DRM_AcidCoverd_Ex.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_AcidCoverd_Ex.stages.extreme.label>极重</DRM_AcidCoverd_Ex.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_AcidCoverd_Ex.stages.completely.label>完全</DRM_AcidCoverd_Ex.stages.completely.label>
+
+  <DRM_AcidCorrosion.label>酸性腐蚀</DRM_AcidCorrosion.label>
+  <DRM_AcidCorrosion.description>由于接触强酸性物质，这个[PAWN_nameDef]的护甲正在受到腐蚀。将随程度降低护甲。</DRM_AcidCorrosion.description>
+  <!-- EN: minor -->
+  <DRM_AcidCorrosion.stages.minor-0.label>轻微腐蚀</DRM_AcidCorrosion.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_AcidCorrosion.stages.minor-1.label>较轻腐蚀</DRM_AcidCorrosion.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_AcidCorrosion.stages.moderate.label>中等腐蚀</DRM_AcidCorrosion.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_AcidCorrosion.stages.serious.label>严重腐蚀</DRM_AcidCorrosion.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_AcidCorrosion.stages.extreme.label>极重腐蚀</DRM_AcidCorrosion.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_AcidCorrosion.stages.completely.label>完全腐蚀</DRM_AcidCorrosion.stages.completely.label>
+
+  <DRM_ElectricShock.label>高压触电</DRM_ElectricShock.label>
+  <DRM_ElectricShock.description>由于遭受高压电击，这个[PAWN_nameDef]的全身肌肉正在痉挛，无法行动。</DRM_ElectricShock.description>
+  <!-- EN: minor -->
+  <DRM_ElectricShock.stages.minor-0.label>轻微</DRM_ElectricShock.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_ElectricShock.stages.minor-1.label>较轻</DRM_ElectricShock.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_ElectricShock.stages.moderate.label>中等</DRM_ElectricShock.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_ElectricShock.stages.serious.label>严重</DRM_ElectricShock.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_ElectricShock.stages.extreme.label>极重</DRM_ElectricShock.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_ElectricShock.stages.completely.label>完全</DRM_ElectricShock.stages.completely.label>
+
+  <DRM_CryoShock.label>低温休克</DRM_CryoShock.label>
+  <DRM_CryoShock.description>由于体温骤降，这个[PAWN_nameDef]意识正在降低，无法行动。</DRM_CryoShock.description>
+  <!-- EN: minor -->
+  <DRM_CryoShock.stages.minor-0.label>轻微</DRM_CryoShock.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_CryoShock.stages.minor-1.label>较轻</DRM_CryoShock.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_CryoShock.stages.moderate.label>中等</DRM_CryoShock.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_CryoShock.stages.serious.label>严重</DRM_CryoShock.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_CryoShock.stages.extreme.label>极重</DRM_CryoShock.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_CryoShock.stages.completely.label>完全</DRM_CryoShock.stages.completely.label>
+
+  <!-- EN: tox gas -->
+  <DRM_FearGas.label>恐惧毒气</DRM_FearGas.label>
+  <!-- EN: Aftereffects of exposure to tox gas, a poisonous chemical gas. It burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup and eventually death. -->
+  <DRM_FearGas.description>接触恐惧气体产生的负面影响。恐惧气体会灼伤生物的眼睛与肺部，使视觉与呼吸能力暂时降低。持续暴露还会引发生物极度恐惧情绪和诱发暴力行为。</DRM_FearGas.description>
+  <!-- EN: mild -->
+  <DRM_FearGas.stages.mild.label>较轻</DRM_FearGas.stages.mild.label>
+  <!-- EN: moderate -->
+  <DRM_FearGas.stages.moderate.label>中等</DRM_FearGas.stages.moderate.label>
+  <!-- EN: severe -->
+  <DRM_FearGas.stages.severe.label>严重</DRM_FearGas.stages.severe.label>
+
+  <DRM_AwakenHeart.label>唤醒心灵</DRM_AwakenHeart.label>
+  <DRM_AwakenHeart.description>受到人格武器影响，这个[PAWN_nameDef]正迫切想要唤醒他人的心灵。</DRM_AwakenHeart.description>
+  <!-- EN: minor -->
+  <DRM_AwakenHeart.stages.minor-0.label>等级1/5</DRM_AwakenHeart.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_AwakenHeart.stages.minor-1.label>等级2/5</DRM_AwakenHeart.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_AwakenHeart.stages.moderate.label>等级3/5</DRM_AwakenHeart.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_AwakenHeart.stages.serious.label>等级4/5</DRM_AwakenHeart.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_AwakenHeart.stages.extreme.label>等级5/5</DRM_AwakenHeart.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_AwakenHeart.stages.completely.label>等级5/5</DRM_AwakenHeart.stages.completely.label>
+
+  <DRM_SlimeCoverd.label>黏菌附着</DRM_SlimeCoverd.label>
+  <DRM_SlimeCoverd.description>这个[PAWN_nameDef]被爆炸黏菌附着，黏菌即将产生爆炸。</DRM_SlimeCoverd.description>
+  <!-- EN: minor -->
+  <DRM_SlimeCoverd.stages.minor-0.label>轻微</DRM_SlimeCoverd.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_SlimeCoverd.stages.minor-1.label>较轻</DRM_SlimeCoverd.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_SlimeCoverd.stages.moderate.label>中等</DRM_SlimeCoverd.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_SlimeCoverd.stages.serious.label>严重</DRM_SlimeCoverd.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_SlimeCoverd.stages.extreme.label>极重</DRM_SlimeCoverd.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_SlimeCoverd.stages.completely.label>完全</DRM_SlimeCoverd.stages.completely.label>
+
+  <DRM_SlimeCoverd_mini.label>黏菌附着</DRM_SlimeCoverd_mini.label>
+  <DRM_SlimeCoverd_mini.description>这个[PAWN_nameDef]被爆炸黏菌附着，黏菌即将产生爆炸。</DRM_SlimeCoverd_mini.description>
+  <!-- EN: minor -->
+  <DRM_SlimeCoverd_mini.stages.minor-0.label>轻微</DRM_SlimeCoverd_mini.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DRM_SlimeCoverd_mini.stages.minor-1.label>较轻</DRM_SlimeCoverd_mini.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <DRM_SlimeCoverd_mini.stages.moderate.label>中等</DRM_SlimeCoverd_mini.stages.moderate.label>
+  <!-- EN: serious -->
+  <DRM_SlimeCoverd_mini.stages.serious.label>严重</DRM_SlimeCoverd_mini.stages.serious.label>
+  <!-- EN: extreme -->
+  <DRM_SlimeCoverd_mini.stages.extreme.label>极重</DRM_SlimeCoverd_mini.stages.extreme.label>
+  <!-- EN: extreme -->
+  <DRM_SlimeCoverd_mini.stages.completely.label>完全</DRM_SlimeCoverd_mini.stages.completely.label>
+
+
+  <DRM_Stun.label>被震撼</DRM_Stun.label>
+  <DRM_Stun.description>被强大的外力冲击掀翻在地。需要一点时间振作。</DRM_Stun.description>
+  <DRM_Stun.battleStateLabel>震撼</DRM_Stun.battleStateLabel>
+  <DRM_Stun.labelNoun>震撼</DRM_Stun.labelNoun>
+
+  <DRM_Princess_Mark.label>龙娘公主</DRM_Princess_Mark.label>
+  <DRM_Princess_Mark.description>她是天选的龙娘公主，哇哦！但是这并没有任何用处。</DRM_Princess_Mark.description>
+
+</LanguageData>

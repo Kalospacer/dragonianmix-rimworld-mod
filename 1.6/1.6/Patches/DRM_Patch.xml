@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--龙娘服装限制移除-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+				<value>
+					<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--龙娘背景故事工作限制移除-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.AlienBackstoryDef[defName="Dragonian_BS"]/workDisables</xpath>
+				<value>
+					<workDisables></workDisables>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--龙娘背景故事工作限制移除-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.AlienBackstoryDef[defName="Dragonian_BS_B"]/workDisables</xpath>
+				<value>
+					<workDisables></workDisables>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--龙娘工作速度替换-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryMechanoidEfficiency</xpath>
+				<value>
+					<ButcheryMechanoidEfficiency>1</ButcheryMechanoidEfficiency>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryMechanoidSpeed</xpath>
+				<value>
+					<ButcheryMechanoidSpeed>1</ButcheryMechanoidSpeed>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/SmeltingSpeed</xpath>
+				<value>
+					<SmeltingSpeed>1</SmeltingSpeed>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/GeneralLaborSpeed</xpath>
+				<value>
+					<GeneralLaborSpeed>1</GeneralLaborSpeed>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryFleshEfficiency</xpath>
+				<value>
+					<ButcheryFleshEfficiency>1</ButcheryFleshEfficiency>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ButcheryFleshSpeed</xpath>
+				<value>
+					<ButcheryFleshSpeed>1</ButcheryFleshSpeed>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/CookSpeed</xpath>
+				<value>
+					<CookSpeed>1</CookSpeed>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/ResearchSpeed</xpath>
+				<value>
+					<ResearchSpeed>1</ResearchSpeed>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/DrugSynthesisSpeed</xpath>
+				<value>
+					<DrugSynthesisSpeed>1</DrugSynthesisSpeed>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--添加龙娘龙珠器官-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName="Dragonian_Body"]/corePart/parts</xpath>
+				<value>
+					<li>
+						<def>DragonianOrb</def>
+						<coverage>0.010</coverage>
+						<customLabel>Dragonian Orb</customLabel>
+						<depth>Inside</depth>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--野生龙娘概率自带斩龙尾-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="WildMan"]/techHediffsChance</xpath>
+				<value>
+					<techHediffsChance>0.3</techHediffsChance>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="WildMan"]/techHediffsMoney</xpath>
+				<value>
+					<techHediffsMoney>50~550</techHediffsMoney>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="WildMan"]/techHediffsTags</xpath>
+				<value>
+					<techHediffsTags>
+						<li>DragonianSlashTail</li>
+					</techHediffsTags>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--移除屠宰产出龙珠-->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[@Name="Dragonian_PawnBase"]/butcherProducts/DragonianOrb</xpath>
+	</Operation>
+
+	<!--龙娘公主头发替换-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li/extendedGraphics</xpath>
+				<value>
+					<Hediff For="DRM_Princess_Mark">Dragonian/Dragonianlike/AddonHairs/DRM</Hediff>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Pet</defName>
+		<title>Dragonian Pet</title>
+		<titleShort>Dragonian Pet</titleShort>
+		<baseDesc>[PAWN_nameDef] lives in a small village.\nShe's job is lying down and be cute.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_spawnCategoriesA</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Social>4</Social>
+			<Intellectual>-2</Intellectual>
+		</skillGains>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Villager</defName>
+		<title>Dragonian Villager</title>
+		<titleShort>Dragonian Villager</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Villager.\nNothing special.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_spawnCategoriesA</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Plants>2</Plants>
+			<Cooking>2</Cooking>
+		</skillGains>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Worker</defName>
+		<title>Dragonian Worker</title>
+		<titleShort>Dragonian Worker</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Worker.\nShe do all the heavy works for town.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_spawnCategoriesA</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>2</Melee>
+			<Mining>2</Mining>
+			<Construction>2</Construction>
+		</skillGains>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Engineer</defName>
+		<title>Dragonian Engineer</title>
+		<titleShort>Dragonian Engineer</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Engineer.\nShe build house and craft cute things.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_spawnCategoriesA</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>-2</Melee>
+			<Crafting>6</Crafting>
+			<Construction>6</Construction>
+		</skillGains>
+
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
+		<defName>Dragonian_Doctor</defName>
+		<title>Dragonian Doctor</title>
+		<titleShort>Dragonian Doctor</titleShort>
+		<baseDesc>[PAWN_nameDef] is Dragonian Doctor.\nIt's hard to be smart in such a place.but she did it.</baseDesc>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>Dragonian_spawnCategoriesA</li>
+		</spawnCategories>
+
+		<skillGains>
+			<Melee>-4</Melee>
+			<Shooting>-4</Shooting>
+			<Medicine>6</Medicine>
+			<Intellectual>8</Intellectual>
+		</skillGains>
+
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>

@@ -5,11 +5,22 @@
   <supportedVersions>
 	<li>1.4</li>
   <li>1.5</li>
+  <li>1.6</li>
   </supportedVersions>
   <packageId>kalospacer.DragonianMix</packageId>
-  <modVersion>1.5.26</modVersion><!-- prev 1.5.23 -->
+  <modVersion>1.6.01</modVersion><!-- prev 1.5.23 -->
   <modIconPath IgnoreIfNoMatchingField="True">Dragonian/Icon/viewicon</modIconPath>
   <description>
+For 1.6 needed 'Humanoid Alien Races ~ Dev' Search and subscribe it in steamworkshop.
+And Replace 'Gloomy Dragonian race/1.5/Assemblies/Dragonian.dll' with my 'Dragonian1.6.dll' that you can find in my mod root folder. For Replace I mean DELETE 'Gloomy Dragonian race/1.5/Assemblies/Dragonian.dll' AND PUT 'Dragonian1.6.dll' IN 'Gloomy Dragonian race/1.5/Assemblies' FOLDER. Then you get 'Gloomy Dragonian race/1.5/Assemblies/Dragonian1.6.dll' at end.
+Then put mod list like this:
+  - Harmony
+  - Core
+  - DLCs
+  - Humanoid Alien Races ~ Dev
+  - Gloomy Dragonian race
+  - Dragonian Mix
+
 Dragonian Faction and Scenarios patch for Gloomy Dragonian race.
   - Friendly and Hostile Dragonian faction
   - Dragonian Backstories
@@ -42,12 +53,14 @@ Playable Dragonian
   </modDependencies>
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
+    <li>erdelf.HumanoidAlienRaces.dev</li>
 	  <li>goudaquiche.MoharFramework</li>
     <li>RooAndGloomy.DragonianRaceMod</li>
     <li>hailuan.customquestframework</li>
   </loadAfter>
   <forceLoadAfter>
 	  <li>erdelf.HumanoidAlienRaces</li>
+    <li>erdelf.HumanoidAlienRaces.dev</li>
 	  <li>goudaquiche.MoharFramework</li>
     <li>RooAndGloomy.DragonianRaceMod</li>
   </forceLoadAfter>

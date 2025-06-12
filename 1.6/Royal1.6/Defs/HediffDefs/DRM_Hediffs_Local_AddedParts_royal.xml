@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>AcidifierDragonianOrb</defName>
+		<label>Acidifier DragonianOrb</label>
+		<labelNoun>a Acidifier DragonianOrb.</labelNoun>
+		<description>An installed Acidifier DragonianOrb.dissolve gear in contact with the user's body.</description>
+		<priceImpact>false</priceImpact>
+		<abilities>
+			<li MayRequire="Ludeon.RimWorld.Biotech">DRM_AcidSpray</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">DRM_Acidgaspop</li>
+		</abilities>
+		<comps>
+			<li Class="HediffCompProperties_DissolveGearOnDeath">
+				<fleck>AcidCloud</fleck>
+				<moteCount>6</moteCount>
+				<moteOffsetRange>0.25~0.75</moteOffsetRange>
+				<filth>Filth_Slime</filth>
+				<sound>DeathAcidifier</sound>
+				<injuryCreatedOnDeath>ChemicalBurn</injuryCreatedOnDeath>
+				<injuryCount>3~6</injuryCount>
+			</li>
+			<li Class="DragonianMix.HediffCompProperties_DRMExplodeOnDeath">
+				<damageDef>DRM_AcidCover</damageDef>
+				<damageAmount>40</damageAmount>
+				<soundDef>Explosion_Stun</soundDef>
+				<explosionRadius>6</explosionRadius>
+				<destroyGear>false</destroyGear>
+				<destroyBody>false</destroyBody>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="DragonianMix.ProphecyGearEffect">
+				<enableHediffEffect>false</enableHediffEffect>
+
+				<extraDamageFactor>0.2</extraDamageFactor>
+				<extraDamageType>DRM_AcidCover</extraDamageType>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</modExtensions>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>HardenDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>AcidifierDragonianOrb</defName>
+		<label>Acidifier DragonianOrb</label>
+		<description>An Acidifier DragonianOrb.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Item/Resource/Dorb_heal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>AcidifierDragonianOrb</li>
+			<li>DragonianOrbNormal</li>
+		</techHediffsTags>
+		<modExtensions>
+			<li Class="DragonianMix.ProphecyGearEffect">
+				<enableHediffEffect>false</enableHediffEffect>
+
+				<extraDamageFactor>0.2</extraDamageFactor>
+				<extraDamageType>DRM_AcidCover</extraDamageType>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</modExtensions>
+		<statBases>
+			<MarketValue>400</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardCore</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallAcidifierDragonianOrb</defName>
+		<label>install Acidifier DragonianOrb</label>
+		<description>Install Acidifier DragonianOrb.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AcidifierDragonianOrb</ThingDef>
+			<HediffDef>AcidifierDragonianOrb</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Acidifier DragonianOrb.</jobString>
+		<surgeryOutcomeEffect IsNull="True" />
+		<!-- Always succeeds -->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AcidifierDragonianOrb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AcidifierDragonianOrb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>DragonianOrb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AcidifierDragonianOrb</addsHediff>
+	</RecipeDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>EnderDragonianOrb</defName>
+		<label>Ender DragonianOrb</label>
+		<labelNoun>a Ender DragonianOrb.</labelNoun>
+		<description>An installed Ender DragonianOrb. Allow owner to teleport them self.</description>
+		<priceImpact>false</priceImpact>
+		<abilities MayRequire="Ludeon.RimWorld.Royalty">
+			<li>DRM_Skip</li>
+			<li>DRM_Farskip</li>
+		</abilities>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<spawnThingOnRemoved>EnderDragonianOrb</spawnThingOnRemoved>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallEnderDragonianOrb</defName>
+		<label>install Ender DragonianOrb</label>
+		<description>Install Ender DragonianOrb.</description>
+		<descriptionHyperlinks>
+			<ThingDef>EnderDragonianOrb</ThingDef>
+			<HediffDef>EnderDragonianOrb</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Ender DragonianOrb.</jobString>
+		<surgeryOutcomeEffect IsNull="True" />
+		<!-- Always succeeds -->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EnderDragonianOrb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EnderDragonianOrb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>DragonianOrb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EnderDragonianOrb</addsHediff>
+	</RecipeDef>
+
+	<ThingDef ParentName="BodyPartDROrbsBase">
+		<defName>EnderDragonianOrb</defName>
+		<label>Ender DragonianOrb</label>
+		<description>An Ender DragonianOrb. Allow owner to teleport them self.</description>
+		<graphicData>
+			<texPath>Dragonian/Things/Item/Resource/Dorb_heal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>EnderDragonianOrb</li>
+			<li>DragonianOrbAdvanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardCore</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+</Defs>

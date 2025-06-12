@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef Name="DRM_BaseGas" Abstract="True">
+        <thingClass>Gas</thingClass>
+        <label>gas</label>
+        <category>Gas</category>
+        <altitudeLayer>Gas</altitudeLayer>
+        <useHitPoints>false</useHitPoints>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+            <graphicClass>Graphic_Gas</graphicClass>
+            <shaderType>Transparent</shaderType>
+        </graphicData>
+    </ThingDef>
+
+    <!-- Gas : Thing -->
+    <ThingDef ParentName="DRM_BaseGas">
+        <defName>DRM_FearGasCloud</defName>
+        <label>Fear gas</label>
+        <graphicData>
+            <texPath>Things/Gas/Puff</texPath>
+            <drawSize>2.6</drawSize>
+            <color>(0.3,0.25,0.65,0.5)</color>
+        </graphicData>
+        <gas>
+            <expireSeconds>
+                <min>30</min>
+                <max>50</max>
+            </expireSeconds>
+            <!--<blockTurretTracking>true</blockTurretTracking>
+			  <accuracyPenalty>0.3</accuracyPenalty>-->
+            <rotationSpeed>20</rotationSpeed>
+        </gas>
+        <thingClass>DragonianMix.OPToxicGas</thingClass>
+        <modExtensions>
+            <li Class="DragonianMix.OPToxicDefs">
+                <OPToxicHediff>DRM_FearGas</OPToxicHediff>                <!-- Name of HediffDef to apply, change to own HediffDef -->
+                <OPToxicSeverity>1</OPToxicSeverity>                <!-- Severity build up per Tick period -->
+                <OPSevUpTickPeriod>120</OPSevUpTickPeriod>                <!-- No of game ticks per each build up, recommend >= 120 -->
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Gas : Thing -->
+    <ThingDef ParentName="DRM_BaseGas">
+        <defName>DRM_AcidGasCloud</defName>
+        <label>Acid gas</label>
+        <graphicData>
+            <texPath>Things/Gas/Puff</texPath>
+            <drawSize>2.6</drawSize>
+            <color>(0.56, 1, 0.03,0.5)</color>
+        </graphicData>
+        <gas>
+            <expireSeconds>
+                <min>30</min>
+                <max>50</max>
+            </expireSeconds>
+            <!--<blockTurretTracking>true</blockTurretTracking>
+			<accuracyPenalty>0.3</accuracyPenalty>-->
+            <rotationSpeed>20</rotationSpeed>
+        </gas>
+        <thingClass>DragonianMix.OPToxicGas</thingClass>
+        <modExtensions>
+            <li Class="DragonianMix.OPToxicDefs">
+                <OPToxicHediff>DRM_AcidCoverd</OPToxicHediff>                <!-- Name of HediffDef to apply, change to own HediffDef -->
+                <OPToxicSeverity>0.1</OPToxicSeverity>                <!-- Severity build up per Tick period -->
+                <OPSevUpTickPeriod>240</OPSevUpTickPeriod>                <!-- No of game ticks per each build up, recommend >= 120 -->
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+        <!-- Gas : Thing -->
+    <ThingDef ParentName="DRM_BaseGas">
+        <defName>DRM_FrostGasCloud_Ex</defName>
+        <label>Frost cloud</label>
+        <graphicData>
+            <texPath>Things/Gas/Puff</texPath>
+            <drawSize>2.6</drawSize>
+            <color>(0.52, 1, 0.95,0.5)</color>
+        </graphicData>
+        <gas>
+            <expireSeconds>
+                <min>5</min>
+                <max>10</max>
+            </expireSeconds>
+            <!--<blockTurretTracking>true</blockTurretTracking>
+			<accuracyPenalty>0.3</accuracyPenalty>-->
+            <rotationSpeed>5</rotationSpeed>
+        </gas>
+        <thingClass>DragonianMix.OPToxicGas</thingClass>
+        <modExtensions>
+            <li Class="DragonianMix.OPToxicDefs">
+                <OPToxicHediff>DRM_Hediff_FrostCoverd_after</OPToxicHediff>                <!-- Name of HediffDef to apply, change to own HediffDef -->
+                <OPToxicSeverity>0.1</OPToxicSeverity>                <!-- Severity build up per Tick period -->
+                <OPSevUpTickPeriod>240</OPSevUpTickPeriod>                <!-- No of game ticks per each build up, recommend >= 120 -->
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="DRM_BaseGas">
+        <defName>DRM_FrostGasCloud</defName>
+        <label>Frost cloud</label>
+        <graphicData>
+            <texPath>Things/Gas/Puff</texPath>
+            <drawSize>2.6</drawSize>
+            <color>(0.52, 1, 0.95,0.5)</color>
+        </graphicData>
+        <gas>
+            <expireSeconds>
+                <min>5</min>
+                <max>10</max>
+            </expireSeconds>
+            <!--<blockTurretTracking>true</blockTurretTracking>
+			<accuracyPenalty>0.3</accuracyPenalty>-->
+            <rotationSpeed>5</rotationSpeed>
+        </gas>
+        <thingClass>DragonianMix.OPToxicGas</thingClass>
+        <modExtensions>
+            <li Class="DragonianMix.OPToxicDefs">
+                <OPToxicHediff>DRM_CryoShock</OPToxicHediff>                <!-- Name of HediffDef to apply, change to own HediffDef -->
+                <OPToxicSeverity>0.1</OPToxicSeverity>                <!-- Severity build up per Tick period -->
+                <OPSevUpTickPeriod>240</OPSevUpTickPeriod>                <!-- No of game ticks per each build up, recommend >= 120 -->
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

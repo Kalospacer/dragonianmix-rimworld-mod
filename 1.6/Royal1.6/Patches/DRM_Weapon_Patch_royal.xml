@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_SoulMace"]</xpath>
+
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_SoulMace"]</xpath>
+				<value>
+					<weaponTags>
+						<li>DR_SoulMace</li>
+					</weaponTags>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="DR_SoulMace"]/tools</xpath>
+				<value>
+					<tools>
+						<li>
+							<label>head</label>
+							<labelUsedInLogging>false</labelUsedInLogging>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>22</power>
+							<cooldownTime>3.35</cooldownTime>
+							<extraMeleeDamages>
+								<li>
+									<def>DRM_Damage_FrostCoverd_after</def>
+									<amount>20</amount>
+								</li>
+								<li>
+									<def>Stun</def>
+									<amount>11</amount>
+								</li>
+							</extraMeleeDamages>
+							<chanceFactor>10</chanceFactor>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+		</operations>
+		
+	</Operation>
+
+</Patch>
