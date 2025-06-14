@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- 龙娘 磨坊主 -->
+  <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+    <defName>Dragonian_Miller</defName>
+    <title>龙娘 磨坊主</title>
+    <titleShort>谷物专家</titleShort>
+    <baseDesc>[PAWN_nameDef]经营着河畔的水车磨坊，能通过水流变化判断研磨精度，确保面粉质地均匀。</baseDesc>
+    <skillGains>
+      <Plants>8</Plants>
+      <Cooking>6</Cooking>
+      <Construction>4</Construction>
+      <Social>-3</Social>
+    </skillGains>
+    <forcedTraitsChance>
+      <li>
+        <defName degree="1">Industriousness</defName>
+        <chance>80</chance>
+      </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <!-- 龙娘 牧羊人 -->
+  <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+    <defName>Dragonian_Shepherdess</defName>
+    <title>龙娘 牧羊人</title>
+    <titleShort>羊群守护</titleShort>
+    <baseDesc>[PAWN_nameDef]熟识季节性迁徙路线，制作的羊毛制品以质地紧密著称。</baseDesc>
+    <skillGains>
+      <Animals>10</Animals>
+      <Crafting>5</Crafting>
+      <Social>4</Social>
+      <Intellectual>-2</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <!-- 龙娘 裁缝 -->
+  <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+    <defName>Dragonian_Tailor</defName>
+    <title>龙娘 裁缝</title>
+    <titleShort>衣料专家</titleShort>
+    <baseDesc>[PAWN_nameDef]擅长制作适应各种气候的服装，发明的双层缝纫法大幅提升衣物耐久性。</baseDesc>
+    <skillGains>
+      <Crafting>11</Crafting>
+      <Artistic>6</Artistic>
+      <Social>3</Social>
+      <Mining>-4</Mining>
+    </skillGains>
+    <spawnCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <!-- 龙娘 陶工 -->
+  <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+    <defName>Dragonian_Potter</defName>
+    <title>龙娘 陶工</title>
+    <titleShort>器皿匠人</titleShort>
+    <baseDesc>[PAWN_nameDef]掌握高温釉料配方，烧制的陶器兼具美观与实用性。</baseDesc>
+    <skillGains>
+      <Crafting>9</Crafting>
+      <Artistic>7</Artistic>
+      <Plants>3</Plants>
+      <Medicine>-3</Medicine>
+    </skillGains>
+    <spawnCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <!-- 龙娘 铁匠 -->
+  <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+    <defName>Dragonian_Blacksmith</defName>
+    <title>龙娘 铁匠</title>
+    <titleShort>金属工匠</titleShort>
+    <baseDesc>[PAWN_nameDef]打造的农具以经久耐用闻名，发明的可替换镰刀头大幅降低农耕成本。</baseDesc>
+    <skillGains>
+      <Crafting>12</Crafting>
+      <Mining>6</Mining>
+      <Construction>4</Construction>
+      <Social>-4</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <!-- 龙娘 面包师 -->
+  <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+    <defName>Dragonian_Baker</defName>
+    <title>龙娘 面包师</title>
+    <titleShort>烘焙专家</titleShort>
+    <baseDesc>[PAWN_nameDef]开发出多种发酵技法，制作的面包能保存两周不变质。</baseDesc>
+    <skillGains>
+      <Cooking>10</Cooking>
+      <Plants>6</Plants>
+      <Social>3</Social>
+      <Artistic>-3</Artistic>
+    </skillGains>
+    <forcedTraitsChance>
+      <li>
+        <defName>Gourmand</defName>
+        <chance>30</chance>
+      </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <!-- 龙娘 渔夫 -->
+  <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+    <defName>Dragonian_Fisher</defName>
+    <title>龙娘 渔夫</title>
+    <titleShort>捕鱼能手</titleShort>
+    <baseDesc>[PAWN_nameDef]熟知附近水域鱼群迁徙规律，制作的熏鱼干是远途商队必备补给。</baseDesc>
+    <skillGains>
+      <Plants>9</Plants>
+      <Cooking>7</Cooking>
+      <Animals>4</Animals>
+      <Artistic>-2</Artistic>
+    </skillGains>
+    <spawnCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <!-- 龙娘 木匠 -->
+  <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+    <defName>Dragonian_Carpenter</defName>
+    <title>龙娘 木匠</title>
+    <titleShort>木材专家</titleShort>
+    <baseDesc>[PAWN_nameDef]精通木料防腐处理，设计的榫卯结构房屋可抵御强风侵袭。</baseDesc>
+    <skillGains>
+      <Construction>11</Construction>
+      <Crafting>6</Crafting>
+      <Plants>4</Plants>
+      <Medicine>-3</Medicine>
+    </skillGains>
+    <forcedTraitsChance>
+      <li>
+        <defName degree="1">Industriousness</defName>
+        <chance>100</chance>
+      </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+  <!-- 龙娘 草药师 -->
+  <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+    <defName>Dragonian_Herbalist</defName>
+    <title>龙娘 植物学者</title>
+    <titleShort>植物学者</titleShort>
+    <baseDesc>[PAWN_nameDef]编纂的草药图鉴收录了200多种药用植物，配制的药膏对跌打损伤疗效显著。</baseDesc>
+    <skillGains>
+      <Plants>12</Plants>
+      <Medicine>8</Medicine>
+      <Intellectual>4</Intellectual>
+      <Shooting>-4</Shooting>
+    </skillGains>
+    <spawnCategories>
+      <li>Dragonian_spawnCategoriesA</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+
+</Defs>

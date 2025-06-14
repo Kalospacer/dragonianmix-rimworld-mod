@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 龙娘 书记员 -->
+    <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+        <defName>Dragonian_Scribe</defName>
+        <title>龙娘 书记员</title>
+        <titleShort>文书专员</titleShort>
+        <baseDesc>[PAWN_nameDef]在领主府担任档案管理者，擅长用特制墨水保存重要文书。她的鳞片能有效防潮防蛀。</baseDesc>
+        <skillGains>
+            <Intellectual>10</Intellectual>
+            <Artistic>6</Artistic>
+            <Social>4</Social>
+            <Plants>-3</Plants>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>FastLearner</defName>
+                <chance>80</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Dragonian_spawnCategoriesA</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 龙娘 酿酒师 -->
+    <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+        <defName>Dragonian_Brewer</defName>
+        <title>龙娘 酿酒师</title>
+        <titleShort>酒窖主管</titleShort>
+        <baseDesc>[PAWN_nameDef]掌握古法酿造技术，通过精确控制地窖温度使酒液达到最佳口感。</baseDesc>
+        <skillGains>
+            <Cooking>12</Cooking>
+            <Plants>7</Plants>
+            <Construction>4</Construction>
+            <Medicine>-3</Medicine>
+        </skillGains>
+        <spawnCategories>
+            <li>Dragonian_spawnCategoriesA</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 龙娘 纹章师 -->
+    <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+        <defName>Dragonian_Herald</defName>
+        <title>龙娘 纹章师</title>
+        <titleShort>家徽学者</titleShort>
+        <baseDesc>[PAWN_nameDef]精通各大家族纹章学，设计的徽记既符合传统又具备防伪特征。</baseDesc>
+        <skillGains>
+            <Artistic>11</Artistic>
+            <Social>7</Social>
+            <Intellectual>5</Intellectual>
+            <Shooting>-4</Shooting>
+        </skillGains>
+
+        <spawnCategories>
+            <li>Dragonian_spawnCategoriesA</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 龙娘 桥梁师 -->
+    <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+        <defName>Dragonian_Bridgemaster</defName>
+        <title>龙娘 桥梁师</title>
+        <titleShort>渡口专家</titleShort>
+        <baseDesc>[PAWN_nameDef]擅长在复杂地形架设木石结构桥梁，设计的承重系统可抵御洪水冲击。</baseDesc>
+        <skillGains>
+            <Construction>13</Construction>
+            <Mining>6</Mining>
+            <Intellectual>5</Intellectual>
+            <Animals>-3</Animals>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName degree="1">Industriousness</defName>
+                <chance>100</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Dragonian_spawnCategoriesA</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 龙娘 典当商 -->
+    <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+        <defName>Dragonian_Pawnbroker</defName>
+        <title>龙娘 典当商</title>
+        <titleShort>估价专家</titleShort>
+        <baseDesc>[PAWN_nameDef]经营全镇最大的当铺，能准确判断各类物品的历史价值和实用价值。</baseDesc>
+        <skillGains>
+            <Social>11</Social>
+            <Intellectual>8</Intellectual>
+            <Crafting>5</Crafting>
+            <Plants>-4</Plants>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>Greedy</defName>
+                <chance>40</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Dragonian_spawnCategoriesA</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 龙娘 钟表匠 -->
+    <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+        <defName>Dragonian_Horologist</defName>
+        <title>龙娘 钟表匠</title>
+        <titleShort>机械技师</titleShort>
+        <baseDesc>[PAWN_nameDef]制作的日晷和水钟误差不超过三分钟，为多个城镇提供标准计时服务。</baseDesc>
+        <skillGains>
+            <Crafting>14</Crafting>
+            <Intellectual>7</Intellectual>
+            <Artistic>5</Artistic>
+            <Social>-3</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Dragonian_spawnCategoriesA</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 龙娘 驿站长 -->
+    <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+        <defName>Dragonian_Postmaster</defName>
+        <title>龙娘 驿站长</title>
+        <titleShort>邮路总管</titleShort>
+        <baseDesc>[PAWN_nameDef]管理着覆盖三个郡的驿道系统，能准确记住每条支线的运输时间。</baseDesc>
+        <skillGains>
+            <Social>10</Social>
+            <Intellectual>8</Intellectual>
+            <Animals>5</Animals>
+            <Mining>-4</Mining>
+        </skillGains>
+        <spawnCategories>
+            <li>Dragonian_spawnCategoriesA</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 龙娘 玻璃匠 -->
+    <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+        <defName>Dragonian_Glassmith</defName>
+        <title>龙娘 玻璃匠</title>
+        <titleShort>琉璃大师</titleShort>
+        <baseDesc>[PAWN_nameDef]掌握彩色玻璃制造技术，为多个教堂制作过描绘史诗故事的玻璃花窗。</baseDesc>
+        <skillGains>
+            <Crafting>12</Crafting>
+            <Artistic>9</Artistic>
+            <Construction>5</Construction>
+            <Medicine>-3</Medicine>
+        </skillGains>
+        <spawnCategories>
+            <li>Dragonian_spawnCategoriesA</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 龙娘 陪审员 -->
+    <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+        <defName>Dragonian_Juror</defName>
+        <title>龙娘 陪审员</title>
+        <titleShort>纠纷仲裁</titleShort>
+        <baseDesc>[PAWN_nameDef]作为地方议会常任陪审员，以公正严明著称，处理过上百起土地纠纷。</baseDesc>
+        <skillGains>
+            <Social>13</Social>
+            <Intellectual>7</Intellectual>
+            <Artistic>3</Artistic>
+            <Cooking>-4</Cooking>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>Kind</defName>
+                <chance>100</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Dragonian_spawnCategoriesA</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 龙娘 测绘师 -->
+    <AlienRace.AlienBackstoryDef ParentName="DragonianBackStory_Adulthood">
+        <defName>Dragonian_Surveyor</defName>
+        <title>龙娘 测绘师</title>
+        <titleShort>土地丈量</titleShort>
+        <baseDesc>[PAWN_nameDef]精确测绘过七个伯爵领的地形图，发明的测量工具被王国科学院采用。</baseDesc>
+        <skillGains>
+            <Intellectual>12</Intellectual>
+            <Construction>9</Construction>
+            <Artistic>5</Artistic>
+            <Animals>-4</Animals>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>FastLearner</defName>
+                <chance>100</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Dragonian_spawnCategoriesA</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+</Defs>
