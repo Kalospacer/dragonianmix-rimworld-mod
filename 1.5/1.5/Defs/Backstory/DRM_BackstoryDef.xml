@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	<AlienRace.AlienBackstoryDef Name="DragonianBackStory_Adulthood" ParentName="DragonianBackStory" Abstract="true">
+		<slot>Adulthood</slot>
+	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="DragonianBackStory">
 		<defName>Dragonian_Pet</defName>
