@@ -263,7 +263,7 @@
 		<description>Unfrindly Dragonian is group of dragonian that not fit in clans,they been kick off the group and have to live by them own to rubber others goods.</description>
 		<listOrderPriority>10</listOrderPriority>
 		<leaderTitle>Boss</leaderTitle>
-		<permanentEnemy>true</permanentEnemy>
+		<naturalEnemy>true</naturalEnemy>
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>
 		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
