@@ -1,0 +1,3792 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.CustomMapDataDef>
+    <defName>DRM_Dragonian_AxisBase_BaseDef</defName>
+    <label>DragonianAxisBase</label>
+    <fogged>true</fogged>
+    <size>(77, 1, 77)</size>
+    <commonality>0.8</commonality>
+    <faction>Dragonian_NPC</faction>
+    <pawns>
+      <li>
+        <key>(40, 0, 5)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR1</dataName>
+            <kind>Dragonian_Clan_Hunter</kind>
+            <enableLord>true</enableLord>
+            <count>1~3</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(42, 0, 5)</key>
+        <value>
+          <li>
+            <dataName>DRM_sheep1</dataName>
+            <kind>Boomalope</kind>
+            <enableLord>true</enableLord>
+            <count>1~3</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(68, 0, 5)</key>
+        <value>
+          <li>
+            <dataName>DRM_sheep1</dataName>
+            <kind>Boomalope</kind>
+            <enableLord>true</enableLord>
+            <count>1~3</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(69, 0, 6)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR1</dataName>
+            <kind>Dragonian_Clan_Hunter</kind>
+            <enableLord>true</enableLord>
+            <count>1~3</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(53, 0, 7)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR3</dataName>
+            <kind>Dragonian_Villager</kind>
+            <enableLord>true</enableLord>
+            <count>1~1</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>QE_Duty_Waiter</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(57, 0, 11)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR3</dataName>
+            <kind>Dragonian_Villager</kind>
+            <enableLord>true</enableLord>
+            <count>1~1</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>QE_Duty_Waiter</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(40, 0, 15)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR3</dataName>
+            <kind>Dragonian_Villager</kind>
+            <enableLord>true</enableLord>
+            <count>1~1</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>QE_Duty_Waiter</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(48, 0, 15)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR3</dataName>
+            <kind>Dragonian_Villager</kind>
+            <enableLord>true</enableLord>
+            <count>1~1</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>QE_Duty_Waiter</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(66, 0, 17)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR3</dataName>
+            <kind>Dragonian_Villager</kind>
+            <enableLord>true</enableLord>
+            <count>1~1</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>QE_Duty_Waiter</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(71, 0, 17)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR3</dataName>
+            <kind>Dragonian_Villager</kind>
+            <enableLord>true</enableLord>
+            <count>1~1</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>QE_Duty_Waiter</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(58, 0, 18)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR4</dataName>
+            <kind>Dragonian_Clan_Guard</kind>
+            <enableLord>true</enableLord>
+            <count>1~4</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(53, 0, 19)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR1</dataName>
+            <kind>Dragonian_Clan_Hunter</kind>
+            <enableLord>true</enableLord>
+            <count>1~3</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+          <li>
+            <dataName>DRM_DR2</dataName>
+            <kind>Dragonian_Royal_Guard</kind>
+            <enableLord>true</enableLord>
+            <count>1~3</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(43, 0, 22)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR3</dataName>
+            <kind>Dragonian_Villager</kind>
+            <enableLord>true</enableLord>
+            <count>1~1</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>QE_Duty_Waiter</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(63, 0, 24)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR3</dataName>
+            <kind>Dragonian_Villager</kind>
+            <enableLord>true</enableLord>
+            <count>1~1</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>QE_Duty_Waiter</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(60, 0, 26)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR3</dataName>
+            <kind>Dragonian_Villager</kind>
+            <enableLord>true</enableLord>
+            <count>1~1</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>QE_Duty_Waiter</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(53, 0, 31)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR3</dataName>
+            <kind>Dragonian_Villager</kind>
+            <enableLord>true</enableLord>
+            <count>1~1</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>QE_Duty_Waiter</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(42, 0, 32)</key>
+        <value>
+          <li>
+            <dataName>DRM_sheep1</dataName>
+            <kind>Boomalope</kind>
+            <enableLord>true</enableLord>
+            <count>1~3</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(41, 0, 33)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR1</dataName>
+            <kind>Dragonian_Clan_Hunter</kind>
+            <enableLord>true</enableLord>
+            <count>1~3</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(68, 0, 33)</key>
+        <value>
+          <li>
+            <dataName>DRM_sheep1</dataName>
+            <kind>Boomalope</kind>
+            <enableLord>true</enableLord>
+            <count>1~3</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+          </li>
+        </value>
+      </li>
+      <li>
+        <key>(70, 0, 34)</key>
+        <value>
+          <li>
+            <dataName>DRM_DR1</dataName>
+            <kind>Dragonian_Clan_Hunter</kind>
+            <enableLord>true</enableLord>
+            <count>1~3</count>
+            <faction>Dragonian_NPC</faction>
+            <duty>Defend</duty>
+            <spawnType>MapGeneration</spawnType>
+            <inventoryThings>
+              <li Class="QuestEditor_Library.CQFThingDefCount">
+                <count>1~3</count>
+                <thing>MealSurvivalPack</thing>
+              </li>
+            </inventoryThings>
+          </li>
+        </value>
+      </li>
+    </pawns>
+    <roofs>
+      <li>
+        <key>RoofConstructed</key>
+        <value>
+          <li>(48, 0, 0)</li>
+          <li>(49, 0, 0)</li>
+          <li>(50, 0, 0)</li>
+          <li>(51, 0, 0)</li>
+          <li>(52, 0, 0)</li>
+          <li>(53, 0, 0)</li>
+          <li>(54, 0, 0)</li>
+          <li>(55, 0, 0)</li>
+          <li>(56, 0, 0)</li>
+          <li>(57, 0, 0)</li>
+          <li>(58, 0, 0)</li>
+          <li>(59, 0, 0)</li>
+          <li>(60, 0, 0)</li>
+          <li>(61, 0, 0)</li>
+          <li>(62, 0, 0)</li>
+          <li>(48, 0, 1)</li>
+          <li>(49, 0, 1)</li>
+          <li>(50, 0, 1)</li>
+          <li>(51, 0, 1)</li>
+          <li>(52, 0, 1)</li>
+          <li>(53, 0, 1)</li>
+          <li>(54, 0, 1)</li>
+          <li>(55, 0, 1)</li>
+          <li>(56, 0, 1)</li>
+          <li>(57, 0, 1)</li>
+          <li>(58, 0, 1)</li>
+          <li>(59, 0, 1)</li>
+          <li>(60, 0, 1)</li>
+          <li>(61, 0, 1)</li>
+          <li>(62, 0, 1)</li>
+          <li>(48, 0, 2)</li>
+          <li>(49, 0, 2)</li>
+          <li>(50, 0, 2)</li>
+          <li>(51, 0, 2)</li>
+          <li>(52, 0, 2)</li>
+          <li>(53, 0, 2)</li>
+          <li>(54, 0, 2)</li>
+          <li>(55, 0, 2)</li>
+          <li>(56, 0, 2)</li>
+          <li>(57, 0, 2)</li>
+          <li>(58, 0, 2)</li>
+          <li>(59, 0, 2)</li>
+          <li>(60, 0, 2)</li>
+          <li>(61, 0, 2)</li>
+          <li>(62, 0, 2)</li>
+          <li>(48, 0, 3)</li>
+          <li>(49, 0, 3)</li>
+          <li>(50, 0, 3)</li>
+          <li>(51, 0, 3)</li>
+          <li>(52, 0, 3)</li>
+          <li>(53, 0, 3)</li>
+          <li>(54, 0, 3)</li>
+          <li>(55, 0, 3)</li>
+          <li>(56, 0, 3)</li>
+          <li>(57, 0, 3)</li>
+          <li>(58, 0, 3)</li>
+          <li>(59, 0, 3)</li>
+          <li>(60, 0, 3)</li>
+          <li>(61, 0, 3)</li>
+          <li>(62, 0, 3)</li>
+          <li>(48, 0, 4)</li>
+          <li>(49, 0, 4)</li>
+          <li>(50, 0, 4)</li>
+          <li>(51, 0, 4)</li>
+          <li>(52, 0, 4)</li>
+          <li>(53, 0, 4)</li>
+          <li>(54, 0, 4)</li>
+          <li>(55, 0, 4)</li>
+          <li>(56, 0, 4)</li>
+          <li>(57, 0, 4)</li>
+          <li>(58, 0, 4)</li>
+          <li>(59, 0, 4)</li>
+          <li>(60, 0, 4)</li>
+          <li>(61, 0, 4)</li>
+          <li>(62, 0, 4)</li>
+          <li>(48, 0, 5)</li>
+          <li>(49, 0, 5)</li>
+          <li>(50, 0, 5)</li>
+          <li>(51, 0, 5)</li>
+          <li>(52, 0, 5)</li>
+          <li>(53, 0, 5)</li>
+          <li>(54, 0, 5)</li>
+          <li>(55, 0, 5)</li>
+          <li>(56, 0, 5)</li>
+          <li>(57, 0, 5)</li>
+          <li>(58, 0, 5)</li>
+          <li>(59, 0, 5)</li>
+          <li>(60, 0, 5)</li>
+          <li>(61, 0, 5)</li>
+          <li>(62, 0, 5)</li>
+          <li>(48, 0, 6)</li>
+          <li>(49, 0, 6)</li>
+          <li>(50, 0, 6)</li>
+          <li>(51, 0, 6)</li>
+          <li>(52, 0, 6)</li>
+          <li>(53, 0, 6)</li>
+          <li>(54, 0, 6)</li>
+          <li>(55, 0, 6)</li>
+          <li>(56, 0, 6)</li>
+          <li>(57, 0, 6)</li>
+          <li>(58, 0, 6)</li>
+          <li>(59, 0, 6)</li>
+          <li>(60, 0, 6)</li>
+          <li>(61, 0, 6)</li>
+          <li>(62, 0, 6)</li>
+          <li>(48, 0, 7)</li>
+          <li>(49, 0, 7)</li>
+          <li>(50, 0, 7)</li>
+          <li>(51, 0, 7)</li>
+          <li>(52, 0, 7)</li>
+          <li>(53, 0, 7)</li>
+          <li>(54, 0, 7)</li>
+          <li>(55, 0, 7)</li>
+          <li>(56, 0, 7)</li>
+          <li>(57, 0, 7)</li>
+          <li>(58, 0, 7)</li>
+          <li>(59, 0, 7)</li>
+          <li>(60, 0, 7)</li>
+          <li>(61, 0, 7)</li>
+          <li>(62, 0, 7)</li>
+          <li>(48, 0, 8)</li>
+          <li>(49, 0, 8)</li>
+          <li>(50, 0, 8)</li>
+          <li>(51, 0, 8)</li>
+          <li>(52, 0, 8)</li>
+          <li>(53, 0, 8)</li>
+          <li>(54, 0, 8)</li>
+          <li>(55, 0, 8)</li>
+          <li>(56, 0, 8)</li>
+          <li>(57, 0, 8)</li>
+          <li>(58, 0, 8)</li>
+          <li>(59, 0, 8)</li>
+          <li>(60, 0, 8)</li>
+          <li>(61, 0, 8)</li>
+          <li>(62, 0, 8)</li>
+          <li>(48, 0, 9)</li>
+          <li>(49, 0, 9)</li>
+          <li>(50, 0, 9)</li>
+          <li>(51, 0, 9)</li>
+          <li>(52, 0, 9)</li>
+          <li>(53, 0, 9)</li>
+          <li>(54, 0, 9)</li>
+          <li>(55, 0, 9)</li>
+          <li>(56, 0, 9)</li>
+          <li>(57, 0, 9)</li>
+          <li>(58, 0, 9)</li>
+          <li>(59, 0, 9)</li>
+          <li>(60, 0, 9)</li>
+          <li>(61, 0, 9)</li>
+          <li>(62, 0, 9)</li>
+          <li>(48, 0, 10)</li>
+          <li>(49, 0, 10)</li>
+          <li>(50, 0, 10)</li>
+          <li>(51, 0, 10)</li>
+          <li>(52, 0, 10)</li>
+          <li>(53, 0, 10)</li>
+          <li>(54, 0, 10)</li>
+          <li>(55, 0, 10)</li>
+          <li>(56, 0, 10)</li>
+          <li>(57, 0, 10)</li>
+          <li>(58, 0, 10)</li>
+          <li>(59, 0, 10)</li>
+          <li>(60, 0, 10)</li>
+          <li>(61, 0, 10)</li>
+          <li>(62, 0, 10)</li>
+          <li>(48, 0, 11)</li>
+          <li>(49, 0, 11)</li>
+          <li>(50, 0, 11)</li>
+          <li>(51, 0, 11)</li>
+          <li>(52, 0, 11)</li>
+          <li>(53, 0, 11)</li>
+          <li>(54, 0, 11)</li>
+          <li>(55, 0, 11)</li>
+          <li>(56, 0, 11)</li>
+          <li>(57, 0, 11)</li>
+          <li>(58, 0, 11)</li>
+          <li>(59, 0, 11)</li>
+          <li>(60, 0, 11)</li>
+          <li>(61, 0, 11)</li>
+          <li>(62, 0, 11)</li>
+          <li>(36, 0, 12)</li>
+          <li>(37, 0, 12)</li>
+          <li>(38, 0, 12)</li>
+          <li>(39, 0, 12)</li>
+          <li>(40, 0, 12)</li>
+          <li>(41, 0, 12)</li>
+          <li>(42, 0, 12)</li>
+          <li>(43, 0, 12)</li>
+          <li>(44, 0, 12)</li>
+          <li>(45, 0, 12)</li>
+          <li>(46, 0, 12)</li>
+          <li>(47, 0, 12)</li>
+          <li>(48, 0, 12)</li>
+          <li>(49, 0, 12)</li>
+          <li>(50, 0, 12)</li>
+          <li>(51, 0, 12)</li>
+          <li>(52, 0, 12)</li>
+          <li>(53, 0, 12)</li>
+          <li>(54, 0, 12)</li>
+          <li>(55, 0, 12)</li>
+          <li>(56, 0, 12)</li>
+          <li>(57, 0, 12)</li>
+          <li>(58, 0, 12)</li>
+          <li>(59, 0, 12)</li>
+          <li>(60, 0, 12)</li>
+          <li>(61, 0, 12)</li>
+          <li>(62, 0, 12)</li>
+          <li>(63, 0, 12)</li>
+          <li>(64, 0, 12)</li>
+          <li>(65, 0, 12)</li>
+          <li>(66, 0, 12)</li>
+          <li>(67, 0, 12)</li>
+          <li>(68, 0, 12)</li>
+          <li>(69, 0, 12)</li>
+          <li>(70, 0, 12)</li>
+          <li>(71, 0, 12)</li>
+          <li>(72, 0, 12)</li>
+          <li>(73, 0, 12)</li>
+          <li>(74, 0, 12)</li>
+          <li>(36, 0, 13)</li>
+          <li>(37, 0, 13)</li>
+          <li>(38, 0, 13)</li>
+          <li>(39, 0, 13)</li>
+          <li>(40, 0, 13)</li>
+          <li>(41, 0, 13)</li>
+          <li>(42, 0, 13)</li>
+          <li>(43, 0, 13)</li>
+          <li>(44, 0, 13)</li>
+          <li>(45, 0, 13)</li>
+          <li>(46, 0, 13)</li>
+          <li>(47, 0, 13)</li>
+          <li>(48, 0, 13)</li>
+          <li>(49, 0, 13)</li>
+          <li>(50, 0, 13)</li>
+          <li>(51, 0, 13)</li>
+          <li>(52, 0, 13)</li>
+          <li>(53, 0, 13)</li>
+          <li>(54, 0, 13)</li>
+          <li>(55, 0, 13)</li>
+          <li>(56, 0, 13)</li>
+          <li>(57, 0, 13)</li>
+          <li>(58, 0, 13)</li>
+          <li>(59, 0, 13)</li>
+          <li>(60, 0, 13)</li>
+          <li>(61, 0, 13)</li>
+          <li>(62, 0, 13)</li>
+          <li>(63, 0, 13)</li>
+          <li>(64, 0, 13)</li>
+          <li>(65, 0, 13)</li>
+          <li>(66, 0, 13)</li>
+          <li>(67, 0, 13)</li>
+          <li>(68, 0, 13)</li>
+          <li>(69, 0, 13)</li>
+          <li>(70, 0, 13)</li>
+          <li>(71, 0, 13)</li>
+          <li>(72, 0, 13)</li>
+          <li>(73, 0, 13)</li>
+          <li>(74, 0, 13)</li>
+          <li>(36, 0, 14)</li>
+          <li>(37, 0, 14)</li>
+          <li>(38, 0, 14)</li>
+          <li>(39, 0, 14)</li>
+          <li>(40, 0, 14)</li>
+          <li>(41, 0, 14)</li>
+          <li>(42, 0, 14)</li>
+          <li>(43, 0, 14)</li>
+          <li>(44, 0, 14)</li>
+          <li>(45, 0, 14)</li>
+          <li>(46, 0, 14)</li>
+          <li>(47, 0, 14)</li>
+          <li>(48, 0, 14)</li>
+          <li>(49, 0, 14)</li>
+          <li>(50, 0, 14)</li>
+          <li>(51, 0, 14)</li>
+          <li>(52, 0, 14)</li>
+          <li>(53, 0, 14)</li>
+          <li>(54, 0, 14)</li>
+          <li>(55, 0, 14)</li>
+          <li>(56, 0, 14)</li>
+          <li>(57, 0, 14)</li>
+          <li>(58, 0, 14)</li>
+          <li>(59, 0, 14)</li>
+          <li>(60, 0, 14)</li>
+          <li>(61, 0, 14)</li>
+          <li>(62, 0, 14)</li>
+          <li>(63, 0, 14)</li>
+          <li>(64, 0, 14)</li>
+          <li>(65, 0, 14)</li>
+          <li>(66, 0, 14)</li>
+          <li>(67, 0, 14)</li>
+          <li>(68, 0, 14)</li>
+          <li>(69, 0, 14)</li>
+          <li>(70, 0, 14)</li>
+          <li>(71, 0, 14)</li>
+          <li>(72, 0, 14)</li>
+          <li>(73, 0, 14)</li>
+          <li>(74, 0, 14)</li>
+          <li>(36, 0, 15)</li>
+          <li>(37, 0, 15)</li>
+          <li>(38, 0, 15)</li>
+          <li>(39, 0, 15)</li>
+          <li>(40, 0, 15)</li>
+          <li>(41, 0, 15)</li>
+          <li>(42, 0, 15)</li>
+          <li>(43, 0, 15)</li>
+          <li>(44, 0, 15)</li>
+          <li>(45, 0, 15)</li>
+          <li>(46, 0, 15)</li>
+          <li>(47, 0, 15)</li>
+          <li>(48, 0, 15)</li>
+          <li>(49, 0, 15)</li>
+          <li>(50, 0, 15)</li>
+          <li>(51, 0, 15)</li>
+          <li>(52, 0, 15)</li>
+          <li>(53, 0, 15)</li>
+          <li>(54, 0, 15)</li>
+          <li>(55, 0, 15)</li>
+          <li>(56, 0, 15)</li>
+          <li>(57, 0, 15)</li>
+          <li>(58, 0, 15)</li>
+          <li>(59, 0, 15)</li>
+          <li>(60, 0, 15)</li>
+          <li>(61, 0, 15)</li>
+          <li>(62, 0, 15)</li>
+          <li>(63, 0, 15)</li>
+          <li>(64, 0, 15)</li>
+          <li>(65, 0, 15)</li>
+          <li>(66, 0, 15)</li>
+          <li>(67, 0, 15)</li>
+          <li>(68, 0, 15)</li>
+          <li>(69, 0, 15)</li>
+          <li>(70, 0, 15)</li>
+          <li>(71, 0, 15)</li>
+          <li>(72, 0, 15)</li>
+          <li>(73, 0, 15)</li>
+          <li>(74, 0, 15)</li>
+          <li>(36, 0, 16)</li>
+          <li>(37, 0, 16)</li>
+          <li>(38, 0, 16)</li>
+          <li>(39, 0, 16)</li>
+          <li>(40, 0, 16)</li>
+          <li>(41, 0, 16)</li>
+          <li>(42, 0, 16)</li>
+          <li>(43, 0, 16)</li>
+          <li>(44, 0, 16)</li>
+          <li>(45, 0, 16)</li>
+          <li>(46, 0, 16)</li>
+          <li>(47, 0, 16)</li>
+          <li>(48, 0, 16)</li>
+          <li>(49, 0, 16)</li>
+          <li>(50, 0, 16)</li>
+          <li>(51, 0, 16)</li>
+          <li>(52, 0, 16)</li>
+          <li>(53, 0, 16)</li>
+          <li>(54, 0, 16)</li>
+          <li>(55, 0, 16)</li>
+          <li>(56, 0, 16)</li>
+          <li>(57, 0, 16)</li>
+          <li>(58, 0, 16)</li>
+          <li>(59, 0, 16)</li>
+          <li>(60, 0, 16)</li>
+          <li>(61, 0, 16)</li>
+          <li>(62, 0, 16)</li>
+          <li>(63, 0, 16)</li>
+          <li>(64, 0, 16)</li>
+          <li>(65, 0, 16)</li>
+          <li>(66, 0, 16)</li>
+          <li>(67, 0, 16)</li>
+          <li>(68, 0, 16)</li>
+          <li>(69, 0, 16)</li>
+          <li>(70, 0, 16)</li>
+          <li>(71, 0, 16)</li>
+          <li>(72, 0, 16)</li>
+          <li>(73, 0, 16)</li>
+          <li>(74, 0, 16)</li>
+          <li>(36, 0, 17)</li>
+          <li>(37, 0, 17)</li>
+          <li>(38, 0, 17)</li>
+          <li>(39, 0, 17)</li>
+          <li>(40, 0, 17)</li>
+          <li>(41, 0, 17)</li>
+          <li>(42, 0, 17)</li>
+          <li>(43, 0, 17)</li>
+          <li>(44, 0, 17)</li>
+          <li>(45, 0, 17)</li>
+          <li>(46, 0, 17)</li>
+          <li>(47, 0, 17)</li>
+          <li>(48, 0, 17)</li>
+          <li>(49, 0, 17)</li>
+          <li>(50, 0, 17)</li>
+          <li>(51, 0, 17)</li>
+          <li>(52, 0, 17)</li>
+          <li>(53, 0, 17)</li>
+          <li>(54, 0, 17)</li>
+          <li>(55, 0, 17)</li>
+          <li>(56, 0, 17)</li>
+          <li>(57, 0, 17)</li>
+          <li>(58, 0, 17)</li>
+          <li>(59, 0, 17)</li>
+          <li>(60, 0, 17)</li>
+          <li>(61, 0, 17)</li>
+          <li>(62, 0, 17)</li>
+          <li>(63, 0, 17)</li>
+          <li>(64, 0, 17)</li>
+          <li>(65, 0, 17)</li>
+          <li>(66, 0, 17)</li>
+          <li>(67, 0, 17)</li>
+          <li>(68, 0, 17)</li>
+          <li>(69, 0, 17)</li>
+          <li>(70, 0, 17)</li>
+          <li>(71, 0, 17)</li>
+          <li>(72, 0, 17)</li>
+          <li>(73, 0, 17)</li>
+          <li>(74, 0, 17)</li>
+          <li>(36, 0, 18)</li>
+          <li>(37, 0, 18)</li>
+          <li>(38, 0, 18)</li>
+          <li>(39, 0, 18)</li>
+          <li>(40, 0, 18)</li>
+          <li>(41, 0, 18)</li>
+          <li>(42, 0, 18)</li>
+          <li>(43, 0, 18)</li>
+          <li>(44, 0, 18)</li>
+          <li>(45, 0, 18)</li>
+          <li>(46, 0, 18)</li>
+          <li>(47, 0, 18)</li>
+          <li>(48, 0, 18)</li>
+          <li>(49, 0, 18)</li>
+          <li>(50, 0, 18)</li>
+          <li>(51, 0, 18)</li>
+          <li>(52, 0, 18)</li>
+          <li>(53, 0, 18)</li>
+          <li>(54, 0, 18)</li>
+          <li>(55, 0, 18)</li>
+          <li>(56, 0, 18)</li>
+          <li>(57, 0, 18)</li>
+          <li>(58, 0, 18)</li>
+          <li>(59, 0, 18)</li>
+          <li>(60, 0, 18)</li>
+          <li>(61, 0, 18)</li>
+          <li>(62, 0, 18)</li>
+          <li>(63, 0, 18)</li>
+          <li>(64, 0, 18)</li>
+          <li>(65, 0, 18)</li>
+          <li>(66, 0, 18)</li>
+          <li>(67, 0, 18)</li>
+          <li>(68, 0, 18)</li>
+          <li>(69, 0, 18)</li>
+          <li>(70, 0, 18)</li>
+          <li>(71, 0, 18)</li>
+          <li>(72, 0, 18)</li>
+          <li>(73, 0, 18)</li>
+          <li>(74, 0, 18)</li>
+          <li>(36, 0, 19)</li>
+          <li>(37, 0, 19)</li>
+          <li>(38, 0, 19)</li>
+          <li>(39, 0, 19)</li>
+          <li>(40, 0, 19)</li>
+          <li>(41, 0, 19)</li>
+          <li>(42, 0, 19)</li>
+          <li>(43, 0, 19)</li>
+          <li>(44, 0, 19)</li>
+          <li>(45, 0, 19)</li>
+          <li>(46, 0, 19)</li>
+          <li>(47, 0, 19)</li>
+          <li>(48, 0, 19)</li>
+          <li>(49, 0, 19)</li>
+          <li>(50, 0, 19)</li>
+          <li>(51, 0, 19)</li>
+          <li>(52, 0, 19)</li>
+          <li>(53, 0, 19)</li>
+          <li>(54, 0, 19)</li>
+          <li>(55, 0, 19)</li>
+          <li>(56, 0, 19)</li>
+          <li>(57, 0, 19)</li>
+          <li>(58, 0, 19)</li>
+          <li>(59, 0, 19)</li>
+          <li>(60, 0, 19)</li>
+          <li>(61, 0, 19)</li>
+          <li>(62, 0, 19)</li>
+          <li>(63, 0, 19)</li>
+          <li>(64, 0, 19)</li>
+          <li>(65, 0, 19)</li>
+          <li>(66, 0, 19)</li>
+          <li>(67, 0, 19)</li>
+          <li>(68, 0, 19)</li>
+          <li>(69, 0, 19)</li>
+          <li>(70, 0, 19)</li>
+          <li>(71, 0, 19)</li>
+          <li>(72, 0, 19)</li>
+          <li>(73, 0, 19)</li>
+          <li>(74, 0, 19)</li>
+          <li>(36, 0, 20)</li>
+          <li>(37, 0, 20)</li>
+          <li>(38, 0, 20)</li>
+          <li>(39, 0, 20)</li>
+          <li>(40, 0, 20)</li>
+          <li>(41, 0, 20)</li>
+          <li>(42, 0, 20)</li>
+          <li>(43, 0, 20)</li>
+          <li>(44, 0, 20)</li>
+          <li>(45, 0, 20)</li>
+          <li>(46, 0, 20)</li>
+          <li>(47, 0, 20)</li>
+          <li>(48, 0, 20)</li>
+          <li>(49, 0, 20)</li>
+          <li>(50, 0, 20)</li>
+          <li>(51, 0, 20)</li>
+          <li>(52, 0, 20)</li>
+          <li>(53, 0, 20)</li>
+          <li>(54, 0, 20)</li>
+          <li>(55, 0, 20)</li>
+          <li>(56, 0, 20)</li>
+          <li>(57, 0, 20)</li>
+          <li>(58, 0, 20)</li>
+          <li>(59, 0, 20)</li>
+          <li>(60, 0, 20)</li>
+          <li>(61, 0, 20)</li>
+          <li>(62, 0, 20)</li>
+          <li>(63, 0, 20)</li>
+          <li>(64, 0, 20)</li>
+          <li>(65, 0, 20)</li>
+          <li>(66, 0, 20)</li>
+          <li>(67, 0, 20)</li>
+          <li>(68, 0, 20)</li>
+          <li>(69, 0, 20)</li>
+          <li>(70, 0, 20)</li>
+          <li>(71, 0, 20)</li>
+          <li>(72, 0, 20)</li>
+          <li>(73, 0, 20)</li>
+          <li>(74, 0, 20)</li>
+          <li>(36, 0, 21)</li>
+          <li>(37, 0, 21)</li>
+          <li>(38, 0, 21)</li>
+          <li>(39, 0, 21)</li>
+          <li>(40, 0, 21)</li>
+          <li>(41, 0, 21)</li>
+          <li>(42, 0, 21)</li>
+          <li>(43, 0, 21)</li>
+          <li>(44, 0, 21)</li>
+          <li>(45, 0, 21)</li>
+          <li>(46, 0, 21)</li>
+          <li>(47, 0, 21)</li>
+          <li>(48, 0, 21)</li>
+          <li>(49, 0, 21)</li>
+          <li>(50, 0, 21)</li>
+          <li>(51, 0, 21)</li>
+          <li>(52, 0, 21)</li>
+          <li>(53, 0, 21)</li>
+          <li>(54, 0, 21)</li>
+          <li>(55, 0, 21)</li>
+          <li>(56, 0, 21)</li>
+          <li>(57, 0, 21)</li>
+          <li>(58, 0, 21)</li>
+          <li>(59, 0, 21)</li>
+          <li>(60, 0, 21)</li>
+          <li>(61, 0, 21)</li>
+          <li>(62, 0, 21)</li>
+          <li>(63, 0, 21)</li>
+          <li>(64, 0, 21)</li>
+          <li>(65, 0, 21)</li>
+          <li>(66, 0, 21)</li>
+          <li>(67, 0, 21)</li>
+          <li>(68, 0, 21)</li>
+          <li>(69, 0, 21)</li>
+          <li>(70, 0, 21)</li>
+          <li>(71, 0, 21)</li>
+          <li>(72, 0, 21)</li>
+          <li>(73, 0, 21)</li>
+          <li>(74, 0, 21)</li>
+          <li>(36, 0, 22)</li>
+          <li>(37, 0, 22)</li>
+          <li>(38, 0, 22)</li>
+          <li>(39, 0, 22)</li>
+          <li>(40, 0, 22)</li>
+          <li>(41, 0, 22)</li>
+          <li>(42, 0, 22)</li>
+          <li>(43, 0, 22)</li>
+          <li>(44, 0, 22)</li>
+          <li>(45, 0, 22)</li>
+          <li>(46, 0, 22)</li>
+          <li>(47, 0, 22)</li>
+          <li>(48, 0, 22)</li>
+          <li>(49, 0, 22)</li>
+          <li>(50, 0, 22)</li>
+          <li>(51, 0, 22)</li>
+          <li>(52, 0, 22)</li>
+          <li>(53, 0, 22)</li>
+          <li>(54, 0, 22)</li>
+          <li>(55, 0, 22)</li>
+          <li>(56, 0, 22)</li>
+          <li>(57, 0, 22)</li>
+          <li>(58, 0, 22)</li>
+          <li>(59, 0, 22)</li>
+          <li>(60, 0, 22)</li>
+          <li>(61, 0, 22)</li>
+          <li>(62, 0, 22)</li>
+          <li>(63, 0, 22)</li>
+          <li>(64, 0, 22)</li>
+          <li>(65, 0, 22)</li>
+          <li>(66, 0, 22)</li>
+          <li>(67, 0, 22)</li>
+          <li>(68, 0, 22)</li>
+          <li>(69, 0, 22)</li>
+          <li>(70, 0, 22)</li>
+          <li>(71, 0, 22)</li>
+          <li>(72, 0, 22)</li>
+          <li>(73, 0, 22)</li>
+          <li>(74, 0, 22)</li>
+          <li>(36, 0, 23)</li>
+          <li>(37, 0, 23)</li>
+          <li>(38, 0, 23)</li>
+          <li>(39, 0, 23)</li>
+          <li>(40, 0, 23)</li>
+          <li>(41, 0, 23)</li>
+          <li>(42, 0, 23)</li>
+          <li>(43, 0, 23)</li>
+          <li>(44, 0, 23)</li>
+          <li>(45, 0, 23)</li>
+          <li>(46, 0, 23)</li>
+          <li>(47, 0, 23)</li>
+          <li>(48, 0, 23)</li>
+          <li>(49, 0, 23)</li>
+          <li>(50, 0, 23)</li>
+          <li>(51, 0, 23)</li>
+          <li>(52, 0, 23)</li>
+          <li>(53, 0, 23)</li>
+          <li>(54, 0, 23)</li>
+          <li>(55, 0, 23)</li>
+          <li>(56, 0, 23)</li>
+          <li>(57, 0, 23)</li>
+          <li>(58, 0, 23)</li>
+          <li>(59, 0, 23)</li>
+          <li>(60, 0, 23)</li>
+          <li>(61, 0, 23)</li>
+          <li>(62, 0, 23)</li>
+          <li>(63, 0, 23)</li>
+          <li>(64, 0, 23)</li>
+          <li>(65, 0, 23)</li>
+          <li>(66, 0, 23)</li>
+          <li>(67, 0, 23)</li>
+          <li>(68, 0, 23)</li>
+          <li>(69, 0, 23)</li>
+          <li>(70, 0, 23)</li>
+          <li>(71, 0, 23)</li>
+          <li>(72, 0, 23)</li>
+          <li>(73, 0, 23)</li>
+          <li>(74, 0, 23)</li>
+          <li>(36, 0, 24)</li>
+          <li>(37, 0, 24)</li>
+          <li>(38, 0, 24)</li>
+          <li>(39, 0, 24)</li>
+          <li>(40, 0, 24)</li>
+          <li>(41, 0, 24)</li>
+          <li>(42, 0, 24)</li>
+          <li>(43, 0, 24)</li>
+          <li>(44, 0, 24)</li>
+          <li>(45, 0, 24)</li>
+          <li>(46, 0, 24)</li>
+          <li>(47, 0, 24)</li>
+          <li>(48, 0, 24)</li>
+          <li>(49, 0, 24)</li>
+          <li>(50, 0, 24)</li>
+          <li>(51, 0, 24)</li>
+          <li>(52, 0, 24)</li>
+          <li>(53, 0, 24)</li>
+          <li>(54, 0, 24)</li>
+          <li>(55, 0, 24)</li>
+          <li>(56, 0, 24)</li>
+          <li>(57, 0, 24)</li>
+          <li>(58, 0, 24)</li>
+          <li>(59, 0, 24)</li>
+          <li>(60, 0, 24)</li>
+          <li>(61, 0, 24)</li>
+          <li>(62, 0, 24)</li>
+          <li>(63, 0, 24)</li>
+          <li>(64, 0, 24)</li>
+          <li>(65, 0, 24)</li>
+          <li>(66, 0, 24)</li>
+          <li>(67, 0, 24)</li>
+          <li>(68, 0, 24)</li>
+          <li>(69, 0, 24)</li>
+          <li>(70, 0, 24)</li>
+          <li>(71, 0, 24)</li>
+          <li>(72, 0, 24)</li>
+          <li>(73, 0, 24)</li>
+          <li>(74, 0, 24)</li>
+          <li>(36, 0, 25)</li>
+          <li>(37, 0, 25)</li>
+          <li>(38, 0, 25)</li>
+          <li>(39, 0, 25)</li>
+          <li>(40, 0, 25)</li>
+          <li>(41, 0, 25)</li>
+          <li>(42, 0, 25)</li>
+          <li>(43, 0, 25)</li>
+          <li>(44, 0, 25)</li>
+          <li>(45, 0, 25)</li>
+          <li>(46, 0, 25)</li>
+          <li>(47, 0, 25)</li>
+          <li>(48, 0, 25)</li>
+          <li>(49, 0, 25)</li>
+          <li>(50, 0, 25)</li>
+          <li>(51, 0, 25)</li>
+          <li>(52, 0, 25)</li>
+          <li>(53, 0, 25)</li>
+          <li>(54, 0, 25)</li>
+          <li>(55, 0, 25)</li>
+          <li>(56, 0, 25)</li>
+          <li>(57, 0, 25)</li>
+          <li>(58, 0, 25)</li>
+          <li>(59, 0, 25)</li>
+          <li>(60, 0, 25)</li>
+          <li>(61, 0, 25)</li>
+          <li>(62, 0, 25)</li>
+          <li>(63, 0, 25)</li>
+          <li>(64, 0, 25)</li>
+          <li>(65, 0, 25)</li>
+          <li>(66, 0, 25)</li>
+          <li>(67, 0, 25)</li>
+          <li>(68, 0, 25)</li>
+          <li>(69, 0, 25)</li>
+          <li>(70, 0, 25)</li>
+          <li>(71, 0, 25)</li>
+          <li>(72, 0, 25)</li>
+          <li>(73, 0, 25)</li>
+          <li>(74, 0, 25)</li>
+          <li>(36, 0, 26)</li>
+          <li>(37, 0, 26)</li>
+          <li>(38, 0, 26)</li>
+          <li>(39, 0, 26)</li>
+          <li>(40, 0, 26)</li>
+          <li>(41, 0, 26)</li>
+          <li>(42, 0, 26)</li>
+          <li>(43, 0, 26)</li>
+          <li>(44, 0, 26)</li>
+          <li>(45, 0, 26)</li>
+          <li>(46, 0, 26)</li>
+          <li>(47, 0, 26)</li>
+          <li>(48, 0, 26)</li>
+          <li>(49, 0, 26)</li>
+          <li>(50, 0, 26)</li>
+          <li>(51, 0, 26)</li>
+          <li>(52, 0, 26)</li>
+          <li>(53, 0, 26)</li>
+          <li>(54, 0, 26)</li>
+          <li>(55, 0, 26)</li>
+          <li>(56, 0, 26)</li>
+          <li>(57, 0, 26)</li>
+          <li>(58, 0, 26)</li>
+          <li>(59, 0, 26)</li>
+          <li>(60, 0, 26)</li>
+          <li>(61, 0, 26)</li>
+          <li>(62, 0, 26)</li>
+          <li>(63, 0, 26)</li>
+          <li>(64, 0, 26)</li>
+          <li>(65, 0, 26)</li>
+          <li>(66, 0, 26)</li>
+          <li>(67, 0, 26)</li>
+          <li>(68, 0, 26)</li>
+          <li>(69, 0, 26)</li>
+          <li>(70, 0, 26)</li>
+          <li>(71, 0, 26)</li>
+          <li>(72, 0, 26)</li>
+          <li>(73, 0, 26)</li>
+          <li>(74, 0, 26)</li>
+          <li>(48, 0, 27)</li>
+          <li>(49, 0, 27)</li>
+          <li>(50, 0, 27)</li>
+          <li>(51, 0, 27)</li>
+          <li>(52, 0, 27)</li>
+          <li>(53, 0, 27)</li>
+          <li>(54, 0, 27)</li>
+          <li>(55, 0, 27)</li>
+          <li>(56, 0, 27)</li>
+          <li>(57, 0, 27)</li>
+          <li>(58, 0, 27)</li>
+          <li>(59, 0, 27)</li>
+          <li>(60, 0, 27)</li>
+          <li>(61, 0, 27)</li>
+          <li>(62, 0, 27)</li>
+          <li>(48, 0, 28)</li>
+          <li>(49, 0, 28)</li>
+          <li>(50, 0, 28)</li>
+          <li>(51, 0, 28)</li>
+          <li>(52, 0, 28)</li>
+          <li>(53, 0, 28)</li>
+          <li>(54, 0, 28)</li>
+          <li>(55, 0, 28)</li>
+          <li>(56, 0, 28)</li>
+          <li>(57, 0, 28)</li>
+          <li>(58, 0, 28)</li>
+          <li>(59, 0, 28)</li>
+          <li>(60, 0, 28)</li>
+          <li>(61, 0, 28)</li>
+          <li>(62, 0, 28)</li>
+          <li>(48, 0, 29)</li>
+          <li>(49, 0, 29)</li>
+          <li>(50, 0, 29)</li>
+          <li>(51, 0, 29)</li>
+          <li>(52, 0, 29)</li>
+          <li>(53, 0, 29)</li>
+          <li>(54, 0, 29)</li>
+          <li>(55, 0, 29)</li>
+          <li>(56, 0, 29)</li>
+          <li>(57, 0, 29)</li>
+          <li>(58, 0, 29)</li>
+          <li>(59, 0, 29)</li>
+          <li>(60, 0, 29)</li>
+          <li>(61, 0, 29)</li>
+          <li>(62, 0, 29)</li>
+          <li>(48, 0, 30)</li>
+          <li>(49, 0, 30)</li>
+          <li>(50, 0, 30)</li>
+          <li>(51, 0, 30)</li>
+          <li>(52, 0, 30)</li>
+          <li>(53, 0, 30)</li>
+          <li>(54, 0, 30)</li>
+          <li>(55, 0, 30)</li>
+          <li>(56, 0, 30)</li>
+          <li>(57, 0, 30)</li>
+          <li>(58, 0, 30)</li>
+          <li>(59, 0, 30)</li>
+          <li>(60, 0, 30)</li>
+          <li>(61, 0, 30)</li>
+          <li>(62, 0, 30)</li>
+          <li>(48, 0, 31)</li>
+          <li>(49, 0, 31)</li>
+          <li>(50, 0, 31)</li>
+          <li>(51, 0, 31)</li>
+          <li>(52, 0, 31)</li>
+          <li>(53, 0, 31)</li>
+          <li>(54, 0, 31)</li>
+          <li>(55, 0, 31)</li>
+          <li>(56, 0, 31)</li>
+          <li>(57, 0, 31)</li>
+          <li>(58, 0, 31)</li>
+          <li>(59, 0, 31)</li>
+          <li>(60, 0, 31)</li>
+          <li>(61, 0, 31)</li>
+          <li>(62, 0, 31)</li>
+          <li>(48, 0, 32)</li>
+          <li>(49, 0, 32)</li>
+          <li>(50, 0, 32)</li>
+          <li>(51, 0, 32)</li>
+          <li>(52, 0, 32)</li>
+          <li>(53, 0, 32)</li>
+          <li>(54, 0, 32)</li>
+          <li>(55, 0, 32)</li>
+          <li>(56, 0, 32)</li>
+          <li>(57, 0, 32)</li>
+          <li>(58, 0, 32)</li>
+          <li>(59, 0, 32)</li>
+          <li>(60, 0, 32)</li>
+          <li>(61, 0, 32)</li>
+          <li>(62, 0, 32)</li>
+          <li>(48, 0, 33)</li>
+          <li>(49, 0, 33)</li>
+          <li>(50, 0, 33)</li>
+          <li>(51, 0, 33)</li>
+          <li>(52, 0, 33)</li>
+          <li>(53, 0, 33)</li>
+          <li>(54, 0, 33)</li>
+          <li>(55, 0, 33)</li>
+          <li>(56, 0, 33)</li>
+          <li>(57, 0, 33)</li>
+          <li>(58, 0, 33)</li>
+          <li>(59, 0, 33)</li>
+          <li>(60, 0, 33)</li>
+          <li>(61, 0, 33)</li>
+          <li>(62, 0, 33)</li>
+          <li>(48, 0, 34)</li>
+          <li>(49, 0, 34)</li>
+          <li>(50, 0, 34)</li>
+          <li>(51, 0, 34)</li>
+          <li>(52, 0, 34)</li>
+          <li>(53, 0, 34)</li>
+          <li>(54, 0, 34)</li>
+          <li>(55, 0, 34)</li>
+          <li>(56, 0, 34)</li>
+          <li>(57, 0, 34)</li>
+          <li>(58, 0, 34)</li>
+          <li>(59, 0, 34)</li>
+          <li>(60, 0, 34)</li>
+          <li>(61, 0, 34)</li>
+          <li>(62, 0, 34)</li>
+          <li>(48, 0, 35)</li>
+          <li>(49, 0, 35)</li>
+          <li>(50, 0, 35)</li>
+          <li>(51, 0, 35)</li>
+          <li>(52, 0, 35)</li>
+          <li>(53, 0, 35)</li>
+          <li>(54, 0, 35)</li>
+          <li>(55, 0, 35)</li>
+          <li>(56, 0, 35)</li>
+          <li>(57, 0, 35)</li>
+          <li>(58, 0, 35)</li>
+          <li>(59, 0, 35)</li>
+          <li>(60, 0, 35)</li>
+          <li>(61, 0, 35)</li>
+          <li>(62, 0, 35)</li>
+          <li>(48, 0, 36)</li>
+          <li>(49, 0, 36)</li>
+          <li>(50, 0, 36)</li>
+          <li>(51, 0, 36)</li>
+          <li>(52, 0, 36)</li>
+          <li>(53, 0, 36)</li>
+          <li>(54, 0, 36)</li>
+          <li>(55, 0, 36)</li>
+          <li>(56, 0, 36)</li>
+          <li>(57, 0, 36)</li>
+          <li>(58, 0, 36)</li>
+          <li>(59, 0, 36)</li>
+          <li>(60, 0, 36)</li>
+          <li>(61, 0, 36)</li>
+          <li>(62, 0, 36)</li>
+          <li>(48, 0, 37)</li>
+          <li>(49, 0, 37)</li>
+          <li>(50, 0, 37)</li>
+          <li>(51, 0, 37)</li>
+          <li>(52, 0, 37)</li>
+          <li>(53, 0, 37)</li>
+          <li>(54, 0, 37)</li>
+          <li>(55, 0, 37)</li>
+          <li>(56, 0, 37)</li>
+          <li>(57, 0, 37)</li>
+          <li>(58, 0, 37)</li>
+          <li>(59, 0, 37)</li>
+          <li>(60, 0, 37)</li>
+          <li>(61, 0, 37)</li>
+          <li>(62, 0, 37)</li>
+          <li>(48, 0, 38)</li>
+          <li>(49, 0, 38)</li>
+          <li>(50, 0, 38)</li>
+          <li>(51, 0, 38)</li>
+          <li>(52, 0, 38)</li>
+          <li>(53, 0, 38)</li>
+          <li>(54, 0, 38)</li>
+          <li>(55, 0, 38)</li>
+          <li>(56, 0, 38)</li>
+          <li>(57, 0, 38)</li>
+          <li>(58, 0, 38)</li>
+          <li>(59, 0, 38)</li>
+          <li>(60, 0, 38)</li>
+          <li>(61, 0, 38)</li>
+          <li>(62, 0, 38)</li>
+        </value>
+      </li>
+    </roofs>
+    <terrains>
+      <li>
+        <key>StrawMatting</key>
+        <value>
+          <li>(36, 0, 0)</li>
+          <li>(37, 0, 0)</li>
+          <li>(38, 0, 0)</li>
+          <li>(39, 0, 0)</li>
+          <li>(40, 0, 0)</li>
+          <li>(41, 0, 0)</li>
+          <li>(42, 0, 0)</li>
+          <li>(43, 0, 0)</li>
+          <li>(44, 0, 0)</li>
+          <li>(45, 0, 0)</li>
+          <li>(46, 0, 0)</li>
+          <li>(47, 0, 0)</li>
+          <li>(63, 0, 0)</li>
+          <li>(64, 0, 0)</li>
+          <li>(65, 0, 0)</li>
+          <li>(66, 0, 0)</li>
+          <li>(67, 0, 0)</li>
+          <li>(68, 0, 0)</li>
+          <li>(69, 0, 0)</li>
+          <li>(70, 0, 0)</li>
+          <li>(71, 0, 0)</li>
+          <li>(72, 0, 0)</li>
+          <li>(73, 0, 0)</li>
+          <li>(74, 0, 0)</li>
+          <li>(36, 0, 1)</li>
+          <li>(37, 0, 1)</li>
+          <li>(38, 0, 1)</li>
+          <li>(39, 0, 1)</li>
+          <li>(40, 0, 1)</li>
+          <li>(41, 0, 1)</li>
+          <li>(42, 0, 1)</li>
+          <li>(43, 0, 1)</li>
+          <li>(44, 0, 1)</li>
+          <li>(45, 0, 1)</li>
+          <li>(46, 0, 1)</li>
+          <li>(47, 0, 1)</li>
+          <li>(63, 0, 1)</li>
+          <li>(64, 0, 1)</li>
+          <li>(65, 0, 1)</li>
+          <li>(66, 0, 1)</li>
+          <li>(67, 0, 1)</li>
+          <li>(68, 0, 1)</li>
+          <li>(69, 0, 1)</li>
+          <li>(70, 0, 1)</li>
+          <li>(71, 0, 1)</li>
+          <li>(72, 0, 1)</li>
+          <li>(73, 0, 1)</li>
+          <li>(74, 0, 1)</li>
+          <li>(36, 0, 2)</li>
+          <li>(37, 0, 2)</li>
+          <li>(38, 0, 2)</li>
+          <li>(39, 0, 2)</li>
+          <li>(40, 0, 2)</li>
+          <li>(41, 0, 2)</li>
+          <li>(42, 0, 2)</li>
+          <li>(43, 0, 2)</li>
+          <li>(44, 0, 2)</li>
+          <li>(45, 0, 2)</li>
+          <li>(46, 0, 2)</li>
+          <li>(47, 0, 2)</li>
+          <li>(63, 0, 2)</li>
+          <li>(64, 0, 2)</li>
+          <li>(65, 0, 2)</li>
+          <li>(66, 0, 2)</li>
+          <li>(67, 0, 2)</li>
+          <li>(68, 0, 2)</li>
+          <li>(69, 0, 2)</li>
+          <li>(70, 0, 2)</li>
+          <li>(71, 0, 2)</li>
+          <li>(72, 0, 2)</li>
+          <li>(73, 0, 2)</li>
+          <li>(74, 0, 2)</li>
+          <li>(36, 0, 3)</li>
+          <li>(37, 0, 3)</li>
+          <li>(38, 0, 3)</li>
+          <li>(39, 0, 3)</li>
+          <li>(40, 0, 3)</li>
+          <li>(41, 0, 3)</li>
+          <li>(42, 0, 3)</li>
+          <li>(43, 0, 3)</li>
+          <li>(44, 0, 3)</li>
+          <li>(45, 0, 3)</li>
+          <li>(46, 0, 3)</li>
+          <li>(47, 0, 3)</li>
+          <li>(63, 0, 3)</li>
+          <li>(64, 0, 3)</li>
+          <li>(65, 0, 3)</li>
+          <li>(66, 0, 3)</li>
+          <li>(67, 0, 3)</li>
+          <li>(68, 0, 3)</li>
+          <li>(69, 0, 3)</li>
+          <li>(70, 0, 3)</li>
+          <li>(71, 0, 3)</li>
+          <li>(72, 0, 3)</li>
+          <li>(73, 0, 3)</li>
+          <li>(74, 0, 3)</li>
+          <li>(36, 0, 4)</li>
+          <li>(37, 0, 4)</li>
+          <li>(38, 0, 4)</li>
+          <li>(39, 0, 4)</li>
+          <li>(40, 0, 4)</li>
+          <li>(41, 0, 4)</li>
+          <li>(42, 0, 4)</li>
+          <li>(43, 0, 4)</li>
+          <li>(44, 0, 4)</li>
+          <li>(45, 0, 4)</li>
+          <li>(46, 0, 4)</li>
+          <li>(47, 0, 4)</li>
+          <li>(63, 0, 4)</li>
+          <li>(64, 0, 4)</li>
+          <li>(65, 0, 4)</li>
+          <li>(66, 0, 4)</li>
+          <li>(67, 0, 4)</li>
+          <li>(68, 0, 4)</li>
+          <li>(69, 0, 4)</li>
+          <li>(70, 0, 4)</li>
+          <li>(71, 0, 4)</li>
+          <li>(72, 0, 4)</li>
+          <li>(73, 0, 4)</li>
+          <li>(74, 0, 4)</li>
+          <li>(36, 0, 5)</li>
+          <li>(37, 0, 5)</li>
+          <li>(38, 0, 5)</li>
+          <li>(39, 0, 5)</li>
+          <li>(40, 0, 5)</li>
+          <li>(41, 0, 5)</li>
+          <li>(42, 0, 5)</li>
+          <li>(43, 0, 5)</li>
+          <li>(44, 0, 5)</li>
+          <li>(45, 0, 5)</li>
+          <li>(46, 0, 5)</li>
+          <li>(47, 0, 5)</li>
+          <li>(63, 0, 5)</li>
+          <li>(64, 0, 5)</li>
+          <li>(65, 0, 5)</li>
+          <li>(66, 0, 5)</li>
+          <li>(67, 0, 5)</li>
+          <li>(68, 0, 5)</li>
+          <li>(69, 0, 5)</li>
+          <li>(70, 0, 5)</li>
+          <li>(71, 0, 5)</li>
+          <li>(72, 0, 5)</li>
+          <li>(73, 0, 5)</li>
+          <li>(74, 0, 5)</li>
+          <li>(36, 0, 6)</li>
+          <li>(37, 0, 6)</li>
+          <li>(38, 0, 6)</li>
+          <li>(39, 0, 6)</li>
+          <li>(40, 0, 6)</li>
+          <li>(41, 0, 6)</li>
+          <li>(42, 0, 6)</li>
+          <li>(43, 0, 6)</li>
+          <li>(44, 0, 6)</li>
+          <li>(45, 0, 6)</li>
+          <li>(46, 0, 6)</li>
+          <li>(47, 0, 6)</li>
+          <li>(63, 0, 6)</li>
+          <li>(64, 0, 6)</li>
+          <li>(65, 0, 6)</li>
+          <li>(66, 0, 6)</li>
+          <li>(67, 0, 6)</li>
+          <li>(68, 0, 6)</li>
+          <li>(69, 0, 6)</li>
+          <li>(70, 0, 6)</li>
+          <li>(71, 0, 6)</li>
+          <li>(72, 0, 6)</li>
+          <li>(73, 0, 6)</li>
+          <li>(74, 0, 6)</li>
+          <li>(36, 0, 7)</li>
+          <li>(37, 0, 7)</li>
+          <li>(38, 0, 7)</li>
+          <li>(39, 0, 7)</li>
+          <li>(40, 0, 7)</li>
+          <li>(41, 0, 7)</li>
+          <li>(42, 0, 7)</li>
+          <li>(43, 0, 7)</li>
+          <li>(44, 0, 7)</li>
+          <li>(45, 0, 7)</li>
+          <li>(46, 0, 7)</li>
+          <li>(47, 0, 7)</li>
+          <li>(63, 0, 7)</li>
+          <li>(64, 0, 7)</li>
+          <li>(65, 0, 7)</li>
+          <li>(66, 0, 7)</li>
+          <li>(67, 0, 7)</li>
+          <li>(68, 0, 7)</li>
+          <li>(69, 0, 7)</li>
+          <li>(70, 0, 7)</li>
+          <li>(71, 0, 7)</li>
+          <li>(72, 0, 7)</li>
+          <li>(73, 0, 7)</li>
+          <li>(74, 0, 7)</li>
+          <li>(36, 0, 8)</li>
+          <li>(37, 0, 8)</li>
+          <li>(38, 0, 8)</li>
+          <li>(39, 0, 8)</li>
+          <li>(40, 0, 8)</li>
+          <li>(41, 0, 8)</li>
+          <li>(42, 0, 8)</li>
+          <li>(43, 0, 8)</li>
+          <li>(44, 0, 8)</li>
+          <li>(45, 0, 8)</li>
+          <li>(46, 0, 8)</li>
+          <li>(47, 0, 8)</li>
+          <li>(63, 0, 8)</li>
+          <li>(64, 0, 8)</li>
+          <li>(65, 0, 8)</li>
+          <li>(66, 0, 8)</li>
+          <li>(67, 0, 8)</li>
+          <li>(68, 0, 8)</li>
+          <li>(69, 0, 8)</li>
+          <li>(70, 0, 8)</li>
+          <li>(71, 0, 8)</li>
+          <li>(72, 0, 8)</li>
+          <li>(73, 0, 8)</li>
+          <li>(74, 0, 8)</li>
+          <li>(36, 0, 9)</li>
+          <li>(37, 0, 9)</li>
+          <li>(38, 0, 9)</li>
+          <li>(39, 0, 9)</li>
+          <li>(40, 0, 9)</li>
+          <li>(41, 0, 9)</li>
+          <li>(42, 0, 9)</li>
+          <li>(43, 0, 9)</li>
+          <li>(44, 0, 9)</li>
+          <li>(45, 0, 9)</li>
+          <li>(46, 0, 9)</li>
+          <li>(47, 0, 9)</li>
+          <li>(63, 0, 9)</li>
+          <li>(64, 0, 9)</li>
+          <li>(65, 0, 9)</li>
+          <li>(66, 0, 9)</li>
+          <li>(67, 0, 9)</li>
+          <li>(68, 0, 9)</li>
+          <li>(69, 0, 9)</li>
+          <li>(70, 0, 9)</li>
+          <li>(71, 0, 9)</li>
+          <li>(72, 0, 9)</li>
+          <li>(73, 0, 9)</li>
+          <li>(74, 0, 9)</li>
+          <li>(36, 0, 10)</li>
+          <li>(37, 0, 10)</li>
+          <li>(38, 0, 10)</li>
+          <li>(39, 0, 10)</li>
+          <li>(40, 0, 10)</li>
+          <li>(41, 0, 10)</li>
+          <li>(42, 0, 10)</li>
+          <li>(43, 0, 10)</li>
+          <li>(44, 0, 10)</li>
+          <li>(45, 0, 10)</li>
+          <li>(46, 0, 10)</li>
+          <li>(47, 0, 10)</li>
+          <li>(63, 0, 10)</li>
+          <li>(64, 0, 10)</li>
+          <li>(65, 0, 10)</li>
+          <li>(66, 0, 10)</li>
+          <li>(67, 0, 10)</li>
+          <li>(68, 0, 10)</li>
+          <li>(69, 0, 10)</li>
+          <li>(70, 0, 10)</li>
+          <li>(71, 0, 10)</li>
+          <li>(72, 0, 10)</li>
+          <li>(73, 0, 10)</li>
+          <li>(74, 0, 10)</li>
+          <li>(36, 0, 11)</li>
+          <li>(37, 0, 11)</li>
+          <li>(38, 0, 11)</li>
+          <li>(39, 0, 11)</li>
+          <li>(40, 0, 11)</li>
+          <li>(41, 0, 11)</li>
+          <li>(42, 0, 11)</li>
+          <li>(43, 0, 11)</li>
+          <li>(44, 0, 11)</li>
+          <li>(45, 0, 11)</li>
+          <li>(46, 0, 11)</li>
+          <li>(47, 0, 11)</li>
+          <li>(63, 0, 11)</li>
+          <li>(64, 0, 11)</li>
+          <li>(65, 0, 11)</li>
+          <li>(66, 0, 11)</li>
+          <li>(67, 0, 11)</li>
+          <li>(68, 0, 11)</li>
+          <li>(69, 0, 11)</li>
+          <li>(70, 0, 11)</li>
+          <li>(71, 0, 11)</li>
+          <li>(72, 0, 11)</li>
+          <li>(73, 0, 11)</li>
+          <li>(74, 0, 11)</li>
+          <li>(36, 0, 27)</li>
+          <li>(37, 0, 27)</li>
+          <li>(38, 0, 27)</li>
+          <li>(39, 0, 27)</li>
+          <li>(40, 0, 27)</li>
+          <li>(41, 0, 27)</li>
+          <li>(42, 0, 27)</li>
+          <li>(43, 0, 27)</li>
+          <li>(44, 0, 27)</li>
+          <li>(45, 0, 27)</li>
+          <li>(46, 0, 27)</li>
+          <li>(47, 0, 27)</li>
+          <li>(63, 0, 27)</li>
+          <li>(64, 0, 27)</li>
+          <li>(65, 0, 27)</li>
+          <li>(66, 0, 27)</li>
+          <li>(67, 0, 27)</li>
+          <li>(68, 0, 27)</li>
+          <li>(69, 0, 27)</li>
+          <li>(70, 0, 27)</li>
+          <li>(71, 0, 27)</li>
+          <li>(72, 0, 27)</li>
+          <li>(73, 0, 27)</li>
+          <li>(74, 0, 27)</li>
+          <li>(36, 0, 28)</li>
+          <li>(37, 0, 28)</li>
+          <li>(38, 0, 28)</li>
+          <li>(39, 0, 28)</li>
+          <li>(40, 0, 28)</li>
+          <li>(41, 0, 28)</li>
+          <li>(42, 0, 28)</li>
+          <li>(43, 0, 28)</li>
+          <li>(44, 0, 28)</li>
+          <li>(45, 0, 28)</li>
+          <li>(46, 0, 28)</li>
+          <li>(47, 0, 28)</li>
+          <li>(63, 0, 28)</li>
+          <li>(64, 0, 28)</li>
+          <li>(65, 0, 28)</li>
+          <li>(66, 0, 28)</li>
+          <li>(67, 0, 28)</li>
+          <li>(68, 0, 28)</li>
+          <li>(69, 0, 28)</li>
+          <li>(70, 0, 28)</li>
+          <li>(71, 0, 28)</li>
+          <li>(72, 0, 28)</li>
+          <li>(73, 0, 28)</li>
+          <li>(74, 0, 28)</li>
+          <li>(36, 0, 29)</li>
+          <li>(37, 0, 29)</li>
+          <li>(38, 0, 29)</li>
+          <li>(39, 0, 29)</li>
+          <li>(40, 0, 29)</li>
+          <li>(41, 0, 29)</li>
+          <li>(42, 0, 29)</li>
+          <li>(43, 0, 29)</li>
+          <li>(44, 0, 29)</li>
+          <li>(45, 0, 29)</li>
+          <li>(46, 0, 29)</li>
+          <li>(47, 0, 29)</li>
+          <li>(63, 0, 29)</li>
+          <li>(64, 0, 29)</li>
+          <li>(65, 0, 29)</li>
+          <li>(66, 0, 29)</li>
+          <li>(67, 0, 29)</li>
+          <li>(68, 0, 29)</li>
+          <li>(69, 0, 29)</li>
+          <li>(70, 0, 29)</li>
+          <li>(71, 0, 29)</li>
+          <li>(72, 0, 29)</li>
+          <li>(73, 0, 29)</li>
+          <li>(74, 0, 29)</li>
+          <li>(36, 0, 30)</li>
+          <li>(37, 0, 30)</li>
+          <li>(38, 0, 30)</li>
+          <li>(39, 0, 30)</li>
+          <li>(40, 0, 30)</li>
+          <li>(41, 0, 30)</li>
+          <li>(42, 0, 30)</li>
+          <li>(43, 0, 30)</li>
+          <li>(44, 0, 30)</li>
+          <li>(45, 0, 30)</li>
+          <li>(46, 0, 30)</li>
+          <li>(47, 0, 30)</li>
+          <li>(63, 0, 30)</li>
+          <li>(64, 0, 30)</li>
+          <li>(65, 0, 30)</li>
+          <li>(66, 0, 30)</li>
+          <li>(67, 0, 30)</li>
+          <li>(68, 0, 30)</li>
+          <li>(69, 0, 30)</li>
+          <li>(70, 0, 30)</li>
+          <li>(71, 0, 30)</li>
+          <li>(72, 0, 30)</li>
+          <li>(73, 0, 30)</li>
+          <li>(74, 0, 30)</li>
+          <li>(36, 0, 31)</li>
+          <li>(37, 0, 31)</li>
+          <li>(38, 0, 31)</li>
+          <li>(39, 0, 31)</li>
+          <li>(40, 0, 31)</li>
+          <li>(41, 0, 31)</li>
+          <li>(42, 0, 31)</li>
+          <li>(43, 0, 31)</li>
+          <li>(44, 0, 31)</li>
+          <li>(45, 0, 31)</li>
+          <li>(46, 0, 31)</li>
+          <li>(47, 0, 31)</li>
+          <li>(63, 0, 31)</li>
+          <li>(64, 0, 31)</li>
+          <li>(65, 0, 31)</li>
+          <li>(66, 0, 31)</li>
+          <li>(67, 0, 31)</li>
+          <li>(68, 0, 31)</li>
+          <li>(69, 0, 31)</li>
+          <li>(70, 0, 31)</li>
+          <li>(71, 0, 31)</li>
+          <li>(72, 0, 31)</li>
+          <li>(73, 0, 31)</li>
+          <li>(74, 0, 31)</li>
+          <li>(36, 0, 32)</li>
+          <li>(37, 0, 32)</li>
+          <li>(38, 0, 32)</li>
+          <li>(39, 0, 32)</li>
+          <li>(40, 0, 32)</li>
+          <li>(41, 0, 32)</li>
+          <li>(42, 0, 32)</li>
+          <li>(43, 0, 32)</li>
+          <li>(44, 0, 32)</li>
+          <li>(45, 0, 32)</li>
+          <li>(46, 0, 32)</li>
+          <li>(47, 0, 32)</li>
+          <li>(63, 0, 32)</li>
+          <li>(64, 0, 32)</li>
+          <li>(65, 0, 32)</li>
+          <li>(66, 0, 32)</li>
+          <li>(67, 0, 32)</li>
+          <li>(68, 0, 32)</li>
+          <li>(69, 0, 32)</li>
+          <li>(70, 0, 32)</li>
+          <li>(71, 0, 32)</li>
+          <li>(72, 0, 32)</li>
+          <li>(73, 0, 32)</li>
+          <li>(74, 0, 32)</li>
+          <li>(36, 0, 33)</li>
+          <li>(37, 0, 33)</li>
+          <li>(38, 0, 33)</li>
+          <li>(39, 0, 33)</li>
+          <li>(40, 0, 33)</li>
+          <li>(41, 0, 33)</li>
+          <li>(42, 0, 33)</li>
+          <li>(43, 0, 33)</li>
+          <li>(44, 0, 33)</li>
+          <li>(45, 0, 33)</li>
+          <li>(46, 0, 33)</li>
+          <li>(47, 0, 33)</li>
+          <li>(63, 0, 33)</li>
+          <li>(64, 0, 33)</li>
+          <li>(65, 0, 33)</li>
+          <li>(66, 0, 33)</li>
+          <li>(67, 0, 33)</li>
+          <li>(68, 0, 33)</li>
+          <li>(69, 0, 33)</li>
+          <li>(70, 0, 33)</li>
+          <li>(71, 0, 33)</li>
+          <li>(72, 0, 33)</li>
+          <li>(73, 0, 33)</li>
+          <li>(74, 0, 33)</li>
+          <li>(36, 0, 34)</li>
+          <li>(37, 0, 34)</li>
+          <li>(38, 0, 34)</li>
+          <li>(39, 0, 34)</li>
+          <li>(40, 0, 34)</li>
+          <li>(41, 0, 34)</li>
+          <li>(42, 0, 34)</li>
+          <li>(43, 0, 34)</li>
+          <li>(44, 0, 34)</li>
+          <li>(45, 0, 34)</li>
+          <li>(46, 0, 34)</li>
+          <li>(47, 0, 34)</li>
+          <li>(63, 0, 34)</li>
+          <li>(64, 0, 34)</li>
+          <li>(65, 0, 34)</li>
+          <li>(66, 0, 34)</li>
+          <li>(67, 0, 34)</li>
+          <li>(68, 0, 34)</li>
+          <li>(69, 0, 34)</li>
+          <li>(70, 0, 34)</li>
+          <li>(71, 0, 34)</li>
+          <li>(72, 0, 34)</li>
+          <li>(73, 0, 34)</li>
+          <li>(74, 0, 34)</li>
+          <li>(36, 0, 35)</li>
+          <li>(37, 0, 35)</li>
+          <li>(38, 0, 35)</li>
+          <li>(39, 0, 35)</li>
+          <li>(40, 0, 35)</li>
+          <li>(41, 0, 35)</li>
+          <li>(42, 0, 35)</li>
+          <li>(43, 0, 35)</li>
+          <li>(44, 0, 35)</li>
+          <li>(45, 0, 35)</li>
+          <li>(46, 0, 35)</li>
+          <li>(47, 0, 35)</li>
+          <li>(63, 0, 35)</li>
+          <li>(64, 0, 35)</li>
+          <li>(65, 0, 35)</li>
+          <li>(66, 0, 35)</li>
+          <li>(67, 0, 35)</li>
+          <li>(68, 0, 35)</li>
+          <li>(69, 0, 35)</li>
+          <li>(70, 0, 35)</li>
+          <li>(71, 0, 35)</li>
+          <li>(72, 0, 35)</li>
+          <li>(73, 0, 35)</li>
+          <li>(74, 0, 35)</li>
+          <li>(36, 0, 36)</li>
+          <li>(37, 0, 36)</li>
+          <li>(38, 0, 36)</li>
+          <li>(39, 0, 36)</li>
+          <li>(40, 0, 36)</li>
+          <li>(41, 0, 36)</li>
+          <li>(42, 0, 36)</li>
+          <li>(43, 0, 36)</li>
+          <li>(44, 0, 36)</li>
+          <li>(45, 0, 36)</li>
+          <li>(46, 0, 36)</li>
+          <li>(47, 0, 36)</li>
+          <li>(63, 0, 36)</li>
+          <li>(64, 0, 36)</li>
+          <li>(65, 0, 36)</li>
+          <li>(66, 0, 36)</li>
+          <li>(67, 0, 36)</li>
+          <li>(68, 0, 36)</li>
+          <li>(69, 0, 36)</li>
+          <li>(70, 0, 36)</li>
+          <li>(71, 0, 36)</li>
+          <li>(72, 0, 36)</li>
+          <li>(73, 0, 36)</li>
+          <li>(74, 0, 36)</li>
+          <li>(36, 0, 37)</li>
+          <li>(37, 0, 37)</li>
+          <li>(38, 0, 37)</li>
+          <li>(39, 0, 37)</li>
+          <li>(40, 0, 37)</li>
+          <li>(41, 0, 37)</li>
+          <li>(42, 0, 37)</li>
+          <li>(43, 0, 37)</li>
+          <li>(44, 0, 37)</li>
+          <li>(45, 0, 37)</li>
+          <li>(46, 0, 37)</li>
+          <li>(47, 0, 37)</li>
+          <li>(63, 0, 37)</li>
+          <li>(64, 0, 37)</li>
+          <li>(65, 0, 37)</li>
+          <li>(66, 0, 37)</li>
+          <li>(67, 0, 37)</li>
+          <li>(68, 0, 37)</li>
+          <li>(69, 0, 37)</li>
+          <li>(70, 0, 37)</li>
+          <li>(71, 0, 37)</li>
+          <li>(72, 0, 37)</li>
+          <li>(73, 0, 37)</li>
+          <li>(74, 0, 37)</li>
+          <li>(36, 0, 38)</li>
+          <li>(37, 0, 38)</li>
+          <li>(38, 0, 38)</li>
+          <li>(39, 0, 38)</li>
+          <li>(40, 0, 38)</li>
+          <li>(41, 0, 38)</li>
+          <li>(42, 0, 38)</li>
+          <li>(43, 0, 38)</li>
+          <li>(44, 0, 38)</li>
+          <li>(45, 0, 38)</li>
+          <li>(46, 0, 38)</li>
+          <li>(47, 0, 38)</li>
+          <li>(63, 0, 38)</li>
+          <li>(64, 0, 38)</li>
+          <li>(65, 0, 38)</li>
+          <li>(66, 0, 38)</li>
+          <li>(67, 0, 38)</li>
+          <li>(68, 0, 38)</li>
+          <li>(69, 0, 38)</li>
+          <li>(70, 0, 38)</li>
+          <li>(71, 0, 38)</li>
+          <li>(72, 0, 38)</li>
+          <li>(73, 0, 38)</li>
+          <li>(74, 0, 38)</li>
+        </value>
+      </li>
+      <li>
+        <key>WoodPlankFloor</key>
+        <value>
+          <li>(49, 0, 1)</li>
+          <li>(50, 0, 1)</li>
+          <li>(51, 0, 1)</li>
+          <li>(52, 0, 1)</li>
+          <li>(53, 0, 1)</li>
+          <li>(54, 0, 1)</li>
+          <li>(55, 0, 1)</li>
+          <li>(56, 0, 1)</li>
+          <li>(57, 0, 1)</li>
+          <li>(58, 0, 1)</li>
+          <li>(59, 0, 1)</li>
+          <li>(60, 0, 1)</li>
+          <li>(61, 0, 1)</li>
+          <li>(49, 0, 2)</li>
+          <li>(50, 0, 2)</li>
+          <li>(51, 0, 2)</li>
+          <li>(52, 0, 2)</li>
+          <li>(53, 0, 2)</li>
+          <li>(54, 0, 2)</li>
+          <li>(55, 0, 2)</li>
+          <li>(56, 0, 2)</li>
+          <li>(57, 0, 2)</li>
+          <li>(58, 0, 2)</li>
+          <li>(59, 0, 2)</li>
+          <li>(60, 0, 2)</li>
+          <li>(61, 0, 2)</li>
+          <li>(49, 0, 3)</li>
+          <li>(50, 0, 3)</li>
+          <li>(51, 0, 3)</li>
+          <li>(52, 0, 3)</li>
+          <li>(53, 0, 3)</li>
+          <li>(54, 0, 3)</li>
+          <li>(55, 0, 3)</li>
+          <li>(56, 0, 3)</li>
+          <li>(57, 0, 3)</li>
+          <li>(58, 0, 3)</li>
+          <li>(59, 0, 3)</li>
+          <li>(60, 0, 3)</li>
+          <li>(61, 0, 3)</li>
+          <li>(49, 0, 4)</li>
+          <li>(50, 0, 4)</li>
+          <li>(51, 0, 4)</li>
+          <li>(52, 0, 4)</li>
+          <li>(53, 0, 4)</li>
+          <li>(54, 0, 4)</li>
+          <li>(55, 0, 4)</li>
+          <li>(56, 0, 4)</li>
+          <li>(57, 0, 4)</li>
+          <li>(58, 0, 4)</li>
+          <li>(59, 0, 4)</li>
+          <li>(60, 0, 4)</li>
+          <li>(61, 0, 4)</li>
+          <li>(49, 0, 5)</li>
+          <li>(50, 0, 5)</li>
+          <li>(51, 0, 5)</li>
+          <li>(52, 0, 5)</li>
+          <li>(53, 0, 5)</li>
+          <li>(54, 0, 5)</li>
+          <li>(55, 0, 5)</li>
+          <li>(56, 0, 5)</li>
+          <li>(57, 0, 5)</li>
+          <li>(58, 0, 5)</li>
+          <li>(59, 0, 5)</li>
+          <li>(60, 0, 5)</li>
+          <li>(61, 0, 5)</li>
+          <li>(49, 0, 6)</li>
+          <li>(50, 0, 6)</li>
+          <li>(51, 0, 6)</li>
+          <li>(52, 0, 6)</li>
+          <li>(53, 0, 6)</li>
+          <li>(54, 0, 6)</li>
+          <li>(55, 0, 6)</li>
+          <li>(56, 0, 6)</li>
+          <li>(57, 0, 6)</li>
+          <li>(58, 0, 6)</li>
+          <li>(59, 0, 6)</li>
+          <li>(60, 0, 6)</li>
+          <li>(61, 0, 6)</li>
+          <li>(49, 0, 7)</li>
+          <li>(50, 0, 7)</li>
+          <li>(51, 0, 7)</li>
+          <li>(52, 0, 7)</li>
+          <li>(53, 0, 7)</li>
+          <li>(54, 0, 7)</li>
+          <li>(55, 0, 7)</li>
+          <li>(56, 0, 7)</li>
+          <li>(57, 0, 7)</li>
+          <li>(58, 0, 7)</li>
+          <li>(59, 0, 7)</li>
+          <li>(60, 0, 7)</li>
+          <li>(61, 0, 7)</li>
+          <li>(49, 0, 8)</li>
+          <li>(50, 0, 8)</li>
+          <li>(51, 0, 8)</li>
+          <li>(52, 0, 8)</li>
+          <li>(53, 0, 8)</li>
+          <li>(54, 0, 8)</li>
+          <li>(55, 0, 8)</li>
+          <li>(56, 0, 8)</li>
+          <li>(57, 0, 8)</li>
+          <li>(58, 0, 8)</li>
+          <li>(59, 0, 8)</li>
+          <li>(60, 0, 8)</li>
+          <li>(61, 0, 8)</li>
+          <li>(49, 0, 9)</li>
+          <li>(50, 0, 9)</li>
+          <li>(51, 0, 9)</li>
+          <li>(52, 0, 9)</li>
+          <li>(53, 0, 9)</li>
+          <li>(54, 0, 9)</li>
+          <li>(55, 0, 9)</li>
+          <li>(56, 0, 9)</li>
+          <li>(57, 0, 9)</li>
+          <li>(58, 0, 9)</li>
+          <li>(59, 0, 9)</li>
+          <li>(60, 0, 9)</li>
+          <li>(61, 0, 9)</li>
+          <li>(49, 0, 10)</li>
+          <li>(50, 0, 10)</li>
+          <li>(51, 0, 10)</li>
+          <li>(52, 0, 10)</li>
+          <li>(53, 0, 10)</li>
+          <li>(54, 0, 10)</li>
+          <li>(55, 0, 10)</li>
+          <li>(56, 0, 10)</li>
+          <li>(57, 0, 10)</li>
+          <li>(58, 0, 10)</li>
+          <li>(59, 0, 10)</li>
+          <li>(60, 0, 10)</li>
+          <li>(61, 0, 10)</li>
+          <li>(49, 0, 11)</li>
+          <li>(50, 0, 11)</li>
+          <li>(51, 0, 11)</li>
+          <li>(52, 0, 11)</li>
+          <li>(53, 0, 11)</li>
+          <li>(54, 0, 11)</li>
+          <li>(55, 0, 11)</li>
+          <li>(56, 0, 11)</li>
+          <li>(57, 0, 11)</li>
+          <li>(58, 0, 11)</li>
+          <li>(59, 0, 11)</li>
+          <li>(60, 0, 11)</li>
+          <li>(61, 0, 11)</li>
+          <li>(49, 0, 12)</li>
+          <li>(50, 0, 12)</li>
+          <li>(51, 0, 12)</li>
+          <li>(52, 0, 12)</li>
+          <li>(53, 0, 12)</li>
+          <li>(54, 0, 12)</li>
+          <li>(55, 0, 12)</li>
+          <li>(56, 0, 12)</li>
+          <li>(57, 0, 12)</li>
+          <li>(58, 0, 12)</li>
+          <li>(59, 0, 12)</li>
+          <li>(60, 0, 12)</li>
+          <li>(61, 0, 12)</li>
+          <li>(49, 0, 13)</li>
+          <li>(50, 0, 13)</li>
+          <li>(51, 0, 13)</li>
+          <li>(52, 0, 13)</li>
+          <li>(53, 0, 13)</li>
+          <li>(54, 0, 13)</li>
+          <li>(55, 0, 13)</li>
+          <li>(56, 0, 13)</li>
+          <li>(57, 0, 13)</li>
+          <li>(58, 0, 13)</li>
+          <li>(59, 0, 13)</li>
+          <li>(60, 0, 13)</li>
+          <li>(61, 0, 13)</li>
+          <li>(62, 0, 13)</li>
+          <li>(63, 0, 13)</li>
+          <li>(64, 0, 13)</li>
+          <li>(65, 0, 13)</li>
+          <li>(66, 0, 13)</li>
+          <li>(67, 0, 13)</li>
+          <li>(68, 0, 13)</li>
+          <li>(69, 0, 13)</li>
+          <li>(70, 0, 13)</li>
+          <li>(71, 0, 13)</li>
+          <li>(72, 0, 13)</li>
+          <li>(73, 0, 13)</li>
+          <li>(38, 0, 14)</li>
+          <li>(39, 0, 14)</li>
+          <li>(40, 0, 14)</li>
+          <li>(41, 0, 14)</li>
+          <li>(42, 0, 14)</li>
+          <li>(43, 0, 14)</li>
+          <li>(44, 0, 14)</li>
+          <li>(45, 0, 14)</li>
+          <li>(46, 0, 14)</li>
+          <li>(47, 0, 14)</li>
+          <li>(48, 0, 14)</li>
+          <li>(49, 0, 14)</li>
+          <li>(50, 0, 14)</li>
+          <li>(51, 0, 14)</li>
+          <li>(52, 0, 14)</li>
+          <li>(53, 0, 14)</li>
+          <li>(54, 0, 14)</li>
+          <li>(55, 0, 14)</li>
+          <li>(56, 0, 14)</li>
+          <li>(57, 0, 14)</li>
+          <li>(58, 0, 14)</li>
+          <li>(59, 0, 14)</li>
+          <li>(60, 0, 14)</li>
+          <li>(61, 0, 14)</li>
+          <li>(62, 0, 14)</li>
+          <li>(63, 0, 14)</li>
+          <li>(64, 0, 14)</li>
+          <li>(65, 0, 14)</li>
+          <li>(66, 0, 14)</li>
+          <li>(67, 0, 14)</li>
+          <li>(68, 0, 14)</li>
+          <li>(69, 0, 14)</li>
+          <li>(70, 0, 14)</li>
+          <li>(71, 0, 14)</li>
+          <li>(72, 0, 14)</li>
+          <li>(73, 0, 14)</li>
+          <li>(38, 0, 15)</li>
+          <li>(39, 0, 15)</li>
+          <li>(40, 0, 15)</li>
+          <li>(41, 0, 15)</li>
+          <li>(42, 0, 15)</li>
+          <li>(43, 0, 15)</li>
+          <li>(44, 0, 15)</li>
+          <li>(45, 0, 15)</li>
+          <li>(46, 0, 15)</li>
+          <li>(47, 0, 15)</li>
+          <li>(48, 0, 15)</li>
+          <li>(49, 0, 15)</li>
+          <li>(50, 0, 15)</li>
+          <li>(51, 0, 15)</li>
+          <li>(52, 0, 15)</li>
+          <li>(53, 0, 15)</li>
+          <li>(54, 0, 15)</li>
+          <li>(55, 0, 15)</li>
+          <li>(56, 0, 15)</li>
+          <li>(57, 0, 15)</li>
+          <li>(58, 0, 15)</li>
+          <li>(59, 0, 15)</li>
+          <li>(60, 0, 15)</li>
+          <li>(61, 0, 15)</li>
+          <li>(62, 0, 15)</li>
+          <li>(63, 0, 15)</li>
+          <li>(64, 0, 15)</li>
+          <li>(65, 0, 15)</li>
+          <li>(66, 0, 15)</li>
+          <li>(67, 0, 15)</li>
+          <li>(68, 0, 15)</li>
+          <li>(69, 0, 15)</li>
+          <li>(70, 0, 15)</li>
+          <li>(71, 0, 15)</li>
+          <li>(72, 0, 15)</li>
+          <li>(73, 0, 15)</li>
+          <li>(38, 0, 16)</li>
+          <li>(39, 0, 16)</li>
+          <li>(40, 0, 16)</li>
+          <li>(41, 0, 16)</li>
+          <li>(42, 0, 16)</li>
+          <li>(43, 0, 16)</li>
+          <li>(44, 0, 16)</li>
+          <li>(45, 0, 16)</li>
+          <li>(46, 0, 16)</li>
+          <li>(47, 0, 16)</li>
+          <li>(48, 0, 16)</li>
+          <li>(49, 0, 16)</li>
+          <li>(50, 0, 16)</li>
+          <li>(51, 0, 16)</li>
+          <li>(52, 0, 16)</li>
+          <li>(53, 0, 16)</li>
+          <li>(54, 0, 16)</li>
+          <li>(55, 0, 16)</li>
+          <li>(56, 0, 16)</li>
+          <li>(57, 0, 16)</li>
+          <li>(58, 0, 16)</li>
+          <li>(59, 0, 16)</li>
+          <li>(60, 0, 16)</li>
+          <li>(61, 0, 16)</li>
+          <li>(62, 0, 16)</li>
+          <li>(63, 0, 16)</li>
+          <li>(64, 0, 16)</li>
+          <li>(65, 0, 16)</li>
+          <li>(66, 0, 16)</li>
+          <li>(67, 0, 16)</li>
+          <li>(68, 0, 16)</li>
+          <li>(69, 0, 16)</li>
+          <li>(70, 0, 16)</li>
+          <li>(71, 0, 16)</li>
+          <li>(72, 0, 16)</li>
+          <li>(73, 0, 16)</li>
+          <li>(38, 0, 17)</li>
+          <li>(39, 0, 17)</li>
+          <li>(40, 0, 17)</li>
+          <li>(41, 0, 17)</li>
+          <li>(42, 0, 17)</li>
+          <li>(43, 0, 17)</li>
+          <li>(44, 0, 17)</li>
+          <li>(45, 0, 17)</li>
+          <li>(46, 0, 17)</li>
+          <li>(47, 0, 17)</li>
+          <li>(48, 0, 17)</li>
+          <li>(49, 0, 17)</li>
+          <li>(50, 0, 17)</li>
+          <li>(51, 0, 17)</li>
+          <li>(52, 0, 17)</li>
+          <li>(53, 0, 17)</li>
+          <li>(54, 0, 17)</li>
+          <li>(55, 0, 17)</li>
+          <li>(56, 0, 17)</li>
+          <li>(57, 0, 17)</li>
+          <li>(58, 0, 17)</li>
+          <li>(59, 0, 17)</li>
+          <li>(60, 0, 17)</li>
+          <li>(61, 0, 17)</li>
+          <li>(62, 0, 17)</li>
+          <li>(63, 0, 17)</li>
+          <li>(64, 0, 17)</li>
+          <li>(65, 0, 17)</li>
+          <li>(66, 0, 17)</li>
+          <li>(67, 0, 17)</li>
+          <li>(68, 0, 17)</li>
+          <li>(69, 0, 17)</li>
+          <li>(70, 0, 17)</li>
+          <li>(71, 0, 17)</li>
+          <li>(72, 0, 17)</li>
+          <li>(73, 0, 17)</li>
+          <li>(38, 0, 18)</li>
+          <li>(39, 0, 18)</li>
+          <li>(40, 0, 18)</li>
+          <li>(41, 0, 18)</li>
+          <li>(42, 0, 18)</li>
+          <li>(43, 0, 18)</li>
+          <li>(44, 0, 18)</li>
+          <li>(45, 0, 18)</li>
+          <li>(46, 0, 18)</li>
+          <li>(47, 0, 18)</li>
+          <li>(48, 0, 18)</li>
+          <li>(49, 0, 18)</li>
+          <li>(50, 0, 18)</li>
+          <li>(51, 0, 18)</li>
+          <li>(52, 0, 18)</li>
+          <li>(53, 0, 18)</li>
+          <li>(54, 0, 18)</li>
+          <li>(55, 0, 18)</li>
+          <li>(56, 0, 18)</li>
+          <li>(57, 0, 18)</li>
+          <li>(58, 0, 18)</li>
+          <li>(59, 0, 18)</li>
+          <li>(60, 0, 18)</li>
+          <li>(61, 0, 18)</li>
+          <li>(62, 0, 18)</li>
+          <li>(63, 0, 18)</li>
+          <li>(64, 0, 18)</li>
+          <li>(65, 0, 18)</li>
+          <li>(66, 0, 18)</li>
+          <li>(67, 0, 18)</li>
+          <li>(68, 0, 18)</li>
+          <li>(69, 0, 18)</li>
+          <li>(70, 0, 18)</li>
+          <li>(71, 0, 18)</li>
+          <li>(72, 0, 18)</li>
+          <li>(73, 0, 18)</li>
+          <li>(36, 0, 19)</li>
+          <li>(37, 0, 19)</li>
+          <li>(38, 0, 19)</li>
+          <li>(39, 0, 19)</li>
+          <li>(40, 0, 19)</li>
+          <li>(41, 0, 19)</li>
+          <li>(42, 0, 19)</li>
+          <li>(43, 0, 19)</li>
+          <li>(44, 0, 19)</li>
+          <li>(45, 0, 19)</li>
+          <li>(46, 0, 19)</li>
+          <li>(47, 0, 19)</li>
+          <li>(48, 0, 19)</li>
+          <li>(49, 0, 19)</li>
+          <li>(50, 0, 19)</li>
+          <li>(51, 0, 19)</li>
+          <li>(52, 0, 19)</li>
+          <li>(53, 0, 19)</li>
+          <li>(54, 0, 19)</li>
+          <li>(55, 0, 19)</li>
+          <li>(56, 0, 19)</li>
+          <li>(57, 0, 19)</li>
+          <li>(58, 0, 19)</li>
+          <li>(59, 0, 19)</li>
+          <li>(60, 0, 19)</li>
+          <li>(61, 0, 19)</li>
+          <li>(62, 0, 19)</li>
+          <li>(63, 0, 19)</li>
+          <li>(64, 0, 19)</li>
+          <li>(65, 0, 19)</li>
+          <li>(66, 0, 19)</li>
+          <li>(67, 0, 19)</li>
+          <li>(68, 0, 19)</li>
+          <li>(69, 0, 19)</li>
+          <li>(70, 0, 19)</li>
+          <li>(71, 0, 19)</li>
+          <li>(72, 0, 19)</li>
+          <li>(73, 0, 19)</li>
+          <li>(74, 0, 19)</li>
+          <li>(38, 0, 20)</li>
+          <li>(39, 0, 20)</li>
+          <li>(40, 0, 20)</li>
+          <li>(41, 0, 20)</li>
+          <li>(42, 0, 20)</li>
+          <li>(43, 0, 20)</li>
+          <li>(44, 0, 20)</li>
+          <li>(45, 0, 20)</li>
+          <li>(46, 0, 20)</li>
+          <li>(47, 0, 20)</li>
+          <li>(48, 0, 20)</li>
+          <li>(49, 0, 20)</li>
+          <li>(50, 0, 20)</li>
+          <li>(51, 0, 20)</li>
+          <li>(52, 0, 20)</li>
+          <li>(53, 0, 20)</li>
+          <li>(54, 0, 20)</li>
+          <li>(55, 0, 20)</li>
+          <li>(56, 0, 20)</li>
+          <li>(57, 0, 20)</li>
+          <li>(58, 0, 20)</li>
+          <li>(59, 0, 20)</li>
+          <li>(60, 0, 20)</li>
+          <li>(61, 0, 20)</li>
+          <li>(62, 0, 20)</li>
+          <li>(63, 0, 20)</li>
+          <li>(64, 0, 20)</li>
+          <li>(65, 0, 20)</li>
+          <li>(66, 0, 20)</li>
+          <li>(67, 0, 20)</li>
+          <li>(68, 0, 20)</li>
+          <li>(69, 0, 20)</li>
+          <li>(70, 0, 20)</li>
+          <li>(71, 0, 20)</li>
+          <li>(72, 0, 20)</li>
+          <li>(73, 0, 20)</li>
+          <li>(38, 0, 21)</li>
+          <li>(39, 0, 21)</li>
+          <li>(40, 0, 21)</li>
+          <li>(41, 0, 21)</li>
+          <li>(42, 0, 21)</li>
+          <li>(43, 0, 21)</li>
+          <li>(44, 0, 21)</li>
+          <li>(45, 0, 21)</li>
+          <li>(46, 0, 21)</li>
+          <li>(47, 0, 21)</li>
+          <li>(48, 0, 21)</li>
+          <li>(49, 0, 21)</li>
+          <li>(50, 0, 21)</li>
+          <li>(51, 0, 21)</li>
+          <li>(52, 0, 21)</li>
+          <li>(53, 0, 21)</li>
+          <li>(54, 0, 21)</li>
+          <li>(55, 0, 21)</li>
+          <li>(56, 0, 21)</li>
+          <li>(57, 0, 21)</li>
+          <li>(58, 0, 21)</li>
+          <li>(59, 0, 21)</li>
+          <li>(60, 0, 21)</li>
+          <li>(61, 0, 21)</li>
+          <li>(62, 0, 21)</li>
+          <li>(63, 0, 21)</li>
+          <li>(64, 0, 21)</li>
+          <li>(65, 0, 21)</li>
+          <li>(66, 0, 21)</li>
+          <li>(67, 0, 21)</li>
+          <li>(68, 0, 21)</li>
+          <li>(69, 0, 21)</li>
+          <li>(70, 0, 21)</li>
+          <li>(71, 0, 21)</li>
+          <li>(72, 0, 21)</li>
+          <li>(73, 0, 21)</li>
+          <li>(38, 0, 22)</li>
+          <li>(39, 0, 22)</li>
+          <li>(40, 0, 22)</li>
+          <li>(41, 0, 22)</li>
+          <li>(42, 0, 22)</li>
+          <li>(43, 0, 22)</li>
+          <li>(44, 0, 22)</li>
+          <li>(45, 0, 22)</li>
+          <li>(46, 0, 22)</li>
+          <li>(47, 0, 22)</li>
+          <li>(48, 0, 22)</li>
+          <li>(49, 0, 22)</li>
+          <li>(50, 0, 22)</li>
+          <li>(51, 0, 22)</li>
+          <li>(52, 0, 22)</li>
+          <li>(53, 0, 22)</li>
+          <li>(54, 0, 22)</li>
+          <li>(55, 0, 22)</li>
+          <li>(56, 0, 22)</li>
+          <li>(57, 0, 22)</li>
+          <li>(58, 0, 22)</li>
+          <li>(59, 0, 22)</li>
+          <li>(60, 0, 22)</li>
+          <li>(61, 0, 22)</li>
+          <li>(62, 0, 22)</li>
+          <li>(63, 0, 22)</li>
+          <li>(64, 0, 22)</li>
+          <li>(65, 0, 22)</li>
+          <li>(66, 0, 22)</li>
+          <li>(67, 0, 22)</li>
+          <li>(68, 0, 22)</li>
+          <li>(69, 0, 22)</li>
+          <li>(70, 0, 22)</li>
+          <li>(71, 0, 22)</li>
+          <li>(72, 0, 22)</li>
+          <li>(73, 0, 22)</li>
+          <li>(38, 0, 23)</li>
+          <li>(39, 0, 23)</li>
+          <li>(40, 0, 23)</li>
+          <li>(41, 0, 23)</li>
+          <li>(42, 0, 23)</li>
+          <li>(43, 0, 23)</li>
+          <li>(44, 0, 23)</li>
+          <li>(45, 0, 23)</li>
+          <li>(46, 0, 23)</li>
+          <li>(47, 0, 23)</li>
+          <li>(48, 0, 23)</li>
+          <li>(49, 0, 23)</li>
+          <li>(50, 0, 23)</li>
+          <li>(51, 0, 23)</li>
+          <li>(52, 0, 23)</li>
+          <li>(53, 0, 23)</li>
+          <li>(54, 0, 23)</li>
+          <li>(55, 0, 23)</li>
+          <li>(56, 0, 23)</li>
+          <li>(57, 0, 23)</li>
+          <li>(58, 0, 23)</li>
+          <li>(59, 0, 23)</li>
+          <li>(60, 0, 23)</li>
+          <li>(61, 0, 23)</li>
+          <li>(62, 0, 23)</li>
+          <li>(63, 0, 23)</li>
+          <li>(64, 0, 23)</li>
+          <li>(65, 0, 23)</li>
+          <li>(66, 0, 23)</li>
+          <li>(67, 0, 23)</li>
+          <li>(68, 0, 23)</li>
+          <li>(69, 0, 23)</li>
+          <li>(70, 0, 23)</li>
+          <li>(71, 0, 23)</li>
+          <li>(72, 0, 23)</li>
+          <li>(73, 0, 23)</li>
+          <li>(38, 0, 24)</li>
+          <li>(39, 0, 24)</li>
+          <li>(40, 0, 24)</li>
+          <li>(41, 0, 24)</li>
+          <li>(42, 0, 24)</li>
+          <li>(43, 0, 24)</li>
+          <li>(44, 0, 24)</li>
+          <li>(45, 0, 24)</li>
+          <li>(46, 0, 24)</li>
+          <li>(47, 0, 24)</li>
+          <li>(48, 0, 24)</li>
+          <li>(49, 0, 24)</li>
+          <li>(50, 0, 24)</li>
+          <li>(51, 0, 24)</li>
+          <li>(52, 0, 24)</li>
+          <li>(53, 0, 24)</li>
+          <li>(54, 0, 24)</li>
+          <li>(55, 0, 24)</li>
+          <li>(56, 0, 24)</li>
+          <li>(57, 0, 24)</li>
+          <li>(58, 0, 24)</li>
+          <li>(59, 0, 24)</li>
+          <li>(60, 0, 24)</li>
+          <li>(61, 0, 24)</li>
+          <li>(62, 0, 24)</li>
+          <li>(63, 0, 24)</li>
+          <li>(64, 0, 24)</li>
+          <li>(65, 0, 24)</li>
+          <li>(66, 0, 24)</li>
+          <li>(67, 0, 24)</li>
+          <li>(68, 0, 24)</li>
+          <li>(69, 0, 24)</li>
+          <li>(70, 0, 24)</li>
+          <li>(71, 0, 24)</li>
+          <li>(72, 0, 24)</li>
+          <li>(73, 0, 24)</li>
+          <li>(49, 0, 25)</li>
+          <li>(50, 0, 25)</li>
+          <li>(51, 0, 25)</li>
+          <li>(52, 0, 25)</li>
+          <li>(53, 0, 25)</li>
+          <li>(54, 0, 25)</li>
+          <li>(55, 0, 25)</li>
+          <li>(56, 0, 25)</li>
+          <li>(57, 0, 25)</li>
+          <li>(58, 0, 25)</li>
+          <li>(59, 0, 25)</li>
+          <li>(60, 0, 25)</li>
+          <li>(61, 0, 25)</li>
+          <li>(62, 0, 25)</li>
+          <li>(63, 0, 25)</li>
+          <li>(64, 0, 25)</li>
+          <li>(65, 0, 25)</li>
+          <li>(66, 0, 25)</li>
+          <li>(67, 0, 25)</li>
+          <li>(68, 0, 25)</li>
+          <li>(69, 0, 25)</li>
+          <li>(70, 0, 25)</li>
+          <li>(71, 0, 25)</li>
+          <li>(72, 0, 25)</li>
+          <li>(73, 0, 25)</li>
+          <li>(49, 0, 26)</li>
+          <li>(50, 0, 26)</li>
+          <li>(51, 0, 26)</li>
+          <li>(52, 0, 26)</li>
+          <li>(53, 0, 26)</li>
+          <li>(54, 0, 26)</li>
+          <li>(55, 0, 26)</li>
+          <li>(56, 0, 26)</li>
+          <li>(57, 0, 26)</li>
+          <li>(58, 0, 26)</li>
+          <li>(59, 0, 26)</li>
+          <li>(60, 0, 26)</li>
+          <li>(61, 0, 26)</li>
+          <li>(49, 0, 27)</li>
+          <li>(50, 0, 27)</li>
+          <li>(51, 0, 27)</li>
+          <li>(52, 0, 27)</li>
+          <li>(53, 0, 27)</li>
+          <li>(54, 0, 27)</li>
+          <li>(55, 0, 27)</li>
+          <li>(56, 0, 27)</li>
+          <li>(57, 0, 27)</li>
+          <li>(58, 0, 27)</li>
+          <li>(59, 0, 27)</li>
+          <li>(60, 0, 27)</li>
+          <li>(61, 0, 27)</li>
+          <li>(49, 0, 28)</li>
+          <li>(50, 0, 28)</li>
+          <li>(51, 0, 28)</li>
+          <li>(52, 0, 28)</li>
+          <li>(53, 0, 28)</li>
+          <li>(54, 0, 28)</li>
+          <li>(55, 0, 28)</li>
+          <li>(56, 0, 28)</li>
+          <li>(57, 0, 28)</li>
+          <li>(58, 0, 28)</li>
+          <li>(59, 0, 28)</li>
+          <li>(60, 0, 28)</li>
+          <li>(61, 0, 28)</li>
+          <li>(49, 0, 29)</li>
+          <li>(50, 0, 29)</li>
+          <li>(51, 0, 29)</li>
+          <li>(52, 0, 29)</li>
+          <li>(53, 0, 29)</li>
+          <li>(54, 0, 29)</li>
+          <li>(55, 0, 29)</li>
+          <li>(56, 0, 29)</li>
+          <li>(57, 0, 29)</li>
+          <li>(58, 0, 29)</li>
+          <li>(59, 0, 29)</li>
+          <li>(60, 0, 29)</li>
+          <li>(61, 0, 29)</li>
+          <li>(49, 0, 30)</li>
+          <li>(50, 0, 30)</li>
+          <li>(51, 0, 30)</li>
+          <li>(52, 0, 30)</li>
+          <li>(53, 0, 30)</li>
+          <li>(54, 0, 30)</li>
+          <li>(55, 0, 30)</li>
+          <li>(56, 0, 30)</li>
+          <li>(57, 0, 30)</li>
+          <li>(58, 0, 30)</li>
+          <li>(59, 0, 30)</li>
+          <li>(60, 0, 30)</li>
+          <li>(61, 0, 30)</li>
+          <li>(49, 0, 31)</li>
+          <li>(50, 0, 31)</li>
+          <li>(51, 0, 31)</li>
+          <li>(52, 0, 31)</li>
+          <li>(53, 0, 31)</li>
+          <li>(54, 0, 31)</li>
+          <li>(55, 0, 31)</li>
+          <li>(56, 0, 31)</li>
+          <li>(57, 0, 31)</li>
+          <li>(58, 0, 31)</li>
+          <li>(59, 0, 31)</li>
+          <li>(60, 0, 31)</li>
+          <li>(61, 0, 31)</li>
+          <li>(49, 0, 32)</li>
+          <li>(50, 0, 32)</li>
+          <li>(51, 0, 32)</li>
+          <li>(52, 0, 32)</li>
+          <li>(53, 0, 32)</li>
+          <li>(54, 0, 32)</li>
+          <li>(55, 0, 32)</li>
+          <li>(56, 0, 32)</li>
+          <li>(57, 0, 32)</li>
+          <li>(58, 0, 32)</li>
+          <li>(59, 0, 32)</li>
+          <li>(60, 0, 32)</li>
+          <li>(61, 0, 32)</li>
+          <li>(49, 0, 33)</li>
+          <li>(50, 0, 33)</li>
+          <li>(51, 0, 33)</li>
+          <li>(52, 0, 33)</li>
+          <li>(53, 0, 33)</li>
+          <li>(54, 0, 33)</li>
+          <li>(55, 0, 33)</li>
+          <li>(56, 0, 33)</li>
+          <li>(57, 0, 33)</li>
+          <li>(58, 0, 33)</li>
+          <li>(59, 0, 33)</li>
+          <li>(60, 0, 33)</li>
+          <li>(61, 0, 33)</li>
+          <li>(49, 0, 34)</li>
+          <li>(50, 0, 34)</li>
+          <li>(51, 0, 34)</li>
+          <li>(52, 0, 34)</li>
+          <li>(53, 0, 34)</li>
+          <li>(54, 0, 34)</li>
+          <li>(55, 0, 34)</li>
+          <li>(56, 0, 34)</li>
+          <li>(57, 0, 34)</li>
+          <li>(58, 0, 34)</li>
+          <li>(59, 0, 34)</li>
+          <li>(60, 0, 34)</li>
+          <li>(61, 0, 34)</li>
+          <li>(49, 0, 35)</li>
+          <li>(50, 0, 35)</li>
+          <li>(51, 0, 35)</li>
+          <li>(52, 0, 35)</li>
+          <li>(53, 0, 35)</li>
+          <li>(54, 0, 35)</li>
+          <li>(55, 0, 35)</li>
+          <li>(56, 0, 35)</li>
+          <li>(57, 0, 35)</li>
+          <li>(58, 0, 35)</li>
+          <li>(59, 0, 35)</li>
+          <li>(60, 0, 35)</li>
+          <li>(61, 0, 35)</li>
+          <li>(49, 0, 36)</li>
+          <li>(50, 0, 36)</li>
+          <li>(51, 0, 36)</li>
+          <li>(52, 0, 36)</li>
+          <li>(53, 0, 36)</li>
+          <li>(54, 0, 36)</li>
+          <li>(55, 0, 36)</li>
+          <li>(56, 0, 36)</li>
+          <li>(57, 0, 36)</li>
+          <li>(58, 0, 36)</li>
+          <li>(59, 0, 36)</li>
+          <li>(60, 0, 36)</li>
+          <li>(61, 0, 36)</li>
+          <li>(49, 0, 37)</li>
+          <li>(50, 0, 37)</li>
+          <li>(51, 0, 37)</li>
+          <li>(52, 0, 37)</li>
+          <li>(53, 0, 37)</li>
+          <li>(54, 0, 37)</li>
+          <li>(55, 0, 37)</li>
+          <li>(56, 0, 37)</li>
+          <li>(57, 0, 37)</li>
+          <li>(58, 0, 37)</li>
+          <li>(59, 0, 37)</li>
+          <li>(60, 0, 37)</li>
+          <li>(61, 0, 37)</li>
+        </value>
+      </li>
+    </terrains>
+    <thingDatas>
+      <li>
+        <def>Fence</def>
+        <stuff>WoodLog</stuff>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>26</hitPoint>
+        <allPositions>
+          <li>(37, 0, 0)</li>
+          <li>(38, 0, 0)</li>
+          <li>(39, 0, 0)</li>
+          <li>(40, 0, 0)</li>
+          <li>(41, 0, 0)</li>
+          <li>(42, 0, 0)</li>
+          <li>(43, 0, 0)</li>
+          <li>(44, 0, 0)</li>
+          <li>(45, 0, 0)</li>
+          <li>(46, 0, 0)</li>
+          <li>(47, 0, 0)</li>
+          <li>(63, 0, 0)</li>
+          <li>(64, 0, 0)</li>
+          <li>(65, 0, 0)</li>
+          <li>(66, 0, 0)</li>
+          <li>(67, 0, 0)</li>
+          <li>(68, 0, 0)</li>
+          <li>(69, 0, 0)</li>
+          <li>(70, 0, 0)</li>
+          <li>(71, 0, 0)</li>
+          <li>(72, 0, 0)</li>
+          <li>(73, 0, 0)</li>
+          <li>(74, 0, 0)</li>
+          <li>(36, 0, 1)</li>
+          <li>(74, 0, 1)</li>
+          <li>(36, 0, 2)</li>
+          <li>(74, 0, 2)</li>
+          <li>(36, 0, 3)</li>
+          <li>(74, 0, 3)</li>
+          <li>(36, 0, 4)</li>
+          <li>(74, 0, 4)</li>
+          <li>(36, 0, 5)</li>
+          <li>(74, 0, 5)</li>
+          <li>(36, 0, 6)</li>
+          <li>(74, 0, 6)</li>
+          <li>(36, 0, 7)</li>
+          <li>(74, 0, 7)</li>
+          <li>(36, 0, 8)</li>
+          <li>(74, 0, 8)</li>
+          <li>(36, 0, 9)</li>
+          <li>(74, 0, 9)</li>
+          <li>(36, 0, 10)</li>
+          <li>(74, 0, 10)</li>
+          <li>(36, 0, 11)</li>
+          <li>(74, 0, 11)</li>
+          <li>(36, 0, 27)</li>
+          <li>(74, 0, 27)</li>
+          <li>(36, 0, 28)</li>
+          <li>(74, 0, 28)</li>
+          <li>(36, 0, 29)</li>
+          <li>(74, 0, 29)</li>
+          <li>(36, 0, 30)</li>
+          <li>(74, 0, 30)</li>
+          <li>(36, 0, 31)</li>
+          <li>(74, 0, 31)</li>
+          <li>(36, 0, 32)</li>
+          <li>(74, 0, 32)</li>
+          <li>(36, 0, 33)</li>
+          <li>(74, 0, 33)</li>
+          <li>(36, 0, 34)</li>
+          <li>(74, 0, 34)</li>
+          <li>(36, 0, 35)</li>
+          <li>(74, 0, 35)</li>
+          <li>(36, 0, 36)</li>
+          <li>(74, 0, 36)</li>
+          <li>(36, 0, 37)</li>
+          <li>(74, 0, 37)</li>
+          <li>(36, 0, 38)</li>
+          <li>(37, 0, 38)</li>
+          <li>(38, 0, 38)</li>
+          <li>(39, 0, 38)</li>
+          <li>(40, 0, 38)</li>
+          <li>(41, 0, 38)</li>
+          <li>(42, 0, 38)</li>
+          <li>(43, 0, 38)</li>
+          <li>(44, 0, 38)</li>
+          <li>(45, 0, 38)</li>
+          <li>(46, 0, 38)</li>
+          <li>(47, 0, 38)</li>
+          <li>(63, 0, 38)</li>
+          <li>(64, 0, 38)</li>
+          <li>(65, 0, 38)</li>
+          <li>(66, 0, 38)</li>
+          <li>(67, 0, 38)</li>
+          <li>(68, 0, 38)</li>
+          <li>(69, 0, 38)</li>
+          <li>(70, 0, 38)</li>
+          <li>(71, 0, 38)</li>
+          <li>(72, 0, 38)</li>
+          <li>(73, 0, 38)</li>
+          <li>(74, 0, 38)</li>
+          <li>(36, 0, 0)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Wall</def>
+        <stuff>WoodLog</stuff>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>195</hitPoint>
+        <allPositions>
+          <li>(49, 0, 0)</li>
+          <li>(50, 0, 0)</li>
+          <li>(51, 0, 0)</li>
+          <li>(52, 0, 0)</li>
+          <li>(53, 0, 0)</li>
+          <li>(54, 0, 0)</li>
+          <li>(56, 0, 0)</li>
+          <li>(57, 0, 0)</li>
+          <li>(58, 0, 0)</li>
+          <li>(59, 0, 0)</li>
+          <li>(60, 0, 0)</li>
+          <li>(61, 0, 0)</li>
+          <li>(62, 0, 0)</li>
+          <li>(48, 0, 1)</li>
+          <li>(62, 0, 1)</li>
+          <li>(48, 0, 2)</li>
+          <li>(54, 0, 2)</li>
+          <li>(56, 0, 2)</li>
+          <li>(62, 0, 2)</li>
+          <li>(48, 0, 3)</li>
+          <li>(62, 0, 3)</li>
+          <li>(48, 0, 4)</li>
+          <li>(54, 0, 4)</li>
+          <li>(56, 0, 4)</li>
+          <li>(62, 0, 4)</li>
+          <li>(48, 0, 5)</li>
+          <li>(50, 0, 5)</li>
+          <li>(51, 0, 5)</li>
+          <li>(52, 0, 5)</li>
+          <li>(53, 0, 5)</li>
+          <li>(54, 0, 5)</li>
+          <li>(56, 0, 5)</li>
+          <li>(57, 0, 5)</li>
+          <li>(58, 0, 5)</li>
+          <li>(59, 0, 5)</li>
+          <li>(60, 0, 5)</li>
+          <li>(62, 0, 5)</li>
+          <li>(48, 0, 6)</li>
+          <li>(54, 0, 6)</li>
+          <li>(56, 0, 6)</li>
+          <li>(62, 0, 6)</li>
+          <li>(48, 0, 7)</li>
+          <li>(62, 0, 7)</li>
+          <li>(48, 0, 8)</li>
+          <li>(54, 0, 8)</li>
+          <li>(56, 0, 8)</li>
+          <li>(62, 0, 8)</li>
+          <li>(48, 0, 9)</li>
+          <li>(50, 0, 9)</li>
+          <li>(51, 0, 9)</li>
+          <li>(52, 0, 9)</li>
+          <li>(53, 0, 9)</li>
+          <li>(54, 0, 9)</li>
+          <li>(56, 0, 9)</li>
+          <li>(57, 0, 9)</li>
+          <li>(58, 0, 9)</li>
+          <li>(59, 0, 9)</li>
+          <li>(60, 0, 9)</li>
+          <li>(62, 0, 9)</li>
+          <li>(48, 0, 10)</li>
+          <li>(54, 0, 10)</li>
+          <li>(56, 0, 10)</li>
+          <li>(62, 0, 10)</li>
+          <li>(48, 0, 11)</li>
+          <li>(62, 0, 11)</li>
+          <li>(36, 0, 12)</li>
+          <li>(37, 0, 12)</li>
+          <li>(38, 0, 12)</li>
+          <li>(39, 0, 12)</li>
+          <li>(40, 0, 12)</li>
+          <li>(41, 0, 12)</li>
+          <li>(42, 0, 12)</li>
+          <li>(43, 0, 12)</li>
+          <li>(44, 0, 12)</li>
+          <li>(45, 0, 12)</li>
+          <li>(46, 0, 12)</li>
+          <li>(47, 0, 12)</li>
+          <li>(48, 0, 12)</li>
+          <li>(54, 0, 12)</li>
+          <li>(56, 0, 12)</li>
+          <li>(62, 0, 12)</li>
+          <li>(63, 0, 12)</li>
+          <li>(64, 0, 12)</li>
+          <li>(65, 0, 12)</li>
+          <li>(66, 0, 12)</li>
+          <li>(67, 0, 12)</li>
+          <li>(68, 0, 12)</li>
+          <li>(69, 0, 12)</li>
+          <li>(70, 0, 12)</li>
+          <li>(71, 0, 12)</li>
+          <li>(72, 0, 12)</li>
+          <li>(73, 0, 12)</li>
+          <li>(74, 0, 12)</li>
+          <li>(36, 0, 13)</li>
+          <li>(74, 0, 13)</li>
+          <li>(36, 0, 14)</li>
+          <li>(41, 0, 14)</li>
+          <li>(45, 0, 14)</li>
+          <li>(65, 0, 14)</li>
+          <li>(69, 0, 14)</li>
+          <li>(74, 0, 14)</li>
+          <li>(36, 0, 15)</li>
+          <li>(41, 0, 15)</li>
+          <li>(45, 0, 15)</li>
+          <li>(65, 0, 15)</li>
+          <li>(69, 0, 15)</li>
+          <li>(74, 0, 15)</li>
+          <li>(36, 0, 16)</li>
+          <li>(41, 0, 16)</li>
+          <li>(45, 0, 16)</li>
+          <li>(65, 0, 16)</li>
+          <li>(69, 0, 16)</li>
+          <li>(74, 0, 16)</li>
+          <li>(36, 0, 17)</li>
+          <li>(41, 0, 17)</li>
+          <li>(45, 0, 17)</li>
+          <li>(65, 0, 17)</li>
+          <li>(69, 0, 17)</li>
+          <li>(74, 0, 17)</li>
+          <li>(36, 0, 18)</li>
+          <li>(38, 0, 18)</li>
+          <li>(40, 0, 18)</li>
+          <li>(41, 0, 18)</li>
+          <li>(42, 0, 18)</li>
+          <li>(44, 0, 18)</li>
+          <li>(45, 0, 18)</li>
+          <li>(46, 0, 18)</li>
+          <li>(48, 0, 18)</li>
+          <li>(62, 0, 18)</li>
+          <li>(64, 0, 18)</li>
+          <li>(65, 0, 18)</li>
+          <li>(66, 0, 18)</li>
+          <li>(68, 0, 18)</li>
+          <li>(69, 0, 18)</li>
+          <li>(70, 0, 18)</li>
+          <li>(72, 0, 18)</li>
+          <li>(74, 0, 18)</li>
+          <li>(36, 0, 20)</li>
+          <li>(38, 0, 20)</li>
+          <li>(40, 0, 20)</li>
+          <li>(41, 0, 20)</li>
+          <li>(42, 0, 20)</li>
+          <li>(44, 0, 20)</li>
+          <li>(45, 0, 20)</li>
+          <li>(46, 0, 20)</li>
+          <li>(48, 0, 20)</li>
+          <li>(62, 0, 20)</li>
+          <li>(64, 0, 20)</li>
+          <li>(65, 0, 20)</li>
+          <li>(66, 0, 20)</li>
+          <li>(68, 0, 20)</li>
+          <li>(69, 0, 20)</li>
+          <li>(70, 0, 20)</li>
+          <li>(72, 0, 20)</li>
+          <li>(74, 0, 20)</li>
+          <li>(36, 0, 21)</li>
+          <li>(41, 0, 21)</li>
+          <li>(45, 0, 21)</li>
+          <li>(65, 0, 21)</li>
+          <li>(69, 0, 21)</li>
+          <li>(74, 0, 21)</li>
+          <li>(36, 0, 22)</li>
+          <li>(41, 0, 22)</li>
+          <li>(45, 0, 22)</li>
+          <li>(65, 0, 22)</li>
+          <li>(69, 0, 22)</li>
+          <li>(74, 0, 22)</li>
+          <li>(36, 0, 23)</li>
+          <li>(41, 0, 23)</li>
+          <li>(45, 0, 23)</li>
+          <li>(65, 0, 23)</li>
+          <li>(69, 0, 23)</li>
+          <li>(74, 0, 23)</li>
+          <li>(36, 0, 24)</li>
+          <li>(41, 0, 24)</li>
+          <li>(45, 0, 24)</li>
+          <li>(65, 0, 24)</li>
+          <li>(69, 0, 24)</li>
+          <li>(74, 0, 24)</li>
+          <li>(36, 0, 25)</li>
+          <li>(74, 0, 25)</li>
+          <li>(36, 0, 26)</li>
+          <li>(37, 0, 26)</li>
+          <li>(38, 0, 26)</li>
+          <li>(39, 0, 26)</li>
+          <li>(40, 0, 26)</li>
+          <li>(41, 0, 26)</li>
+          <li>(42, 0, 26)</li>
+          <li>(43, 0, 26)</li>
+          <li>(44, 0, 26)</li>
+          <li>(45, 0, 26)</li>
+          <li>(46, 0, 26)</li>
+          <li>(47, 0, 26)</li>
+          <li>(48, 0, 26)</li>
+          <li>(54, 0, 26)</li>
+          <li>(56, 0, 26)</li>
+          <li>(62, 0, 26)</li>
+          <li>(63, 0, 26)</li>
+          <li>(64, 0, 26)</li>
+          <li>(65, 0, 26)</li>
+          <li>(66, 0, 26)</li>
+          <li>(67, 0, 26)</li>
+          <li>(68, 0, 26)</li>
+          <li>(69, 0, 26)</li>
+          <li>(70, 0, 26)</li>
+          <li>(71, 0, 26)</li>
+          <li>(72, 0, 26)</li>
+          <li>(73, 0, 26)</li>
+          <li>(74, 0, 26)</li>
+          <li>(48, 0, 27)</li>
+          <li>(62, 0, 27)</li>
+          <li>(48, 0, 28)</li>
+          <li>(54, 0, 28)</li>
+          <li>(56, 0, 28)</li>
+          <li>(62, 0, 28)</li>
+          <li>(48, 0, 29)</li>
+          <li>(50, 0, 29)</li>
+          <li>(51, 0, 29)</li>
+          <li>(52, 0, 29)</li>
+          <li>(53, 0, 29)</li>
+          <li>(54, 0, 29)</li>
+          <li>(56, 0, 29)</li>
+          <li>(57, 0, 29)</li>
+          <li>(58, 0, 29)</li>
+          <li>(59, 0, 29)</li>
+          <li>(60, 0, 29)</li>
+          <li>(62, 0, 29)</li>
+          <li>(48, 0, 30)</li>
+          <li>(54, 0, 30)</li>
+          <li>(56, 0, 30)</li>
+          <li>(62, 0, 30)</li>
+          <li>(48, 0, 31)</li>
+          <li>(62, 0, 31)</li>
+          <li>(48, 0, 32)</li>
+          <li>(54, 0, 32)</li>
+          <li>(56, 0, 32)</li>
+          <li>(62, 0, 32)</li>
+          <li>(48, 0, 33)</li>
+          <li>(50, 0, 33)</li>
+          <li>(51, 0, 33)</li>
+          <li>(52, 0, 33)</li>
+          <li>(53, 0, 33)</li>
+          <li>(54, 0, 33)</li>
+          <li>(56, 0, 33)</li>
+          <li>(57, 0, 33)</li>
+          <li>(58, 0, 33)</li>
+          <li>(59, 0, 33)</li>
+          <li>(60, 0, 33)</li>
+          <li>(62, 0, 33)</li>
+          <li>(48, 0, 34)</li>
+          <li>(54, 0, 34)</li>
+          <li>(56, 0, 34)</li>
+          <li>(62, 0, 34)</li>
+          <li>(48, 0, 35)</li>
+          <li>(62, 0, 35)</li>
+          <li>(48, 0, 36)</li>
+          <li>(54, 0, 36)</li>
+          <li>(56, 0, 36)</li>
+          <li>(62, 0, 36)</li>
+          <li>(48, 0, 37)</li>
+          <li>(62, 0, 37)</li>
+          <li>(48, 0, 38)</li>
+          <li>(49, 0, 38)</li>
+          <li>(50, 0, 38)</li>
+          <li>(51, 0, 38)</li>
+          <li>(52, 0, 38)</li>
+          <li>(53, 0, 38)</li>
+          <li>(54, 0, 38)</li>
+          <li>(56, 0, 38)</li>
+          <li>(57, 0, 38)</li>
+          <li>(58, 0, 38)</li>
+          <li>(59, 0, 38)</li>
+          <li>(60, 0, 38)</li>
+          <li>(61, 0, 38)</li>
+          <li>(62, 0, 38)</li>
+          <li>(48, 0, 0)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>WoodLog</stuff>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>104</hitPoint>
+        <allPositions>
+          <li>(39, 0, 18)</li>
+          <li>(43, 0, 18)</li>
+          <li>(47, 0, 18)</li>
+          <li>(63, 0, 18)</li>
+          <li>(67, 0, 18)</li>
+          <li>(71, 0, 18)</li>
+          <li>(39, 0, 20)</li>
+          <li>(43, 0, 20)</li>
+          <li>(47, 0, 20)</li>
+          <li>(63, 0, 20)</li>
+          <li>(67, 0, 20)</li>
+          <li>(71, 0, 20)</li>
+          <li>(55, 0, 38)</li>
+          <li>(55, 0, 0)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>510</hitPoint>
+        <allPositions>
+          <li>(50, 0, 1)</li>
+          <li>(51, 0, 1)</li>
+          <li>(52, 0, 1)</li>
+          <li>(53, 0, 1)</li>
+          <li>(54, 0, 1)</li>
+          <li>(56, 0, 1)</li>
+          <li>(57, 0, 1)</li>
+          <li>(58, 0, 1)</li>
+          <li>(59, 0, 1)</li>
+          <li>(60, 0, 1)</li>
+          <li>(61, 0, 1)</li>
+          <li>(49, 0, 2)</li>
+          <li>(61, 0, 2)</li>
+          <li>(49, 0, 3)</li>
+          <li>(61, 0, 3)</li>
+          <li>(49, 0, 4)</li>
+          <li>(61, 0, 4)</li>
+          <li>(49, 0, 5)</li>
+          <li>(61, 0, 5)</li>
+          <li>(49, 0, 6)</li>
+          <li>(61, 0, 6)</li>
+          <li>(49, 0, 7)</li>
+          <li>(61, 0, 7)</li>
+          <li>(49, 0, 8)</li>
+          <li>(61, 0, 8)</li>
+          <li>(49, 0, 9)</li>
+          <li>(61, 0, 9)</li>
+          <li>(49, 0, 10)</li>
+          <li>(61, 0, 10)</li>
+          <li>(49, 0, 11)</li>
+          <li>(61, 0, 11)</li>
+          <li>(49, 0, 12)</li>
+          <li>(61, 0, 12)</li>
+          <li>(37, 0, 13)</li>
+          <li>(38, 0, 13)</li>
+          <li>(39, 0, 13)</li>
+          <li>(40, 0, 13)</li>
+          <li>(41, 0, 13)</li>
+          <li>(42, 0, 13)</li>
+          <li>(43, 0, 13)</li>
+          <li>(44, 0, 13)</li>
+          <li>(45, 0, 13)</li>
+          <li>(46, 0, 13)</li>
+          <li>(47, 0, 13)</li>
+          <li>(48, 0, 13)</li>
+          <li>(49, 0, 13)</li>
+          <li>(50, 0, 13)</li>
+          <li>(51, 0, 13)</li>
+          <li>(52, 0, 13)</li>
+          <li>(53, 0, 13)</li>
+          <li>(54, 0, 13)</li>
+          <li>(56, 0, 13)</li>
+          <li>(57, 0, 13)</li>
+          <li>(58, 0, 13)</li>
+          <li>(59, 0, 13)</li>
+          <li>(60, 0, 13)</li>
+          <li>(61, 0, 13)</li>
+          <li>(62, 0, 13)</li>
+          <li>(63, 0, 13)</li>
+          <li>(64, 0, 13)</li>
+          <li>(65, 0, 13)</li>
+          <li>(66, 0, 13)</li>
+          <li>(67, 0, 13)</li>
+          <li>(68, 0, 13)</li>
+          <li>(69, 0, 13)</li>
+          <li>(70, 0, 13)</li>
+          <li>(71, 0, 13)</li>
+          <li>(72, 0, 13)</li>
+          <li>(73, 0, 13)</li>
+          <li>(37, 0, 14)</li>
+          <li>(49, 0, 14)</li>
+          <li>(61, 0, 14)</li>
+          <li>(73, 0, 14)</li>
+          <li>(37, 0, 15)</li>
+          <li>(49, 0, 15)</li>
+          <li>(61, 0, 15)</li>
+          <li>(73, 0, 15)</li>
+          <li>(37, 0, 16)</li>
+          <li>(49, 0, 16)</li>
+          <li>(61, 0, 16)</li>
+          <li>(73, 0, 16)</li>
+          <li>(37, 0, 17)</li>
+          <li>(49, 0, 17)</li>
+          <li>(61, 0, 17)</li>
+          <li>(73, 0, 17)</li>
+          <li>(37, 0, 18)</li>
+          <li>(49, 0, 18)</li>
+          <li>(61, 0, 18)</li>
+          <li>(73, 0, 18)</li>
+          <li>(37, 0, 20)</li>
+          <li>(49, 0, 20)</li>
+          <li>(61, 0, 20)</li>
+          <li>(73, 0, 20)</li>
+          <li>(37, 0, 21)</li>
+          <li>(49, 0, 21)</li>
+          <li>(61, 0, 21)</li>
+          <li>(73, 0, 21)</li>
+          <li>(37, 0, 22)</li>
+          <li>(49, 0, 22)</li>
+          <li>(61, 0, 22)</li>
+          <li>(73, 0, 22)</li>
+          <li>(37, 0, 23)</li>
+          <li>(49, 0, 23)</li>
+          <li>(61, 0, 23)</li>
+          <li>(73, 0, 23)</li>
+          <li>(37, 0, 24)</li>
+          <li>(49, 0, 24)</li>
+          <li>(61, 0, 24)</li>
+          <li>(73, 0, 24)</li>
+          <li>(37, 0, 25)</li>
+          <li>(38, 0, 25)</li>
+          <li>(39, 0, 25)</li>
+          <li>(40, 0, 25)</li>
+          <li>(41, 0, 25)</li>
+          <li>(42, 0, 25)</li>
+          <li>(43, 0, 25)</li>
+          <li>(44, 0, 25)</li>
+          <li>(45, 0, 25)</li>
+          <li>(46, 0, 25)</li>
+          <li>(47, 0, 25)</li>
+          <li>(48, 0, 25)</li>
+          <li>(49, 0, 25)</li>
+          <li>(50, 0, 25)</li>
+          <li>(51, 0, 25)</li>
+          <li>(52, 0, 25)</li>
+          <li>(53, 0, 25)</li>
+          <li>(54, 0, 25)</li>
+          <li>(56, 0, 25)</li>
+          <li>(57, 0, 25)</li>
+          <li>(58, 0, 25)</li>
+          <li>(59, 0, 25)</li>
+          <li>(60, 0, 25)</li>
+          <li>(61, 0, 25)</li>
+          <li>(62, 0, 25)</li>
+          <li>(63, 0, 25)</li>
+          <li>(64, 0, 25)</li>
+          <li>(65, 0, 25)</li>
+          <li>(66, 0, 25)</li>
+          <li>(67, 0, 25)</li>
+          <li>(68, 0, 25)</li>
+          <li>(69, 0, 25)</li>
+          <li>(70, 0, 25)</li>
+          <li>(71, 0, 25)</li>
+          <li>(72, 0, 25)</li>
+          <li>(73, 0, 25)</li>
+          <li>(49, 0, 26)</li>
+          <li>(61, 0, 26)</li>
+          <li>(49, 0, 27)</li>
+          <li>(61, 0, 27)</li>
+          <li>(49, 0, 28)</li>
+          <li>(61, 0, 28)</li>
+          <li>(49, 0, 29)</li>
+          <li>(61, 0, 29)</li>
+          <li>(49, 0, 30)</li>
+          <li>(61, 0, 30)</li>
+          <li>(49, 0, 31)</li>
+          <li>(61, 0, 31)</li>
+          <li>(49, 0, 32)</li>
+          <li>(61, 0, 32)</li>
+          <li>(49, 0, 33)</li>
+          <li>(61, 0, 33)</li>
+          <li>(49, 0, 34)</li>
+          <li>(61, 0, 34)</li>
+          <li>(49, 0, 35)</li>
+          <li>(61, 0, 35)</li>
+          <li>(49, 0, 36)</li>
+          <li>(61, 0, 36)</li>
+          <li>(49, 0, 37)</li>
+          <li>(50, 0, 37)</li>
+          <li>(51, 0, 37)</li>
+          <li>(52, 0, 37)</li>
+          <li>(53, 0, 37)</li>
+          <li>(54, 0, 37)</li>
+          <li>(56, 0, 37)</li>
+          <li>(57, 0, 37)</li>
+          <li>(58, 0, 37)</li>
+          <li>(59, 0, 37)</li>
+          <li>(60, 0, 37)</li>
+          <li>(61, 0, 37)</li>
+          <li>(49, 0, 1)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>270</hitPoint>
+        <allPositions>
+          <li>(55, 0, 13)</li>
+          <li>(55, 0, 25)</li>
+          <li>(55, 0, 37)</li>
+          <li>(55, 0, 1)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Bed</def>
+        <stuff>WoodLog</stuff>
+        <rotation>2</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>91</hitPoint>
+        <allPositions>
+          <li>(59, 0, 4)</li>
+          <li>(51, 0, 8)</li>
+          <li>(59, 0, 8)</li>
+          <li>(51, 0, 12)</li>
+          <li>(59, 0, 12)</li>
+          <li>(51, 0, 28)</li>
+          <li>(59, 0, 28)</li>
+          <li>(51, 0, 32)</li>
+          <li>(59, 0, 32)</li>
+          <li>(51, 0, 36)</li>
+          <li>(59, 0, 36)</li>
+          <li>(51, 0, 4)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>WoodLog</stuff>
+        <rotation>1</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>104</hitPoint>
+        <allPositions>
+          <li>(56, 0, 3)</li>
+          <li>(54, 0, 7)</li>
+          <li>(56, 0, 7)</li>
+          <li>(54, 0, 11)</li>
+          <li>(56, 0, 11)</li>
+          <li>(36, 0, 19)</li>
+          <li>(74, 0, 19)</li>
+          <li>(54, 0, 27)</li>
+          <li>(56, 0, 27)</li>
+          <li>(54, 0, 31)</li>
+          <li>(56, 0, 31)</li>
+          <li>(54, 0, 35)</li>
+          <li>(56, 0, 35)</li>
+          <li>(54, 0, 3)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>TrapIED_Incendiary</def>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>40</hitPoint>
+        <allPositions>
+          <li>(52, 0, 11)</li>
+          <li>(62, 0, 15)</li>
+          <li>(39, 0, 22)</li>
+          <li>(48, 0, 22)</li>
+          <li>(66, 0, 22)</li>
+          <li>(57, 0, 30)</li>
+          <li>(53, 0, 34)</li>
+          <li>(58, 0, 3)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>EndTable</def>
+        <stuff>WoodLog</stuff>
+        <rotation>2</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>49</hitPoint>
+        <allPositions>
+          <li>(60, 0, 4)</li>
+          <li>(50, 0, 8)</li>
+          <li>(60, 0, 8)</li>
+          <li>(50, 0, 12)</li>
+          <li>(60, 0, 12)</li>
+          <li>(50, 0, 28)</li>
+          <li>(60, 0, 28)</li>
+          <li>(50, 0, 32)</li>
+          <li>(60, 0, 32)</li>
+          <li>(50, 0, 36)</li>
+          <li>(60, 0, 36)</li>
+          <li>(50, 0, 4)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>TorchWallLamp</def>
+        <faction>Dragonian_NPC</faction>
+        <storedEnergy>15</storedEnergy>
+        <hitPoint>50</hitPoint>
+        <allPositions>
+          <li>(59, 0, 4)</li>
+          <li>(51, 0, 8)</li>
+          <li>(59, 0, 8)</li>
+          <li>(51, 0, 12)</li>
+          <li>(59, 0, 12)</li>
+          <li>(51, 0, 28)</li>
+          <li>(59, 0, 28)</li>
+          <li>(51, 0, 32)</li>
+          <li>(59, 0, 32)</li>
+          <li>(51, 0, 36)</li>
+          <li>(59, 0, 36)</li>
+          <li>(51, 0, 4)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Dresser</def>
+        <stuff>WoodLog</stuff>
+        <rotation>2</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>78</hitPoint>
+        <allPositions>
+          <li>(58, 0, 4)</li>
+          <li>(53, 0, 8)</li>
+          <li>(58, 0, 8)</li>
+          <li>(53, 0, 12)</li>
+          <li>(58, 0, 12)</li>
+          <li>(53, 0, 28)</li>
+          <li>(58, 0, 28)</li>
+          <li>(53, 0, 32)</li>
+          <li>(58, 0, 32)</li>
+          <li>(53, 0, 36)</li>
+          <li>(58, 0, 36)</li>
+          <li>(53, 0, 4)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>SolarGenerator</def>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>300</hitPoint>
+        <allPositions>
+          <li>(65, 0, 8)</li>
+          <li>(44, 0, 8)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>HiddenConduit</def>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>100</hitPoint>
+        <allPositions>
+          <li>(65, 0, 11)</li>
+          <li>(45, 0, 12)</li>
+          <li>(65, 0, 12)</li>
+          <li>(45, 0, 13)</li>
+          <li>(46, 0, 13)</li>
+          <li>(47, 0, 13)</li>
+          <li>(48, 0, 13)</li>
+          <li>(49, 0, 13)</li>
+          <li>(50, 0, 13)</li>
+          <li>(51, 0, 13)</li>
+          <li>(52, 0, 13)</li>
+          <li>(53, 0, 13)</li>
+          <li>(54, 0, 13)</li>
+          <li>(55, 0, 13)</li>
+          <li>(56, 0, 13)</li>
+          <li>(57, 0, 13)</li>
+          <li>(58, 0, 13)</li>
+          <li>(59, 0, 13)</li>
+          <li>(60, 0, 13)</li>
+          <li>(61, 0, 13)</li>
+          <li>(62, 0, 13)</li>
+          <li>(63, 0, 13)</li>
+          <li>(64, 0, 13)</li>
+          <li>(65, 0, 13)</li>
+          <li>(49, 0, 14)</li>
+          <li>(61, 0, 14)</li>
+          <li>(49, 0, 15)</li>
+          <li>(61, 0, 15)</li>
+          <li>(49, 0, 16)</li>
+          <li>(61, 0, 16)</li>
+          <li>(49, 0, 17)</li>
+          <li>(61, 0, 17)</li>
+          <li>(49, 0, 18)</li>
+          <li>(61, 0, 18)</li>
+          <li>(49, 0, 19)</li>
+          <li>(61, 0, 19)</li>
+          <li>(49, 0, 20)</li>
+          <li>(61, 0, 20)</li>
+          <li>(49, 0, 21)</li>
+          <li>(61, 0, 21)</li>
+          <li>(49, 0, 22)</li>
+          <li>(61, 0, 22)</li>
+          <li>(49, 0, 23)</li>
+          <li>(61, 0, 23)</li>
+          <li>(49, 0, 24)</li>
+          <li>(61, 0, 24)</li>
+          <li>(49, 0, 25)</li>
+          <li>(50, 0, 25)</li>
+          <li>(51, 0, 25)</li>
+          <li>(52, 0, 25)</li>
+          <li>(53, 0, 25)</li>
+          <li>(54, 0, 25)</li>
+          <li>(55, 0, 25)</li>
+          <li>(56, 0, 25)</li>
+          <li>(57, 0, 25)</li>
+          <li>(58, 0, 25)</li>
+          <li>(59, 0, 25)</li>
+          <li>(60, 0, 25)</li>
+          <li>(61, 0, 25)</li>
+          <li>(45, 0, 11)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>EndTable</def>
+        <stuff>WoodLog</stuff>
+        <rotation>1</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>49</hitPoint>
+        <allPositions>
+          <li>(42, 0, 14)</li>
+          <li>(46, 0, 14)</li>
+          <li>(38, 0, 24)</li>
+          <li>(42, 0, 24)</li>
+          <li>(46, 0, 24)</li>
+          <li>(38, 0, 14)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>PlantPot</def>
+        <stuff>WoodLog</stuff>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>49</hitPoint>
+        <position>(50,0,14)</position>
+      </li>
+      <li>
+        <def>Shelf</def>
+        <stuff>WoodLog</stuff>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>65</hitPoint>
+        <position>(51,0,14)</position>
+      </li>
+      <li>
+        <def>CommsConsole</def>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>250</hitPoint>
+        <position>(59,0,14)</position>
+      </li>
+      <li>
+        <def>EndTable</def>
+        <stuff>WoodLog</stuff>
+        <rotation>3</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>49</hitPoint>
+        <allPositions>
+          <li>(68, 0, 14)</li>
+          <li>(72, 0, 14)</li>
+          <li>(64, 0, 24)</li>
+          <li>(68, 0, 24)</li>
+          <li>(72, 0, 24)</li>
+          <li>(64, 0, 14)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Bed</def>
+        <stuff>WoodLog</stuff>
+        <rotation>1</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>91</hitPoint>
+        <allPositions>
+          <li>(42, 0, 15)</li>
+          <li>(46, 0, 15)</li>
+          <li>(38, 0, 23)</li>
+          <li>(42, 0, 23)</li>
+          <li>(46, 0, 23)</li>
+          <li>(38, 0, 15)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>TorchWallLamp</def>
+        <rotation>3</rotation>
+        <faction>Dragonian_NPC</faction>
+        <storedEnergy>15</storedEnergy>
+        <hitPoint>50</hitPoint>
+        <allPositions>
+          <li>(42, 0, 15)</li>
+          <li>(46, 0, 15)</li>
+          <li>(50, 0, 17)</li>
+          <li>(50, 0, 21)</li>
+          <li>(38, 0, 23)</li>
+          <li>(42, 0, 23)</li>
+          <li>(46, 0, 23)</li>
+          <li>(38, 0, 15)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Shelf</def>
+        <stuff>WoodLog</stuff>
+        <rotation>1</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>65</hitPoint>
+        <position>(50,0,16)</position>
+      </li>
+      <li>
+        <def>Bed</def>
+        <stuff>WoodLog</stuff>
+        <rotation>3</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>91</hitPoint>
+        <allPositions>
+          <li>(68, 0, 15)</li>
+          <li>(72, 0, 15)</li>
+          <li>(64, 0, 23)</li>
+          <li>(68, 0, 23)</li>
+          <li>(72, 0, 23)</li>
+          <li>(64, 0, 15)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>TorchWallLamp</def>
+        <rotation>1</rotation>
+        <faction>Dragonian_NPC</faction>
+        <storedEnergy>15</storedEnergy>
+        <hitPoint>50</hitPoint>
+        <allPositions>
+          <li>(68, 0, 15)</li>
+          <li>(72, 0, 15)</li>
+          <li>(60, 0, 17)</li>
+          <li>(60, 0, 21)</li>
+          <li>(64, 0, 23)</li>
+          <li>(68, 0, 23)</li>
+          <li>(72, 0, 23)</li>
+          <li>(64, 0, 15)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Dresser</def>
+        <stuff>WoodLog</stuff>
+        <rotation>1</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>78</hitPoint>
+        <allPositions>
+          <li>(42, 0, 17)</li>
+          <li>(46, 0, 17)</li>
+          <li>(38, 0, 22)</li>
+          <li>(42, 0, 22)</li>
+          <li>(46, 0, 22)</li>
+          <li>(38, 0, 17)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Dresser</def>
+        <stuff>WoodLog</stuff>
+        <rotation>3</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>78</hitPoint>
+        <allPositions>
+          <li>(68, 0, 16)</li>
+          <li>(72, 0, 16)</li>
+          <li>(64, 0, 21)</li>
+          <li>(68, 0, 21)</li>
+          <li>(72, 0, 21)</li>
+          <li>(64, 0, 16)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Brazier</def>
+        <stuff>Steel</stuff>
+        <faction>Dragonian_NPC</faction>
+        <storedEnergy>30</storedEnergy>
+        <hitPoint>80</hitPoint>
+        <allPositions>
+          <li>(57, 0, 17)</li>
+          <li>(53, 0, 17)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>BlocksGranite</stuff>
+        <rotation>1</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>270</hitPoint>
+        <allPositions>
+          <li>(49, 0, 19)</li>
+          <li>(61, 0, 19)</li>
+          <li>(73, 0, 19)</li>
+          <li>(37, 0, 19)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>DiningChair</def>
+        <stuff>WoodLog</stuff>
+        <rotation>1</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>65</hitPoint>
+        <allPositions>
+          <li>(56, 0, 21)</li>
+          <li>(56, 0, 22)</li>
+          <li>(51, 0, 21)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Table2x2c</def>
+        <stuff>WoodLog</stuff>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>65</hitPoint>
+        <allPositions>
+          <li>(57, 0, 21)</li>
+          <li>(52, 0, 21)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>DiningChair</def>
+        <stuff>WoodLog</stuff>
+        <rotation>3</rotation>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>65</hitPoint>
+        <allPositions>
+          <li>(54, 0, 22)</li>
+          <li>(59, 0, 22)</li>
+          <li>(59, 0, 21)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>BiofuelRefinery</def>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>200</hitPoint>
+        <position>(51,0,23)</position>
+      </li>
+      <li>
+        <def>TableMachining</def>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>180</hitPoint>
+        <position>(59,0,24)</position>
+      </li>
+      <li>
+        <def>PodLauncher</def>
+        <rotation>3</rotation>
+        <faction>Dragonian_NPC</faction>
+        <storedEnergy>150</storedEnergy>
+        <hitPoint>200</hitPoint>
+        <allPositions>
+          <li>(44, 0, 27)</li>
+          <li>(46, 0, 27)</li>
+          <li>(65, 0, 27)</li>
+          <li>(67, 0, 27)</li>
+          <li>(69, 0, 27)</li>
+          <li>(42, 0, 27)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>TransportPod</def>
+        <faction>Dragonian_NPC</faction>
+        <hitPoint>250</hitPoint>
+        <allPositions>
+          <li>(44, 0, 28)</li>
+          <li>(46, 0, 28)</li>
+          <li>(64, 0, 28)</li>
+          <li>(65, 0, 28)</li>
+          <li>(67, 0, 28)</li>
+          <li>(69, 0, 28)</li>
+          <li>(46, 0, 29)</li>
+          <li>(64, 0, 30)</li>
+          <li>(46, 0, 31)</li>
+          <li>(64, 0, 32)</li>
+          <li>(46, 0, 33)</li>
+          <li>(42, 0, 28)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>PodLauncher</def>
+        <rotation>2</rotation>
+        <faction>Dragonian_NPC</faction>
+        <storedEnergy>150</storedEnergy>
+        <hitPoint>200</hitPoint>
+        <allPositions>
+          <li>(47, 0, 31)</li>
+          <li>(47, 0, 33)</li>
+          <li>(47, 0, 29)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>PodLauncher</def>
+        <faction>Dragonian_NPC</faction>
+        <storedEnergy>150</storedEnergy>
+        <hitPoint>200</hitPoint>
+        <allPositions>
+          <li>(63, 0, 30)</li>
+          <li>(63, 0, 32)</li>
+          <li>(63, 0, 28)</li>
+        </allPositions>
+      </li>
+    </thingDatas>
+    <tags>
+      <li>DRM_Base</li>
+    </tags>
+  </QuestEditor_Library.CustomMapDataDef>
+</Defs>

@@ -67,7 +67,7 @@
 				<beamFleckChancePerTick>0.32</beamFleckChancePerTick>
 				<beamMaxDeviation>0</beamMaxDeviation>
 				<beamCurvature>0</beamCurvature>
-				<beamMoteDef>Mote_GraserBeamBase</beamMoteDef>
+				<beamMoteDef>Mote_DRM_GraserBeamBase</beamMoteDef>
 				<beamEndEffecterDef>GraserBeam_End</beamEndEffecterDef>
 				<beamChanceToStartFire>0</beamChanceToStartFire>
 				<beamChanceToAttachFire>0</beamChanceToAttachFire>
