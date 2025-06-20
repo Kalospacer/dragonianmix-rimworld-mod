@@ -157,6 +157,7 @@
       <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
         <damageDef>DRM_Feargas</damageDef>
         <smokeRadius>9</smokeRadius>
+        <explosionSound>Explosion_Smoke</explosionSound>
         <clamorType>Ability</clamorType>
         <clamorRadius>20</clamorRadius>
         <postExplosionSpawnThingDef>DRM_FearGasCloud</postExplosionSpawnThingDef>        <!-- ARL_ToxicGasCloud -->
@@ -259,6 +260,7 @@
         <damageAmount>25</damageAmount>
         <armorPenetration>0.5</armorPenetration>
         <smokeRadius>9</smokeRadius>
+        <explosionSound>Explosion_Smoke</explosionSound>
         <clamorType>Ability</clamorType>
         <clamorRadius>20</clamorRadius>
         <postExplosionSpawnThingDef>DRM_AcidGasCloud</postExplosionSpawnThingDef>        <!-- ARL_ToxicGasCloud -->
@@ -297,6 +299,7 @@
         <damageAmount>20</damageAmount>
         <armorPenetration>0.5</armorPenetration>
         <smokeRadius>6</smokeRadius>
+        <explosionSound>Explosion_Smoke</explosionSound>
         <clamorType>Ability</clamorType>
         <clamorRadius>20</clamorRadius>
         <postExplosionSpawnThingDef>DRM_FrostGasCloud_Ex</postExplosionSpawnThingDef>        <!-- ARL_ToxicGasCloud -->
