@@ -74,7 +74,6 @@
                 <hitHediff>DRM_AwakenHeart</hitHediff>
                 <hitHediffSeverity>0.5</hitHediffSeverity>
             </li>
-            <li Class="CompProperties_Biocodable"/>
             <li Class="CompProperties_Art">
                 <nameMaker>NamerArtWeaponMelee</nameMaker>
                 <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
@@ -171,7 +170,6 @@
                 <hitHediff>DRM_AwakenHeart</hitHediff>
                 <hitHediffSeverity>0.5</hitHediffSeverity>
             </li>
-            <li Class="CompProperties_Biocodable"/>
             <li Class="CompProperties_Art">
                 <nameMaker>NamerArtWeaponMelee</nameMaker>
                 <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
