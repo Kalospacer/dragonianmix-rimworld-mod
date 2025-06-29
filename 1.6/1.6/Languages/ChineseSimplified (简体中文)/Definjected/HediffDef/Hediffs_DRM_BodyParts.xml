@@ -261,6 +261,15 @@
   <!-- EN: extreme -->
   <DRM_SlimeCoverd_mini.stages.completely.label>完全</DRM_SlimeCoverd_mini.stages.completely.label>
 
+    <!-- EN: decayed organ -->
+  <DRM_Rotten.label>腐坏</DRM_Rotten.label>
+  <!-- EN: This organ has completely decayed. -->
+  <DRM_Rotten.description>这个身体部件已经腐坏。</DRM_Rotten.description>
+  <!-- EN: a decayed organ -->
+  <DRM_Rotten.labelNoun>腐坏</DRM_Rotten.labelNoun>
+  <!-- EN: decayed {1} -->
+  <DRM_Rotten.labelNounPretty>腐坏{1}</DRM_Rotten.labelNounPretty>
+
 
   <DRM_Stun.label>被震撼</DRM_Stun.label>
   <DRM_Stun.description>被强大的外力冲击掀翻在地。需要一点时间振作。</DRM_Stun.description>

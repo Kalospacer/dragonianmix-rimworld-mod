@@ -12,18 +12,27 @@
 		</abilities>
 		<comps>
 			<li Class="DragonianMix.HediffCompProperties_DRMExplodeOnDeath">
-		      <damageDef>Smoke</damageDef>
-			  <gasType>DeadlifeDust</gasType>
-			  <soundDef>Explosion_Stun</soundDef>
-			  <explosionRadius>6</explosionRadius>
-			  <destroyGear>false</destroyGear>
-			  <destroyBody>false</destroyBody>
+				<damageDef>Smoke</damageDef>
+				<gasType>DeadlifeDust</gasType>
+				<soundDef>Explosion_Stun</soundDef>
+				<explosionRadius>6</explosionRadius>
+				<destroyGear>false</destroyGear>
+				<destroyBody>false</destroyBody>
 			</li>
 			<li Class="HediffCompProperties_DisappearsOnDeath" />
-		  </comps>
+		</comps>
 		<addedPartProps>
 			<solid>true</solid>
 		</addedPartProps>
+		<modExtensions>
+			<li Class="DragonianMix.ProphecyGearEffect">
+				<enableHediffEffect>false</enableHediffEffect>
+
+				<extraDamageFactor>0.2</extraDamageFactor>
+				<extraDamageType>DRM_Rot</extraDamageType>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</modExtensions>
 		<spawnThingOnRemoved>NecroDragonianOrb</spawnThingOnRemoved>
 	</HediffDef>
 
@@ -74,6 +83,15 @@
 			<MarketValue>1000</MarketValue>
 			<Mass>0.3</Mass>
 		</statBases>
+		<modExtensions>
+			<li Class="DragonianMix.ProphecyGearEffect">
+				<enableHediffEffect>false</enableHediffEffect>
+
+				<extraDamageFactor>0.2</extraDamageFactor>
+				<extraDamageType>DRM_Rot</extraDamageType>
+				<armorPenetration>0.1</armorPenetration>
+			</li>
+		</modExtensions>
 		<thingSetMakerTags>
 			<li>RewardStandardCore</li>
 		</thingSetMakerTags>

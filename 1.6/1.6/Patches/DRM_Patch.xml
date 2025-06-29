@@ -152,7 +152,7 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li/extendedGraphics</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li/extendedGraphics/Gender[@For='Female']/extendedGraphics</xpath>
 				<value>
 					<Hediff For="DRM_Princess_Mark">Dragonian/Dragonianlike/AddonHairs/DRM</Hediff>
 				</value>

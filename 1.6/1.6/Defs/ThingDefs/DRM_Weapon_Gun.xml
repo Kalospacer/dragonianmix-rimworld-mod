@@ -71,6 +71,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <equippedStatOffsets>
+			<DR_DragonSculptureR>1</DR_DragonSculptureR>
+		</equippedStatOffsets>
   </ThingDef>
 
     <ThingDef ParentName="BaseBullet">
@@ -185,6 +188,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <equippedStatOffsets>
+			<DR_DragonSculptureR>1</DR_DragonSculptureR>
+		</equippedStatOffsets>
   </ThingDef>
 
 </Defs>

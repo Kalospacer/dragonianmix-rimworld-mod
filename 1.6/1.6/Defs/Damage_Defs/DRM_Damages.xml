@@ -192,6 +192,23 @@
 		<stunAdaptationTicks>120</stunAdaptationTicks>
 	</DamageDef>
 
+	<DamageDef>
+		<defName>DRM_Rot</defName>
+		<label>rotting</label>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_NecroticVirus</hediff>
+				<severityPerDamageDealt>0.04</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<hasForcefulImpact>false</hasForcefulImpact>
+		<makesBlood>false</makesBlood>
+		<canInterruptJobs>false</canInterruptJobs>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<deathMessage>{0} died from metabolic disruptions caused by flesh rotten.</deathMessage>
+		<hediff>DRM_Rotten</hediff>
+	</DamageDef>
+
 	<DamageDef ParentName="Flame">
 		<defName>DRM_AcidBurn</defName>
 		<label>acid burn</label>

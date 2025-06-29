@@ -28,8 +28,8 @@
   <DR_BattleStaff_Air.label>龙娘 气震法杖</DR_BattleStaff_Air.label>
   <DR_BattleStaff_Air.description>龙娘使用的法杖。一个压缩的气体发射器。能够发射对建筑伤害极大的共振气团。</DR_BattleStaff_Air.description>
 
-  <DR_BattleStaff_AcidAir.label>龙娘 酸雾法杖</DR_BattleStaff_AcidAir.label>
-  <DR_BattleStaff_AcidAir.description>龙娘使用的法杖。一个压缩的气体发射器。能够发射对环境有害的酸雾气团。</DR_BattleStaff_AcidAir.description>
+  <DR_GreatBow_Acid.label>龙娘 酸雾大弓</DR_GreatBow_Acid.label>
+  <DR_GreatBow_Acid.description>龙娘使用的大弓。装载能够产生酸雾爆炸的巨矛。能够发射对环境有害的酸雾气团。</DR_GreatBow_Acid.description>
 
   <DRM_RifledFlintlock.label>龙娘 线膛燧发枪</DRM_RifledFlintlock.label>
   <DRM_RifledFlintlock.description>龙娘使用的枪械。具有古典的设计和性能。</DRM_RifledFlintlock.description>

@@ -102,20 +102,23 @@
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
 			<PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>
+			<DR_DragonSculptureR>1</DR_DragonSculptureR>
 		</equippedStatOffsets>
 		<meleeHitSound>DRHammerSound</meleeHitSound>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>DR_BattleStaff_AcidAir</defName>
-		<label>Dragonian AcidAirCannon Staff</label>
-		<description>A Staff for Dragonian.Can Shoot AcidAirCannon.</description>
+		<defName>DR_GreatBow_Acid</defName>
+		<label>Dragonian Acid javelin thrower</label>
+		<description>A GreatBow for Dragonian.Can Shoot AcidSpear.</description>
 		<graphicData>
-			<texPath>Dragonian/Things/Weapon/staff</texPath>
+			<texPath>Dragonian/Things/Weapon/greatbow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.54</drawSize>
 		</graphicData>
-		<uiIconScale>1</uiIconScale>
+		<uiIconScale>0.72</uiIconScale>
+		<soundInteract>Bow_Large</soundInteract>
+		<equippedAngleOffset>40</equippedAngleOffset>
 		<techLevel>Medieval</techLevel>
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
@@ -141,8 +144,8 @@
 				<Crafting>10</Crafting>
 			</skillRequirements>
 			<researchPrerequisites>
-				<li>DragonianMeleeWeapon</li>
-				<li>DragonianWandMagic</li>
+				<li>DragonianRangedWeapon</li>
+				<li>DragonianEnhancedWeapon</li>
 			</researchPrerequisites>
 		</recipeMaker>
 		<weaponTags>
@@ -158,7 +161,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>DRM_Bullet_AcidAirCannon</defaultProjectile>
+				<defaultProjectile>DRM_Bullet_Acidjavelin</defaultProjectile>
 				<warmupTime>2.4</warmupTime>
 				<range>29.9</range>
 				<isMortar>true</isMortar>
@@ -166,8 +169,7 @@
 				<forcedMissRadius>1.9</forcedMissRadius>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
-				<soundCast>Shot_IncendiaryLauncher</soundCast>
-				<soundCastTail>GunTail_Medium</soundCastTail>
+				<soundCast>DRBowSound</soundCast>
 				<muzzleFlashScale>14</muzzleFlashScale>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -176,7 +178,7 @@
 		</verbs>
 		<tools>
 			<li>
-				<label>handle</label>
+				<label>Spear</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
@@ -192,7 +194,7 @@
 				<power>15</power>
 				<extraMeleeDamages>
 					<li>
-						<def>DRM_Arc</def>
+						<def>DRM_Damage_AcidCover_Ex</def>
 						<amount>15</amount>
 						<chance>1</chance>
 					</li>
@@ -205,11 +207,12 @@
 				<cooldownTime>5.2</cooldownTime>
 			</li>
 		</tools>
+		<rotateInShelves>false</rotateInShelves>
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
 			<PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>
+			<DR_DragonSculptureR>1</DR_DragonSculptureR>
 		</equippedStatOffsets>
-		<meleeHitSound>DRHammerSound</meleeHitSound>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -311,6 +314,7 @@
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
 			<PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>
+			<DR_DragonSculptureR>1</DR_DragonSculptureR>
 		</equippedStatOffsets>
 		<meleeHitSound>DRHammerSound</meleeHitSound>
 	</ThingDef>
@@ -348,13 +352,13 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>DRM_Bullet_AcidAirCannon</defName>
-		<label>AcidAirCannon shell</label>
+		<defName>DRM_Bullet_Acidjavelin</defName>
+		<label>Acidjavelin</label>
 		<graphicData>
-			<texPath>Things/Projectile/LauncherShot</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>TransparentPostLight</shaderType>
-			<color>(111,111,111)</color>
+		  <texPath>Dragonian/Things/Weapon/spear</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>TransparentPostLight</shaderType>
+		  <drawSize>1.9</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>DRM_Damage_AcidCover_Ex</damageDef>
@@ -370,12 +374,12 @@
 				<!-- 主爆炸参数 -->
 				<customDamageDef>DRM_Damage_AcidCover_Ex</customDamageDef>
 				<customDamageAmount>5</customDamageAmount>
-				<customExplosionRadius>1.1</customExplosionRadius>
+				<customExplosionRadius>2.1</customExplosionRadius>
 				<customSoundExplode>ThumpCannon_Impact</customSoundExplode>
 
 				<!-- 子爆炸系统 -->
 				<useSubExplosions>true</useSubExplosions>
-				<subExplosionCount>2</subExplosionCount>
+				<subExplosionCount>3</subExplosionCount>
 				<subExplosionRadius>1.1</subExplosionRadius>
 				<subExplosionDamage>5</subExplosionDamage>
 				<subExplosionSpread>3</subExplosionSpread>
@@ -383,6 +387,11 @@
 				<subSoundExplode>ThumpCannon_Impact</subSoundExplode>
 			</li>
 		</modExtensions>
+		<comps>
+			<li Class="CompProperties_ProjectileEffecter">
+				<effecterDef>DR_Shell_AirStream</effecterDef>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
@@ -516,6 +525,7 @@
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
 			<PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>
+			<DR_DragonSculptureR>1</DR_DragonSculptureR>
 		</equippedStatOffsets>
 		<meleeHitSound>DRHammerSound</meleeHitSound>
 	</ThingDef>

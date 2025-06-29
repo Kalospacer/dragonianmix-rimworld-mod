@@ -75,6 +75,9 @@
 				<chanceFactor>10</chanceFactor>
 			</li>
 		</tools>
+		<equippedStatOffsets>
+			<DR_DragonSculptureR>1</DR_DragonSculptureR>
+		</equippedStatOffsets>
 		<meleeHitSound>DRHammerSound</meleeHitSound>
 	</ThingDef>
 
@@ -279,6 +282,9 @@
 				<chanceFactor>10</chanceFactor>
 			</li>
 		</tools>
+		<equippedStatOffsets>
+			<DR_DragonSculptureR>1</DR_DragonSculptureR>
+		</equippedStatOffsets>
 		<meleeHitSound>DRHammerSound</meleeHitSound>
 	</ThingDef>
 

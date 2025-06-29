@@ -844,7 +844,7 @@
 
 	<HediffDef>
 		<defName>DRM_AcidCoverd_Ex</defName>
-		<label>Acid Coverd</label> 
+		<label>Acid Coverd</label>
 		<description>This preson is coverd with acid.</description>
 		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -989,6 +989,63 @@
 				</capMods>
 			</li>
 		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DRM_NecroticVirus</defName>
+		<hediffClass>DragonianMix.Hediff_NecroticVirus</hediffClass>
+		<label>死灵病毒</label>
+		<description>一种致命的纳米病毒，感染者死亡后将转变为敌对的蹒跚怪。</description>
+		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
+		<isBad>true</isBad>
+		<lethalSeverity>0.95</lethalSeverity>
+		<makesSickThought>true</makesSickThought>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-4</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>潜伏期</label>
+				<becomeVisible>true</becomeVisible>
+				<vomitMtbDays>5</vomitMtbDays>
+			</li>
+			<li>
+				<label>活跃期</label>
+				<minSeverity>0.5</minSeverity>
+				<lifeThreatening>true</lifeThreatening>
+				<vomitMtbDays>1</vomitMtbDays>
+				<painFactor>1.5</painFactor>
+			</li>
+			<li>
+				<label>终末期</label>
+				<minSeverity>0.75</minSeverity>
+				<deathMtbDays>0.5</deathMtbDays>
+				<painFactor>2.0</painFactor>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.7</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="BurnBase">
+		<defName>DRM_Rotten</defName>
+		<label>Rotten</label>
+		<labelNoun>a Rotten part</labelNoun>
+		<labelNounPretty>Rotten {1}</labelNounPretty>
+		<description>This part of body has Rotten.</description>
+		<defaultLabelColor>(0.5, 0.5, 0.5)</defaultLabelColor>
+		<displayWound>false</displayWound>
+		<injuryProps>
+			<averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+			<destroyedLabel>Rotten</destroyedLabel>
+			<alwaysUseDestroyedLabel>true</alwaysUseDestroyedLabel>
+		</injuryProps>
 	</HediffDef>
 
 </Defs>
