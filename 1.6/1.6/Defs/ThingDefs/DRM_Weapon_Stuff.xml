@@ -54,7 +54,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>DRM_Bullet_AirCannon</defaultProjectile>
-				<warmupTime>2.4</warmupTime>
+				<warmupTime>10</warmupTime>
 				<range>23.9</range>
 				<isMortar>true</isMortar>
 				<requireLineOfSight>false</requireLineOfSight>
@@ -162,7 +162,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>DRM_Bullet_Acidjavelin</defaultProjectile>
-				<warmupTime>2.4</warmupTime>
+				<warmupTime>10</warmupTime>
 				<range>29.9</range>
 				<isMortar>true</isMortar>
 				<requireLineOfSight>false</requireLineOfSight>
@@ -268,7 +268,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>DRM_Bullet_FeargasLauncher</defaultProjectile>
-				<warmupTime>3.5</warmupTime>
+				<warmupTime>10</warmupTime>
 				<range>23.9</range>
 				<forcedMissRadius>1.9</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
@@ -382,7 +382,7 @@
 				<subExplosionCount>3</subExplosionCount>
 				<subExplosionRadius>1.1</subExplosionRadius>
 				<subExplosionDamage>5</subExplosionDamage>
-				<subExplosionSpread>3</subExplosionSpread>
+				<subExplosionSpread>6</subExplosionSpread>
 				<subDamageDef>DRM_Damage_AcidCover_Ex</subDamageDef>
 				<subSoundExplode>ThumpCannon_Impact</subSoundExplode>
 			</li>
@@ -475,7 +475,7 @@
 				<damageDef>DRM_Arc</damageDef>
 				<damageAmount>15</damageAmount>
 				<EMPDamageAmount>20</EMPDamageAmount>
-				<warmupTime>1.5</warmupTime>
+				<warmupTime>6</warmupTime>
 				<range>24.9</range>
 				<affectedAngle>20</affectedAngle>
 				<armorPenetration>1.0</armorPenetration>
