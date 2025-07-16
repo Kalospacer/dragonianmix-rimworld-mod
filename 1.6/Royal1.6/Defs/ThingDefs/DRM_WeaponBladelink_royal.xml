@@ -120,6 +120,19 @@
                 <hitHediff>DRM_AwakenHeart</hitHediff>
                 <hitHediffSeverity>0.5</hitHediffSeverity>
             </li>
+            <li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+				<li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+				<forcedTraits>
+					<li>LightningElement</li>
+                    <li>DRM_SplitAttack</li>
+                    <li>DRM_CombatEndurance</li>
+				</forcedTraits>
+				<numTraitsRange>
+					<min>3</min>
+					<max>3</max>
+				</numTraitsRange>
+			</li>
+			</li>
         </comps>
         <costStuffCount>400</costStuffCount>
         <stuffCategories>
@@ -211,6 +224,17 @@
                 <hitHediff>DRM_AwakenHeart</hitHediff>
                 <hitHediffSeverity>0.5</hitHediffSeverity>
             </li>
+            <li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+				<forcedTraits>
+					<li>DRM_SlimeAdhesion</li>
+                    <li>DRM_SplitAttack</li>
+                    <li>DRM_CombatEndurance</li>
+				</forcedTraits>
+				<numTraitsRange>
+					<min>3</min>
+					<max>3</max>
+				</numTraitsRange>
+			</li>
         </comps>
         <costStuffCount>400</costStuffCount>
         <stuffCategories>

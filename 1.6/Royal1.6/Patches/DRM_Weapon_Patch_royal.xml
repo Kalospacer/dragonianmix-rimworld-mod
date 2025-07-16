@@ -45,6 +45,21 @@
 				</value>
 			</li>
 
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_SoulMace"]/comps</xpath>
+				<value>
+					<li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+						<forcedTraits>
+							<li>FrozenElement</li>
+						</forcedTraits>
+						<numTraitsRange>
+							<min>1</min>
+							<max>1</max>
+						</numTraitsRange>
+					</li>
+				</value>
+			</li>
+
 		</operations>
 		
 	</Operation>

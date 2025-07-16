@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+ 
+  <WeaponTraitDef>
+    <defName>FrozenElement</defName>
+    <label>Frozen Element</label>
+    <description>This weapon inflicts frozen damage, which frequently stuns targets.</description>
+    <commonality>1</commonality>
+    <weaponCategory>DRM_Frozen</weaponCategory>
+    <statOffsets>
+    </statOffsets>
+    <statFactors>
+    </statFactors>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>AcidElement</defName>
+    <label>Acid Element</label>
+    <description>This weapon inflicts corrosive damage that continues to deal damage over time and reduces blunt and sharp armor.</description>
+    <commonality>1</commonality>
+    <weaponCategory>DRM_Acid</weaponCategory>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>DRM_AcidCloudBurst</defName>
+    <label>Acid Cloud Burst</label>
+    <description>This weapon creates acid damage clouds that explode upon contact.</description>
+    <commonality>1</commonality>
+    <weaponCategory>DRM_Acid</weaponCategory>
+  </WeaponTraitDef>
+  
+  <WeaponTraitDef>
+    <defName>DRM_HomingProjectile</defName>
+    <label>Homing Projectile</label>
+    <description>This weapon's projectiles automatically track and home in on targets during flight.</description>
+    <commonality>1</commonality>
+    <weaponCategory>DRM_Special</weaponCategory>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>DRM_Feargas</defName>
+    <label>Feargas</label>
+    <description>This weapon releases a cloud of fear gas, and inhaling the gas will lead to severe violent tendencies.</description>
+    <commonality>1</commonality>
+    <weaponCategory>DRM_Special</weaponCategory>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>LightningElement</defName>
+    <label>Lightning Element</label>
+    <description>This weapon inflicts electrical damage, causing electrocution burns that impair movement.</description>
+    <commonality>1</commonality>
+    <weaponCategory>DRM_Special</weaponCategory>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>DRM_ChainLightning</defName>
+    <label>Chain Lightning</label>
+    <description>This weapon releases lightning that bounces between targets.</description>
+    <commonality>1</commonality>
+    <weaponCategory>DRM_Special</weaponCategory>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>DRM_SlimeAdhesion</defName>
+    <label>Slime Adhesion</label>
+    <description>This weapon causes explosive slime contamination, detonating a few seconds after contact with air.</description>
+    <commonality>1</commonality>
+    <weaponCategory>DRM_Special</weaponCategory>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>FireElement</defName>
+    <label>Fire Element</label>
+    <description>This weapon inflicts fire damage and weakens thermal armor.</description>
+    <commonality>1</commonality>
+    <weaponCategory>DRM_Fire</weaponCategory>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>DRM_SplitAttack</defName>
+    <label>Split Attack</label>
+    <description>This weapon deals additional elemental damage to several nearby targets.</description>
+    <commonality>1</commonality>
+    <weaponCategory>DRM_Special</weaponCategory>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>DRM_CombatEndurance</defName>
+    <label>Combat Endurance</label>
+    <description>Each attack enhances the user, increasing attack speed and damage.</description>
+    <commonality>1</commonality>
+    <weaponCategory>DRM_Special</weaponCategory>
+  </WeaponTraitDef>
+
+  <WeaponTraitDef>
+    <defName>DRM_FrostCloudBurst</defName>
+    <label>Frost Cloud Burst</label>
+    <description>This weapon creates frost damage clouds that explode upon contact.</description>
+    <commonality>1</commonality>
+    <weaponCategory>DRM_Frozen</weaponCategory>
+  </WeaponTraitDef>
+</Defs>

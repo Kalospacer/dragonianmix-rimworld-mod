@@ -121,6 +121,17 @@
         <cooldownTime>5.2</cooldownTime>
       </li>
     </tools>
+    <comps>
+			<li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+				<forcedTraits>
+					<li>FireElement</li>
+				</forcedTraits>
+				<numTraitsRange>
+					<min>1</min>
+					<max>1</max>
+				</numTraitsRange>
+			</li>
+		</comps>
     <equippedStatOffsets>
       <PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
       <PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>

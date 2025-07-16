@@ -99,6 +99,17 @@
 				<cooldownTime>5.2</cooldownTime>
 			</li>
 		</tools>
+		<comps>
+			<li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+				<forcedTraits>
+					<li>DRM_HomingProjectile</li>
+				</forcedTraits>
+				<numTraitsRange>
+					<min>1</min>
+					<max>1</max>
+				</numTraitsRange>
+			</li>
+		</comps>
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
 			<PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>
@@ -208,6 +219,19 @@
 			</li>
 		</tools>
 		<rotateInShelves>false</rotateInShelves>
+		<comps>
+			<li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+				<forcedTraits>
+					<li>AcidElement</li>
+					<li>DRM_AcidCloudBurst</li>
+					<li>DRM_HomingProjectile</li>
+				</forcedTraits>
+				<numTraitsRange>
+					<min>3</min>
+					<max>3</max>
+				</numTraitsRange>
+			</li>
+		</comps>
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
 			<PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>
@@ -311,6 +335,18 @@
 				<cooldownTime>5.2</cooldownTime>
 			</li>
 		</tools>
+		<comps>
+			<li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+				<forcedTraits>
+					<li>DRM_Feargas</li>
+					<li>DRM_HomingProjectile</li>
+				</forcedTraits>
+				<numTraitsRange>
+					<min>2</min>
+					<max>2</max>
+				</numTraitsRange>
+			</li>
+		</comps>
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
 			<PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>
@@ -355,10 +391,10 @@
 		<defName>DRM_Bullet_Acidjavelin</defName>
 		<label>Acidjavelin</label>
 		<graphicData>
-		  <texPath>Dragonian/Things/Weapon/spear</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-		  <shaderType>TransparentPostLight</shaderType>
-		  <drawSize>1.9</drawSize>
+			<texPath>Dragonian/Things/Weapon/spear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.9</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>DRM_Damage_AcidCover_Ex</damageDef>
@@ -522,6 +558,18 @@
 				<cooldownTime>5.2</cooldownTime>
 			</li>
 		</tools>
+		<comps>
+			<li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+				<forcedTraits>
+					<li>LightningElement</li>
+					<li>DRM_ChainLightning</li>
+				</forcedTraits>
+				<numTraitsRange>
+					<min>2</min>
+					<max>2</max>
+				</numTraitsRange>
+			</li>
+		</comps>
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset MayRequire="Ludeon.Rimworld.Royalty">0.50</PsychicSensitivityOffset>
 			<PsychicEntropyRecoveryRate MayRequire="Ludeon.Rimworld.Royalty">0.083</PsychicEntropyRecoveryRate>

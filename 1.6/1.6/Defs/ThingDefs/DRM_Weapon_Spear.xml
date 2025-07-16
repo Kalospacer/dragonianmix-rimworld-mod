@@ -226,6 +226,17 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
+		<comps>
+			<li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+				<forcedTraits>
+					<li>AcidElement</li>
+				</forcedTraits>
+				<numTraitsRange>
+					<min>1</min>
+					<max>1</max>
+				</numTraitsRange>
+			</li>
+		</comps>
 		<equippedStatOffsets>
 			<DR_DragonSculptureR>1</DR_DragonSculptureR>
 		</equippedStatOffsets>
@@ -381,6 +392,17 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
+		<comps>
+			<li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+				<forcedTraits>
+					<li>DRM_SlimeAdhesion</li>
+				</forcedTraits>
+				<numTraitsRange>
+					<min>1</min>
+					<max>1</max>
+				</numTraitsRange>
+			</li>
+		</comps>
 		<equippedStatOffsets>
 			<DR_DragonSculptureR>1</DR_DragonSculptureR>
 		</equippedStatOffsets>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Frozen Element -->
+  <FrozenElement.label>冰冻元素</FrozenElement.label>
+  <!-- EN: This weapon inflicts frozen damage, which frequently stuns targets. -->
+  <FrozenElement.description>该武器造成冰冻伤害，可频繁击晕目标。</FrozenElement.description>
+  
+  <!-- EN: Acid Element -->
+  <AcidElement.label>酸蚀元素</AcidElement.label>
+  <!-- EN: This weapon inflicts corrosive damage that continues to deal damage over time and reduces blunt and sharp armor. -->
+  <AcidElement.description>该武器造成腐蚀伤害，持续造成伤害并降低钝器和锐器护甲。</AcidElement.description>
+  
+  <!-- EN: Acid Cloud Burst -->
+  <DRM_AcidCloudBurst.label>酸雾爆裂</DRM_AcidCloudBurst.label>
+  <!-- EN: This weapon creates acid damage clouds that explode upon contact. -->
+  <DRM_AcidCloudBurst.description>该武器生成酸蚀云雾，接触后会剧烈爆炸。</DRM_AcidCloudBurst.description>
+  
+  <!-- EN: Homing Projectile -->
+  <DRM_HomingProjectile.label>跟踪弹</DRM_HomingProjectile.label>
+  <!-- EN: This weapon's projectiles automatically track and home in on targets during flight. -->
+  <DRM_HomingProjectile.description>该武器的投射物在飞行途中会自动追踪目标。</DRM_HomingProjectile.description>
+  
+  <!-- EN: Feargas -->
+  <DRM_Feargas.label>恐惧毒气</DRM_Feargas.label>
+  <!-- EN: This weapon releases a cloud of fear gas, and inhaling the gas will lead to severe violent tendencies. -->
+  <DRM_Feargas.description>该武器释放一团恐惧毒气团，吸入毒气将导致严重的暴力倾向。</DRM_Feargas.description>
+  
+  <!-- EN: Lightning Element -->
+  <LightningElement.label>雷电元素</LightningElement.label>
+  <!-- EN: This weapon inflicts electrical damage, causing electrocution burns that impair movement. -->
+  <LightningElement.description>该武器造成伤害会导致触电烧伤难以行动。</LightningElement.description>
+  
+  <!-- EN: Chain Lightning -->
+  <DRM_ChainLightning.label>闪电链</DRM_ChainLightning.label>
+  <!-- EN: This weapon releases lightning that bounces between targets. -->
+  <DRM_ChainLightning.description>该武器释放会在目标之间弹跳的闪电。</DRM_ChainLightning.description>
+  
+  <!-- EN: Slime Adhesion -->
+  <DRM_SlimeAdhesion.label>黏菌附着</DRM_SlimeAdhesion.label>
+  <!-- EN: This weapon causes explosive slime contamination, detonating a few seconds after contact with air. -->
+  <DRM_SlimeAdhesion.description>该武器会造成爆炸黏菌沾染，接触空气数秒后引爆。</DRM_SlimeAdhesion.description>
+  
+  <!-- EN: Fire Element -->
+  <FireElement.label>火焰元素</FireElement.label>
+  <!-- EN: This weapon inflicts fire damage and weakens thermal armor. -->
+  <FireElement.description>该武器造成火焰伤害并削弱热能护甲。</FireElement.description>
+  
+  <!-- EN: Split Attack -->
+  <DRM_SplitAttack.label>分裂攻击</DRM_SplitAttack.label>
+  <!-- EN: This weapon deals additional elemental damage to several nearby targets. -->
+  <DRM_SplitAttack.description>该武器会对附近的几个目标造成额外的元素伤害。</DRM_SplitAttack.description>
+  
+  <!-- EN: Combat Endurance -->
+  <DRM_CombatEndurance.label>战斗续航</DRM_CombatEndurance.label>
+  <!-- EN: Each attack enhances the user, increasing attack speed and damage. -->
+  <DRM_CombatEndurance.description>每次攻击都会增强使用者加快攻击速度提高伤害。</DRM_CombatEndurance.description>
+  
+  <!-- EN: Frost Cloud Burst -->
+  <DRM_FrostCloudBurst.label>霜雾爆裂</DRM_FrostCloudBurst.label>
+  <!-- EN: This weapon creates frost damage clouds that explode upon contact. -->
+  <DRM_FrostCloudBurst.description>该武器生成霜冻云雾，接触后剧烈爆炸。</DRM_FrostCloudBurst.description>
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WeaponCategoryDef>
+    <defName>DRM_Frozen</defName>
+  </WeaponCategoryDef>
+
+  <WeaponCategoryDef>
+    <defName>DRM_Acid</defName>
+  </WeaponCategoryDef>
+
+  <WeaponCategoryDef>
+    <defName>DRM_Special</defName>
+  </WeaponCategoryDef>
+</Defs>

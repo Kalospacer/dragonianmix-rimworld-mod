@@ -75,6 +75,17 @@
 				<chanceFactor>10</chanceFactor>
 			</li>
 		</tools>
+		<comps>
+			<li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+				<forcedTraits>
+					<li>LightningElement</li>
+				</forcedTraits>
+				<numTraitsRange>
+					<min>1</min>
+					<max>1</max>
+				</numTraitsRange>
+			</li>
+		</comps>
 		<equippedStatOffsets>
 			<DR_DragonSculptureR>1</DR_DragonSculptureR>
 		</equippedStatOffsets>
@@ -282,6 +293,17 @@
 				<chanceFactor>10</chanceFactor>
 			</li>
 		</tools>
+		<comps>
+			<li Class="DragonianMix.CompProperties_CustomUniqueWeapon">
+				<forcedTraits>
+					<li>DRM_SlimeAdhesion</li>
+				</forcedTraits>
+				<numTraitsRange>
+					<min>1</min>
+					<max>1</max>
+				</numTraitsRange>
+			</li>
+		</comps>
 		<equippedStatOffsets>
 			<DR_DragonSculptureR>1</DR_DragonSculptureR>
 		</equippedStatOffsets>
