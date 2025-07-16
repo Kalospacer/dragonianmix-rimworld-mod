@@ -8,18 +8,9 @@
   <li>1.6</li>
   </supportedVersions>
   <packageId>kalospacer.DragonianMix</packageId>
-  <modVersion>1.6.04</modVersion><!-- prev 1.5.23 -->
+  <modVersion>1.6.05</modVersion><!-- prev 1.5.23 -->
   <modIconPath IgnoreIfNoMatchingField="True">Dragonian/Icon/viewicon</modIconPath>
   <description>
-For 1.6 needed 'Humanoid Alien Races ~ Dev' Search and subscribe it in steamworkshop.
-Then put mod list like this:
-  - Harmony
-  - Core
-  - DLCs
-  - Humanoid Alien Races ~ Dev
-  - Gloomy Dragonian race
-  - Dragonian Mix
-
 Dragonian Faction and Scenarios patch for Gloomy Dragonian race.
   - Friendly and Hostile Dragonian faction
   - Dragonian Backstories
