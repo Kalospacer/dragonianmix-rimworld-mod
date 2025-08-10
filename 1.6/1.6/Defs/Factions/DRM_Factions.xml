@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- 플레이어 -->
+	<FactionDef ParentName="Dragonian_PlayerFactionBase">
+		<defName>Dragonian_PlayerFaction</defName>
+		<label>New Dragonian</label>
+		<description>your Dragonian settlement.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>Dragonian_Colonist</basicMemberKind>
+		<pawnSingular>colonist</pawnSingular><!-- 세력 폰 단일명칭 -->
+		<pawnsPlural>colonists</pawnsPlural><!-- 세력 폰 복수명칭 -->
+		<techLevel>Medieval</techLevel>
+		<backstoryCategories><!-- 세력에서 사용하는 백스토리, 단 종족은 폰카인드 설정에서 불러오므로 종족 전용 백스토리는 넣을 필요가 없음 -->
+			<li>Offworld</li>
+		</backstoryCategories>
+		<allowedCultures><!-- 허용되는 문화 -->
+			<li>DragonianCulture</li>
+		</allowedCultures>
+		<factionIconPath>Dragonian/Icon/DR_Icon</factionIconPath>
+		<settlementTexturePath>Dragonian/Icon/DR_Icon</settlementTexturePath>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<melaninRange>0</melaninRange>
+		<startingResearchTags><!-- 시작시 완료되는 연구태그 -->
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<apparelStuffFilter><!-- 시작시 폰 복장의 재료 -->
+			<thingDefs>
+				<li>Leather_Pig</li>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+
+	<CultureDef><!-- 문화 -->
+		<defName>DragonianCulture</defName>
+		<label>Dragonian Culture</label>
+		<description>Dragonian Culture</description>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Astropolitan</leaderTitleMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
+		<allowedPlaceTags>
+			<li>OriginSpacer</li>
+		</allowedPlaceTags>
+		<iconPath>Dragonian/Icon/DR_Icon</iconPath>
+		<iconColor>(1.0, 1.0, 1.0)</iconColor>
+		<thingStyleCategories>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<category>Rustic</category>
+				<priority>2</priority>
+			</li>
+		</thingStyleCategories>
+		<styleItemTags>
+			<li>
+				<tag>Urban</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Rural</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoBeard</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>TattooFaceTribal</tag>
+				<baseWeight>0.4</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>TattooBodyTribal</tag>
+				<baseWeight>0.4</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoTattoo</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+	</CultureDef>
+
 	<FactionDef ParentName="Dragonian_PlayerFactionBase" Name="Dragonian_NPCFactionBase" Abstract="True">
 		<defName>Dragonian_Clans</defName>
 		<label>Dragonian Clans</label>
