@@ -920,14 +920,14 @@
 				<severityPerDay>-4</severityPerDay>
 			</li>
 			<li Class="DragonianMix.HediffCompProperties_TimedExplosion">
-				<damageDef>DRM_Damage_FrostCoverd_after</damageDef>
+				<damageDef>DRM_Damage_Freeze</damageDef>  <!-- 使用即死冷冻伤害 -->
 				<soundDef>Explosion_Stun</soundDef>
 				<explosionRadius>3</explosionRadius>
 				<showRemainingTime>true</showRemainingTime>
 				<damageAmount>5</damageAmount>
 				<armorPenetration>0.10</armorPenetration>
 				<disappearsAfterTicks>60~120</disappearsAfterTicks>
-				<postExplosionSpawnThingDef>DRM_FrostGasCloud</postExplosionSpawnThingDef>				<!-- ARL_ToxicGasCloud -->
+				<postExplosionSpawnThingDef>DRM_FrostGasCloud</postExplosionSpawnThingDef>
 				<postExplosionSpawnChance>1</postExplosionSpawnChance>
 				<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
 			</li>

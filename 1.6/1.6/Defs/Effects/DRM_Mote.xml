@@ -30,4 +30,18 @@
     </graphicData>
   </ThingDef>
 
+  <!-- 冰霜爆炸特效 - 从ArachnaeSwarm迁移 -->
+  <FleckDef ParentName="FleckBase">
+    <defName>DRM_Fleck_Icez_Cloud</defName>
+    <graphicData>
+      <texPath>Things/Mote/LightningGlow</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <color>(63,223,222,180)</color>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.04</fadeInTime>
+    <solidTime>0.08</solidTime>
+    <fadeOutTime>0.13</fadeOutTime>
+  </FleckDef>
+
   </Defs>

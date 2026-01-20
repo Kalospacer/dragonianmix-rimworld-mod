@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<DamageDef>
-		<defName>DRM_Frostbite</defName>
-		<label>frostbite</label>
-		<workerClass>DamageWorker_Frostbite</workerClass>
-		<externalViolence>false</externalViolence>
-		<deathMessage>{0} has succumbed to frostbite.</deathMessage>
-		<hediff>Frostbite</hediff>
-		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
-		<additionalHediffs>
-			<li>
-				<hediff>Hypothermia</hediff>
-				<severityPerDamageDealt>0.003</severityPerDamageDealt>
-				<inverseStatScaling>true</inverseStatScaling>
-				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
-			</li>
-		</additionalHediffs>
-		<armorCategory>Heat</armorCategory>
-		<isRanged>true</isRanged>
-		<makesAnimalsFlee>true</makesAnimalsFlee>
-		<defaultDamage>3</defaultDamage>
-		<defaultArmorPenetration>0</defaultArmorPenetration>
-		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
-		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
-		<causeStun>true</causeStun>
-	</DamageDef>
+	<!-- 旧的DRM_Frostbite已删除，使用DRM_Damage_Freeze替代 -->
 
 	<DamageDef>
 		<defName>DRM_Bomb</defName>
@@ -102,71 +77,7 @@
 		<combatLogRules>Damage_Bomb</combatLogRules>
 	</DamageDef>
 
-	<DamageDef>
-		<defName>DRM_Damage_FrostCoverd</defName>
-		<label>frostbite</label>
-		<workerClass>DamageWorker_Frostbite</workerClass>
-		<externalViolence>false</externalViolence>
-		<deathMessage>{0} has succumbed to frostbite.</deathMessage>
-		<hediff>Frostbite</hediff>
-		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
-		<additionalHediffs>
-			<li>
-				<hediff>Hypothermia</hediff>
-				<severityPerDamageDealt>0.003</severityPerDamageDealt>
-				<inverseStatScaling>true</inverseStatScaling>
-				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
-			</li>
-			<li>
-				<hediff>DRM_CryoShock</hediff>
-				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-			</li>
-			<li>
-				<hediff>DRM_Hediff_FrostCoverd_after</hediff>
-				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-				<inverseStatScaling>true</inverseStatScaling>
-				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
-			</li>
-		</additionalHediffs>
-		<armorCategory>Heat</armorCategory>
-		<isRanged>true</isRanged>
-		<makesAnimalsFlee>true</makesAnimalsFlee>
-		<defaultDamage>3</defaultDamage>
-		<defaultArmorPenetration>0</defaultArmorPenetration>
-		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
-		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
-	</DamageDef>
-
-	<DamageDef>
-		<defName>DRM_Damage_FrostCoverd_after</defName>
-		<label>frostbite</label>
-		<workerClass>DamageWorker_Frostbite</workerClass>
-		<externalViolence>false</externalViolence>
-		<deathMessage>{0} has succumbed to frostbite.</deathMessage>
-		<hediff>Frostbite</hediff>
-		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
-		<additionalHediffs>
-			<li>
-				<hediff>Hypothermia</hediff>
-				<severityPerDamageDealt>0.003</severityPerDamageDealt>
-				<inverseStatScaling>true</inverseStatScaling>
-				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
-			</li>
-			<li>
-				<hediff>DRM_CryoShock</hediff>
-				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-			</li>
-		</additionalHediffs>
-		<armorCategory>Heat</armorCategory>
-		<isRanged>true</isRanged>
-		<makesAnimalsFlee>true</makesAnimalsFlee>
-		<defaultDamage>3</defaultDamage>
-		<defaultArmorPenetration>0</defaultArmorPenetration>
-		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
-		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
-	</DamageDef>
+	<!-- 旧的DRM_Damage_FrostCoverd和DRM_Damage_FrostCoverd_after已删除，使用DRM_Damage_Freeze替代 -->
 
 	<DamageDef ParentName="Flame">
 		<defName>DRM_Flame</defName>
@@ -319,6 +230,63 @@
 		<soundExplosion>Explosion_Stun</soundExplosion>
 		<harmsHealth>false</harmsHealth>
 		<combatLogRules>Damage_Extinguish</combatLogRules>
+	</DamageDef>
+
+	<!-- ===== 即死冷冻伤害系统 - 从ArachnaeSwarm迁移 ===== -->
+	<!-- 冷冻伤害本身的定义 -->
+	<DamageDef Name="DRM_Damage_Freeze">
+		<defName>DRM_Damage_Freeze</defName>
+		<label>冷冻</label>
+		<workerClass>DragonianMix.DamageWorker_InstaKill</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0}的身体在极寒中化为了冰雕，随后碎裂四散。</deathMessage>
+		<hediff>Frostbite</hediff>		<!-- 将伤害转化为冻伤Hediff -->
+		<harmsHealth>false</harmsHealth>		<!-- 不造成常规生命值伤害 -->
+		<armorCategory>Heat</armorCategory>		<!-- 可以被抗热/冷的护甲减免 -->
+		<overkillPctToDestroyPart>0</overkillPctToDestroyPart>
+		<defaultDamage>3</defaultDamage>
+		<defaultArmorPenetration>1</defaultArmorPenetration>
+		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
+		<explosionHeatEnergyPerCell>-15</explosionHeatEnergyPerCell>
+		<explosionInteriorFleck>DRM_Fleck_Icez_Cloud</explosionInteriorFleck>
+		<soundExplosion>Explosion_Stun</soundExplosion>
+		<modExtensions>
+			<li Class="DragonianMix.InstaKillExtension">
+				<hediff>DRM_CryoShock</hediff>
+				<requiredDamagePercentageCurve>
+					<points>
+						<li>(0.2, 0.8)</li>						<!-- 低严重性(0.2)时, 需要造成80%的伤害 -->
+						<li>(0.35, 0.65)</li>
+						<li>(0.5, 0.5)</li>
+						<li>(0.65, 0.35)</li>
+						<li>(0.85, 0.15)</li>
+						<li>(1.25, 0.01)</li>
+						<li>(2.5, 0.001)</li>						<!-- 高严重性时, 只需要造成极少的伤害 -->
+					</points>
+				</requiredDamagePercentageCurve>
+				<destroyChance>0.25</destroyChance>
+			</li>
+		</modExtensions>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_CryoShock</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<!-- 带霜冻云爆炸效果的冷冻伤害变体 -->
+	<DamageDef ParentName="DRM_Damage_Freeze">
+		<defName>DRM_Damage_Freeze_ex</defName>
+		<additionalHediffs>
+			<li>
+				<hediff>DRM_Hediff_FrostCoverd_after</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
 	</DamageDef>
 
 </Defs>

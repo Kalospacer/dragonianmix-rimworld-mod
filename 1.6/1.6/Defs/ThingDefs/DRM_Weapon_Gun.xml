@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="BaseMakeableGun">
     <defName>DRM_RifledFlintlock</defName>
     <label>Dragonian RifledFlintlock</label>
     <description>An ancient pattern bolt-action rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting.</description>
@@ -116,7 +116,7 @@
 			</li>
 		</modExtensions>
   </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="BaseMakeableGun">
     <defName>DRM_Revolver</defName>
     <label>dragonian revolver</label>
     <description>An ancient pattern double-action revolver. It's not very powerful, but has a decent range for a pistol and is quick on the draw.</description>

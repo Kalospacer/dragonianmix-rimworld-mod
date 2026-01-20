@@ -295,7 +295,7 @@
     </verbProperties>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
-        <damageDef>DRM_Damage_FrostCoverd</damageDef>
+        <damageDef>DRM_Damage_Freeze_ex</damageDef>
         <damageAmount>20</damageAmount>
         <armorPenetration>0.5</armorPenetration>
         <smokeRadius>6</smokeRadius>
