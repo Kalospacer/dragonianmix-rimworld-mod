@@ -190,20 +190,8 @@
   <!-- EN: extreme -->
   <DRM_ElectricShock.stages.completely.label>完全</DRM_ElectricShock.stages.completely.label>
 
-  <DRM_CryoShock.label>低温休克</DRM_CryoShock.label>
-  <DRM_CryoShock.description>由于体温骤降，这个[PAWN_nameDef]意识正在降低，无法行动。</DRM_CryoShock.description>
-  <!-- EN: minor -->
-  <DRM_CryoShock.stages.minor-0.label>轻微</DRM_CryoShock.stages.minor-0.label>
-  <!-- EN: minor -->
-  <DRM_CryoShock.stages.minor-1.label>较轻</DRM_CryoShock.stages.minor-1.label>
-  <!-- EN: moderate -->
-  <DRM_CryoShock.stages.moderate.label>中等</DRM_CryoShock.stages.moderate.label>
-  <!-- EN: serious -->
-  <DRM_CryoShock.stages.serious.label>严重</DRM_CryoShock.stages.serious.label>
-  <!-- EN: extreme -->
-  <DRM_CryoShock.stages.extreme.label>极重</DRM_CryoShock.stages.extreme.label>
-  <!-- EN: extreme -->
-  <DRM_CryoShock.stages.completely.label>完全</DRM_CryoShock.stages.completely.label>
+  <DRM_CryoShock.label>急速冷却</DRM_CryoShock.label>
+  <DRM_CryoShock.description>目标正处于急冻状态。这种状态将导致目标身体结构极度脆弱。当此效果加深时，其身体部位有可能会被冷冻伤害直接摧毁。</DRM_CryoShock.description>
 
   <!-- EN: tox gas -->
   <DRM_FearGas.label>恐惧毒气</DRM_FearGas.label>
