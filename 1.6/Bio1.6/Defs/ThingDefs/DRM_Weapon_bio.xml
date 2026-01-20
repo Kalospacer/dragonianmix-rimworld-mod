@@ -70,7 +70,8 @@
 				<burstShotCount>10</burstShotCount>
 				<beamWidth>-1</beamWidth>
 				<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
-				<beamDamageDef>DRM_Damage_Freeze</beamDamageDef>
+				<beamDamageDef>DRM_Damage_Freeze_ex</beamDamageDef>
+				<beamTotalDamage>5</beamTotalDamage>
 				<!-- <soundCastTail>GunTail_Medium</soundCastTail> -->
 				<muzzleFlashScale>0</muzzleFlashScale>
 				<soundCastBeam>BeamGraser_Shooting</soundCastBeam>
@@ -112,7 +113,7 @@
 				<power>15</power>
 				<extraMeleeDamages>
 					<li>
-						<def>DRM_Damage_Freeze</def>
+						<def>DRM_Damage_Freeze_ex</def>
 						<amount>30</amount>
 						<chance>1</chance>
 					</li>

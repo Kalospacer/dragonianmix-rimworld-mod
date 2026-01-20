@@ -175,7 +175,7 @@
                 <enableHediffEffect>false</enableHediffEffect>
 
                 <extraDamageFactor>0.2</extraDamageFactor>
-                <extraDamageType>DRM_Damage_Freeze</extraDamageType>
+                <extraDamageType>DRM_Damage_Freeze_ex</extraDamageType>
                 <armorPenetration>0.1</armorPenetration>
             </li>
         </modExtensions>

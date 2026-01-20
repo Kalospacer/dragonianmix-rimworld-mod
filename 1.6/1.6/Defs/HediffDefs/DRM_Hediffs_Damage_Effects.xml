@@ -505,7 +505,7 @@
 	<HediffDef>
 		<defName>DRM_CryoShock</defName>
 		<label>Cryo Shock</label>
-		<description>This preson is Freezed.</description>
+		<description>The target is in a state of cryo-shock. This condition makes the body extremely fragile. As the effect intensifies, body parts may be shattered outright by freezing damage.</description>
 		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
 		<hediffClass>DragonianMix.HediffCurseFlame</hediffClass>
 		<comps>
@@ -517,7 +517,7 @@
 			<li Class="DragonianMix.CurseFlameModExt">
 				<damageDefName>Stun</damageDefName>
 				<damageRange>1~2</damageRange>
-				<damageIntervalTicks>80</damageIntervalTicks>
+				<damageIntervalTicks>90</damageIntervalTicks>
 			</li>
 		</modExtensions>
 		<injuryProps>
@@ -525,11 +525,11 @@
 		</injuryProps>
 		<stages>
 			<li>
-				<label>minor</label>
+				<label>1/8</label>
 				<becomeVisible>true</becomeVisible>
 			</li>
 			<li>
-				<label>minor</label>
+				<label>2/8</label>
 				<minSeverity>0.2</minSeverity>
 				<statOffsets>
 					<ComfyTemperatureMin>40</ComfyTemperatureMin>
@@ -542,62 +542,38 @@
 				</capMods>
 			</li>
 			<li>
-				<label>moderate</label>
+				<label>3/8</label>
 				<minSeverity>0.35</minSeverity>
 				<statOffsets>
 					<ComfyTemperatureMin>80</ComfyTemperatureMin>
 				</statOffsets>
 				<capMods>
 					<li>
-						<capacity>Moving</capacity>
-						<offset>-0.1</offset>
-					</li>
-					<li>
-						<capacity>Manipulation</capacity>
-						<offset>-0.2</offset>
-					</li>
-					<li>
 						<capacity>Consciousness</capacity>
 						<offset>-0.20</offset>
 					</li>
 				</capMods>
 			</li>
 			<li>
-				<label>serious</label>
+				<label>4/8</label>
 				<minSeverity>0.5</minSeverity>
 				<statOffsets>
 					<ComfyTemperatureMin>120</ComfyTemperatureMin>
 				</statOffsets>
 				<capMods>
 					<li>
-						<capacity>Moving</capacity>
-						<offset>-0.3</offset>
-					</li>
-					<li>
-						<capacity>Manipulation</capacity>
-						<offset>-0.4</offset>
-					</li>
-					<li>
 						<capacity>Consciousness</capacity>
 						<offset>-0.20</offset>
 					</li>
 				</capMods>
 			</li>
 			<li>
-				<label>extreme</label>
+				<label>5/8</label>
 				<minSeverity>0.65</minSeverity>
 				<statOffsets>
 					<ComfyTemperatureMin>160</ComfyTemperatureMin>
 				</statOffsets>
 				<capMods>
-					<li>
-						<capacity>Moving</capacity>
-						<offset>-0.5</offset>
-					</li>
-					<li>
-						<capacity>Manipulation</capacity>
-						<offset>-0.6</offset>
-					</li>
 					<li>
 						<capacity>Consciousness</capacity>
 						<offset>-0.30</offset>
@@ -605,23 +581,41 @@
 				</capMods>
 			</li>
 			<li>
-				<label>completely</label>
+				<label>6/8</label>
 				<minSeverity>0.85</minSeverity>
 				<statOffsets>
 					<ComfyTemperatureMin>200</ComfyTemperatureMin>
 				</statOffsets>
 				<capMods>
 					<li>
-						<capacity>Moving</capacity>
-						<setMax>0.2</setMax>
-					</li>
-					<li>
-						<capacity>Manipulation</capacity>
-						<setMax>0.2</setMax>
-					</li>
-					<li>
 						<capacity>Consciousness</capacity>
 						<offset>-0.30</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>7/8</label>
+				<minSeverity>1.25</minSeverity>
+				<statOffsets>
+					<ComfyTemperatureMin>500</ComfyTemperatureMin>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.50</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>8/8</label>
+				<minSeverity>2.5</minSeverity>
+				<statOffsets>
+					<ComfyTemperatureMin>1000</ComfyTemperatureMin>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.50</offset>
 					</li>
 				</capMods>
 			</li>

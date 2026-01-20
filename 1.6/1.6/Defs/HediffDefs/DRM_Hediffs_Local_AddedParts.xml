@@ -105,7 +105,7 @@
                 <enableHediffEffect>false</enableHediffEffect>
 
 				<extraDamageFactor>0.2</extraDamageFactor>
-				<extraDamageType>DRM_Damage_Freeze</extraDamageType>
+				<extraDamageType>DRM_Damage_Freeze_ex</extraDamageType>
 				<armorPenetration>0.1</armorPenetration>
 			</li>
 		</modExtensions>
@@ -482,14 +482,14 @@
 									<amount>15</amount>
 								</li>
 								<li>
-									<def>DRM_Damage_Freeze</def>
+									<def>DRM_Damage_Freeze_ex</def>
 									<amount>15</amount>
 								</li>
 							</extraMeleeDamages>
 						</surpriseAttack>
 						<extraMeleeDamages>
 							<li>
-								<def>DRM_Damage_Freeze</def>
+								<def>DRM_Damage_Freeze_ex</def>
 								<amount>20</amount>
 							</li>
 						</extraMeleeDamages>
