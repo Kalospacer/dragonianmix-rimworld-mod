@@ -109,9 +109,6 @@
             </li>
         </tools>
         <comps>
-            <li>
-                <compClass>CompQuality</compClass>
-            </li>
             <li Class="DragonianMix.CompPropertiesScarletSickle_Data">
                 <sputteringRange>5</sputteringRange>
                 <sputteringNumber>5</sputteringNumber>
