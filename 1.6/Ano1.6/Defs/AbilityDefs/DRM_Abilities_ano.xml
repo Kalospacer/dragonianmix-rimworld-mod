@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <AbilityDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Anomaly">
     <defName>DR_BattleStaffBurner</defName>
     <label>BattleStaff burner</label>
     <description>Use terra magic to create a massive cone of flame.</description>
     <iconPath>UI/Abilities/Burner</iconPath>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>1800</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>
     <ai_IsIncendiary>true</ai_IsIncendiary>
@@ -25,6 +27,10 @@
         </points>
       </flammabilityAttachFireChanceCurve>
     </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>30</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.04</Ability_PsyfocusCost>
+    </statBases>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_FireSpew">
         <range>22.9</range>
@@ -36,7 +42,7 @@
       </li>
       <li Class="CompProperties_AbilityBurner">
         <numStreams>15</numStreams>
-        <range>24</range>        <!-- go a bit further than the actual ability range, since it's meant to be a noisy effect -->
+        <range>24</range>
         <coneSizeDegrees>12</coneSizeDegrees>
         <moteDef>Mote_IncineratorBurst</moteDef>
         <barrelOffsetDistance>6</barrelOffsetDistance>
@@ -48,11 +54,13 @@
     </comps>
   </AbilityDef>
 
-  <AbilityDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Anomaly">
     <defName>DRM_Deaddustpop</defName>
     <label>Deaddust Pop</label>
     <description>Release a cloud of dust-like substance that will settle on nearby corpses and raise them as shamblers. The shamblers will only attack your enemies. Deadlife dust is made of nano-scale archites that penetrate and reanimate dead tissue at the cellular level.</description>
     <iconPath>UI/Abilities/ReleaseDeadlifeDust</iconPath>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
     <aiCanUse>true</aiCanUse>
@@ -69,6 +77,10 @@
       </targetParams>
       <soundCast>DeadlifeRelease</soundCast>
     </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>35</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.05</Ability_PsyfocusCost>
+    </statBases>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
         <damageDef>Smoke</damageDef>

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <AbilityDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
     <defName>DRM_Toxgaspop</defName>
     <label>ToxGas Pop</label>
     <description>Release a cloud of Toxgas.</description>
     <iconPath>UI/Abilities/Smokepop</iconPath>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
     <aiCanUse>true</aiCanUse>
@@ -20,8 +22,11 @@
         <canTargetPawns>False</canTargetPawns>
         <canTargetLocations>True</canTargetLocations>
       </targetParams>
-
     </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>20</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.03</Ability_PsyfocusCost>
+    </statBases>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
         <damageDef>Smoke</damageDef>
@@ -34,11 +39,13 @@
     </comps>
   </AbilityDef>
 
-  <AbilityDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
     <defName>DRM_AcidSpray</defName>
     <label>acid spray</label>
     <description>Spray a sticky acid substance from glands in the neck up through the mouth and all over the target area. The acid will stick to targets and burn them.</description>
     <iconPath>UI/Abilities/AcidSpray</iconPath>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>1800</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>
     <displayOrder>300</displayOrder>
@@ -54,6 +61,10 @@
         <canTargetLocations>true</canTargetLocations>
       </targetParams>
     </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>25</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.03</Ability_PsyfocusCost>
+    </statBases>
     <comps>
       <li Class="CompProperties_AbilitySprayLiquid">
         <projectileDef>DRM_Proj_Acid</projectileDef>

@@ -33,12 +33,14 @@
     </verbProperties>
   </AbilityDef>
 
-  <AbilityDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
     <defName>DRM_Skip</defName>
     <label>skip</label>
     <description>Teleport the target to a desired position not too far from its starting point. Objects which are too large cannot be teleported.</description>
     <iconPath>UI/Abilities/Skip</iconPath>
     <showPsycastEffects>False</showPsycastEffects>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>1800</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
     <verbProperties>
@@ -52,6 +54,10 @@
         <canTargetItems>True</canTargetItems>
       </targetParams>
     </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>25</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.02</Ability_PsyfocusCost>
+    </statBases>
     <comps>
       <li Class="CompProperties_AbilityTeleport">
         <compClass>CompAbilityEffect_Teleport</compClass>
@@ -69,7 +75,7 @@
     </comps>
   </AbilityDef>
 
-  <AbilityDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
     <defName>DRM_Farskip</defName>
     <label>farskip</label>
     <description>Skip the caster, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map.</description>
@@ -77,6 +83,8 @@
     <targetWorldCell>True</targetWorldCell>
     <showGizmoOnWorldView>True</showGizmoOnWorldView>
     <hostile>false</hostile>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
     <verbProperties>
@@ -87,6 +95,10 @@
       <drawAimPie>False</drawAimPie>
       <requireLineOfSight>False</requireLineOfSight>
     </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>40</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.03</Ability_PsyfocusCost>
+    </statBases>
     <comps>
       <li Class="CompProperties_AbilityFarskip">
         <stunTicks>18~60</stunTicks>
@@ -96,12 +108,14 @@
     </comps>
   </AbilityDef>
 
-  <AbilityDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
     <defName>DR_FireBurst</defName>
     <label>fire burst</label>
     <description>Overdrive orbs cause explosion and set fire on ground.</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <iconPath>UI/Abilities/FireBurst</iconPath>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
     <aiCanUse>true</aiCanUse>
@@ -122,6 +136,10 @@
         <canTargetSelf>true</canTargetSelf>
       </targetParams>
     </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>30</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.04</Ability_PsyfocusCost>
+    </statBases>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_FireBurst">
         <radius>12</radius>
@@ -132,11 +150,13 @@
     </comps>
   </AbilityDef>
 
-  <AbilityDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
     <defName>DRM_Feargaspop</defName>
     <label>FearGas Pop</label>
     <description>Release a cloud of Feargas.</description>
     <iconPath>UI/Abilities/Smokepop</iconPath>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
     <aiCanUse>true</aiCanUse>
@@ -151,8 +171,11 @@
         <canTargetPawns>False</canTargetPawns>
         <canTargetLocations>True</canTargetLocations>
       </targetParams>
-
     </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>20</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.03</Ability_PsyfocusCost>
+    </statBases>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
         <damageDef>DRM_Feargas</damageDef>
@@ -160,18 +183,20 @@
         <explosionSound>Explosion_Smoke</explosionSound>
         <clamorType>Ability</clamorType>
         <clamorRadius>20</clamorRadius>
-        <postExplosionSpawnThingDef>DRM_FearGasCloud</postExplosionSpawnThingDef>        <!-- ARL_ToxicGasCloud -->
+        <postExplosionSpawnThingDef>DRM_FearGasCloud</postExplosionSpawnThingDef>
         <postExplosionSpawnChance>1</postExplosionSpawnChance>
         <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
       </li>
     </comps>
   </AbilityDef>
 
-  <AbilityDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
     <defName>DRM_LightingStrike</defName>
     <label>LightingStrike</label>
     <description>Summon a LightingStrike.</description>
     <iconPath>UI/Abilities/Flashstorm</iconPath>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>1800</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
     <aiCanUse>true</aiCanUse>
@@ -186,8 +211,11 @@
         <canTargetPawns>False</canTargetPawns>
         <canTargetLocations>True</canTargetLocations>
       </targetParams>
-
     </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>35</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.04</Ability_PsyfocusCost>
+    </statBases>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_LightingStrike">
         <explosionRadius>4.0</explosionRadius>
@@ -198,11 +226,13 @@
     </comps>
   </AbilityDef>
 
-  <AbilityDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
     <defName>DRM_LightningBombardment</defName>
     <label>LightningStorm</label>
     <description>Summon a LightningStorm.</description>
     <iconPath>UI/Abilities/Flashstorm</iconPath>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
     <aiCanUse>true</aiCanUse>
@@ -217,15 +247,17 @@
         <canTargetPawns>False</canTargetPawns>
         <canTargetLocations>True</canTargetLocations>
       </targetParams>
-
     </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>50</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.08</Ability_PsyfocusCost>
+    </statBases>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_LightningBombardment">
         <impactAreaRadius>12</impactAreaRadius>
         <explosionRadiusRange>3~4</explosionRadiusRange>
         <bombIntervalTicks>30</bombIntervalTicks>
         <explosionCount>20</explosionCount>
-
         <damageDef>DRM_Arc</damageDef>
         <damageAmount>45</damageAmount>
         <armorPenetration>1.0</armorPenetration>
@@ -233,11 +265,13 @@
     </comps>
   </AbilityDef>
 
-  <AbilityDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
     <defName>DRM_Acidgaspop</defName>
     <label>AcidGas Pop</label>
     <description>Release a cloud of Acidgas.</description>
     <iconPath>UI/Abilities/Smokepop</iconPath>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
     <aiCanUse>true</aiCanUse>
@@ -252,8 +286,11 @@
         <canTargetPawns>False</canTargetPawns>
         <canTargetLocations>True</canTargetLocations>
       </targetParams>
-
     </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>20</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.03</Ability_PsyfocusCost>
+    </statBases>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
         <damageDef>DRM_AcidCover</damageDef>
@@ -263,20 +300,20 @@
         <explosionSound>Explosion_Smoke</explosionSound>
         <clamorType>Ability</clamorType>
         <clamorRadius>20</clamorRadius>
-        <postExplosionSpawnThingDef>DRM_AcidGasCloud</postExplosionSpawnThingDef>        <!-- ARL_ToxicGasCloud -->
+        <postExplosionSpawnThingDef>DRM_AcidGasCloud</postExplosionSpawnThingDef>
         <postExplosionSpawnChance>1</postExplosionSpawnChance>
         <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
       </li>
     </comps>
   </AbilityDef>
 
-
-
-  <AbilityDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
     <defName>DRM_Frostcloudpop</defName>
     <label>FrostCloud Pop</label>
     <description>Release a cloud of Frozen ice.</description>
     <iconPath>UI/Abilities/Smokepop</iconPath>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
     <aiCanUse>true</aiCanUse>
@@ -291,8 +328,11 @@
         <canTargetPawns>False</canTargetPawns>
         <canTargetLocations>True</canTargetLocations>
       </targetParams>
-
     </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>25</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.04</Ability_PsyfocusCost>
+    </statBases>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
         <damageDef>DRM_Damage_Freeze_ex</damageDef>
@@ -302,29 +342,32 @@
         <explosionSound>Explosion_Smoke</explosionSound>
         <clamorType>Ability</clamorType>
         <clamorRadius>20</clamorRadius>
-        <postExplosionSpawnThingDef>DRM_FrostGasCloud_Ex</postExplosionSpawnThingDef>        <!-- ARL_ToxicGasCloud -->
+        <postExplosionSpawnThingDef>DRM_FrostGasCloud_Ex</postExplosionSpawnThingDef>
         <postExplosionSpawnChance>1</postExplosionSpawnChance>
         <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
       </li>
     </comps>
   </AbilityDef>
 
-  <AbilityDef ParentName="DRM_RoleAuraBuffBase">
+  <AbilityDef ParentName="DRM_RoleAuraBuffBase" MayRequire="Ludeon.RimWorld.Royalty">
     <defName>DRM_HealBreakOut</defName>
     <label>Heal BreakOut</label>
     <description>Overdrive orbs.Heal wound in insane speed.</description>
     <iconPath>UI/Abilities/ImmunityDrive</iconPath>
     <warmupMoteSocialSymbol>UI/Abilities/ImmunityDrive</warmupMoteSocialSymbol>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
     <aiCanUse>false</aiCanUse>
     <showCastingProgressBar>true</showCastingProgressBar>
-
     <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
     <statBases>
       <Ability_Duration>150</Ability_Duration>
       <Ability_EffectRadius>0</Ability_EffectRadius>
+      <Ability_EntropyGain>15</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.03</Ability_PsyfocusCost>
     </statBases>
     <verbProperties>
       <range>0</range>

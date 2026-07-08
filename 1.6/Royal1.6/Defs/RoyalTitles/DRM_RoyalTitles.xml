@@ -57,6 +57,7 @@
         <label>chieftain</label>
         <description>chieftain is actual leader of dragonian clan.</description>
         <seniority>700</seniority>
+        <maxPsylinkLevel>2</maxPsylinkLevel>
         <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
         <recruitmentResistanceOffset>75</recruitmentResistanceOffset>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>
@@ -70,6 +71,7 @@
         <label>Princess</label>
         <description>the chosen one dragonian princess.</description>
         <seniority>1000</seniority>
+        <maxPsylinkLevel>3</maxPsylinkLevel>
         <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
         <recruitmentResistanceOffset>75</recruitmentResistanceOffset>
         <changeHeirQuestPoints>1000</changeHeirQuestPoints>

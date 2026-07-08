@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <PawnKindDef Name="DRMDragonianBasePawnKind" Abstract="True">
@@ -18,7 +18,8 @@
     
     <xenotypeSet>
 			<xenotypeChances>
-				<DragonianXenotype MayRequire="Ludeon.RimWorld.Biotech">1</DragonianXenotype>
+				<DragonianXenotype MayRequire="Ludeon.RimWorld.Biotech">0.85</DragonianXenotype>
+				<DragonianXenotypeBlack MayRequire="Ludeon.RimWorld.Biotech">0.15</DragonianXenotypeBlack>
 			</xenotypeChances>
 		</xenotypeSet>
     <useFactionXenotypes>false</useFactionXenotypes>
@@ -651,6 +652,7 @@
     <titleRequired MayRequire="Ludeon.RimWorld.Royalty">DRM_Princess</titleRequired>
     <isFighter>false</isFighter>
     <itemQuality>Legendary</itemQuality>
+    <fixedGender>Female</fixedGender>
 
     <apparelTags>
       <li>Royal</li>
