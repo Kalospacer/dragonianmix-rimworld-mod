@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- 将 DragonianMelee 近战爆炸招式(DragonianMeleeExplosion)的伤害类型 Flame 改为 DRM_Flame -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ManeuverDef[defName="DragonianMeleeExplosion"]/verb/damageDef</xpath>
+		<value>
+			<damageDef>DRM_Flame</damageDef>
+		</value>
+	</Operation>
+
+</Patch>
