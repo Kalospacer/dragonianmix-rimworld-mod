@@ -277,7 +277,7 @@
 		<label>Acid Coverd</label>
 		<description>This preson is coverd with acid.</description>
 		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
+		<hediffClass>DragonianMix.HediffCurseFlame</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-4</severityPerDay>
@@ -286,14 +286,14 @@
 				<disappearsAfterTicks>1800</disappearsAfterTicks>
 			</li>
 			<li Class="HediffCompProperties_DisappearsOnDeath"/>
-		<li Class="DragonianMix.HediffCompProperties_ContinuousDamage">
-				<damageDef>DRM_AcidBurn</damageDef>
-				<damageRange>1~5</damageRange>
-				<ticksPerDamage>40</ticksPerDamage>
-				<randomHittablePart>true</randomHittablePart>
-			</li>
 		</comps>
-		
+		<modExtensions>
+			<li Class="DragonianMix.CurseFlameModExt">
+				<damageDefName>DRM_AcidBurn</damageDefName>
+				<damageRange>1~5</damageRange>
+				<damageIntervalTicks>40</damageIntervalTicks>
+			</li>
+		</modExtensions>
 		<stages>
 			<li>
 				<label>minor</label>
@@ -408,19 +408,19 @@
 		<label>Electric Shock</label>
 		<description>This preson is got a shock.</description>
 		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
+		<hediffClass>DragonianMix.HediffCurseFlame</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-4</severityPerDay>
 			</li>
-		<li Class="DragonianMix.HediffCompProperties_ContinuousDamage">
-				<damageDef>EMP</damageDef>
-				<damageRange>1~5</damageRange>
-				<ticksPerDamage>40</ticksPerDamage>
-				<randomHittablePart>true</randomHittablePart>
-			</li>
 		</comps>
-		
+		<modExtensions>
+			<li Class="DragonianMix.CurseFlameModExt">
+				<damageDefName>EMP</damageDefName>
+				<damageRange>1~5</damageRange>
+				<damageIntervalTicks>40</damageIntervalTicks>
+			</li>
+		</modExtensions>
 		<injuryProps>
 			<painPerSeverity>0.02</painPerSeverity>
 		</injuryProps>
@@ -507,19 +507,19 @@
 		<label>Cryo Shock</label>
 		<description>The target is in a state of cryo-shock. This condition makes the body extremely fragile. As the effect intensifies, body parts may be shattered outright by freezing damage.</description>
 		<defaultLabelColor>(1, 1, 0.8)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
+		<hediffClass>DragonianMix.HediffCurseFlame</hediffClass>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-6</severityPerDay>
 			</li>
-		<li Class="DragonianMix.HediffCompProperties_ContinuousDamage">
-				<damageDef>Stun</damageDef>
-				<damageRange>1~2</damageRange>
-				<ticksPerDamage>90</ticksPerDamage>
-				<randomHittablePart>true</randomHittablePart>
-			</li>
 		</comps>
-		
+		<modExtensions>
+			<li Class="DragonianMix.CurseFlameModExt">
+				<damageDefName>Stun</damageDefName>
+				<damageRange>1~2</damageRange>
+				<damageIntervalTicks>90</damageIntervalTicks>
+			</li>
+		</modExtensions>
 		<injuryProps>
 			<painPerSeverity>0.02</painPerSeverity>
 		</injuryProps>

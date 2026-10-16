@@ -4,9 +4,4 @@
   <DRMShieldLabel>Shield</DRMShieldLabel>
   <DRMShieldTip>This pawn is shielded by a Implant Shield. </DRMShieldTip>
   
-  <DRMShieldHardenedTip>Hardened shield caps energy loss per hit at the cost of half capacity.</DRMShieldHardenedTip>
-  <DRMShieldAdaptiveTip>Adaptive shield reduces energy cost against repeated damage of the same type.</DRMShieldAdaptiveTip>
-  <DRMShieldDisabled>Disabled</DRMShieldDisabled>
-  <NecroticVirus_EffectTip>May rise as a hostile shambler upon death.</NecroticVirus_EffectTip>
-  <NecroticVirus_TransformationMessage>{0} has been transformed into a shambler by the necrotic virus.</NecroticVirus_TransformationMessage>
 </LanguageData>

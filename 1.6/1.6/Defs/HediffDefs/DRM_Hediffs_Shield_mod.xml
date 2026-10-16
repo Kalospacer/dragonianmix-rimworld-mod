@@ -12,10 +12,11 @@
         </descriptionHyperlinks>
         <comps>
             <li Class="DragonianMix.HediffShieldCompProperties">
+                <MaxEnergy>100</MaxEnergy>
+                <RegenerationRate>0.01</RegenerationRate>
             </li>
         </comps>
-    <stages><li><statOffsets><EnergyShieldEnergyMax>1</EnergyShieldEnergyMax><EnergyShieldRechargeRate>0.006</EnergyShieldRechargeRate></statOffsets></li></stages>
-</HediffDef>
+    </HediffDef>
 
     <HediffDef ParentName="ImplantHediffBase">
         <hediffClass>DragonianMix.HediffShield_Implant</hediffClass>
@@ -28,10 +29,11 @@
         </descriptionHyperlinks>
         <comps>
             <li Class="DragonianMix.HediffShieldCompProperties">
+                <MaxEnergy>200</MaxEnergy>
+                <RegenerationRate>0.02</RegenerationRate>
             </li>
         </comps>
-    <stages><li><statOffsets><EnergyShieldEnergyMax>2</EnergyShieldEnergyMax><EnergyShieldRechargeRate>0.012</EnergyShieldRechargeRate></statOffsets></li></stages>
-</HediffDef>
+    </HediffDef>
 
     <HediffDef ParentName="ImplantHediffBase">
         <hediffClass>DragonianMix.HediffShield_Implant</hediffClass>
@@ -44,6 +46,7 @@
         </descriptionHyperlinks>
         <comps>
             <li Class="DragonianMix.HediffShieldCompProperties">
+                <MaxEnergy>0</MaxEnergy>
                 <Adaptive>true</Adaptive>
                 <FunctionalModule>true</FunctionalModule>
             </li>
@@ -62,6 +65,7 @@
         </descriptionHyperlinks>
         <comps>
             <li Class="DragonianMix.HediffShieldCompProperties">
+                <MaxEnergy>0</MaxEnergy>
                 <Hardened>10</Hardened>
                 <FunctionalModule>true</FunctionalModule>
             </li>

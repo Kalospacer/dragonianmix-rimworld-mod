@@ -168,7 +168,10 @@
 
 		<comps>
 			<li Class="DragonianMix.HediffShieldCompProperties">
+				<MaxEnergy>100</MaxEnergy>
+				<EnergyOnReset>0</EnergyOnReset>
 				<CanFunction>True</CanFunction>
+				<RegenerationRate>0.005</RegenerationRate>
 			</li>
 		</comps>
 
@@ -176,8 +179,7 @@
 			<solid>true</solid>
 		</addedPartProps>
 		<spawnThingOnRemoved>ShieldDragonianOrb</spawnThingOnRemoved>
-	<stages><li><statOffsets><EnergyShieldEnergyMax>1</EnergyShieldEnergyMax><EnergyShieldRechargeRate>0.003</EnergyShieldRechargeRate></statOffsets></li></stages>
-</HediffDef>
+	</HediffDef>
 
 
 	<HediffDef ParentName="AddedBodyPartBase">

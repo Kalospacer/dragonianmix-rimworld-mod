@@ -6,7 +6,7 @@
     <label>BattleStaff burner</label>
     <description>Use terra magic to create a massive cone of flame.</description>
     <iconPath>UI/Abilities/Burner</iconPath>
-    <abilityClass>Psycast</abilityClass>
+    <abilityClass>DragonianMix.HediffPsycast</abilityClass>
     <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>1800</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>
@@ -59,7 +59,7 @@
     <label>Deaddust Pop</label>
     <description>Release a cloud of dust-like substance that will settle on nearby corpses and raise them as shamblers. The shamblers will only attack your enemies. Deadlife dust is made of nano-scale archites that penetrate and reanimate dead tissue at the cellular level.</description>
     <iconPath>UI/Abilities/ReleaseDeadlifeDust</iconPath>
-    <abilityClass>Psycast</abilityClass>
+    <abilityClass>DragonianMix.HediffPsycast</abilityClass>
     <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>

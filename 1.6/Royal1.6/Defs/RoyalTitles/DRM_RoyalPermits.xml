@@ -99,7 +99,7 @@
     <defName>DRM_DressDrop</defName>
     <label>Dress drop</label>
     <description>Call for a drop of 3 basic dress.All dragonian should dress up nice and clean.</description>
-    <workerClass>DragonianMix.RoyalTitlePermitWorker_DRM_DropResources</workerClass>
+    <workerClass>DragonianMix.RoyalTitlePermitWorker_DropResources</workerClass>
     <minTitle>DRM_Stranger</minTitle>
     <uiPosition>(0,1)</uiPosition>
     <royalAid>
@@ -245,12 +245,11 @@
     <cooldownDays>40</cooldownDays>
   </RoyalTitlePermitDef>
 
-  <RoyalTitlePermitDef>
+  <!--<RoyalTitlePermitDef>
     <defName>DRM_CallOrbitalStrike</defName>
-    <label>call acid bombardment</label>
-    <description>Call an orbital strike that inflicts acid damage and releases a persistent acid cloud at the target.</description>
+    <label>call aerodrone strike</label>
+    <description>Call a single-impact aerodrone strike at a target position.</description>
     <workerClass>DragonianMix.RoyalTitlePermitWorker_DRM_OrbitalStrike</workerClass>
-    <modExtensions><li Class="DragonianMix.PermitBombardmentExtension"><bombardmentDef>DRM_AcidBombardment</bombardmentDef></li></modExtensions>
     <minTitle>DRM_Stranger</minTitle>
     <faction>Dragonian_NPC</faction>
     <permitPointCost>1</permitPointCost>
@@ -265,7 +264,7 @@
       <intervalTicks>60</intervalTicks>
       <warmupTicks>120</warmupTicks>
     </royalAid>
-  </RoyalTitlePermitDef>
+  </RoyalTitlePermitDef>-->
 
   <!--<RoyalTitlePermitDef>
     <defName>CallOrbitalSalvo</defName>

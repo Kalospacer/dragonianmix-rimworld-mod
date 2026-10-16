@@ -15,7 +15,7 @@
     </skillGains>
     <forcedTraitsChance>
       <li>
-        <defName Degree="1">Industriousness</defName>
+        <defName degree="1">Industriousness</defName>
         <chance>80</chance>
       </li>
     </forcedTraitsChance>
@@ -146,7 +146,7 @@
     </skillGains>
     <forcedTraitsChance>
       <li>
-        <defName Degree="1">Industriousness</defName>
+        <defName degree="1">Industriousness</defName>
         <chance>100</chance>
       </li>
     </forcedTraitsChance>
