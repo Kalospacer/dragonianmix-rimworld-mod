@@ -134,7 +134,7 @@ namespace DragonianMix
         public SoundDef explosionSound;
 
         public float smokeRadius;
-        public GasType gasType;
+        public GasType? gasType;
         public DamageDef damageDef;
         public float postExplosionSpawnChance;
         public int postExplosionSpawnThingCount;
