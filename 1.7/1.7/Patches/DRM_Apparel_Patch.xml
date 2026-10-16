@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="DR_ApparelMakeableBase"]/recipeMaker</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>DragonianClothing</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_BattleDress"]/apparel/tags</xpath>
+
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_BattleDress"]/apparel/tags</xpath>
+				<value>
+					<li>DR_BattleDress</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="DR_BattleDress"]/recipeMaker/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>DragonianArmorClothing</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_BattleHelmA"]/apparel/tags</xpath>
+
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_BattleHelmA"]/apparel/tags</xpath>
+				<value>
+					<li>DR_BattleHelm</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="DR_BattleHelmA"]/recipeMaker/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>DragonianArmorClothing</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_ProtectionOrb"]/apparel/tags</xpath>
+
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_ProtectionOrb"]/apparel/tags</xpath>
+				<value>
+					<li>DR_ProtectionOrb</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="DR_ProtectionOrb"]/recipeMaker/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>DragonianArmorClothing</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_PsychicDress"]/apparel/tags</xpath>
+
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_PsychicDress"]/apparel/tags</xpath>
+				<value>
+					<li>DR_PsychicDress</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="DR_PsychicDress"]/recipeMaker/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>DragonianArmorClothing</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="DR_PsychicHelm"]/apparel/tags</xpath>
+
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DR_PsychicHelm"]/apparel/tags</xpath>
+				<value>
+					<li>DR_PsychicHelm</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="DR_PsychicHelm"]/recipeMaker/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>DragonianArmorClothing</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--龙娘服装限制添加-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/alienRace/raceRestriction/apparelList</xpath>
+				<value>
+					<li>DRM_BattleDressC</li>
+					<li>DRM_BattleHelmC</li>
+					<li>DRM_BattleHelmD</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

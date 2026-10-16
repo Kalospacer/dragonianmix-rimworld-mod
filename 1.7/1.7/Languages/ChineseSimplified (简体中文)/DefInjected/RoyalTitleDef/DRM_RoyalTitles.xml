@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <DRM_Stranger.label>陌生人</DRM_Stranger.label>
+  <DRM_Stranger.description>龙娘社会对你很陌生。</DRM_Stranger.description>
+
+  <DRM_Known.label>知名者</DRM_Known.label>
+  <DRM_Known.description>龙娘社会知道了你的存在并且愿意帮助你。</DRM_Known.description>
+
+  <DRM_trusted.label>可信者</DRM_trusted.label>
+  <DRM_trusted.description>龙娘社会把你当做朋友。</DRM_trusted.description>
+
+  <DRM_Cheften.label>龙娘酋长</DRM_Cheften.label>
+  <DRM_Cheften.description>是龙娘社会的酋长。她们是部落一线工作的实际领导者。</DRM_Cheften.description>
+
+  <DRM_Princess.label>龙娘公主</DRM_Princess.label>
+  <DRM_Princess.description>是天选的唯一龙娘公主。</DRM_Princess.description>
+
+</LanguageData>

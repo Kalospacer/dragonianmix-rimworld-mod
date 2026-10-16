@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
+    <defName>DRM_Toxgaspop</defName>
+    <label>ToxGas Pop</label>
+    <description>Release a cloud of Toxgas.</description>
+    <iconPath>UI/Abilities/Smokepop</iconPath>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <aiCanUse>true</aiCanUse>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <label>release deadlife dust</label>
+      <drawAimPie>true</drawAimPie>
+      <warmupTime>1</warmupTime>
+      <range>24.9</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>20</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.03</Ability_PsyfocusCost>
+    </statBases>
+    <comps>
+      <li Class="DragonianMix.CompProperties_AbilityDRM_Deaddustpop">
+        <damageDef>Smoke</damageDef>
+        <smokeRadius>9</smokeRadius>
+        <explosionSound>Explosion_Smoke</explosionSound>
+        <gasType>ToxGas</gasType>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>20</clamorRadius>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
+    <defName>DRM_AcidSpray</defName>
+    <label>acid spray</label>
+    <description>Spray a sticky acid substance from glands in the neck up through the mouth and all over the target area. The acid will stick to targets and burn them.</description>
+    <iconPath>UI/Abilities/AcidSpray</iconPath>
+    <abilityClass>Psycast</abilityClass>
+    <warmupSound>PsycastCastLoop</warmupSound>
+    <cooldownTicksRange>1800</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <displayOrder>300</displayOrder>
+    <category>Sanguophage</category>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>22.5</range>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <statBases>
+      <Ability_EntropyGain>25</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.03</Ability_PsyfocusCost>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_AbilitySprayLiquid">
+        <projectileDef>DRM_Proj_Acid</projectileDef>
+        <numCellsToHit>25</numCellsToHit>
+        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <ThingDef>
+    <defName>DRM_Proj_Acid</defName>
+    <label>acid</label>
+    <thingClass>Projectile_Liquid</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <texPath>Things/Projectile/Acid</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>DRM_AcidCover</damageDef>
+      <speed>25</speed>
+      <damageAmountBase>30</damageAmountBase>
+      <arcHeightFactor>0.4</arcHeightFactor>
+      <armorPenetrationBase>0.8</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <shadowSize>0</shadowSize>
+      <filth>Filth_SpentAcid</filth>
+      <filthCount>1</filthCount>
+    </projectile>
+  </ThingDef>
+
+</Defs>

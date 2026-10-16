@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- 1. 将工坊原版 Frostbite 伤害替换为即死冷冻伤害数据 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/DamageDef[defName="Dragonian_FrostbiteBreath"]</xpath>
+		<value>
+			<DamageDef Name="DRM_Damage_Freeze">
+				<defName>Dragonian_FrostbiteBreath</defName>
+				<label>冷冻</label>
+				<workerClass>DragonianMix.DamageWorker_InstaKill</workerClass>
+				<externalViolence>true</externalViolence>
+				<deathMessage>{0}的身体在极寒中化为了冰雕，随后碎裂四散。</deathMessage>
+				<hediff>Frostbite</hediff>		<!-- 将伤害转化为冻伤Hediff -->
+				<harmsHealth>false</harmsHealth>		<!-- 不造成常规生命值伤害 -->
+				<armorCategory>Heat</armorCategory>		<!-- 可以被抗热/冷的护甲减免 -->
+				<overkillPctToDestroyPart>0</overkillPctToDestroyPart>
+				<defaultDamage>20</defaultDamage>
+				<defaultStoppingPower>8.5</defaultStoppingPower>
+				<plantDamageFactor>4</plantDamageFactor>
+				<defaultArmorPenetration>1</defaultArmorPenetration>
+				<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
+				<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
+				<explosionHeatEnergyPerCell>-15</explosionHeatEnergyPerCell>
+				<explosionInteriorFleck>DRM_Fleck_Icez_Cloud</explosionInteriorFleck>
+				<soundExplosion>Explosion_Stun</soundExplosion>
+				<modExtensions>
+					<li Class="DragonianMix.InstaKillExtension">
+						<hediff>DRM_CryoShock</hediff>
+						<requiredDamagePercentageCurve>
+							<points>
+								<li>(0.2, 0.8)</li>						<!-- 低严重性(0.2)时, 需要造成80%的伤害 -->
+								<li>(0.35, 0.65)</li>
+								<li>(0.5, 0.5)</li>
+								<li>(0.65, 0.35)</li>
+								<li>(0.85, 0.15)</li>
+								<li>(1.25, 0.01)</li>
+								<li>(2.5, 0.001)</li>						<!-- 高严重性时, 只需要造成极少的伤害 -->
+							</points>
+						</requiredDamagePercentageCurve>
+						<destroyChance>0.25</destroyChance>
+					</li>
+				</modExtensions>
+				<additionalHediffs>
+					<li>
+						<hediff>DRM_CryoShock</hediff>
+						<severityPerDamageDealt>0.01</severityPerDamageDealt>
+					</li>
+				</additionalHediffs>
+			</DamageDef>
+		</value>
+	</Operation>
+
+	<!-- 2. 将工坊原版黑龙娘火焰吐息的伤害类型改为 DRM_Flame -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/AbilityDef[defName="Dragonian_DragonbornBreath_Flame"]/comps/li[@Class="CompProperties_AbilityFireSpew_Dragonian_DamageCustom"]/damagedef</xpath>
+		<value>
+			<damagedef>DRM_Flame</damagedef>
+		</value>
+	</Operation>
+</Patch>

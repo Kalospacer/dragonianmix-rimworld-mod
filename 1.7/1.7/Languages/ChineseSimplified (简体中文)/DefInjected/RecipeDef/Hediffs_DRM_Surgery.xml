@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <InstallFakeDragonianOrb.label>安装玻璃龙珠</InstallFakeDragonianOrb.label>
+  <InstallFakeDragonianOrb.description>安装玻璃龙珠。</InstallFakeDragonianOrb.description>
+  <InstallFakeDragonianOrb.jobString>正在安装玻璃龙珠。</InstallFakeDragonianOrb.jobString>
+
+  <InstallDragonianOrb.label>安装龙珠</InstallDragonianOrb.label>
+  <InstallDragonianOrb.description>安装龙珠。</InstallDragonianOrb.description>
+  <InstallDragonianOrb.jobString>正在安装龙珠。</InstallDragonianOrb.jobString>
+
+  <InstallThunderDragonianOrb.label>安装雷光龙珠</InstallThunderDragonianOrb.label>
+  <InstallThunderDragonianOrb.description>安装雷光龙珠。</InstallThunderDragonianOrb.description>
+  <InstallThunderDragonianOrb.jobString>正在安装雷光龙珠。</InstallThunderDragonianOrb.jobString>
+
+  <InstallFlareDragonianOrb.label>安装火炎龙珠</InstallFlareDragonianOrb.label>
+  <InstallFlareDragonianOrb.description>安装火炎龙珠。</InstallFlareDragonianOrb.description>
+  <InstallFlareDragonianOrb.jobString>正在安装火炎龙珠。</InstallFlareDragonianOrb.jobString>
+
+  <InstallFrozenDragonianOrb.label>安装冰结龙珠</InstallFrozenDragonianOrb.label>
+  <InstallFrozenDragonianOrb.description>安装冰结龙珠。</InstallFrozenDragonianOrb.description>
+  <InstallFrozenDragonianOrb.jobString>正在安装冰结龙珠。</InstallFrozenDragonianOrb.jobString>
+
+  <InstallNecroDragonianOrb.label>安装死灵龙珠</InstallNecroDragonianOrb.label>
+  <InstallNecroDragonianOrb.description>安装死灵龙珠。</InstallNecroDragonianOrb.description>
+  <InstallNecroDragonianOrb.jobString>正在安装死灵龙珠。</InstallNecroDragonianOrb.jobString>
+
+  <InstallHyperhealDragonianOrb.label>安装超再生珠</InstallHyperhealDragonianOrb.label>
+  <InstallHyperhealDragonianOrb.description>安装超再生珠。</InstallHyperhealDragonianOrb.description>
+  <InstallHyperhealDragonianOrb.jobString>正在安装超再生珠。</InstallHyperhealDragonianOrb.jobString>
+
+  <InstallHardenDragonianOrb.label>安装硬化龙珠</InstallHardenDragonianOrb.label>
+  <InstallHardenDragonianOrb.description>安装硬化龙珠。</InstallHardenDragonianOrb.description>
+  <InstallHardenDragonianOrb.jobString>正在安装硬化龙珠。</InstallHardenDragonianOrb.jobString>
+
+  <InstallAcidifierDragonianOrb.label>安装酸解龙珠</InstallAcidifierDragonianOrb.label>
+  <InstallAcidifierDragonianOrb.description>安装酸解龙珠。</InstallAcidifierDragonianOrb.description>
+  <InstallAcidifierDragonianOrb.jobString>正在安装酸解龙珠。</InstallAcidifierDragonianOrb.jobString>
+
+  <InstallShieldDragonianOrb.label>安装护盾龙珠</InstallShieldDragonianOrb.label>
+  <InstallShieldDragonianOrb.description>安装护盾龙珠。</InstallShieldDragonianOrb.description>
+  <InstallShieldDragonianOrb.jobString>正在安装护盾龙珠。</InstallShieldDragonianOrb.jobString>
+
+  <InstallEnderDragonianOrb.label>安装末影龙珠</InstallEnderDragonianOrb.label>
+  <InstallEnderDragonianOrb.description>安装末影龙珠。</InstallEnderDragonianOrb.description>
+  <InstallEnderDragonianOrb.jobString>正在安装末影龙珠。</InstallEnderDragonianOrb.jobString>
+
+  <InstallToxicDragonianOrb.label>安装毒素龙珠</InstallToxicDragonianOrb.label>
+  <InstallToxicDragonianOrb.description>安装毒素龙珠。</InstallToxicDragonianOrb.description>
+  <InstallToxicDragonianOrb.jobString>正在安装毒素龙珠。</InstallToxicDragonianOrb.jobString>
+
+  <InstallDRM_SlashTail.label>安装斩龙尾</InstallDRM_SlashTail.label>
+  <InstallDRM_SlashTail.description>安装斩龙尾。</InstallDRM_SlashTail.description>
+  <InstallDRM_SlashTail.jobString>正在安装斩龙尾。</InstallDRM_SlashTail.jobString>
+
+  <InstallDR_BionicTail.label>安装仿生尾</InstallDR_BionicTail.label>
+  <InstallDR_BionicTail.description>安装仿生尾。</InstallDR_BionicTail.description>
+  <InstallDR_BionicTail.jobString>正在安装仿生尾。</InstallDR_BionicTail.jobString>
+
+  <InstallDR_FakeTail.label>安装假龙尾</InstallDR_FakeTail.label>
+  <InstallDR_FakeTail.description>安装假龙尾。</InstallDR_FakeTail.description>
+  <InstallDR_FakeTail.jobString>正在安装假龙尾。</InstallDR_FakeTail.jobString>
+
+  <InstallDRM_FlameSlashTail.label>安装焚斩尾</InstallDRM_FlameSlashTail.label>
+  <InstallDRM_FlameSlashTail.description>安装焚斩尾。</InstallDRM_FlameSlashTail.description>
+  <InstallDRM_FlameSlashTail.jobString>正在安装焚斩尾。</InstallDRM_FlameSlashTail.jobString>
+
+  <InstallDRM_CryoSlashTail.label>安装霜斩尾</InstallDRM_CryoSlashTail.label>
+  <InstallDRM_CryoSlashTail.description>安装霜斩尾。</InstallDRM_CryoSlashTail.description>
+  <InstallDRM_CryoSlashTail.jobString>正在安装霜斩尾。</InstallDRM_CryoSlashTail.jobString>
+
+  <InstallDRM_AcidSlashTail.label>安装酸斩尾</InstallDRM_AcidSlashTail.label>
+  <InstallDRM_AcidSlashTail.description>安装酸斩尾。</InstallDRM_AcidSlashTail.description>
+  <InstallDRM_AcidSlashTail.jobString>正在安装酸斩尾。</InstallDRM_AcidSlashTail.jobString>
+
+  <InstallExplosiveSlashTail.label>安装碎斩尾</InstallExplosiveSlashTail.label>
+  <InstallExplosiveSlashTail.description>安装碎斩尾。</InstallExplosiveSlashTail.description>
+  <InstallExplosiveSlashTail.jobString>正在安装碎斩尾。</InstallExplosiveSlashTail.jobString>
+
+  <InstallShieldDragonianOrb_Booster.label>安装龙娘护盾赤色充能源石</InstallShieldDragonianOrb_Booster.label>
+  <InstallShieldDragonianOrb_Booster.description>安装龙娘护盾赤色充能源石。</InstallShieldDragonianOrb_Booster.description>
+  <InstallShieldDragonianOrb_Booster.jobString>安装龙娘护盾赤色充能源石。</InstallShieldDragonianOrb_Booster.jobString>
+
+  <InstallShieldDragonianOrb_AdvancedBooster.label>安装龙娘护盾橙色充能源石</InstallShieldDragonianOrb_AdvancedBooster.label>
+  <InstallShieldDragonianOrb_AdvancedBooster.description>安装龙娘护盾橙色充能源石。</InstallShieldDragonianOrb_AdvancedBooster.description>
+  <InstallShieldDragonianOrb_AdvancedBooster.jobString>正在安装龙娘护盾橙色充能源石。</InstallShieldDragonianOrb_AdvancedBooster.jobString>
+
+  <InstallShieldDragonianOrb_AdaptiveModule.label>安装龙娘护盾适应源石</InstallShieldDragonianOrb_AdaptiveModule.label>
+  <InstallShieldDragonianOrb_AdaptiveModule.description>安装龙娘护盾适应源石。</InstallShieldDragonianOrb_AdaptiveModule.description>
+  <InstallShieldDragonianOrb_AdaptiveModule.jobString>正在安装安装龙娘护盾适应源石。</InstallShieldDragonianOrb_AdaptiveModule.jobString>
+
+  <InstallShieldDragonianOrb_BufferModule.label>安装龙娘护盾缓冲源石</InstallShieldDragonianOrb_BufferModule.label>
+  <InstallShieldDragonianOrb_BufferModule.description>安装龙娘护盾缓冲源石。</InstallShieldDragonianOrb_BufferModule.description>
+  <InstallShieldDragonianOrb_BufferModule.jobString>正在安装龙娘护盾缓冲源石。</InstallShieldDragonianOrb_BufferModule.jobString>
+
+  <RemoveShieldDragonianOrb_AdaptiveModule.label>移除龙娘护盾适应源石</RemoveShieldDragonianOrb_AdaptiveModule.label>
+  <RemoveShieldDragonianOrb_AdaptiveModule.description>移除龙娘护盾适应源石。</RemoveShieldDragonianOrb_AdaptiveModule.description>
+  <RemoveShieldDragonianOrb_AdaptiveModule.jobString>正在移除龙娘护盾适应源石。</RemoveShieldDragonianOrb_AdaptiveModule.jobString>
+
+  <RemoveShieldDragonianOrb_BufferModule.label>移除龙娘护盾缓冲源石</RemoveShieldDragonianOrb_BufferModule.label>
+  <RemoveShieldDragonianOrb_BufferModule.description>移除龙娘护盾缓冲源石。</RemoveShieldDragonianOrb_BufferModule.description>
+  <RemoveShieldDragonianOrb_BufferModule.jobString>正在移除龙娘护盾缓冲源石。</RemoveShieldDragonianOrb_BufferModule.jobString>
+
+</LanguageData>

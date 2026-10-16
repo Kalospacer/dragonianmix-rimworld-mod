@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>DRM_Princess_Mark</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Dragonian Princess</label>
+		<description>She is the chosen one Dragonian Princess. How cool! But this means nothing.</description>
+		<defaultLabelColor>(1,1,1)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+	</HediffDef>
+
+</Defs>

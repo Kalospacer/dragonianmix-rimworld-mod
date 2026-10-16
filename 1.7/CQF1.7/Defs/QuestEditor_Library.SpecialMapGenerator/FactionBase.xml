@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestEditor_Library.SpecialMapGenerationDef>        <!-- Replace faction settlement generation -->
+        <defName>DRM_MapGeneratioin_Unfrindly_Dragonian</defName>
+        <factionOfReplacedSettlement>Unfrindly_Dragonian</factionOfReplacedSettlement>        <!-- Replaced faction -->
+        <customMapDataTagsToReplace>            <!-- custom map data -->
+            <DRM_Base_Un>1</DRM_Base_Un>
+        </customMapDataTagsToReplace>
+    </QuestEditor_Library.SpecialMapGenerationDef>
+
+    <QuestEditor_Library.SpecialMapGenerationDef>        <!-- Replace faction settlement generation -->
+        <defName>DRM_MapGeneratioin_Dragonian</defName>
+        <factionOfReplacedSettlement>Dragonian_NPC</factionOfReplacedSettlement>        <!-- Replaced faction -->
+        <customMapDataTagsToReplace>            <!-- custom map data -->
+            <DRM_Base>1</DRM_Base>
+        </customMapDataTagsToReplace>
+    </QuestEditor_Library.SpecialMapGenerationDef>
+
+</Defs>

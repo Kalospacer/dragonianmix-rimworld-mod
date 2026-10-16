@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>DR_FakeTail</defName>
+		<label>fake tail</label>
+		<description>It is a fake tail made of leather.</description>
+		<techLevel>Medieval</techLevel>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Cloth>85</Cloth>
+		</costList>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>DR_BionicTail</defName>
+		<label>bionic tail</label>
+		<description>An advanced artificial tail. It also has a small AI that automatically balances the user's missing.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>DragonianBionics</li>
+			</researchPrerequisites>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDRTailBase">
+		<defName>DRM_SlashTail</defName>
+		<label>slash tail</label>
+		<description>A slash tail turn dragonian's tail into a massive blade.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDRM_SlashTail</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>300</MarketValue>
+			<Mass>1.0</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>DragonianSlashTail</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDRTailBase">
+		<defName>DRM_FlameSlashTail</defName>
+		<label>Flame slash tail</label>
+		<description>A Flame slash tail turn dragonian's tail into a massive blade.This kind make the tail extreamly hot.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDRM_FlameSlashTail</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<Mass>1.0</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>DragonianSlashTail</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDRTailBase">
+		<defName>DRM_AcidSlashTail</defName>
+		<label>Acid slash tail</label>
+		<description>An Acid slash tail turn dragonian's tail into a massive blade.This kind make the tail cover with acid.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDRM_AcidSlashTail</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<Mass>1.0</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>DragonianSlashTail</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDRTailBase">
+		<defName>DRM_ExplosiveSlashTail</defName>
+		<label>Explosive slash tail</label>
+		<description>An Explosive slash tail turn dragonian's tail into a massive blade.This kind make the tail cover with Explosives.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDRM_ExplosiveSlashTail</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<Mass>1.0</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>DragonianSlashTail</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartDRTailBase">
+		<defName>DRM_CryoSlashTail</defName>
+		<label>Cryo slash tail</label>
+		<description>A Cryo slash tail turn dragonian's tail into a massive blade.This kind make the tail extreamly hot.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDRM_CryoSlashTail</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<Mass>1.0</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>DragonianSlashTail</li>
+		</techHediffsTags>
+	</ThingDef>
+
+</Defs>
