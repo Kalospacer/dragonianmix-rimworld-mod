@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationSequence"><operations>
+<li Class="PatchOperationConditional"><xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/comps</xpath>
+<match Class="PatchOperationAdd"><xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/comps</xpath><value><li Class="DragonianMix.DRMCompShieldProp" /></value></match>
+<nomatch Class="PatchOperationAdd"><xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]</xpath><value><comps><li Class="DragonianMix.DRMCompShieldProp" /></comps></value></nomatch></li>
+<li Class="PatchOperationConditional"><xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/EnergyShieldEnergyMax</xpath>
+<match Class="PatchOperationReplace"><xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/EnergyShieldEnergyMax</xpath><value><EnergyShieldEnergyMax>0</EnergyShieldEnergyMax></value></match>
+<nomatch Class="PatchOperationAdd"><xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases</xpath><value><EnergyShieldEnergyMax>0</EnergyShieldEnergyMax></value></nomatch></li>
+<li Class="PatchOperationConditional"><xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/EnergyShieldRechargeRate</xpath>
+<match Class="PatchOperationReplace"><xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases/EnergyShieldRechargeRate</xpath><value><EnergyShieldRechargeRate>0</EnergyShieldRechargeRate></value></match>
+<nomatch Class="PatchOperationAdd"><xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Race"]/statBases</xpath><value><EnergyShieldRechargeRate>0</EnergyShieldRechargeRate></value></nomatch></li>
+</operations></Operation>
+</Patch>

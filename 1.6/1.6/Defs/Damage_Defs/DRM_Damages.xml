@@ -221,7 +221,7 @@
 	<DamageDef>
 		<defName>DRM_Feargas</defName>		<!-- independent -->
 		<label>Fear gas</label>
-		<workerClass>DragonianMix.DamageWorker_OPToxic</workerClass>
+		<workerClass>DamageWorker</workerClass>
 		<canInterruptJobs>false</canInterruptJobs>
 		<makesBlood>false</makesBlood>
 		<defaultDamage>0</defaultDamage>

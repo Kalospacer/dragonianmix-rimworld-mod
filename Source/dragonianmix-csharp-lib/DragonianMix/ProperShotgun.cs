@@ -1,15 +1,11 @@
 ﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Verse;
 
 namespace DragonianMix
 {
     public class Verb_ShootShotgun : Verb_LaunchProjectile
     {
+        private ShotgunExtension shotgunExtension;
         protected override int ShotsPerBurst
         {
             get
@@ -37,7 +33,7 @@ namespace DragonianMix
             {
                 this.CasterPawn.records.Increment(RecordDefOf.ShotsFired);
             }
-            ShotgunExtension shotgunExtension = ShotgunExtension.Get(this.verbProps.defaultProjectile);
+            shotgunExtension ??= ShotgunExtension.Get(verbProps.defaultProjectile);
             if (flag && shotgunExtension.pelletCount - 1 > 0)
             {
                 for (int i = 0; i < shotgunExtension.pelletCount - 1; i++)

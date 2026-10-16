@@ -3,20 +3,17 @@ using Verse;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
-using System.Diagnostics;
 
 namespace DragonianMix
 {
     public class Hediff_NecroticVirus : HediffWithComps
     {
         private const int EffectInterval = 600;
-        private bool transformationTriggered;
 
         public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
         {
             base.Notify_PawnDied(dinfo, culprit);
             // 立即触发转换逻辑
-            transformationTriggered = true;
             TransformToShambler();
         }
 
@@ -54,7 +51,6 @@ namespace DragonianMix
                 // 使用原版DeadLife逻辑转换尸体
                 if (!MutantUtility.CanResurrectAsShambler(pawn.Corpse))
                 {
-                    Log.Warning($"[NecroticVirus] Cannot resurrect {pawn.LabelShort} as shambler");
                     return;
                 }
 
@@ -80,18 +76,10 @@ namespace DragonianMix
                         MessageTypeDefOf.NegativeEvent
                     );
                 }
-
-                // 添加转换完成的调试标记
-                if (DebugSettings.godMode)
-                {
-                    Find.LetterStack.ReceiveLetter("DEBUG", $"Successfully transformed {pawn.Label} to shambler", LetterDefOf.NeutralEvent);
-                }
             }
             catch (System.Exception ex)
             {
                 Log.Error($"[NecroticVirus] Error during transformation: {ex}");
-                // 添加详细堆栈跟踪
-                Log.Error($"[NecroticVirus] Stack trace: {new StackTrace(ex)}");
             }
         }
 
@@ -103,9 +91,7 @@ namespace DragonianMix
                 return pawn.Faction;
             }
 
-            // 尝试获取名为"Entities"的派系
-            Faction entitiesFaction = Find.FactionManager.AllFactions
-                .FirstOrDefault(f => f.def.defName == "Entities");
+            Faction entitiesFaction = Faction.OfEntities;
             if (entitiesFaction != null && !entitiesFaction.defeated)
             {
                 return entitiesFaction;

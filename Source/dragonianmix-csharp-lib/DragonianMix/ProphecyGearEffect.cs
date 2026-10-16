@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Reflection;
 using HarmonyLib;
 using RimWorld;
-using UnityEngine;
 using Verse;
 
 namespace DragonianMix
@@ -22,16 +19,12 @@ namespace DragonianMix
         public BodyPartDef targetBodyPart;
         public bool enableExtraDamage = true;
 
-        // 新添加：触发效果所需的仿生体 Hediff
         public HediffDef requiredBionicHediff;
     }
 
-    [HarmonyPatch(typeof(Pawn), "PostApplyDamage")]
+    [HarmonyPatch(typeof(Pawn), nameof(Pawn.PostApplyDamage), new[] { typeof(DamageInfo), typeof(float) })]
     public static class DRM_ProphecyGear_Patch
     {
-        private static readonly FieldInfo damageInfoWeaponField =
-            typeof(DamageInfo).GetField("weapon", BindingFlags.Instance | BindingFlags.NonPublic);
-
         private static bool isApplyingExtraDamage = false;
 
         public static void Postfix(Pawn __instance, DamageInfo dinfo, float totalDamageDealt)
@@ -44,51 +37,40 @@ namespace DragonianMix
                 if (!(dinfo.Instigator is Pawn attacker) || attacker.apparel == null) return;
                 if (totalDamageDealt <= 0) return;
 
-                // 收集所有可能的效果来源
-                var effectsToApply = new List<ProphecyGearEffect>();
-
-                // 1. 从装备收集效果
                 foreach (var apparel in attacker.apparel.WornApparel)
                 {
-                    var effect = apparel.def.GetModExtension<ProphecyGearEffect>();
-                    if (effect != null && IsEffectValid(effect, attacker))
-                    {
-                        effectsToApply.Add(effect);
-                    }
+                    ApplyEffect(__instance, attacker, apparel.def.GetModExtension<ProphecyGearEffect>(), totalDamageDealt, dinfo);
                 }
-
-                // 2. 从仿生体 Hediff 收集效果
                 foreach (var hediff in attacker.health.hediffSet.hediffs)
                 {
-                    var effect = hediff.def.GetModExtension<ProphecyGearEffect>();
-                    if (effect != null && IsEffectValid(effect, attacker))
-                    {
-                        effectsToApply.Add(effect);
-                    }
-                }
-
-                // 应用所有效果
-                foreach (var effect in effectsToApply)
-                {
-                    if (effect.enableHediffEffect && effect.hediffToApply != null)
-                    {
-                        ApplyHediffEffect(__instance, effect, totalDamageDealt);
-                    }
-
-                    if (effect.enableExtraDamage &&
-                        effect.extraDamageFactor > 0 &&
-                        effect.extraDamageType != null)
-                    {
-                        isApplyingExtraDamage = true;
-                        ApplyExtraDamage(__instance, effect, totalDamageDealt, dinfo);
-                        isApplyingExtraDamage = false;
-                    }
+                    ApplyEffect(__instance, attacker, hediff.def.GetModExtension<ProphecyGearEffect>(), totalDamageDealt, dinfo);
                 }
             }
             catch (Exception ex)
             {
                 isApplyingExtraDamage = false;
                 Log.Error($"[DragonianMix] Error in PostApplyDamage patch: {ex}");
+            }
+        }
+
+        private static void ApplyEffect(Pawn target, Pawn attacker, ProphecyGearEffect effect, float damage, DamageInfo info)
+        {
+            if (effect == null || !IsEffectValid(effect, attacker)) return;
+            if (effect.enableHediffEffect && effect.hediffToApply != null)
+            {
+                ApplyHediffEffect(target, effect, damage);
+            }
+            if (effect.enableExtraDamage && effect.extraDamageFactor > 0f && effect.extraDamageType != null)
+            {
+                isApplyingExtraDamage = true;
+                try
+                {
+                    ApplyExtraDamage(target, effect, damage, info);
+                }
+                finally
+                {
+                    isApplyingExtraDamage = false;
+                }
             }
         }
 
@@ -168,16 +150,10 @@ namespace DragonianMix
                 if (extraDamageAmount < 0.5f) extraDamageAmount = 0.5f;
                 if (extraDamageAmount <= 0) return;
 
-                Thing weapon = null;
-                if (damageInfoWeaponField != null)
-                {
-                    weapon = damageInfoWeaponField.GetValue(originalDinfo) as Thing;
-                }
-
                 BodyPartRecord hitPart = null;
                 if (effect.targetBodyPart != null)
                 {
-                    var bodyPartDef = DefDatabase<BodyPartDef>.GetNamedSilentFail(effect.targetBodyPart.defName);
+                    var bodyPartDef = effect.targetBodyPart;
                     if (bodyPartDef != null)
                     {
                         hitPart = target.RaceProps.body.GetPartsWithDef(bodyPartDef).FirstOrFallback();

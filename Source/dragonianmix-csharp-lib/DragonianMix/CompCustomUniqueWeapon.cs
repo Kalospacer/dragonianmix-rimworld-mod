@@ -50,9 +50,10 @@ namespace DragonianMix
             // 随机词条补足到目标数量
             IntRange range = CustomProps.numTraitsRange;
             int target = Mathf.Max(TraitsListForReading.Count, range.RandomInRange);
+            List<WeaponTraitDef> allTraits = DefDatabase<WeaponTraitDef>.AllDefs.ToList();
             while (TraitsListForReading.Count < target)
             {
-                List<WeaponTraitDef> candidates = DefDatabase<WeaponTraitDef>.AllDefs.Where(CanAddTrait).ToList();
+                List<WeaponTraitDef> candidates = allTraits.Where(CanAddTrait).ToList();
                 if (candidates.Count == 0) break;
                 AddTrait(candidates.RandomElementByWeight(t => t.commonality));
             }

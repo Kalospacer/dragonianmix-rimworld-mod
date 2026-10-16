@@ -1,13 +1,7 @@
-﻿using RimWorld;
-using System.Collections;
-using System;
+using RimWorld;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 using Verse;
-using static HarmonyLib.Code;
-using static UnityEngine.Random;
 using System.Linq;
 
 namespace DragonianMix
@@ -106,8 +100,6 @@ namespace DragonianMix
         public override void Apply(LocalTargetInfo target, LocalTargetInfo dest)
         {
             base.Apply(target, dest);
-
-            // 修复：确保传递有效的SoundDef
             SoundDef explosionSound = Props.explosionSound;
 
             GenExplosion.DoExplosion(
@@ -139,8 +131,6 @@ namespace DragonianMix
         {
             compClass = typeof(CompAbilityEffect_DRM_Deaddustpop);
         }
-
-        // 新增爆炸音效字段
         public SoundDef explosionSound;
 
         public float smokeRadius;
@@ -175,37 +165,10 @@ namespace DragonianMix
                 damType: this.Props.damageDef,
                 instigator: pawn,
                 damAmount: this.Props.damAmount,
-                armorPenetration: -1f,
-                // 显式命名关键参数
-                explosionSound: null,
-                weapon: null,
-                projectile: null,
-                intendedTarget: null,
                 postExplosionSpawnThingDef: filthDef,
                 postExplosionSpawnChance: 1f,
-                postExplosionSpawnThingCount: 1,
-                postExplosionGasType: null,
-                postExplosionGasRadiusOverride: null,
-                postExplosionGasAmount: 255,
-                applyDamageToExplosionCellsNeighbors: false,
-                preExplosionSpawnThingDef: null,
-                preExplosionSpawnChance: 0f,
-                preExplosionSpawnThingCount: 1,
-                chanceToStartFire: 0f,
-                damageFalloff: false,
-                direction: null,
-                ignoredThings: null,
-                affectedAngle: null,
-                doVisualEffects: true,
-                propagationSpeed: 1f,
-                excludeRadius: 0f,
-                doSoundEffects: true,
-                postExplosionSpawnThingDefWater: null,
-                screenShakeFactor: 1f,
                 flammabilityChanceCurve: this.parent.verb.verbProps.flammabilityAttachFireChanceCurve,
-                overrideCells: this.AffectedCells(target), // 明确命名关键参数
-                postExplosionSpawnSingleThingDef: null,
-                preExplosionSpawnSingleThingDef: null
+                overrideCells: this.AffectedCells(target)
             );
 
             base.Apply(target, dest);

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- 雷电轰炸技能生成的持久实体，打到一半存档也能继续 -->
+  <ThingDef ParentName="OrbitalStrikeBase">
+    <defName>DRM_LightningBombardment</defName>
+    <label>lightning bombardment</label>
+    <thingClass>DragonianMix.LightningBombardment</thingClass>
+  </ThingDef>
+
+  <!-- 酸雾轨道打击：原版 Bombardment 表现 + 酸蚀伤害与酸雾 -->
+  <ThingDef ParentName="OrbitalStrikeBase">
+    <defName>DRM_AcidBombardment</defName>
+    <label>acid bombardment</label>
+    <thingClass>Bombardment</thingClass>
+    <comps>
+      <li Class="CompProperties_OrbitalBeam">
+        <width>0.2</width>
+        <color>(140, 255, 10, 242)</color>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="DragonianMix.BombardmentDamageExtension">
+        <damageDef>DRM_AcidBurn</damageDef>
+        <postExplosionSpawnThingDef>DRM_AcidGasCloud</postExplosionSpawnThingDef>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

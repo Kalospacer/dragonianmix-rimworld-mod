@@ -26,10 +26,10 @@ namespace DragonianMix
     public class Projectile_CruiseMissile : Projectile_Explosive
     {
         private CruiseMissileProperties settings;
-        private bool flag2;
-        private Vector3 Randdd;
-        private Vector3 position2;
-        public Vector3 ExPos;
+        private bool randomized;
+        private Vector3 randomOffset;
+        private Vector3 previousCurvePosition;
+        public Vector3 curvePosition;
 
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
@@ -40,17 +40,17 @@ namespace DragonianMix
         private void RandFactor()
         {
             // 减少垂直方向随机性，调整水平随机范围
-            Randdd = new Vector3(
+            randomOffset = new Vector3(
                 Rand.Range(-3f, 3f),  // 减小水平随机范围
                 Rand.Range(8f, 12f), // 降低基础高度
                 Rand.Range(-3f, 3f)
             );
-            flag2 = true;
+            randomized = true;
         }
 
         public Vector3 BPos(float t)
         {
-            if (!flag2) RandFactor();
+            if (!randomized) RandFactor();
 
             // 计算水平距离
             float horizontalDistance = Vector3.Distance(new Vector3(origin.x, 0, origin.z),
@@ -138,8 +138,8 @@ namespace DragonianMix
 
         protected override void DrawAt(Vector3 position, bool flip = false)
         {
-            position2 = BPos(DistanceCoveredFraction - 0.01f);
-            ExPos = position = BPos(DistanceCoveredFraction);
+            previousCurvePosition = BPos(DistanceCoveredFraction - 0.01f);
+            curvePosition = position = BPos(DistanceCoveredFraction);
             base.DrawAt(position, flip);
         }
 

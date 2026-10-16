@@ -4,4 +4,9 @@
   <DRMShieldLabel>护盾</DRMShieldLabel>
   <DRMShieldTip>这个人被一个护盾保护着。 </DRMShieldTip>
   
+  <DRMShieldHardenedTip>硬化护盾限制单次受击的能量损耗，最大容量减半。</DRMShieldHardenedTip>
+  <DRMShieldAdaptiveTip>自适应护盾连续承受同类伤害时，能量消耗逐步降低。</DRMShieldAdaptiveTip>
+  <DRMShieldDisabled>未激活</DRMShieldDisabled>
+  <NecroticVirus_EffectTip>死亡后可能转化为敌对蹒跚者。</NecroticVirus_EffectTip>
+  <NecroticVirus_TransformationMessage>{0} 被坏死病毒转化为蹒跚者。</NecroticVirus_TransformationMessage>
 </LanguageData>

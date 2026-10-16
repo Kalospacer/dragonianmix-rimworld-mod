@@ -10,7 +10,7 @@ namespace DragonianMix
 {
 
     [StaticConstructorOnStartup]
-    public class RoyalTitlePermitWorker_DropResources : RoyalTitlePermitWorker_Targeted
+    public class RoyalTitlePermitWorker_DRM_DropResources : RoyalTitlePermitWorker_Targeted
     {
         public override void OrderForceTarget(LocalTargetInfo target)
         {
@@ -52,13 +52,12 @@ namespace DragonianMix
                 yield break;
             }
 
-            Action cachedAction = null; // 声明一个合法的委托变量
 
             Command_Action command_Action = new Command_Action
             {
                 defaultLabel = this.def.LabelCap + " (" + pawn.LabelShort + ")",
                 defaultDesc = defaultDesc,
-                icon = RoyalTitlePermitWorker_DropResources.CommandTex,
+                icon = RoyalTitlePermitWorker_DRM_DropResources.CommandTex,
                 action = delegate ()
                 {
                     Caravan caravan = pawn.GetCaravan();
@@ -72,16 +71,8 @@ namespace DragonianMix
                     {
                         WindowStack windowStack = Find.WindowStack;
                         TaggedString text = "DropResourcesOverweightConfirm".Translate();
-                        Action confirmedAct;
-                        if ((confirmedAct = cachedAction) == null)
-                        {
-                            // 将委托实例赋值给cachedAction以避免重复创建
-                            confirmedAct = cachedAction = delegate ()
-                            {
-                                this.CallResourcesToCaravan(pawn, faction, this.free);
-                            };
-                        }
-                        windowStack.Add(Dialog_MessageBox.CreateConfirmation(text, confirmedAct, true, null, WindowLayer.Dialog));
+                        windowStack.Add(Dialog_MessageBox.CreateConfirmation(text,
+                            () => CallResourcesToCaravan(pawn, faction, this.free), true));
                         return;
                     }
                     this.CallResourcesToCaravan(pawn, faction, this.free);

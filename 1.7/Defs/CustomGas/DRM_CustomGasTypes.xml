@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- severityPerExposure 按旧 OPToxicGas 平均叠加量折算到每 50 tick，需实机微调 -->
+  <DragonianMix.CustomGasTypeDef>
+    <defName>DRM_Gas_Fear</defName>
+    <label>fear gas</label>
+    <color>(0.3, 0.25, 0.65, 0.5)</color>
+    <dissipationAmount>3</dissipationAmount>
+    <exposureHediff>DRM_FearGas</exposureHediff>
+    <severityPerExposure>0.21</severityPerExposure>
+  </DragonianMix.CustomGasTypeDef>
+
+  <DragonianMix.CustomGasTypeDef>
+    <defName>DRM_Gas_Acid</defName>
+    <label>acid gas</label>
+    <color>(0.56, 1, 0.03, 0.5)</color>
+    <dissipationAmount>3</dissipationAmount>
+    <exposureHediff>DRM_AcidCoverd</exposureHediff>
+    <severityPerExposure>0.0115</severityPerExposure>
+  </DragonianMix.CustomGasTypeDef>
+
+  <DragonianMix.CustomGasTypeDef>
+    <defName>DRM_Gas_FrostLingering</defName>
+    <label>frost cloud</label>
+    <color>(0.52, 1, 0.95, 0.5)</color>
+    <dissipationAmount>10</dissipationAmount>
+    <exposureHediff>DRM_Hediff_FrostCoverd_after</exposureHediff>
+    <severityPerExposure>0.0115</severityPerExposure>
+  </DragonianMix.CustomGasTypeDef>
+
+  <DragonianMix.CustomGasTypeDef>
+    <defName>DRM_Gas_Frost</defName>
+    <label>frost cloud</label>
+    <color>(0.52, 1, 0.95, 0.5)</color>
+    <dissipationAmount>10</dissipationAmount>
+    <exposureHediff>DRM_CryoShock</exposureHediff>
+    <severityPerExposure>0.0115</severityPerExposure>
+  </DragonianMix.CustomGasTypeDef>
+
+</Defs>

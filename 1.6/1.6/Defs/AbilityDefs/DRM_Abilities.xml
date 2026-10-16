@@ -39,7 +39,7 @@
     <description>Teleport the target to a desired position not too far from its starting point. Objects which are too large cannot be teleported.</description>
     <iconPath>UI/Abilities/Skip</iconPath>
     <showPsycastEffects>False</showPsycastEffects>
-    <abilityClass>DragonianMix.HediffPsycast</abilityClass>
+    <abilityClass>Psycast</abilityClass>
     <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>1800</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
@@ -83,7 +83,7 @@
     <targetWorldCell>True</targetWorldCell>
     <showGizmoOnWorldView>True</showGizmoOnWorldView>
     <hostile>false</hostile>
-    <abilityClass>DragonianMix.HediffPsycast</abilityClass>
+    <abilityClass>Psycast</abilityClass>
     <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
@@ -114,7 +114,7 @@
     <description>Overdrive orbs cause explosion and set fire on ground.</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <iconPath>UI/Abilities/FireBurst</iconPath>
-    <abilityClass>DragonianMix.HediffPsycast</abilityClass>
+    <abilityClass>Psycast</abilityClass>
     <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
@@ -195,7 +195,7 @@
     <label>LightingStrike</label>
     <description>Summon a LightingStrike.</description>
     <iconPath>UI/Abilities/Flashstorm</iconPath>
-    <abilityClass>DragonianMix.HediffPsycast</abilityClass>
+    <abilityClass>Psycast</abilityClass>
     <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>1800</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
@@ -231,7 +231,7 @@
     <label>LightningStorm</label>
     <description>Summon a LightningStorm.</description>
     <iconPath>UI/Abilities/Flashstorm</iconPath>
-    <abilityClass>DragonianMix.HediffPsycast</abilityClass>
+    <abilityClass>Psycast</abilityClass>
     <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
@@ -254,6 +254,7 @@
     </statBases>
     <comps>
       <li Class="DragonianMix.CompProperties_AbilityDRM_LightningBombardment">
+        <bombardmentDef>DRM_LightningBombardment</bombardmentDef>
         <impactAreaRadius>12</impactAreaRadius>
         <explosionRadiusRange>3~4</explosionRadiusRange>
         <bombIntervalTicks>30</bombIntervalTicks>
@@ -270,7 +271,7 @@
     <label>AcidGas Pop</label>
     <description>Release a cloud of Acidgas.</description>
     <iconPath>UI/Abilities/Smokepop</iconPath>
-    <abilityClass>DragonianMix.HediffPsycast</abilityClass>
+    <abilityClass>Psycast</abilityClass>
     <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
@@ -312,7 +313,7 @@
     <label>FrostCloud Pop</label>
     <description>Release a cloud of Frozen ice.</description>
     <iconPath>UI/Abilities/Smokepop</iconPath>
-    <abilityClass>DragonianMix.HediffPsycast</abilityClass>
+    <abilityClass>Psycast</abilityClass>
     <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
@@ -355,7 +356,7 @@
     <description>Overdrive orbs.Heal wound in insane speed.</description>
     <iconPath>UI/Abilities/ImmunityDrive</iconPath>
     <warmupMoteSocialSymbol>UI/Abilities/ImmunityDrive</warmupMoteSocialSymbol>
-    <abilityClass>DragonianMix.HediffPsycast</abilityClass>
+    <abilityClass>Psycast</abilityClass>
     <warmupSound>PsycastCastLoop</warmupSound>
     <cooldownTicksRange>60000</cooldownTicksRange>
     <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
