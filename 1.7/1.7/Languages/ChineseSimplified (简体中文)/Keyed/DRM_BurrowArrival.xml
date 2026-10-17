@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DRM_BurrowEdge_TextEnemy>一群来自{1}的{0}正在附近破土而出。</DRM_BurrowEdge_TextEnemy>
+  <DRM_BurrowEdge_TextFriendly>一群来自{1}的友好{0}正在附近破土而出。</DRM_BurrowEdge_TextFriendly>
+  <DRM_BurrowEdge_TextWillArrive>{0_pawnsPluralDef}将从附近的地下钻出。</DRM_BurrowEdge_TextWillArrive>
+  <DRM_BurrowCenter_TextEnemy>一群来自{1}的{0}正在殖民地内部破土而出！</DRM_BurrowCenter_TextEnemy>
+  <DRM_BurrowCenter_TextFriendly>一群来自{1}的友好{0}正在殖民地内部破土而出。</DRM_BurrowCenter_TextFriendly>
+  <DRM_BurrowCenter_TextWillArrive>{0_pawnsPluralDef}将从殖民地内部的地下钻出。</DRM_BurrowCenter_TextWillArrive>
+  <DRM_BurrowEdgeGroups_TextEnemy>来自{1}的多组{0}正在附近破土而出，从多个方向逼近。</DRM_BurrowEdgeGroups_TextEnemy>
+  <DRM_BurrowEdgeGroups_TextFriendly>来自{1}的多组友好{0}正在附近破土而出，从多个方向前来支援。</DRM_BurrowEdgeGroups_TextFriendly>
+  <DRM_BurrowEdgeGroups_TextWillArrive>{0_pawnsPluralDef}将分成数个小组从地下钻出。</DRM_BurrowEdgeGroups_TextWillArrive>
+  <DRM_BurrowRandom_TextEnemy>来自{1}的{0}正在各处破土而出，出土位置分散在整片区域！</DRM_BurrowRandom_TextEnemy>
+  <DRM_BurrowRandom_TextFriendly>来自{1}的友好{0}正在区域内分散的各处破土而出。</DRM_BurrowRandom_TextFriendly>
+  <DRM_BurrowRandom_TextWillArrive>{0_pawnsPluralDef}将各自从分散的地下位置钻出。</DRM_BurrowRandom_TextWillArrive>
+</LanguageData>

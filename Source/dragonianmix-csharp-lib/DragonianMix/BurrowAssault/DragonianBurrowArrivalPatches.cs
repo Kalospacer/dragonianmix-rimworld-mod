@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 using HarmonyLib;
 using RimWorld;
+using Verse;
 
 namespace DragonianMix
 {
@@ -10,27 +12,17 @@ namespace DragonianMix
     {
         public static IEnumerable<MethodBase> TargetMethods()
         {
-            yield return AccessTools.DeclaredMethod(typeof(PawnsArrivalModeWorker_EdgeDrop), "TryResolveRaidSpawnCenter");
-            yield return AccessTools.DeclaredMethod(typeof(PawnsArrivalModeWorker_EdgeDropGroups), "TryResolveRaidSpawnCenter");
-            yield return AccessTools.DeclaredMethod(typeof(PawnsArrivalModeWorker_CenterDrop), "TryResolveRaidSpawnCenter");
-            yield return AccessTools.DeclaredMethod(typeof(PawnsArrivalModeWorker_RandomDrop), "TryResolveRaidSpawnCenter");
+            Type[] signature = { typeof(List<Pawn>), typeof(IncidentParms) };
+            yield return AccessTools.DeclaredMethod(typeof(PawnsArrivalModeWorker_EdgeDrop), "Arrive", signature);
+            yield return AccessTools.DeclaredMethod(typeof(PawnsArrivalModeWorker_EdgeDropGroups), "Arrive", signature);
+            yield return AccessTools.DeclaredMethod(typeof(PawnsArrivalModeWorker_CenterDrop), "Arrive", signature);
+            yield return AccessTools.DeclaredMethod(typeof(PawnsArrivalModeWorker_RandomDrop), "Arrive", signature);
         }
 
-        public static bool Prefix(IncidentParms parms, ref bool __result)
+        public static bool Prefix(List<Pawn> pawns, IncidentParms parms)
         {
-            if (!DragonianBurrowUtility.IsDragonianFaction(parms.faction))
-            {
-                return true;
-            }
-            PawnsArrivalModeDef replacement = DragonianBurrowUtility.ReplacementFor(parms.raidArrivalMode);
-            if (replacement == null)
-            {
-                return true;
-            }
-            // 指定入场、紧急援助和 CenterDrop 的边缘回退都会绕过模式黑名单。
-            parms.raidArrivalMode = replacement;
-            __result = replacement.Worker.TryResolveRaidSpawnCenter(parms);
-            return false;
+            // 选法、点数、选点和回退都已由原版完成；这里只替换真正的入场动作。
+            return !DragonianBurrowUtility.TryArrive(pawns, parms);
         }
     }
 }

@@ -11,10 +11,6 @@ namespace DragonianMix
         public static FactionDef Unfrindly_Dragonian;
         public static PawnsArrivalModeDef EdgeDropGroups;
         public static ThingDef DRM_DragonianBurrowSpawner;
-        public static PawnsArrivalModeDef DRM_BurrowEdge;
-        public static PawnsArrivalModeDef DRM_BurrowEdgeGroups;
-        public static PawnsArrivalModeDef DRM_BurrowCenter;
-        public static PawnsArrivalModeDef DRM_BurrowRandom;
 
         static DragonianBurrowDefOf()
         {
@@ -22,31 +18,80 @@ namespace DragonianMix
         }
     }
 
-    public static class DragonianBurrowUtility
+    internal enum BurrowArrivalKind
     {
-        public static bool IsDragonianFaction(Faction faction)
-        {
-            return faction != null && (faction.def == DragonianBurrowDefOf.Dragonian_NPC
-                || faction.def == DragonianBurrowDefOf.Unfrindly_Dragonian);
-        }
+        None,
+        Edge,
+        Center,
+        EdgeGroups,
+        Random
+    }
 
-        public static PawnsArrivalModeDef ReplacementFor(PawnsArrivalModeDef mode)
+    internal static class DragonianBurrowUtility
+    {
+        internal static BurrowArrivalKind GetArrivalKind(IncidentParms parms)
         {
+            Faction faction = parms.faction;
+            if (faction == null || (faction.def != DragonianBurrowDefOf.Dragonian_NPC
+                && faction.def != DragonianBurrowDefOf.Unfrindly_Dragonian))
+            {
+                return BurrowArrivalKind.None;
+            }
+
+            PawnsArrivalModeDef mode = parms.raidArrivalMode;
             if (mode == PawnsArrivalModeDefOf.EdgeDrop)
-                return DragonianBurrowDefOf.DRM_BurrowEdge;
-            if (mode == DragonianBurrowDefOf.EdgeDropGroups)
-                return DragonianBurrowDefOf.DRM_BurrowEdgeGroups;
+                return BurrowArrivalKind.Edge;
             if (mode == PawnsArrivalModeDefOf.CenterDrop)
-                return DragonianBurrowDefOf.DRM_BurrowCenter;
+                return BurrowArrivalKind.Center;
+            if (mode == DragonianBurrowDefOf.EdgeDropGroups)
+                return BurrowArrivalKind.EdgeGroups;
             if (mode == PawnsArrivalModeDefOf.RandomDrop)
-                return DragonianBurrowDefOf.DRM_BurrowRandom;
-            return null;
+                return BurrowArrivalKind.Random;
+            return BurrowArrivalKind.None;
         }
 
-        public static void SpawnBurrow(IEnumerable<Pawn> pawns, IntVec3 center, IncidentParms parms)
+        internal static bool TryArrive(List<Pawn> pawns, IncidentParms parms)
+        {
+            BurrowArrivalKind kind = GetArrivalKind(parms);
+            if (kind == BurrowArrivalKind.None)
+            {
+                return false;
+            }
+            if (pawns.Count == 0)
+            {
+                return true;
+            }
+
+            Map map = (Map)parms.target;
+            switch (kind)
+            {
+                case BurrowArrivalKind.Edge:
+                case BurrowArrivalKind.Center:
+                    SpawnBurrow(pawns, parms.spawnCenter, parms);
+                    break;
+                case BurrowArrivalKind.EdgeGroups:
+                    List<Pair<List<Pawn>, IntVec3>> groups = PawnsArrivalModeWorkerUtility.SplitIntoRandomGroupsNearMapEdge(
+                        pawns, map, arriveInPods: true);
+                    PawnsArrivalModeWorkerUtility.SetPawnGroupsInfo(parms, groups);
+                    foreach (Pair<List<Pawn>, IntVec3> group in groups)
+                    {
+                        SpawnBurrow(group.First, group.Second, parms);
+                    }
+                    break;
+                case BurrowArrivalKind.Random:
+                    foreach (Pawn pawn in pawns)
+                    {
+                        SpawnBurrow(Gen.YieldSingle(pawn), DropCellFinder.RandomDropSpot(map), parms);
+                    }
+                    break;
+            }
+            return true;
+        }
+
+        private static void SpawnBurrow(IEnumerable<Pawn> pawns, IntVec3 center, IncidentParms parms)
         {
             Map map = (Map)parms.target;
-            // 只找洞附近能站立的格子，不附加屋顶或通往殖民地的可达性限制。
+            // 只沿用洞附近的站位搜索，不新增屋顶或通往殖民地的可达性限制。
             IntVec3 cell = CellFinder.RandomClosewalkCellNear(center, map, 2);
             DragonianBurrowSpawner burrow = (DragonianBurrowSpawner)ThingMaker.MakeThing(
                 DragonianBurrowDefOf.DRM_DragonianBurrowSpawner);

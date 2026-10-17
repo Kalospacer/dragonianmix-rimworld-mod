@@ -9,7 +9,7 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <GenerateDependencyFile>false</GenerateDependencyFile>
     <DebugType>portable</DebugType>
-    <OutputPath>$(MSBuildThisFileDirectory)..\..\..\1.7\Assemblies\</OutputPath>
+    <OutputPath>$(MSBuildThisFileDirectory)..\..\..\1.7\1.7\Assemblies\</OutputPath>
     <RimWorldDir Condition="'$(RimWorldDir)' == ''">$(MSBuildThisFileDirectory)..\..\..\..\..\</RimWorldDir>
     <HarmonyPath Condition="'$(HarmonyPath)' == ''">$(RimWorldDir)..\..\workshop\content\294100\2009463077\1.7\Assemblies\0Harmony.dll</HarmonyPath>
   </PropertyGroup>

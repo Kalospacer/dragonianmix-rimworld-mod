@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DRM_BurrowEdge_TextEnemy>A group of {0} from {1} are tunneling up nearby.</DRM_BurrowEdge_TextEnemy>
+  <DRM_BurrowEdge_TextFriendly>A group of friendly {0} from {1} are tunneling up nearby.</DRM_BurrowEdge_TextFriendly>
+  <DRM_BurrowEdge_TextWillArrive>{0_pawnsPluralDef} will emerge from underground nearby.</DRM_BurrowEdge_TextWillArrive>
+  <DRM_BurrowCenter_TextEnemy>A group of {0} from {1} are tunneling up right inside the colony!</DRM_BurrowCenter_TextEnemy>
+  <DRM_BurrowCenter_TextFriendly>A group of friendly {0} from {1} are tunneling up inside the colony.</DRM_BurrowCenter_TextFriendly>
+  <DRM_BurrowCenter_TextWillArrive>{0_pawnsPluralDef} will emerge from underground inside the colony.</DRM_BurrowCenter_TextWillArrive>
+  <DRM_BurrowEdgeGroups_TextEnemy>Several groups of {0} from {1} are tunneling up nearby, approaching from multiple directions.</DRM_BurrowEdgeGroups_TextEnemy>
+  <DRM_BurrowEdgeGroups_TextFriendly>Several groups of friendly {0} from {1} are tunneling up nearby, approaching from multiple directions.</DRM_BurrowEdgeGroups_TextFriendly>
+  <DRM_BurrowEdgeGroups_TextWillArrive>{0_pawnsPluralDef} will emerge from underground in several separate groups.</DRM_BurrowEdgeGroups_TextWillArrive>
+  <DRM_BurrowRandom_TextEnemy>{0} from {1} are tunneling up at scattered locations across the area!</DRM_BurrowRandom_TextEnemy>
+  <DRM_BurrowRandom_TextFriendly>Friendly {0} from {1} are tunneling up at scattered locations across the area.</DRM_BurrowRandom_TextFriendly>
+  <DRM_BurrowRandom_TextWillArrive>{0_pawnsPluralDef} will emerge individually from underground at scattered locations.</DRM_BurrowRandom_TextWillArrive>
+</LanguageData>
