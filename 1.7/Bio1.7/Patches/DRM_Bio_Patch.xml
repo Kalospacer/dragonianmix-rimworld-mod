@@ -6,10 +6,10 @@
 		<value>
 			<DamageDef Name="DRM_Damage_Freeze">
 				<defName>Dragonian_FrostbiteBreath</defName>
-				<label>冷冻</label>
+								<label>Freeze</label>
 				<workerClass>DragonianMix.DamageWorker_InstaKill</workerClass>
 				<externalViolence>true</externalViolence>
-				<deathMessage>{0}的身体在极寒中化为了冰雕，随后碎裂四散。</deathMessage>
+				<deathMessage>{0}'s body froze into an ice sculpture, then shattered apart.</deathMessage>
 				<hediff>Frostbite</hediff>		<!-- 将伤害转化为冻伤Hediff -->
 				<harmsHealth>false</harmsHealth>		<!-- 不造成常规生命值伤害 -->
 				<armorCategory>Heat</armorCategory>		<!-- 可以被抗热/冷的护甲减免 -->

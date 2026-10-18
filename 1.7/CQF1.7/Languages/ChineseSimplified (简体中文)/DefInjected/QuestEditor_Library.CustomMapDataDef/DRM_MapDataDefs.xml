@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <DRM_Dragonian_AxisBase_BaseDef.label>龙娘核心据点</DRM_Dragonian_AxisBase_BaseDef.label>
+    <DRM_Dragonian_Fortress_BaseDef.label>龙娘堡垒</DRM_Dragonian_Fortress_BaseDef.label>
+    <DRM_Dragonian_SmallBase_BaseDef.label>龙娘小型据点</DRM_Dragonian_SmallBase_BaseDef.label>
+    <DRM_DragonianUn_AxisBase_BaseDef.label>敌对龙娘核心据点</DRM_DragonianUn_AxisBase_BaseDef.label>
+    <DRM_DragonianUn_Fortress_BaseDef.label>敌对龙娘堡垒</DRM_DragonianUn_Fortress_BaseDef.label>
+    <DRM_DragonianUn_SmallBase_BaseDef.label>敌对龙娘小型据点</DRM_DragonianUn_SmallBase_BaseDef.label>
+
+</LanguageData>

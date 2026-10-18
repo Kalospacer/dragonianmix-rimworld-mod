@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <DRM_NecroticVirus.label>死灵病毒</DRM_NecroticVirus.label>
+    <DRM_NecroticVirus.description>一种致命的纳米病毒，感染者死亡后将转变为敌对的蹒跚怪。</DRM_NecroticVirus.description>
+    <DRM_NecroticVirus.stages.0.label>潜伏期</DRM_NecroticVirus.stages.0.label>
+    <DRM_NecroticVirus.stages.1.label>活跃期</DRM_NecroticVirus.stages.1.label>
+    <DRM_NecroticVirus.stages.2.label>终末期</DRM_NecroticVirus.stages.2.label>
+
+    <DRM_Hediff_FrostCoverd_after.label>霜冻覆盖</DRM_Hediff_FrostCoverd_after.label>
+    <DRM_Hediff_FrostCoverd_after.description>这个人的身体被霜冻云雾包裹着。</DRM_Hediff_FrostCoverd_after.description>
+
+</LanguageData>

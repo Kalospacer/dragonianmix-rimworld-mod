@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Dragonian_Scribe.title>龙娘 书记员</Dragonian_Scribe.title>
+    <Dragonian_Scribe.titleShort>文书专员</Dragonian_Scribe.titleShort>
+    <Dragonian_Scribe.description>[PAWN_nameDef]在领主府担任档案管理者，擅长用特制墨水保存重要文书。她的鳞片能有效防潮防蛀。</Dragonian_Scribe.description>
+
+    <Dragonian_Brewer.title>龙娘 酿酒师</Dragonian_Brewer.title>
+    <Dragonian_Brewer.titleShort>酒窖主管</Dragonian_Brewer.titleShort>
+    <Dragonian_Brewer.description>[PAWN_nameDef]掌握古法酿造技术，通过精确控制地窖温度使酒液达到最佳口感。</Dragonian_Brewer.description>
+
+    <Dragonian_Herald.title>龙娘 纹章师</Dragonian_Herald.title>
+    <Dragonian_Herald.titleShort>家徽学者</Dragonian_Herald.titleShort>
+    <Dragonian_Herald.description>[PAWN_nameDef]精通各大家族纹章学，设计的徽记既符合传统又具备防伪特征。</Dragonian_Herald.description>
+
+    <Dragonian_Bridgemaster.title>龙娘 桥梁师</Dragonian_Bridgemaster.title>
+    <Dragonian_Bridgemaster.titleShort>渡口专家</Dragonian_Bridgemaster.titleShort>
+    <Dragonian_Bridgemaster.description>[PAWN_nameDef]擅长在复杂地形架设木石结构桥梁，设计的承重系统可抵御洪水冲击。</Dragonian_Bridgemaster.description>
+
+    <Dragonian_Pawnbroker.title>龙娘 典当商</Dragonian_Pawnbroker.title>
+    <Dragonian_Pawnbroker.titleShort>估价专家</Dragonian_Pawnbroker.titleShort>
+    <Dragonian_Pawnbroker.description>[PAWN_nameDef]经营全镇最大的当铺，能准确判断各类物品的历史价值和实用价值。</Dragonian_Pawnbroker.description>
+
+    <Dragonian_Horologist.title>龙娘 钟表匠</Dragonian_Horologist.title>
+    <Dragonian_Horologist.titleShort>机械技师</Dragonian_Horologist.titleShort>
+    <Dragonian_Horologist.description>[PAWN_nameDef]制作的日晷和水钟误差不超过三分钟，为多个城镇提供标准计时服务。</Dragonian_Horologist.description>
+
+    <Dragonian_Postmaster.title>龙娘 驿站长</Dragonian_Postmaster.title>
+    <Dragonian_Postmaster.titleShort>邮路总管</Dragonian_Postmaster.titleShort>
+    <Dragonian_Postmaster.description>[PAWN_nameDef]管理着覆盖三个郡的驿道系统，能准确记住每条支线的运输时间。</Dragonian_Postmaster.description>
+
+    <Dragonian_Glassmith.title>龙娘 玻璃匠</Dragonian_Glassmith.title>
+    <Dragonian_Glassmith.titleShort>琉璃大师</Dragonian_Glassmith.titleShort>
+    <Dragonian_Glassmith.description>[PAWN_nameDef]掌握彩色玻璃制造技术，为多个教堂制作过描绘史诗故事的玻璃花窗。</Dragonian_Glassmith.description>
+
+    <Dragonian_Juror.title>龙娘 陪审员</Dragonian_Juror.title>
+    <Dragonian_Juror.titleShort>纠纷仲裁</Dragonian_Juror.titleShort>
+    <Dragonian_Juror.description>[PAWN_nameDef]作为地方议会常任陪审员，以公正严明著称，处理过上百起土地纠纷。</Dragonian_Juror.description>
+
+    <Dragonian_Surveyor.title>龙娘 测绘师</Dragonian_Surveyor.title>
+    <Dragonian_Surveyor.titleShort>土地丈量</Dragonian_Surveyor.titleShort>
+    <Dragonian_Surveyor.description>[PAWN_nameDef]精确测绘过七个伯爵领的地形图，发明的测量工具被王国科学院采用。</Dragonian_Surveyor.description>
+
+</LanguageData>

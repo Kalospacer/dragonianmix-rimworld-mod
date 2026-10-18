@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Dragonian_Miller.title>龙娘 磨坊主</Dragonian_Miller.title>
+    <Dragonian_Miller.titleShort>谷物专家</Dragonian_Miller.titleShort>
+    <Dragonian_Miller.description>[PAWN_nameDef]经营着河畔的水车磨坊，能通过水流变化判断研磨精度，确保面粉质地均匀。</Dragonian_Miller.description>
+
+    <Dragonian_Shepherdess.title>龙娘 牧羊人</Dragonian_Shepherdess.title>
+    <Dragonian_Shepherdess.titleShort>羊群守护</Dragonian_Shepherdess.titleShort>
+    <Dragonian_Shepherdess.description>[PAWN_nameDef]熟识季节性迁徙路线，制作的羊毛制品以质地紧密著称。</Dragonian_Shepherdess.description>
+
+    <Dragonian_Tailor.title>龙娘 裁缝</Dragonian_Tailor.title>
+    <Dragonian_Tailor.titleShort>衣料专家</Dragonian_Tailor.titleShort>
+    <Dragonian_Tailor.description>[PAWN_nameDef]擅长制作适应各种气候的服装，发明的双层缝纫法大幅提升衣物耐久性。</Dragonian_Tailor.description>
+
+    <Dragonian_Potter.title>龙娘 陶工</Dragonian_Potter.title>
+    <Dragonian_Potter.titleShort>器皿匠人</Dragonian_Potter.titleShort>
+    <Dragonian_Potter.description>[PAWN_nameDef]掌握高温釉料配方，烧制的陶器兼具美观与实用性。</Dragonian_Potter.description>
+
+    <Dragonian_Blacksmith.title>龙娘 铁匠</Dragonian_Blacksmith.title>
+    <Dragonian_Blacksmith.titleShort>金属工匠</Dragonian_Blacksmith.titleShort>
+    <Dragonian_Blacksmith.description>[PAWN_nameDef]打造的农具以经久耐用闻名，发明的可替换镰刀头大幅降低农耕成本。</Dragonian_Blacksmith.description>
+
+    <Dragonian_Baker.title>龙娘 面包师</Dragonian_Baker.title>
+    <Dragonian_Baker.titleShort>烘焙专家</Dragonian_Baker.titleShort>
+    <Dragonian_Baker.description>[PAWN_nameDef]开发出多种发酵技法，制作的面包能保存两周不变质。</Dragonian_Baker.description>
+
+    <Dragonian_Fisher.title>龙娘 渔夫</Dragonian_Fisher.title>
+    <Dragonian_Fisher.titleShort>捕鱼能手</Dragonian_Fisher.titleShort>
+    <Dragonian_Fisher.description>[PAWN_nameDef]熟知附近水域鱼群迁徙规律，制作的熏鱼干是远途商队必备补给。</Dragonian_Fisher.description>
+
+    <Dragonian_Carpenter.title>龙娘 木匠</Dragonian_Carpenter.title>
+    <Dragonian_Carpenter.titleShort>木材专家</Dragonian_Carpenter.titleShort>
+    <Dragonian_Carpenter.description>[PAWN_nameDef]精通木料防腐处理，设计的榫卯结构房屋可抵御强风侵袭。</Dragonian_Carpenter.description>
+
+    <Dragonian_Herbalist.title>龙娘 植物学者</Dragonian_Herbalist.title>
+    <Dragonian_Herbalist.titleShort>植物学者</Dragonian_Herbalist.titleShort>
+    <Dragonian_Herbalist.description>[PAWN_nameDef]编纂的草药图鉴收录了200多种药用植物，配制的药膏对跌打损伤疗效显著。</Dragonian_Herbalist.description>
+
+</LanguageData>

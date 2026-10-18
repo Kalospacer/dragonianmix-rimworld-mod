@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <DRM_AcidBombardment.label>酸蚀炮弹</DRM_AcidBombardment.label>
+    <DRM_AcidGasCloud.label>酸蚀气云</DRM_AcidGasCloud.label>
+    <DRM_FearGasCloud.label>恐惧毒气云</DRM_FearGasCloud.label>
+    <DRM_FrostGasCloud.label>霜冻气云</DRM_FrostGasCloud.label>
+    <DRM_FrostGasCloud_Ex.label>霜冻气云</DRM_FrostGasCloud_Ex.label>
+
+    <DRM_Bullet_Acidjavelin.label>酸蚀飞矛</DRM_Bullet_Acidjavelin.label>
+    <DRM_Bullet_AirCannon.label>气炮炮弹</DRM_Bullet_AirCannon.label>
+    <DRM_Bullet_FeargasLauncher.label>恐惧毒气炮弹</DRM_Bullet_FeargasLauncher.label>
+    <DRM_Bullet_Revolver.label>手枪子弹</DRM_Bullet_Revolver.label>
+    <DRM_Bullet_RifledFlintlock.label>线膛燧发枪子弹</DRM_Bullet_RifledFlintlock.label>
+
+</LanguageData>

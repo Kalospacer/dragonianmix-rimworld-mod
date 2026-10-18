@@ -73,9 +73,9 @@
   <InstallDRM_AcidSlashTail.description>安装酸斩尾。</InstallDRM_AcidSlashTail.description>
   <InstallDRM_AcidSlashTail.jobString>正在安装酸斩尾。</InstallDRM_AcidSlashTail.jobString>
 
-  <InstallExplosiveSlashTail.label>安装碎斩尾</InstallExplosiveSlashTail.label>
-  <InstallExplosiveSlashTail.description>安装碎斩尾。</InstallExplosiveSlashTail.description>
-  <InstallExplosiveSlashTail.jobString>正在安装碎斩尾。</InstallExplosiveSlashTail.jobString>
+  <InstallDRM_ExplosiveSlashTail.label>安装爆碎斩龙尾</InstallDRM_ExplosiveSlashTail.label>
+  <InstallDRM_ExplosiveSlashTail.description>安装一条爆碎斩龙尾。</InstallDRM_ExplosiveSlashTail.description>
+  <InstallDRM_ExplosiveSlashTail.jobString>正在安装爆碎斩龙尾。</InstallDRM_ExplosiveSlashTail.jobString>
 
   <InstallShieldDragonianOrb_Booster.label>安装龙娘护盾赤色充能源石</InstallShieldDragonianOrb_Booster.label>
   <InstallShieldDragonianOrb_Booster.description>安装龙娘护盾赤色充能源石。</InstallShieldDragonianOrb_Booster.description>

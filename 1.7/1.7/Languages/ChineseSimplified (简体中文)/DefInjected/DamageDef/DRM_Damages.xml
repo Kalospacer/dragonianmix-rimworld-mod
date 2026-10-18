@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <DRM_Damage_Freeze.label>冷冻</DRM_Damage_Freeze.label>
+    <DRM_Damage_Freeze.deathMessage>{0}的身体在极寒中化为了冰雕，随后碎裂四散。</DRM_Damage_Freeze.deathMessage>
+
+    <DRM_Flame.label>火焰</DRM_Flame.label>
+    <DRM_Arc.label>电弧灼伤</DRM_Arc.label>
+    <DRM_Bomb.label>爆炸</DRM_Bomb.label>
+    <DRM_Bomb_mini.label>小型爆炸</DRM_Bomb_mini.label>
+    <DRM_Thump.label>重击</DRM_Thump.label>
+    <DRM_Rot.label>腐烂</DRM_Rot.label>
+    <DRM_RangedStab.label>刺伤</DRM_RangedStab.label>
+    <DRM_AcidBurn.label>酸蚀灼伤</DRM_AcidBurn.label>
+    <DRM_AcidCover.label>酸蚀灼伤</DRM_AcidCover.label>
+    <DRM_Damage_AcidCover_Ex.label>强酸灼伤</DRM_Damage_AcidCover_Ex.label>
+
+</LanguageData>

@@ -31,4 +31,7 @@
   <DRM_CallRoyalGuardAidSmall.label>呼叫龙娘皇家近卫队</DRM_CallRoyalGuardAidSmall.label>
   <DRM_CallRoyalGuardAidSmall.description>一队4名龙娘皇家卫士会来支援你作战。她们是近战单位,配备有重装甲。</DRM_CallRoyalGuardAidSmall.description>
 
+  <DRM_CallOrbitalStrike.label>呼叫酸蚀轰炸</DRM_CallOrbitalStrike.label>
+  <DRM_CallOrbitalStrike.description>呼叫一次轨道打击，造成酸蚀伤害，并在目标地点留下持久的酸蚀云雾。</DRM_CallOrbitalStrike.description>
+
 </LanguageData>
