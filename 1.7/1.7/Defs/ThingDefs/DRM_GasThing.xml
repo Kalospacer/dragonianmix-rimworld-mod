@@ -1,1 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?><Defs>    <!-- 一次性放气器：生成时向所在格写入自定义气体后自毁，气体本体由 CustomGasGrid 管理 -->    <ThingDef Name="DRM_BaseGas" ParentName="EtherealThingBase" Abstract="True">        <thingClass>DragonianMix.CustomGasEmitter</thingClass>        <tickerType>Normal</tickerType>    </ThingDef>    <ThingDef ParentName="DRM_BaseGas">        <defName>DRM_FearGasCloud</defName>        <label>Fear gas</label>        <modExtensions>            <li Class="DragonianMix.CustomGasEmitterExtension">                <gas>DRM_Gas_Fear</gas>            </li>        </modExtensions>    </ThingDef>    <ThingDef ParentName="DRM_BaseGas">        <defName>DRM_AcidGasCloud</defName>        <label>Acid gas</label>        <modExtensions>            <li Class="DragonianMix.CustomGasEmitterExtension">                <gas>DRM_Gas_Acid</gas>            </li>        </modExtensions>    </ThingDef>    <ThingDef ParentName="DRM_BaseGas">        <defName>DRM_FrostGasCloud_Ex</defName>        <label>Frost cloud</label>        <modExtensions>            <li Class="DragonianMix.CustomGasEmitterExtension">                <gas>DRM_Gas_FrostLingering</gas>            </li>        </modExtensions>    </ThingDef>    <ThingDef ParentName="DRM_BaseGas">        <defName>DRM_FrostGasCloud</defName>        <label>Frost cloud</label>        <modExtensions>            <li Class="DragonianMix.CustomGasEmitterExtension">                <gas>DRM_Gas_Frost</gas>            </li>        </modExtensions>    </ThingDef></Defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>    <!-- 一次性放气器：生成时向所在格写入自定义气体后自毁，气体本体由 CustomGasGrid 管理 -->
+    <ThingDef Name="DRM_BaseGas" ParentName="EtherealThingBase" Abstract="True">
+        <thingClass>DragonianMix.CustomGasEmitter</thingClass>
+        <tickerType>Normal</tickerType>
+    </ThingDef>
+    <ThingDef ParentName="DRM_BaseGas">
+        <defName>DRM_FearGasCloud</defName>
+        <label>Fear gas</label>
+        <modExtensions>
+            <li Class="DragonianMix.CustomGasEmitterExtension">
+                <gas>DRM_Gas_Fear</gas>
+            </li>
+        </modExtensions>
+    </ThingDef>
+    <ThingDef ParentName="DRM_BaseGas">
+        <defName>DRM_AcidGasCloud</defName>
+        <label>Acid gas</label>
+        <modExtensions>
+            <li Class="DragonianMix.CustomGasEmitterExtension">
+                <gas>DRM_Gas_Acid</gas>
+            </li>
+        </modExtensions>
+    </ThingDef>
+    <ThingDef ParentName="DRM_BaseGas">
+        <defName>DRM_FrostGasCloud_Ex</defName>
+        <label>Frost cloud</label>
+        <modExtensions>
+            <li Class="DragonianMix.CustomGasEmitterExtension">
+                <gas>DRM_Gas_FrostLingering</gas>
+            </li>
+        </modExtensions>
+    </ThingDef>
+    <ThingDef ParentName="DRM_BaseGas">
+        <defName>DRM_FrostGasCloud</defName>
+        <label>Frost cloud</label>
+        <modExtensions>
+            <li Class="DragonianMix.CustomGasEmitterExtension">
+                <gas>DRM_Gas_Frost</gas>
+            </li>
+        </modExtensions>
+    </ThingDef>
+</Defs>

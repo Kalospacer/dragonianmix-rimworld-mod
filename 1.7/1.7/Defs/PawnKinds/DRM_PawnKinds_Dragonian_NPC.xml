@@ -8,20 +8,20 @@
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
     <invNutrition>2</invNutrition>
     <initialWillRange>0.5~1</initialWillRange>
-		<initialResistanceRange>10~26</initialResistanceRange>
+    <initialResistanceRange>10~26</initialResistanceRange>
 
     <minGenerationAge>15</minGenerationAge>
     <maxGenerationAge>40</maxGenerationAge>
 
-	  <gearHealthRange>0.7~1.0</gearHealthRange>
+    <gearHealthRange>0.7~1.0</gearHealthRange>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-    
+
     <xenotypeSet>
-			<xenotypeChances>
-				<DragonianXenotype MayRequire="Ludeon.RimWorld.Biotech">0.85</DragonianXenotype>
-				<DragonianXenotypeBlack MayRequire="Ludeon.RimWorld.Biotech">0.15</DragonianXenotypeBlack>
-			</xenotypeChances>
-		</xenotypeSet>
+      <xenotypeChances>
+        <DragonianXenotype MayRequire="Ludeon.RimWorld.Biotech">0.85</DragonianXenotype>
+        <DragonianXenotypeBlack MayRequire="Ludeon.RimWorld.Biotech">0.15</DragonianXenotypeBlack>
+      </xenotypeChances>
+    </xenotypeSet>
     <useFactionXenotypes>false</useFactionXenotypes>
   </PawnKindDef>
 
@@ -31,7 +31,7 @@
     <combatPower>100</combatPower>
     <isFighter>false</isFighter>
     <itemQuality>Poor</itemQuality>
-    
+
     <apparelTags>
       <li>DR_Basic</li>
     </apparelTags>
@@ -53,10 +53,10 @@
     <backstoryCategories>
       <li>Dragonian_spawnCategoriesA</li>
     </backstoryCategories>
-    
+
     <techHediffsChance>0.06</techHediffsChance>
     <techHediffsMoney>600~5500</techHediffsMoney>
-	  <techHediffsTags>
+    <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
       <li>DragonianSlashTail</li>
     </techHediffsTags>
@@ -79,7 +79,7 @@
     <combatPower>150</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Normal</itemQuality>
-   
+
     <apparelTags>
       <li>DR_Apparel</li>
     </apparelTags>
@@ -111,11 +111,11 @@
 
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
-	  <techHediffsTags>
+    <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
       <li>DragonianSlashTail</li>
     </techHediffsTags>
-    
+
     <inventoryOptions>
       <skipChance>0.70</skipChance>
       <subOptionsChooseOne>
@@ -127,14 +127,14 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-  
+
   <PawnKindDef ParentName="DRMDragonianBasePawnKind">
     <defName>Dragonian_Clan_Hunter</defName>
     <label>Dragonian clan hunter</label>
     <combatPower>150</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Normal</itemQuality>
-   
+
     <apparelTags>
       <li>DR_Apparel</li>
     </apparelTags>
@@ -166,11 +166,11 @@
 
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
-	  <techHediffsTags>
+    <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
       <li>DragonianSlashTail</li>
     </techHediffsTags>
-    
+
     <inventoryOptions>
       <skipChance>0.70</skipChance>
       <subOptionsChooseOne>
@@ -183,13 +183,13 @@
     </inventoryOptions>
   </PawnKindDef>
 
-    <PawnKindDef ParentName="DRMDragonianBasePawnKind">
+  <PawnKindDef ParentName="DRMDragonianBasePawnKind">
     <defName>Dragonian_Clan_Musketeer</defName>
     <label>Dragonian clan Musketeer</label>
     <combatPower>150</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Normal</itemQuality>
-   
+
     <apparelTags>
       <li>DR_Apparel</li>
     </apparelTags>
@@ -221,11 +221,11 @@
 
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>200~700</techHediffsMoney>
-	  <techHediffsTags>
+    <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
       <li>DragonianSlashTail</li>
     </techHediffsTags>
-    
+
     <inventoryOptions>
       <skipChance>0.70</skipChance>
       <subOptionsChooseOne>
@@ -277,7 +277,7 @@
 
     <techHediffsChance>0.55</techHediffsChance>
     <techHediffsMoney>600~2500</techHediffsMoney>
-	  <techHediffsTags>
+    <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
       <li>DragonianSlashTail</li>
     </techHediffsTags>
@@ -311,7 +311,7 @@
       <max>1500</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>0.05</apparelAllowHeadgearChance>
-    
+
     <weaponTags>
       <li>Melee</li>
     </weaponTags>
@@ -333,7 +333,7 @@
 
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>600~1500</techHediffsMoney>
-	  <techHediffsTags>
+    <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
       <li>DragonianSlashTail</li>
     </techHediffsTags>
@@ -378,14 +378,14 @@
       <min>900</min>
       <max>5000</max>
     </weaponMoney>
-    
+
     <backstoryCategories>
       <li>Dragonian_spawnCategoriesA</li>
     </backstoryCategories>
 
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>600~1500</techHediffsMoney>
-	  <techHediffsTags>
+    <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
       <li>DragonianSlashTail</li>
     </techHediffsTags>
@@ -408,7 +408,7 @@
     <combatPower>250</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Excellent</itemQuality>
-   
+
     <apparelTags>
       <li>DR_Armor</li>
     </apparelTags>
@@ -464,13 +464,13 @@
 
     <techHediffsChance>1</techHediffsChance>
     <techHediffsMoney>600~5500</techHediffsMoney>
-	  <techHediffsTags>
+    <techHediffsTags>
       <li>HardenDragonianOrb</li>
     </techHediffsTags>
     <techHediffsRequired>
       <li>HardenDragonianOrb</li>
     </techHediffsRequired>
-    
+
     <inventoryOptions>
       <skipChance>0.70</skipChance>
       <subOptionsChooseOne>
@@ -482,14 +482,14 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-  
+
   <PawnKindDef ParentName="DRMDragonianBasePawnKind">
     <defName>Dragonian_Royal_Hunter</defName>
     <label>Dragonian royal hunter</label>
     <combatPower>250</combatPower>
     <isFighter>true</isFighter>
     <itemQuality>Excellent</itemQuality>
-   
+
     <apparelTags>
       <li>DR_Armor</li>
     </apparelTags>
@@ -544,13 +544,13 @@
     </backstoryFiltersOverride>
 
     <techHediffsMoney>600~5500</techHediffsMoney>
-	  <techHediffsTags>
+    <techHediffsTags>
       <li>ShieldDragonianOrb</li>
     </techHediffsTags>
     <techHediffsRequired>
       <li>ShieldDragonianOrb</li>
     </techHediffsRequired>
-    
+
     <inventoryOptions>
       <skipChance>0.70</skipChance>
       <subOptionsChooseOne>
@@ -626,7 +626,7 @@
 
     <techHediffsChance>1</techHediffsChance>
     <techHediffsMoney>600~5500</techHediffsMoney>
-	  <techHediffsTags>
+    <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
       <li>DragonianSlashTail</li>
     </techHediffsTags>
@@ -717,7 +717,7 @@
 
     <techHediffsChance>1</techHediffsChance>
     <techHediffsMoney>600~5500</techHediffsMoney>
-	  <techHediffsTags>
+    <techHediffsTags>
       <li>DragonianOrbAdvanced</li>
     </techHediffsTags>
 
